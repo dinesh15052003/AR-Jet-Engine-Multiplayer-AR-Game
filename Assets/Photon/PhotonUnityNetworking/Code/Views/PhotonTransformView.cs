@@ -58,6 +58,8 @@ namespace Photon.Pun
         {
             var tr = transform;
 
+            if (!this.photonView.IsMine)
+            {
                 if (m_UseLocal)
 
                 {
@@ -69,6 +71,7 @@ namespace Photon.Pun
                     tr.position = Vector3.MoveTowards(tr.position, this.m_NetworkPosition, this.m_Distance * Time.deltaTime * PhotonNetwork.SerializationRate);
                     tr.rotation = Quaternion.RotateTowards(tr.rotation, this.m_NetworkRotation, this.m_Angle * Time.deltaTime *  PhotonNetwork.SerializationRate);
                 }
+            }
         }
 
         public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)

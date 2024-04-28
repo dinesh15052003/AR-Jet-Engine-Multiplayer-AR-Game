@@ -730,7 +730,6 @@ IL2CPP_EXTERN_C RuntimeClass* CancellationToken_t51142D9C6D7C02D314DA34A6A7988C5
 IL2CPP_EXTERN_C RuntimeClass* ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ConnectionProtocol_t5F53E5A9D1B47CD4A9FAE10E5F648DE2596D46F2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ConnectionStateValue_tE2E514D341A8EC31202D5F056037C4BED4B54921_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Console_t5EDF9498D011BD48287171978EDBBA6964829C3E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CustomType_tF4D3491414C20AFB2ABC890C0EF3FF4892902C6C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1_il2cpp_TypeInfo_var;
@@ -809,7 +808,6 @@ IL2CPP_EXTERN_C RuntimeClass* WebSocketState_tDA525C32450C7EA01B5D22DAB7A6DAB08A
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tBEBD39EA3866CDEEAB682D715E5E67D0F87F603D____5AC9831B2E30EB285EF34F8501620F878432D5C04331AD1AE47F977A83BA41A5_5_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral015E58ED2213CC63CFD22CB37E65473371DCCDD3;
 IL2CPP_EXTERN_C String_t* _stringLiteral026726994786ED601AB26F1D68FFC4C77360FC16;
-IL2CPP_EXTERN_C String_t* _stringLiteral04D3CDFEC27657DE952D7034BF9FC04361EA8EE5;
 IL2CPP_EXTERN_C String_t* _stringLiteral0509A9965BDE26367D2D9CA8C45099F1970213E2;
 IL2CPP_EXTERN_C String_t* _stringLiteral0676E8DBEA07E62A87F9D6C7FB13138B2A9C518E;
 IL2CPP_EXTERN_C String_t* _stringLiteral0A22B69B8380D497BCF1266F027C85B48E04EB33;
@@ -832,6 +830,9 @@ IL2CPP_EXTERN_C String_t* _stringLiteral30E5724F525D340FDB525A466D6BFDEF0CDF3E63
 IL2CPP_EXTERN_C String_t* _stringLiteral3868A0B9A3E4ABBE22ED8140B8ED0218B7877878;
 IL2CPP_EXTERN_C String_t* _stringLiteral39C282214B8012D17399738169B76943D165B50D;
 IL2CPP_EXTERN_C String_t* _stringLiteral3A639A3AC250CD87C0629A5E27EEC108CA2E4C77;
+IL2CPP_EXTERN_C String_t* _stringLiteral3CB8F1DD89E18A9FF0F91F5BF7C943B19D1FB279;
+IL2CPP_EXTERN_C String_t* _stringLiteral3EE846A57D04A581E3D2A0AE59E141B6BE4BCD26;
+IL2CPP_EXTERN_C String_t* _stringLiteral3FD779475CD0DA4A9D46E1E27765C9B4A9C2AE36;
 IL2CPP_EXTERN_C String_t* _stringLiteral3FF8E3717F4414B22A00724D2F875C1B6B79D3EB;
 IL2CPP_EXTERN_C String_t* _stringLiteral4AAE064E85EE5D645B3FDC2C256D0744600F9B62;
 IL2CPP_EXTERN_C String_t* _stringLiteral4CA7C5445B89A535FCE3643E80C42EA8E3DBF3B3;
@@ -841,9 +842,9 @@ IL2CPP_EXTERN_C String_t* _stringLiteral52AA20D7D2C944048CA94FAAD00749018DED9489
 IL2CPP_EXTERN_C String_t* _stringLiteral55636D61AC40786A8879E9495D6926B0A4DECF15;
 IL2CPP_EXTERN_C String_t* _stringLiteral55681E3FD298BBA180C6AB5FDE6BDEB74F4D74CE;
 IL2CPP_EXTERN_C String_t* _stringLiteral56B9B5BED5AC219F6953B9D64BF660A60C572018;
+IL2CPP_EXTERN_C String_t* _stringLiteral591910FD4B49686BF6ECD879911D4D1636126FAF;
 IL2CPP_EXTERN_C String_t* _stringLiteral595137F8C876A16A4A12C20E052B255B02F22D8D;
 IL2CPP_EXTERN_C String_t* _stringLiteral5A3C1A694DA34C6B8E6642E4732B5B4F9FE60C48;
-IL2CPP_EXTERN_C String_t* _stringLiteral62ECB95E9856C0B0299922D89B3B50D174BB40C5;
 IL2CPP_EXTERN_C String_t* _stringLiteral635399FE2BA0D7FC4732898C17CFD8D77C7CE39C;
 IL2CPP_EXTERN_C String_t* _stringLiteral672EBDC93C79C29143EE49FE0CA692F0F83C8153;
 IL2CPP_EXTERN_C String_t* _stringLiteral6C166E78675AB4BB3A319B8B626BD41577CA2B94;
@@ -852,6 +853,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral74FDE1A60AB73E521ADFB9455E55677E6341387A
 IL2CPP_EXTERN_C String_t* _stringLiteral75D46515E5FA1E41165D1F1235FDED4C00F15F43;
 IL2CPP_EXTERN_C String_t* _stringLiteral78C2909FCC2809088B382D5BBDC294608C74059B;
 IL2CPP_EXTERN_C String_t* _stringLiteral79FD51BCB5E982E787E37D45639877B39AB67C63;
+IL2CPP_EXTERN_C String_t* _stringLiteral7B2D80B6DA6E8F9067B61285F407833670B4F44F;
 IL2CPP_EXTERN_C String_t* _stringLiteral7C3D0F99DF1B534F06138C8CCF9638478F3E6499;
 IL2CPP_EXTERN_C String_t* _stringLiteral7E92BCE7649861CF5C00072C861995D5EB5C7817;
 IL2CPP_EXTERN_C String_t* _stringLiteral7EB23AA992B3EA04395B4E3E4AFBDE1A4B5EC801;
@@ -870,13 +872,13 @@ IL2CPP_EXTERN_C String_t* _stringLiteral970557A4BF412D6D3D3BBE7CB6C81AC173B09F43
 IL2CPP_EXTERN_C String_t* _stringLiteral98816BC5FD81B6516606CA854EFC0BE64BC0D41F;
 IL2CPP_EXTERN_C String_t* _stringLiteral992D23FE06E5F4D73C8734FB3DEFDBABC48F60BA;
 IL2CPP_EXTERN_C String_t* _stringLiteral9CDB75C7B635278885D0B7EA4B060ED5D6CDDC2B;
+IL2CPP_EXTERN_C String_t* _stringLiteralA0DAD3B56377713EB08AB8502038A087A2EBA747;
 IL2CPP_EXTERN_C String_t* _stringLiteralA1C16855D8192424FC88BE50A772F28AFBF3D5E6;
 IL2CPP_EXTERN_C String_t* _stringLiteralA2AE75408A3DBC50F993C0D4823F99BC17F45348;
 IL2CPP_EXTERN_C String_t* _stringLiteralA38231BE85D090DFBDDA140038DC8EE0FACD72EA;
 IL2CPP_EXTERN_C String_t* _stringLiteralA38DF83A778A3B784F172CE5BAD1B5FD1D56D8C2;
 IL2CPP_EXTERN_C String_t* _stringLiteralA3CA700D5D9A322D0EF599B5A848B2DDF683C5E9;
 IL2CPP_EXTERN_C String_t* _stringLiteralA90B70FD7CCD330D9909723CB5717D1CF1E98444;
-IL2CPP_EXTERN_C String_t* _stringLiteralA95898025CC11DF26437FBBC4B43CA5F697F5DB1;
 IL2CPP_EXTERN_C String_t* _stringLiteralA993B591C081E43709C5D45AC5EDF8E50814AEE2;
 IL2CPP_EXTERN_C String_t* _stringLiteralA9F8374AC4D26092DE5D4522F043ABFC71E80A84;
 IL2CPP_EXTERN_C String_t* _stringLiteralAED2F32ABB0E2FEDF517194DF622C47EEEBB658B;
@@ -892,6 +894,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralBCA7DDD073AD5DB21CC612ADB1833BF1A5D32261
 IL2CPP_EXTERN_C String_t* _stringLiteralBE56466A53572A17A83D2949F72E647AD237966E;
 IL2CPP_EXTERN_C String_t* _stringLiteralBE88536CAF0A93F3E73938C34CF81E424272DF2E;
 IL2CPP_EXTERN_C String_t* _stringLiteralBFDA19E69022A51F51C456FFB3FCE999AD326635;
+IL2CPP_EXTERN_C String_t* _stringLiteralBFDF154002EE93B55039558B3EFED58CB5DAF2AA;
 IL2CPP_EXTERN_C String_t* _stringLiteralBFF88611F1EF4F884343E70253245B8D37C510DC;
 IL2CPP_EXTERN_C String_t* _stringLiteralC3CA1105B0687AB04E8DB2CE95902C75EC2B661A;
 IL2CPP_EXTERN_C String_t* _stringLiteralC480B3A73E651BDA415720696093FCFF79A9FF5A;
@@ -955,7 +958,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* PhotonClientWebSocket_Receive_mCCF8E4C3442B
 IL2CPP_EXTERN_C const RuntimeMethod* PhotonPeer_InitDatagramEncryption_m32B89FE1E156C05E57F3CA29DBB5EA3F778B2B03_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PhotonPeer_SendOperation_m399D773432691B7877948F59C7ECCE8464085698_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PhotonPeer_SendOperation_m4B2A47D53B4B343B0FFC5FD50CC77FD3D003D19D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PhotonPeer_U3CEstablishEncryptionU3Eb__220_0_m8064421E85E4D9AE31FDCD7E95764B9DF1182AF3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PhotonPeer_U3CEstablishEncryptionU3Eb__223_0_m991EA7172A89A1B515D03EAA40F04A01B7B05B6D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PhotonPeer_set_CrcEnabled_mDBB6D92402982106DE576A8951A45A0CEEC9B684_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PhotonPeer_set_LocalMsTimestampDelegate_m79D00CF65933D43A4BB69406A3E70B4B6EA083A7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PhotonPeer_set_MaximumTransferUnit_m05E76747929A2273199009722511642B15FFF547_RuntimeMethod_var;
@@ -1312,15 +1315,15 @@ struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B  : publ
 	// System.Threading.SparselyPopulatedArray`1<System.Threading.CancellationCallbackInfo>[] modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_registeredCallbacksLists
 	SparselyPopulatedArray_1U5BU5D_t8E75A036E16E53CF08AAAF37EB6621DE3B26307E* ____registeredCallbacksLists_4;
 	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_state
-	int32_t ____state_5;
+	int32_t ____state_9;
 	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_threadIDExecutingCallbacks
-	int32_t ____threadIDExecutingCallbacks_6;
+	int32_t ____threadIDExecutingCallbacks_10;
 	// System.Boolean System.Threading.CancellationTokenSource::_disposed
-	bool ____disposed_7;
+	bool ____disposed_11;
 	// System.Threading.CancellationCallbackInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_executingCallback
-	CancellationCallbackInfo_tC8BE558ED1E173434DD1919D574C9FAFE501E22D* ____executingCallback_8;
+	CancellationCallbackInfo_tC8BE558ED1E173434DD1919D574C9FAFE501E22D* ____executingCallback_12;
 	// System.Threading.Timer modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_timer
-	Timer_t763C1D5F5A36087DC92C7DA4D1F8AB578F83AB00* ____timer_9;
+	Timer_t763C1D5F5A36087DC92C7DA4D1F8AB578F83AB00* ____timer_13;
 };
 
 struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B_StaticFields
@@ -1332,7 +1335,7 @@ struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B_StaticF
 	// System.Int32 System.Threading.CancellationTokenSource::s_nLists
 	int32_t ___s_nLists_2;
 	// System.Threading.TimerCallback System.Threading.CancellationTokenSource::s_timerCallback
-	TimerCallback_t7455CAFACC7054E62879920AFC84C5DA98B8C7CD* ___s_timerCallback_10;
+	TimerCallback_t7455CAFACC7054E62879920AFC84C5DA98B8C7CD* ___s_timerCallback_14;
 };
 
 // System.Runtime.ConstrainedExecution.CriticalFinalizerObject
@@ -1372,17 +1375,17 @@ struct DisconnectMessage_tE086C3444E533FBAD92A1F639327C42C9A928650  : public Run
 struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095  : public RuntimeObject
 {
 	// System.Int32 System.Text.Encoding::m_codePage
-	int32_t ___m_codePage_9;
+	int32_t ___m_codePage_55;
 	// System.Globalization.CodePageDataItem System.Text.Encoding::dataItem
-	CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2* ___dataItem_10;
+	CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2* ___dataItem_56;
 	// System.Boolean System.Text.Encoding::m_deserializedFromEverett
-	bool ___m_deserializedFromEverett_11;
+	bool ___m_deserializedFromEverett_57;
 	// System.Boolean System.Text.Encoding::m_isReadOnly
-	bool ___m_isReadOnly_12;
+	bool ___m_isReadOnly_58;
 	// System.Text.EncoderFallback System.Text.Encoding::encoderFallback
-	EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293* ___encoderFallback_13;
+	EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293* ___encoderFallback_59;
 	// System.Text.DecoderFallback System.Text.Encoding::decoderFallback
-	DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90* ___decoderFallback_14;
+	DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90* ___decoderFallback_60;
 };
 
 struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
@@ -1406,7 +1409,7 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
 	// System.Collections.Generic.Dictionary`2<System.Int32,System.Text.Encoding> modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::encodings
 	Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* ___encodings_8;
 	// System.Object System.Text.Encoding::s_InternalSyncObject
-	RuntimeObject* ___s_InternalSyncObject_15;
+	RuntimeObject* ___s_InternalSyncObject_61;
 };
 
 // ExitGames.Client.Photon.Encryption.EncryptorNet
@@ -1481,26 +1484,28 @@ struct IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34  : public Runtime
 	bool ___PollReceive_2;
 	// ExitGames.Client.Photon.PhotonSocketState ExitGames.Client.Photon.IPhotonSocket::<State>k__BackingField
 	int32_t ___U3CStateU3Ek__BackingField_3;
+	// System.Int32 ExitGames.Client.Photon.IPhotonSocket::<SocketErrorCode>k__BackingField
+	int32_t ___U3CSocketErrorCodeU3Ek__BackingField_4;
 	// System.String ExitGames.Client.Photon.IPhotonSocket::ConnectAddress
-	String_t* ___ConnectAddress_4;
+	String_t* ___ConnectAddress_5;
 	// System.String ExitGames.Client.Photon.IPhotonSocket::<ServerAddress>k__BackingField
-	String_t* ___U3CServerAddressU3Ek__BackingField_5;
+	String_t* ___U3CServerAddressU3Ek__BackingField_6;
 	// System.String ExitGames.Client.Photon.IPhotonSocket::<ProxyServerAddress>k__BackingField
-	String_t* ___U3CProxyServerAddressU3Ek__BackingField_6;
+	String_t* ___U3CProxyServerAddressU3Ek__BackingField_7;
 	// System.Int32 ExitGames.Client.Photon.IPhotonSocket::<ServerPort>k__BackingField
-	int32_t ___U3CServerPortU3Ek__BackingField_8;
+	int32_t ___U3CServerPortU3Ek__BackingField_9;
 	// System.Boolean ExitGames.Client.Photon.IPhotonSocket::<AddressResolvedAsIpv6>k__BackingField
-	bool ___U3CAddressResolvedAsIpv6U3Ek__BackingField_9;
+	bool ___U3CAddressResolvedAsIpv6U3Ek__BackingField_10;
 	// System.String ExitGames.Client.Photon.IPhotonSocket::<UrlProtocol>k__BackingField
-	String_t* ___U3CUrlProtocolU3Ek__BackingField_10;
+	String_t* ___U3CUrlProtocolU3Ek__BackingField_11;
 	// System.String ExitGames.Client.Photon.IPhotonSocket::<UrlPath>k__BackingField
-	String_t* ___U3CUrlPathU3Ek__BackingField_11;
+	String_t* ___U3CUrlPathU3Ek__BackingField_12;
 };
 
 struct IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34_StaticFields
 {
 	// System.String ExitGames.Client.Photon.IPhotonSocket::<ServerIpAddress>k__BackingField
-	String_t* ___U3CServerIpAddressU3Ek__BackingField_7;
+	String_t* ___U3CServerIpAddressU3Ek__BackingField_8;
 };
 
 // ExitGames.Client.Photon.IProtocol
@@ -1803,50 +1808,52 @@ struct PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C  : public RuntimeObj
 	int32_t ___InitialResendTimeMax_36;
 	// System.Int32 ExitGames.Client.Photon.PhotonPeer::TimePingInterval
 	int32_t ___TimePingInterval_37;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::PingUsedAsInit
+	bool ___PingUsedAsInit_38;
 	// System.Int32 ExitGames.Client.Photon.PhotonPeer::disconnectTimeout
-	int32_t ___disconnectTimeout_38;
+	int32_t ___disconnectTimeout_39;
 	// ExitGames.Client.Photon.ConnectionProtocol ExitGames.Client.Photon.PhotonPeer::<TransportProtocol>k__BackingField
-	uint8_t ___U3CTransportProtocolU3Ek__BackingField_39;
+	uint8_t ___U3CTransportProtocolU3Ek__BackingField_40;
 	// System.Int32 ExitGames.Client.Photon.PhotonPeer::mtu
-	int32_t ___mtu_41;
+	int32_t ___mtu_42;
 	// System.Boolean ExitGames.Client.Photon.PhotonPeer::<IsSendingOnlyAcks>k__BackingField
-	bool ___U3CIsSendingOnlyAcksU3Ek__BackingField_42;
+	bool ___U3CIsSendingOnlyAcksU3Ek__BackingField_43;
 	// System.Boolean ExitGames.Client.Photon.PhotonPeer::RandomizeSequenceNumbers
-	bool ___RandomizeSequenceNumbers_44;
+	bool ___RandomizeSequenceNumbers_45;
 	// System.Byte[] ExitGames.Client.Photon.PhotonPeer::RandomizedSequenceNumbers
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___RandomizedSequenceNumbers_45;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___RandomizedSequenceNumbers_46;
 	// System.Boolean ExitGames.Client.Photon.PhotonPeer::GcmDatagramEncryption
-	bool ___GcmDatagramEncryption_46;
+	bool ___GcmDatagramEncryption_47;
 	// ExitGames.Client.Photon.TrafficStats ExitGames.Client.Photon.PhotonPeer::<TrafficStatsIncoming>k__BackingField
-	TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* ___U3CTrafficStatsIncomingU3Ek__BackingField_47;
+	TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* ___U3CTrafficStatsIncomingU3Ek__BackingField_48;
 	// ExitGames.Client.Photon.TrafficStats ExitGames.Client.Photon.PhotonPeer::<TrafficStatsOutgoing>k__BackingField
-	TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* ___U3CTrafficStatsOutgoingU3Ek__BackingField_48;
+	TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* ___U3CTrafficStatsOutgoingU3Ek__BackingField_49;
 	// ExitGames.Client.Photon.TrafficStatsGameLevel ExitGames.Client.Photon.PhotonPeer::<TrafficStatsGameLevel>k__BackingField
-	TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9* ___U3CTrafficStatsGameLevelU3Ek__BackingField_49;
+	TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9* ___U3CTrafficStatsGameLevelU3Ek__BackingField_50;
 	// System.Diagnostics.Stopwatch ExitGames.Client.Photon.PhotonPeer::trafficStatsStopwatch
-	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ___trafficStatsStopwatch_50;
+	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ___trafficStatsStopwatch_51;
 	// System.Boolean ExitGames.Client.Photon.PhotonPeer::trafficStatsEnabled
-	bool ___trafficStatsEnabled_51;
+	bool ___trafficStatsEnabled_52;
 	// ExitGames.Client.Photon.PeerBase ExitGames.Client.Photon.PhotonPeer::peerBase
-	PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* ___peerBase_52;
+	PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* ___peerBase_53;
 	// System.Object ExitGames.Client.Photon.PhotonPeer::SendOutgoingLockObject
-	RuntimeObject* ___SendOutgoingLockObject_53;
+	RuntimeObject* ___SendOutgoingLockObject_54;
 	// System.Object ExitGames.Client.Photon.PhotonPeer::DispatchLockObject
-	RuntimeObject* ___DispatchLockObject_54;
+	RuntimeObject* ___DispatchLockObject_55;
 	// System.Object ExitGames.Client.Photon.PhotonPeer::EnqueueLock
-	RuntimeObject* ___EnqueueLock_55;
+	RuntimeObject* ___EnqueueLock_56;
 	// System.Type ExitGames.Client.Photon.PhotonPeer::payloadEncryptorType
-	Type_t* ___payloadEncryptorType_56;
+	Type_t* ___payloadEncryptorType_57;
 	// System.Byte[] ExitGames.Client.Photon.PhotonPeer::PayloadEncryptionSecret
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___PayloadEncryptionSecret_57;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___PayloadEncryptionSecret_58;
 	// System.Type ExitGames.Client.Photon.PhotonPeer::encryptorType
-	Type_t* ___encryptorType_58;
+	Type_t* ___encryptorType_59;
 	// ExitGames.Client.Photon.Encryption.IPhotonEncryptor ExitGames.Client.Photon.PhotonPeer::Encryptor
-	RuntimeObject* ___Encryptor_59;
+	RuntimeObject* ___Encryptor_60;
 	// System.Int32 ExitGames.Client.Photon.PhotonPeer::<CountDiscarded>k__BackingField
-	int32_t ___U3CCountDiscardedU3Ek__BackingField_60;
+	int32_t ___U3CCountDiscardedU3Ek__BackingField_61;
 	// System.Int32 ExitGames.Client.Photon.PhotonPeer::<DeltaUnreliableNumber>k__BackingField
-	int32_t ___U3CDeltaUnreliableNumberU3Ek__BackingField_61;
+	int32_t ___U3CDeltaUnreliableNumberU3Ek__BackingField_62;
 };
 
 struct PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_StaticFields
@@ -1862,9 +1869,9 @@ struct PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_StaticFields
 	// System.Boolean ExitGames.Client.Photon.PhotonPeer::NativeDatagramEncryptionLibAvailable
 	bool ___NativeDatagramEncryptionLibAvailable_15;
 	// System.Int32 ExitGames.Client.Photon.PhotonPeer::OutgoingStreamBufferSize
-	int32_t ___OutgoingStreamBufferSize_40;
+	int32_t ___OutgoingStreamBufferSize_41;
 	// System.Boolean ExitGames.Client.Photon.PhotonPeer::AsyncKeyExchange
-	bool ___AsyncKeyExchange_43;
+	bool ___AsyncKeyExchange_44;
 };
 
 // ExitGames.Client.Photon.Protocol
@@ -1990,9 +1997,9 @@ struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
 	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_stateFlags
 	int32_t ___m_stateFlags_6;
 	// System.Object modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_continuationObject
-	RuntimeObject* ___m_continuationObject_7;
+	RuntimeObject* ___m_continuationObject_23;
 	// System.Threading.Tasks.Task/ContingentProperties modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_contingentProperties
-	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_10;
+	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_26;
 };
 
 struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
@@ -2000,35 +2007,35 @@ struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
 	// System.Int32 System.Threading.Tasks.Task::s_taskIdCounter
 	int32_t ___s_taskIdCounter_0;
 	// System.Object System.Threading.Tasks.Task::s_taskCompletionSentinel
-	RuntimeObject* ___s_taskCompletionSentinel_8;
+	RuntimeObject* ___s_taskCompletionSentinel_24;
 	// System.Boolean System.Threading.Tasks.Task::s_asyncDebuggingEnabled
-	bool ___s_asyncDebuggingEnabled_9;
+	bool ___s_asyncDebuggingEnabled_25;
 	// System.Action`1<System.Object> System.Threading.Tasks.Task::s_taskCancelCallback
-	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_11;
+	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_27;
 	// System.Func`1<System.Threading.Tasks.Task/ContingentProperties> System.Threading.Tasks.Task::s_createContingentProperties
-	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_14;
+	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_30;
 	// System.Threading.Tasks.TaskFactory System.Threading.Tasks.Task::<Factory>k__BackingField
-	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_15;
+	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_31;
 	// System.Threading.Tasks.Task System.Threading.Tasks.Task::<CompletedTask>k__BackingField
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_16;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_32;
 	// System.Predicate`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_IsExceptionObservedByParentPredicate
-	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_17;
+	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_33;
 	// System.Threading.ContextCallback System.Threading.Tasks.Task::s_ecCallback
-	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_18;
+	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_34;
 	// System.Predicate`1<System.Object> System.Threading.Tasks.Task::s_IsTaskContinuationNullPredicate
-	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_19;
+	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_35;
 	// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_currentActiveTasks
-	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_20;
+	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_36;
 	// System.Object System.Threading.Tasks.Task::s_activeTasksLock
-	RuntimeObject* ___s_activeTasksLock_21;
+	RuntimeObject* ___s_activeTasksLock_37;
 };
 
 struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
 {
 	// System.Threading.Tasks.Task System.Threading.Tasks.Task::t_currentTask
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_12;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_28;
 	// System.Threading.Tasks.StackGuard System.Threading.Tasks.Task::t_stackGuard
-	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_13;
+	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_29;
 };
 
 // ExitGames.Client.Photon.TrafficStats
@@ -2417,13 +2424,13 @@ struct StructWrapper_1_t6718CC2EDA0066A6F1946BF9DF3DE128AF4DE0EB_StaticFields
 struct Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
 {
 	// TResult System.Threading.Tasks.Task`1::m_result
-	WebSocketReceiveResult_t31FCE9F2E53843C065CD57BE10581EE47D6FAD2C* ___m_result_22;
+	WebSocketReceiveResult_t31FCE9F2E53843C065CD57BE10581EE47D6FAD2C* ___m_result_38;
 };
 
 struct Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40_StaticFields
 {
 	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_tDF44923F8546D9F436C6170729E85A2BE7377D99* ___s_defaultFactory_23;
+	TaskFactory_1_tDF44923F8546D9F436C6170729E85A2BE7377D99* ___s_defaultFactory_39;
 };
 
 // System.Boolean
@@ -2633,9 +2640,9 @@ struct IntPtr_t_StaticFields
 struct PhotonClientWebSocket_t790B2D747769B55857A7040EF348FE0941B5C49F  : public IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34
 {
 	// System.Net.WebSockets.ClientWebSocket ExitGames.Client.Photon.PhotonClientWebSocket::clientWebSocket
-	ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* ___clientWebSocket_12;
+	ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* ___clientWebSocket_13;
 	// System.Threading.Tasks.Task ExitGames.Client.Photon.PhotonClientWebSocket::sendTask
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___sendTask_13;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___sendTask_14;
 };
 
 // ExitGames.Client.Photon.Protocol16
@@ -2738,9 +2745,9 @@ struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
 {
 	// System.IO.Stream/ReadWriteTask System.IO.Stream::_activeReadWriteTask
-	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask_2;
+	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask_3;
 	// System.Threading.SemaphoreSlim System.IO.Stream::_asyncActiveSemaphore
-	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore_3;
+	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore_4;
 };
 
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
@@ -3041,25 +3048,25 @@ struct Exception_t_marshaled_com
 struct MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
 	// System.Byte[] System.IO.MemoryStream::_buffer
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____buffer_4;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____buffer_5;
 	// System.Int32 System.IO.MemoryStream::_origin
-	int32_t ____origin_5;
+	int32_t ____origin_6;
 	// System.Int32 System.IO.MemoryStream::_position
-	int32_t ____position_6;
+	int32_t ____position_7;
 	// System.Int32 System.IO.MemoryStream::_length
-	int32_t ____length_7;
+	int32_t ____length_8;
 	// System.Int32 System.IO.MemoryStream::_capacity
-	int32_t ____capacity_8;
+	int32_t ____capacity_9;
 	// System.Boolean System.IO.MemoryStream::_expandable
-	bool ____expandable_9;
+	bool ____expandable_10;
 	// System.Boolean System.IO.MemoryStream::_writable
-	bool ____writable_10;
+	bool ____writable_11;
 	// System.Boolean System.IO.MemoryStream::_exposable
-	bool ____exposable_11;
+	bool ____exposable_12;
 	// System.Boolean System.IO.MemoryStream::_isOpen
-	bool ____isOpen_12;
+	bool ____isOpen_13;
 	// System.Threading.Tasks.Task`1<System.Int32> System.IO.MemoryStream::_lastReadTask
-	Task_1_t4C228DE57804012969575431CFF12D57C875552D* ____lastReadTask_13;
+	Task_1_t4C228DE57804012969575431CFF12D57C875552D* ____lastReadTask_14;
 };
 
 // System.RuntimeFieldHandle
@@ -3981,8 +3988,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CancellationToken_t51142D9C6D7C02D314DA34A6A7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ClientWebSocket_ConnectAsync_m66E32FDD7E68FAF34A71DDAC72D948B93C6E6082 (ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* __this, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___uri0, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___cancellationToken1, const RuntimeMethod* method) ;
 // System.Void System.Threading.Tasks.Task::Wait()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Task_Wait_m33955515E36BF6598FCEDA841C8C75F716DE5A4E (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
-// System.Void System.Console::WriteLine(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Console_WriteLine_m77CEDA0C084428F0D6220988DA66992EC1925AEA (String_t* ___value0, const RuntimeMethod* method) ;
+// System.String System.String::Format(System.String,System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___format0, RuntimeObject* ___arg01, RuntimeObject* ___arg12, const RuntimeMethod* method) ;
 // System.Boolean System.Threading.Tasks.Task::get_IsFaulted()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_get_IsFaulted_mC0AD3EA4EAF3B47C1F5FE9624541F0A00B9426D9 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
 // System.AggregateException System.Threading.Tasks.Task::get_Exception()
@@ -4044,6 +4051,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficStats_CountReliableOpCommand_mD9D723FD5DFFC806355B121EDAF34F05A1D10E7F (TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* __this, int32_t ___size0, const RuntimeMethod* method) ;
 // System.Void ExitGames.Client.Photon.TrafficStats::CountUnreliableOpCommand(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficStats_CountUnreliableOpCommand_m145B50835A379E19BA4FC7365A8ED0BB1CFCDE7C (TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* __this, int32_t ___size0, const RuntimeMethod* method) ;
+// System.String System.String::Format(System.String,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___format0, RuntimeObject* ___arg01, const RuntimeMethod* method) ;
 // System.Void System.ArraySegment`1<System.Byte>::.ctor(T[],System.Int32,System.Int32)
 inline void ArraySegment_1__ctor_m664EA6AD314FAA6BCA4F6D0586AEF01559537F20 (ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___array0, int32_t ___offset1, int32_t ___count2, const RuntimeMethod* method)
 {
@@ -4057,6 +4066,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SupportClass_GetTickCount_mA969FB2835
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___value0, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349A79989BB79BB36102894 (String_t* ___format0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+// System.Int32 ExitGames.Client.Photon.IPhotonSocket::get_SocketErrorCode()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t IPhotonSocket_get_SocketErrorCode_mE853A81A89EF38FB83B372EB50E623713A1EBAAB_inline (IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34* __this, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
@@ -4254,8 +4265,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Protocol_TryRegisterType_m6DDC1F82E92E5F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ParameterDictionary_TryGetValue_mBA556F2681C5F8AAE5058D98EDECAD8AEE154EA5 (ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* __this, uint8_t ___key0, RuntimeObject** ___value1, const RuntimeMethod* method) ;
 // System.Void ExitGames.Client.Photon.ParameterDictionary::Add(System.Byte,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParameterDictionary_Add_mC52FE077849B126A362472E37E1D50118159D705 (ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* __this, uint8_t ___code0, RuntimeObject* ___value1, const RuntimeMethod* method) ;
-// System.String System.String::Format(System.String,System.Object,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___format0, RuntimeObject* ___arg01, RuntimeObject* ___arg12, const RuntimeMethod* method) ;
 // ExitGames.Client.Photon.NonAllocDictionary`2<System.Byte,System.Object> ExitGames.Client.Photon.ParameterDictionary::op_Implicit(ExitGames.Client.Photon.ParameterDictionary)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NonAllocDictionary_2_t731311DC35E31CEB666B4A4099E518236EA55F79* ParameterDictionary_op_Implicit_mADD81500D21CF0F1F9D5E0B5C05F03F56C922164 (ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* ___value0, const RuntimeMethod* method) ;
 // System.String ExitGames.Client.Photon.SupportClass::DictionaryToString(ExitGames.Client.Photon.NonAllocDictionary`2<System.Byte,System.Object>,System.Boolean)
@@ -4269,8 +4278,6 @@ inline bool ParameterDictionary_TryGetValue_TisInt32_t680FF22E76F6EFAD4375103CBB
 }
 // System.Void ExitGames.Client.Photon.ParameterDictionary::Clear()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParameterDictionary_Clear_mB04C2E920182F6A8EE8F4EF1628DE12E40385C27 (ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* __this, const RuntimeMethod* method) ;
-// System.String System.String::Format(System.String,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___format0, RuntimeObject* ___arg01, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Byte,ExitGames.Client.Photon.CustomType>::ContainsKey(TKey)
 inline bool Dictionary_2_ContainsKey_m33E7270A66D450F6EDD17B5F655851EDDB7CDB3B (Dictionary_2_tF2AE32278B121CA758D0805AB8A2CF22CC7C1D81* __this, uint8_t ___key0, const RuntimeMethod* method)
 {
@@ -5194,16 +5201,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonClientWebSocket_AsyncConnectAndRec
 	int32_t V_18 = 0;
 	Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* V_19 = NULL;
 	bool V_20 = false;
-	bool V_21 = false;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_22 = NULL;
-	int32_t V_23 = 0;
-	bool V_24 = false;
+	Exception_t* V_21 = NULL;
+	bool V_22 = false;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_23 = NULL;
+	int32_t V_24 = 0;
 	bool V_25 = false;
-	int32_t V_26 = 0;
+	bool V_26 = false;
 	int32_t V_27 = 0;
-	bool V_28 = false;
-	int32_t V_29 = 0;
-	bool V_30 = false;
+	int32_t V_28 = 0;
+	bool V_29 = false;
+	int32_t V_30 = 0;
 	bool V_31 = false;
 	bool V_32 = false;
 	bool V_33 = false;
@@ -5212,6 +5219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonClientWebSocket_AsyncConnectAndRec
 	bool V_36 = false;
 	bool V_37 = false;
 	bool V_38 = false;
+	bool V_39 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	Exception_t* G_B5_0 = NULL;
 	String_t* G_B5_1 = NULL;
@@ -5250,24 +5258,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonClientWebSocket_AsyncConnectAndRec
 	String_t* G_B22_3 = NULL;
 	int32_t G_B22_4 = 0;
 	RuntimeObject* G_B22_5 = NULL;
-	Exception_t* G_B28_0 = NULL;
-	String_t* G_B28_1 = NULL;
-	Exception_t* G_B27_0 = NULL;
-	String_t* G_B27_1 = NULL;
-	String_t* G_B29_0 = NULL;
+	AggregateException_t51B6205846DFB356B94452702201DD239D44422F* G_B30_0 = NULL;
+	String_t* G_B30_1 = NULL;
+	int32_t G_B30_2 = 0;
+	PhotonClientWebSocket_t790B2D747769B55857A7040EF348FE0941B5C49F* G_B30_3 = NULL;
+	AggregateException_t51B6205846DFB356B94452702201DD239D44422F* G_B29_0 = NULL;
 	String_t* G_B29_1 = NULL;
-	AggregateException_t51B6205846DFB356B94452702201DD239D44422F* G_B33_0 = NULL;
-	String_t* G_B33_1 = NULL;
-	int32_t G_B33_2 = 0;
-	PhotonClientWebSocket_t790B2D747769B55857A7040EF348FE0941B5C49F* G_B33_3 = NULL;
-	AggregateException_t51B6205846DFB356B94452702201DD239D44422F* G_B32_0 = NULL;
-	String_t* G_B32_1 = NULL;
-	int32_t G_B32_2 = 0;
-	PhotonClientWebSocket_t790B2D747769B55857A7040EF348FE0941B5C49F* G_B32_3 = NULL;
-	String_t* G_B34_0 = NULL;
-	String_t* G_B34_1 = NULL;
-	int32_t G_B34_2 = 0;
-	PhotonClientWebSocket_t790B2D747769B55857A7040EF348FE0941B5C49F* G_B34_3 = NULL;
+	int32_t G_B29_2 = 0;
+	PhotonClientWebSocket_t790B2D747769B55857A7040EF348FE0941B5C49F* G_B29_3 = NULL;
+	String_t* G_B31_0 = NULL;
+	String_t* G_B31_1 = NULL;
+	int32_t G_B31_2 = 0;
+	PhotonClientWebSocket_t790B2D747769B55857A7040EF348FE0941B5C49F* G_B31_3 = NULL;
 	int32_t G_B44_0 = 0;
 	int32_t G_B67_0 = 0;
 	{
@@ -5275,7 +5277,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonClientWebSocket_AsyncConnectAndRec
 	}
 	try
 	{// begin try (depth: 1)
-		String_t* L_0 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___ConnectAddress_4;
+		String_t* L_0 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___ConnectAddress_5;
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_1 = (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E*)il2cpp_codegen_object_new(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
 		NullCheck(L_1);
 		Uri__ctor_m6CA436E6AD2768A121FA851CBEEFA3623E849D3A(L_1, L_0, NULL);
@@ -5308,7 +5310,7 @@ CATCH_0013:
 		{
 			RuntimeObject* L_4;
 			L_4 = IPhotonSocket_get_Listener_mCD4415B4D9CDBCEFDDA32457CF1A025A9E03B7E1(__this, NULL);
-			String_t* L_5 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___ConnectAddress_4;
+			String_t* L_5 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___ConnectAddress_5;
 			Exception_t* L_6 = V_6;
 			Exception_t* L_7 = L_6;
 			G_B4_0 = L_7;
@@ -5439,11 +5441,11 @@ IL_008f_1:
 		}
 		{
 			IPhotonSocket_set_AddressResolvedAsIpv6_m07B1AA11221DE3120A591554681D2E140340C91C_inline(__this, (bool)1, NULL);
-			String_t* L_26 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___ConnectAddress_4;
+			String_t* L_26 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___ConnectAddress_5;
 			String_t* L_27;
 			L_27 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_26, _stringLiteral635399FE2BA0D7FC4732898C17CFD8D77C7CE39C, NULL);
-			((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___ConnectAddress_4 = L_27;
-			Il2CppCodeGenWriteBarrier((void**)(&((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___ConnectAddress_4), (void*)L_27);
+			((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___ConnectAddress_5 = L_27;
+			Il2CppCodeGenWriteBarrier((void**)(&((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___ConnectAddress_5), (void*)L_27);
 			goto IL_00d8_1;
 		}
 
@@ -5551,9 +5553,9 @@ IL_0112:
 		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_38 = (ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F*)il2cpp_codegen_object_new(ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F_il2cpp_TypeInfo_var);
 		NullCheck(L_38);
 		ClientWebSocket__ctor_m75DD6220EA55DB5AEEA0AEE5E5809885EE52E138(L_38, NULL);
-		__this->___clientWebSocket_12 = L_38;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___clientWebSocket_12), (void*)L_38);
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_39 = __this->___clientWebSocket_12;
+		__this->___clientWebSocket_13 = L_38;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___clientWebSocket_13), (void*)L_38);
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_39 = __this->___clientWebSocket_13;
 		NullCheck(L_39);
 		ClientWebSocketOptions_t5FB2F0C705144B57583EDFB14A12FCB0583FC19C* L_40;
 		L_40 = ClientWebSocket_get_Options_mEB09171A7134836DF9CA3A811334D527BECDFED6_inline(L_39, NULL);
@@ -5563,10 +5565,10 @@ IL_0112:
 		ClientWebSocketOptions_AddSubProtocol_m33B989A54FBF2DEE8A7C2C3AC40ED488E5044973(L_40, L_41, NULL);
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_42 = (CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B*)il2cpp_codegen_object_new(CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B_il2cpp_TypeInfo_var);
 		NullCheck(L_42);
-		CancellationTokenSource__ctor_mEF2B011CEE37F9673B69FEB71B84397462D4BC85(L_42, ((int32_t)5000), NULL);
+		CancellationTokenSource__ctor_mEF2B011CEE37F9673B69FEB71B84397462D4BC85(L_42, ((int32_t)7000), NULL);
 		V_1 = L_42;
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_43 = __this->___clientWebSocket_12;
-		String_t* L_44 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___ConnectAddress_4;
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_43 = __this->___clientWebSocket_13;
+		String_t* L_44 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___ConnectAddress_5;
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_45 = (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E*)il2cpp_codegen_object_new(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
 		NullCheck(L_45);
 		Uri__ctor_m6CA436E6AD2768A121FA851CBEEFA3623E849D3A(L_45, L_44, NULL);
@@ -5584,7 +5586,7 @@ IL_0112:
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_49 = V_2;
 		NullCheck(L_49);
 		Task_Wait_m33955515E36BF6598FCEDA841C8C75F716DE5A4E(L_49, NULL);
-		goto IL_018b;
+		goto IL_0187;
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
@@ -5598,638 +5600,636 @@ IL_0112:
 
 CATCH_0167:
 	{// begin catch(System.Exception)
+		V_15 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+		String_t* L_50 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___ConnectAddress_5;
+		Exception_t* L_51 = V_15;
+		String_t* L_52;
+		L_52 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA0DAD3B56377713EB08AB8502038A087A2EBA747)), L_50, L_51, NULL);
+		IPhotonSocket_EnqueueDebugReturn_mB5088055254D8D7831447BA5F748D8F74FD69C58(__this, 1, L_52, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_0187;
+	}// end catch (depth: 1)
+
+IL_0187:
+	{
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_53 = V_2;
+		NullCheck(L_53);
+		bool L_54;
+		L_54 = Task_get_IsFaulted_mC0AD3EA4EAF3B47C1F5FE9624541F0A00B9426D9(L_53, NULL);
+		V_16 = L_54;
+		bool L_55 = V_16;
+		if (!L_55)
 		{
-			V_15 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
-			Exception_t* L_50 = V_15;
-			Exception_t* L_51 = L_50;
-			G_B27_0 = L_51;
-			G_B27_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA95898025CC11DF26437FBBC4B43CA5F697F5DB1));
-			if (L_51)
+			goto IL_01b9;
+		}
+	}
+	{
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_56 = V_2;
+		NullCheck(L_56);
+		AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_57;
+		L_57 = Task_get_Exception_m11317CABA220E351C84B3E94B8A98F1565F42B45(L_56, NULL);
+		AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_58 = L_57;
+		G_B29_0 = L_58;
+		G_B29_1 = _stringLiteral79FD51BCB5E982E787E37D45639877B39AB67C63;
+		G_B29_2 = 1;
+		G_B29_3 = __this;
+		if (L_58)
+		{
+			G_B30_0 = L_58;
+			G_B30_1 = _stringLiteral79FD51BCB5E982E787E37D45639877B39AB67C63;
+			G_B30_2 = 1;
+			G_B30_3 = __this;
+			goto IL_01a8;
+		}
+	}
+	{
+		G_B31_0 = ((String_t*)(NULL));
+		G_B31_1 = G_B29_1;
+		G_B31_2 = G_B29_2;
+		G_B31_3 = G_B29_3;
+		goto IL_01ad;
+	}
+
+IL_01a8:
+	{
+		NullCheck(G_B30_0);
+		String_t* L_59;
+		L_59 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B30_0);
+		G_B31_0 = L_59;
+		G_B31_1 = G_B30_1;
+		G_B31_2 = G_B30_2;
+		G_B31_3 = G_B30_3;
+	}
+
+IL_01ad:
+	{
+		String_t* L_60;
+		L_60 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B31_1, G_B31_0, NULL);
+		NullCheck(G_B31_3);
+		IPhotonSocket_EnqueueDebugReturn_mB5088055254D8D7831447BA5F748D8F74FD69C58(G_B31_3, G_B31_2, L_60, NULL);
+	}
+
+IL_01b9:
+	{
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_61 = __this->___clientWebSocket_13;
+		NullCheck(L_61);
+		int32_t L_62;
+		L_62 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_61);
+		V_17 = (bool)((((int32_t)((((int32_t)L_62) == ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_63 = V_17;
+		if (!L_63)
+		{
+			goto IL_020e;
+		}
+	}
+	{
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_64 = __this->___clientWebSocket_13;
+		NullCheck(L_64);
+		int32_t L_65;
+		L_65 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_64);
+		V_18 = L_65;
+		Il2CppFakeBox<int32_t> L_66(WebSocketState_tDA525C32450C7EA01B5D22DAB7A6DAB08AADBF25_il2cpp_TypeInfo_var, (&V_18));
+		String_t* L_67;
+		L_67 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_66), NULL);
+		String_t* L_68;
+		L_68 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral4FD0DAA01BA0DDA584847157C6083E95C3F10DEE, L_67, NULL);
+		IPhotonSocket_EnqueueDebugReturn_mB5088055254D8D7831447BA5F748D8F74FD69C58(__this, 1, L_68, NULL);
+		IPhotonSocket_HandleException_m50599D782455D34378626862B68079C79834B2AF(__this, ((int32_t)1023), NULL);
+		goto IL_05a0;
+	}
+
+IL_020e:
+	{
+		IPhotonSocket_set_State_m1C4129DE87BE2283C221C784876E02864BC1457A_inline(__this, 2, NULL);
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_69 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___peerBase_0;
+		NullCheck(L_69);
+		VirtualActionInvoker0::Invoke(10 /* System.Void ExitGames.Client.Photon.PeerBase::OnConnect() */, L_69);
+		int32_t L_70;
+		L_70 = IPhotonSocket_get_MTU_mA52F51FE4302A499B8F419FD3FD2F589F37FB880(__this, NULL);
+		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_71 = (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2*)il2cpp_codegen_object_new(MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2_il2cpp_TypeInfo_var);
+		NullCheck(L_71);
+		MemoryStream__ctor_m9E93692A2BB0E34119603FF6A5D44F6A132052E8(L_71, L_70, NULL);
+		V_3 = L_71;
+		V_4 = (bool)0;
+		int32_t L_72;
+		L_72 = IPhotonSocket_get_MTU_mA52F51FE4302A499B8F419FD3FD2F589F37FB880(__this, NULL);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_73 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_72);
+		ArraySegment_1__ctor_m8A879E5F534A391C62D3D65CDF9B8F0A7E1AED86((&V_5), L_73, ArraySegment_1__ctor_m8A879E5F534A391C62D3D65CDF9B8F0A7E1AED86_RuntimeMethod_var);
+		goto IL_04d8;
+	}
+
+IL_0248:
+	{
+		V_19 = (Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40*)NULL;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_74 = __this->___clientWebSocket_13;
+			ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_75 = V_5;
+			il2cpp_codegen_runtime_class_init_inline(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
+			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_76;
+			L_76 = CancellationToken_get_None_mB0E2D3427C25F09ACEBB2D060F82088EEC00BA53(NULL);
+			NullCheck(L_74);
+			Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_77;
+			L_77 = VirtualFuncInvoker2< Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40*, ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED >::Invoke(11 /* System.Threading.Tasks.Task`1<System.Net.WebSockets.WebSocketReceiveResult> System.Net.WebSockets.WebSocket::ReceiveAsync(System.ArraySegment`1<System.Byte>,System.Threading.CancellationToken) */, L_74, L_75, L_76);
+			V_19 = L_77;
+			goto IL_026f_1;
+		}
+
+IL_0263_1:
+		{
+			Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_78 = V_19;
+			NullCheck(L_78);
+			bool L_79;
+			L_79 = Task_Wait_m1EB7259EC8BCE121E41C780CAA3C136A4772C1A5(L_78, ((int32_t)50), NULL);
+		}
+
+IL_026f_1:
+		{
+			Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_80 = V_19;
+			NullCheck(L_80);
+			bool L_81;
+			L_81 = Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831(L_80, NULL);
+			V_20 = (bool)((((int32_t)L_81) == ((int32_t)0))? 1 : 0);
+			bool L_82 = V_20;
+			if (L_82)
 			{
-				G_B28_0 = L_51;
-				G_B28_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA95898025CC11DF26437FBBC4B43CA5F697F5DB1));
-				goto IL_0178;
+				goto IL_0263_1;
 			}
 		}
 		{
-			G_B29_0 = ((String_t*)(NULL));
-			G_B29_1 = G_B27_1;
-			goto IL_017d;
+			goto IL_0288;
 		}
-
-IL_0178:
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
-			NullCheck(G_B28_0);
-			String_t* L_52;
-			L_52 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B28_0);
-			G_B29_0 = L_52;
-			G_B29_1 = G_B28_1;
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0282;
 		}
+		throw e;
+	}
 
-IL_017d:
-		{
-			String_t* L_53;
-			L_53 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B29_1, G_B29_0, NULL);
-			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Console_t5EDF9498D011BD48287171978EDBBA6964829C3E_il2cpp_TypeInfo_var)));
-			Console_WriteLine_m77CEDA0C084428F0D6220988DA66992EC1925AEA(L_53, NULL);
-			IL2CPP_POP_ACTIVE_EXCEPTION();
-			goto IL_018b;
-		}
+CATCH_0282:
+	{// begin catch(System.Exception)
+		V_21 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_0288;
 	}// end catch (depth: 1)
 
-IL_018b:
+IL_0288:
 	{
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_54 = V_2;
-		NullCheck(L_54);
-		bool L_55;
-		L_55 = Task_get_IsFaulted_mC0AD3EA4EAF3B47C1F5FE9624541F0A00B9426D9(L_54, NULL);
-		V_16 = L_55;
-		bool L_56 = V_16;
-		if (!L_56)
+		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_83 = V_19;
+		NullCheck(L_83);
+		bool L_84;
+		L_84 = Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831(L_83, NULL);
+		if (!L_84)
 		{
-			goto IL_01bd;
+			goto IL_02a1;
 		}
 	}
 	{
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_57 = V_2;
-		NullCheck(L_57);
-		AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_58;
-		L_58 = Task_get_Exception_m11317CABA220E351C84B3E94B8A98F1565F42B45(L_57, NULL);
-		AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_59 = L_58;
-		G_B32_0 = L_59;
-		G_B32_1 = _stringLiteral79FD51BCB5E982E787E37D45639877B39AB67C63;
-		G_B32_2 = 1;
-		G_B32_3 = __this;
-		if (L_59)
-		{
-			G_B33_0 = L_59;
-			G_B33_1 = _stringLiteral79FD51BCB5E982E787E37D45639877B39AB67C63;
-			G_B33_2 = 1;
-			G_B33_3 = __this;
-			goto IL_01ac;
-		}
-	}
-	{
-		G_B34_0 = ((String_t*)(NULL));
-		G_B34_1 = G_B32_1;
-		G_B34_2 = G_B32_2;
-		G_B34_3 = G_B32_3;
-		goto IL_01b1;
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_85 = __this->___clientWebSocket_13;
+		NullCheck(L_85);
+		int32_t L_86;
+		L_86 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_85);
+		G_B44_0 = ((((int32_t)L_86) == ((int32_t)2))? 1 : 0);
+		goto IL_02a2;
 	}
 
-IL_01ac:
-	{
-		NullCheck(G_B33_0);
-		String_t* L_60;
-		L_60 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B33_0);
-		G_B34_0 = L_60;
-		G_B34_1 = G_B33_1;
-		G_B34_2 = G_B33_2;
-		G_B34_3 = G_B33_3;
-	}
-
-IL_01b1:
-	{
-		String_t* L_61;
-		L_61 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B34_1, G_B34_0, NULL);
-		NullCheck(G_B34_3);
-		IPhotonSocket_EnqueueDebugReturn_mB5088055254D8D7831447BA5F748D8F74FD69C58(G_B34_3, G_B34_2, L_61, NULL);
-	}
-
-IL_01bd:
-	{
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_62 = __this->___clientWebSocket_12;
-		NullCheck(L_62);
-		int32_t L_63;
-		L_63 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_62);
-		V_17 = (bool)((((int32_t)((((int32_t)L_63) == ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_64 = V_17;
-		if (!L_64)
-		{
-			goto IL_0212;
-		}
-	}
-	{
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_65 = __this->___clientWebSocket_12;
-		NullCheck(L_65);
-		int32_t L_66;
-		L_66 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_65);
-		V_18 = L_66;
-		Il2CppFakeBox<int32_t> L_67(WebSocketState_tDA525C32450C7EA01B5D22DAB7A6DAB08AADBF25_il2cpp_TypeInfo_var, (&V_18));
-		String_t* L_68;
-		L_68 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_67), NULL);
-		String_t* L_69;
-		L_69 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral4FD0DAA01BA0DDA584847157C6083E95C3F10DEE, L_68, NULL);
-		IPhotonSocket_EnqueueDebugReturn_mB5088055254D8D7831447BA5F748D8F74FD69C58(__this, 1, L_69, NULL);
-		IPhotonSocket_HandleException_m50599D782455D34378626862B68079C79834B2AF(__this, ((int32_t)1023), NULL);
-		goto IL_0597;
-	}
-
-IL_0212:
-	{
-		IPhotonSocket_set_State_m1C4129DE87BE2283C221C784876E02864BC1457A_inline(__this, 2, NULL);
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_70 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___peerBase_0;
-		NullCheck(L_70);
-		VirtualActionInvoker0::Invoke(10 /* System.Void ExitGames.Client.Photon.PeerBase::OnConnect() */, L_70);
-		int32_t L_71;
-		L_71 = IPhotonSocket_get_MTU_mA52F51FE4302A499B8F419FD3FD2F589F37FB880(__this, NULL);
-		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_72 = (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2*)il2cpp_codegen_object_new(MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2_il2cpp_TypeInfo_var);
-		NullCheck(L_72);
-		MemoryStream__ctor_m9E93692A2BB0E34119603FF6A5D44F6A132052E8(L_72, L_71, NULL);
-		V_3 = L_72;
-		V_4 = (bool)0;
-		int32_t L_73;
-		L_73 = IPhotonSocket_get_MTU_mA52F51FE4302A499B8F419FD3FD2F589F37FB880(__this, NULL);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_74 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_73);
-		ArraySegment_1__ctor_m8A879E5F534A391C62D3D65CDF9B8F0A7E1AED86((&V_5), L_74, ArraySegment_1__ctor_m8A879E5F534A391C62D3D65CDF9B8F0A7E1AED86_RuntimeMethod_var);
-		goto IL_04cf;
-	}
-
-IL_024c:
-	{
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_75 = __this->___clientWebSocket_12;
-		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_76 = V_5;
-		il2cpp_codegen_runtime_class_init_inline(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
-		CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_77;
-		L_77 = CancellationToken_get_None_mB0E2D3427C25F09ACEBB2D060F82088EEC00BA53(NULL);
-		NullCheck(L_75);
-		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_78;
-		L_78 = VirtualFuncInvoker2< Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40*, ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED >::Invoke(10 /* System.Threading.Tasks.Task`1<System.Net.WebSockets.WebSocketReceiveResult> System.Net.WebSockets.WebSocket::ReceiveAsync(System.ArraySegment`1<System.Byte>,System.Threading.CancellationToken) */, L_75, L_76, L_77);
-		V_19 = L_78;
-		goto IL_026f;
-	}
-
-IL_0263:
-	{
-		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_79 = V_19;
-		NullCheck(L_79);
-		bool L_80;
-		L_80 = Task_Wait_m1EB7259EC8BCE121E41C780CAA3C136A4772C1A5(L_79, ((int32_t)50), NULL);
-	}
-
-IL_026f:
-	{
-		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_81 = V_19;
-		NullCheck(L_81);
-		bool L_82;
-		L_82 = Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831(L_81, NULL);
-		V_20 = (bool)((((int32_t)L_82) == ((int32_t)0))? 1 : 0);
-		bool L_83 = V_20;
-		if (L_83)
-		{
-			goto IL_0263;
-		}
-	}
-	{
-		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_84 = V_19;
-		NullCheck(L_84);
-		bool L_85;
-		L_85 = Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831(L_84, NULL);
-		if (!L_85)
-		{
-			goto IL_0298;
-		}
-	}
-	{
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_86 = __this->___clientWebSocket_12;
-		NullCheck(L_86);
-		int32_t L_87;
-		L_87 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_86);
-		G_B44_0 = ((((int32_t)L_87) == ((int32_t)2))? 1 : 0);
-		goto IL_0299;
-	}
-
-IL_0298:
+IL_02a1:
 	{
 		G_B44_0 = 0;
 	}
 
-IL_0299:
+IL_02a2:
 	{
-		V_21 = (bool)G_B44_0;
-		bool L_88 = V_21;
-		if (!L_88)
+		V_22 = (bool)G_B44_0;
+		bool L_87 = V_22;
+		if (!L_87)
 		{
-			goto IL_04ce;
+			goto IL_04d7;
 		}
 	}
 	{
-		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_89 = V_19;
-		NullCheck(L_89);
-		bool L_90;
-		L_90 = Task_get_IsCanceled_m96A8D3F85158A9CB3AEA50A00A55BE4E0F0E21FA(L_89, NULL);
-		V_25 = L_90;
-		bool L_91 = V_25;
-		if (!L_91)
+		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_88 = V_19;
+		NullCheck(L_88);
+		bool L_89;
+		L_89 = Task_get_IsCanceled_m96A8D3F85158A9CB3AEA50A00A55BE4E0F0E21FA(L_88, NULL);
+		V_26 = L_89;
+		bool L_90 = V_26;
+		if (!L_90)
 		{
-			goto IL_032b;
+			goto IL_0334;
 		}
 	}
 	{
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_92 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)8);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_91 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)8);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_92 = L_91;
+		NullCheck(L_92);
+		ArrayElementTypeCheck (L_92, _stringLiteral912DD8915BEFB1D7AF11FB67ED6DF373DDD4F4F3);
+		(L_92)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral912DD8915BEFB1D7AF11FB67ED6DF373DDD4F4F3);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_93 = L_92;
-		NullCheck(L_93);
-		ArrayElementTypeCheck (L_93, _stringLiteral912DD8915BEFB1D7AF11FB67ED6DF373DDD4F4F3);
-		(L_93)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral912DD8915BEFB1D7AF11FB67ED6DF373DDD4F4F3);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_94 = L_93;
-		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_95 = V_19;
-		NullCheck(L_95);
-		int32_t L_96;
-		L_96 = Task_get_Status_m9707FD4B44416BA03FA2FDBEB3D0F0F281D90AD8(L_95, NULL);
-		V_26 = L_96;
-		Il2CppFakeBox<int32_t> L_97(TaskStatus_tDF62ACF297808A2BF8B7465A4A8E9FF161C9AB79_il2cpp_TypeInfo_var, (&V_26));
-		String_t* L_98;
-		L_98 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_97), NULL);
+		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_94 = V_19;
 		NullCheck(L_94);
-		ArrayElementTypeCheck (L_94, L_98);
-		(L_94)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_98);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_99 = L_94;
+		int32_t L_95;
+		L_95 = Task_get_Status_m9707FD4B44416BA03FA2FDBEB3D0F0F281D90AD8(L_94, NULL);
+		V_27 = L_95;
+		Il2CppFakeBox<int32_t> L_96(TaskStatus_tDF62ACF297808A2BF8B7465A4A8E9FF161C9AB79_il2cpp_TypeInfo_var, (&V_27));
+		String_t* L_97;
+		L_97 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_96), NULL);
+		NullCheck(L_93);
+		ArrayElementTypeCheck (L_93, L_97);
+		(L_93)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_97);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_98 = L_93;
+		NullCheck(L_98);
+		ArrayElementTypeCheck (L_98, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
+		(L_98)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_99 = L_98;
+		String_t* L_100;
+		L_100 = IPhotonSocket_get_ServerAddress_mF93AD47F8B257D59A4225A0B6B3957E9C234AEFE_inline(__this, NULL);
 		NullCheck(L_99);
-		ArrayElementTypeCheck (L_99, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
-		(L_99)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_100 = L_99;
-		String_t* L_101;
-		L_101 = IPhotonSocket_get_ServerAddress_mF93AD47F8B257D59A4225A0B6B3957E9C234AEFE_inline(__this, NULL);
-		NullCheck(L_100);
-		ArrayElementTypeCheck (L_100, L_101);
-		(L_100)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_101);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_102 = L_100;
+		ArrayElementTypeCheck (L_99, L_100);
+		(L_99)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_100);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_101 = L_99;
+		NullCheck(L_101);
+		ArrayElementTypeCheck (L_101, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		(L_101)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_102 = L_101;
+		int32_t L_103;
+		L_103 = IPhotonSocket_get_ServerPort_m10F7BAEE54223D7D4D7B73CAB9F9AC608EE00737_inline(__this, NULL);
+		V_28 = L_103;
+		String_t* L_104;
+		L_104 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_28), NULL);
 		NullCheck(L_102);
-		ArrayElementTypeCheck (L_102, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
-		(L_102)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_103 = L_102;
-		int32_t L_104;
-		L_104 = IPhotonSocket_get_ServerPort_m10F7BAEE54223D7D4D7B73CAB9F9AC608EE00737_inline(__this, NULL);
-		V_27 = L_104;
-		String_t* L_105;
-		L_105 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_27), NULL);
-		NullCheck(L_103);
-		ArrayElementTypeCheck (L_103, L_105);
-		(L_103)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_105);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_106 = L_103;
-		NullCheck(L_106);
-		ArrayElementTypeCheck (L_106, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
-		(L_106)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_107 = L_106;
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_108 = __this->___clientWebSocket_12;
-		NullCheck(L_108);
-		String_t* L_109;
-		L_109 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Net.WebSockets.WebSocket::get_CloseStatusDescription() */, L_108);
+		ArrayElementTypeCheck (L_102, L_104);
+		(L_102)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_104);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_105 = L_102;
+		NullCheck(L_105);
+		ArrayElementTypeCheck (L_105, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
+		(L_105)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_106 = L_105;
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_107 = __this->___clientWebSocket_13;
 		NullCheck(L_107);
-		ArrayElementTypeCheck (L_107, L_109);
-		(L_107)->SetAt(static_cast<il2cpp_array_size_t>(7), (String_t*)L_109);
-		String_t* L_110;
-		L_110 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_107, NULL);
-		IPhotonSocket_EnqueueDebugReturn_mB5088055254D8D7831447BA5F748D8F74FD69C58(__this, 1, L_110, NULL);
-		goto IL_04cf;
+		String_t* L_108;
+		L_108 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Net.WebSockets.WebSocket::get_CloseStatusDescription() */, L_107);
+		NullCheck(L_106);
+		ArrayElementTypeCheck (L_106, L_108);
+		(L_106)->SetAt(static_cast<il2cpp_array_size_t>(7), (String_t*)L_108);
+		String_t* L_109;
+		L_109 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_106, NULL);
+		IPhotonSocket_EnqueueDebugReturn_mB5088055254D8D7831447BA5F748D8F74FD69C58(__this, 1, L_109, NULL);
+		goto IL_04d8;
 	}
 
-IL_032b:
+IL_0334:
 	{
-		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_111 = V_19;
+		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_110 = V_19;
+		NullCheck(L_110);
+		WebSocketReceiveResult_t31FCE9F2E53843C065CD57BE10581EE47D6FAD2C* L_111;
+		L_111 = Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0(L_110, Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0_RuntimeMethod_var);
 		NullCheck(L_111);
-		WebSocketReceiveResult_t31FCE9F2E53843C065CD57BE10581EE47D6FAD2C* L_112;
-		L_112 = Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0(L_111, Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0_RuntimeMethod_var);
-		NullCheck(L_112);
-		int32_t L_113;
-		L_113 = WebSocketReceiveResult_get_Count_mCD1591C6EAFAA98DDEBA26821531A80EB9E614C6_inline(L_112, NULL);
-		V_28 = (bool)((((int32_t)L_113) == ((int32_t)0))? 1 : 0);
-		bool L_114 = V_28;
-		if (!L_114)
+		int32_t L_112;
+		L_112 = WebSocketReceiveResult_get_Count_mCD1591C6EAFAA98DDEBA26821531A80EB9E614C6_inline(L_111, NULL);
+		V_29 = (bool)((((int32_t)L_112) == ((int32_t)0))? 1 : 0);
+		bool L_113 = V_29;
+		if (!L_113)
 		{
-			goto IL_03bf;
+			goto IL_03c8;
 		}
 	}
 	{
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_115 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_114 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_115 = L_114;
+		NullCheck(L_115);
+		ArrayElementTypeCheck (L_115, _stringLiteral55636D61AC40786A8879E9495D6926B0A4DECF15);
+		(L_115)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral55636D61AC40786A8879E9495D6926B0A4DECF15);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_116 = L_115;
+		int32_t L_117;
+		L_117 = IPhotonSocket_get_State_mC833F4A6B469A8BC24A89013DC0DE7035FEE321B_inline(__this, NULL);
+		V_30 = L_117;
+		Il2CppFakeBox<int32_t> L_118(PhotonSocketState_t7F72F90C12B6D46FEE5435BA595D630D536C97BB_il2cpp_TypeInfo_var, (&V_30));
+		String_t* L_119;
+		L_119 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_118), NULL);
 		NullCheck(L_116);
-		ArrayElementTypeCheck (L_116, _stringLiteral55636D61AC40786A8879E9495D6926B0A4DECF15);
-		(L_116)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral55636D61AC40786A8879E9495D6926B0A4DECF15);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_117 = L_116;
-		int32_t L_118;
-		L_118 = IPhotonSocket_get_State_mC833F4A6B469A8BC24A89013DC0DE7035FEE321B_inline(__this, NULL);
-		V_29 = L_118;
-		Il2CppFakeBox<int32_t> L_119(PhotonSocketState_t7F72F90C12B6D46FEE5435BA595D630D536C97BB_il2cpp_TypeInfo_var, (&V_29));
-		String_t* L_120;
-		L_120 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_119), NULL);
-		NullCheck(L_117);
-		ArrayElementTypeCheck (L_117, L_120);
-		(L_117)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_120);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_121 = L_117;
-		NullCheck(L_121);
-		ArrayElementTypeCheck (L_121, _stringLiteral1D9C9C0E6EB30F9603DCCF0812C33C3463DFE5C8);
-		(L_121)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral1D9C9C0E6EB30F9603DCCF0812C33C3463DFE5C8);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_122 = L_121;
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_123 = __this->___clientWebSocket_12;
-		NullCheck(L_123);
-		int32_t L_124;
-		L_124 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_123);
-		V_18 = L_124;
-		Il2CppFakeBox<int32_t> L_125(WebSocketState_tDA525C32450C7EA01B5D22DAB7A6DAB08AADBF25_il2cpp_TypeInfo_var, (&V_18));
-		String_t* L_126;
-		L_126 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_125), NULL);
+		ArrayElementTypeCheck (L_116, L_119);
+		(L_116)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_119);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_120 = L_116;
+		NullCheck(L_120);
+		ArrayElementTypeCheck (L_120, _stringLiteral1D9C9C0E6EB30F9603DCCF0812C33C3463DFE5C8);
+		(L_120)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral1D9C9C0E6EB30F9603DCCF0812C33C3463DFE5C8);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_121 = L_120;
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_122 = __this->___clientWebSocket_13;
 		NullCheck(L_122);
-		ArrayElementTypeCheck (L_122, L_126);
-		(L_122)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_126);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_127 = L_122;
-		NullCheck(L_127);
-		ArrayElementTypeCheck (L_127, _stringLiteralB779D5BC97C5873C2336B9ADBD228CCE7B94CC79);
-		(L_127)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralB779D5BC97C5873C2336B9ADBD228CCE7B94CC79);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_128 = L_127;
-		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_129 = V_19;
-		NullCheck(L_129);
-		int32_t L_130;
-		L_130 = Task_get_Status_m9707FD4B44416BA03FA2FDBEB3D0F0F281D90AD8(L_129, NULL);
-		V_26 = L_130;
-		Il2CppFakeBox<int32_t> L_131(TaskStatus_tDF62ACF297808A2BF8B7465A4A8E9FF161C9AB79_il2cpp_TypeInfo_var, (&V_26));
-		String_t* L_132;
-		L_132 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_131), NULL);
+		int32_t L_123;
+		L_123 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_122);
+		V_18 = L_123;
+		Il2CppFakeBox<int32_t> L_124(WebSocketState_tDA525C32450C7EA01B5D22DAB7A6DAB08AADBF25_il2cpp_TypeInfo_var, (&V_18));
+		String_t* L_125;
+		L_125 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_124), NULL);
+		NullCheck(L_121);
+		ArrayElementTypeCheck (L_121, L_125);
+		(L_121)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_125);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_126 = L_121;
+		NullCheck(L_126);
+		ArrayElementTypeCheck (L_126, _stringLiteralB779D5BC97C5873C2336B9ADBD228CCE7B94CC79);
+		(L_126)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralB779D5BC97C5873C2336B9ADBD228CCE7B94CC79);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_127 = L_126;
+		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_128 = V_19;
 		NullCheck(L_128);
-		ArrayElementTypeCheck (L_128, L_132);
-		(L_128)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_132);
-		String_t* L_133;
-		L_133 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_128, NULL);
-		IPhotonSocket_EnqueueDebugReturn_mB5088055254D8D7831447BA5F748D8F74FD69C58(__this, 3, L_133, NULL);
-		goto IL_04cf;
+		int32_t L_129;
+		L_129 = Task_get_Status_m9707FD4B44416BA03FA2FDBEB3D0F0F281D90AD8(L_128, NULL);
+		V_27 = L_129;
+		Il2CppFakeBox<int32_t> L_130(TaskStatus_tDF62ACF297808A2BF8B7465A4A8E9FF161C9AB79_il2cpp_TypeInfo_var, (&V_27));
+		String_t* L_131;
+		L_131 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_130), NULL);
+		NullCheck(L_127);
+		ArrayElementTypeCheck (L_127, L_131);
+		(L_127)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_131);
+		String_t* L_132;
+		L_132 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_127, NULL);
+		IPhotonSocket_EnqueueDebugReturn_mB5088055254D8D7831447BA5F748D8F74FD69C58(__this, 3, L_132, NULL);
+		goto IL_04d8;
 	}
 
-IL_03bf:
+IL_03c8:
 	{
-		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_134 = V_19;
+		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_133 = V_19;
+		NullCheck(L_133);
+		WebSocketReceiveResult_t31FCE9F2E53843C065CD57BE10581EE47D6FAD2C* L_134;
+		L_134 = Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0(L_133, Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0_RuntimeMethod_var);
 		NullCheck(L_134);
-		WebSocketReceiveResult_t31FCE9F2E53843C065CD57BE10581EE47D6FAD2C* L_135;
-		L_135 = Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0(L_134, Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0_RuntimeMethod_var);
-		NullCheck(L_135);
-		bool L_136;
-		L_136 = WebSocketReceiveResult_get_EndOfMessage_mC01D0E54A8A32BB01FC96087AA5B3ACB07EB062A_inline(L_135, NULL);
-		V_30 = (bool)((((int32_t)L_136) == ((int32_t)0))? 1 : 0);
-		bool L_137 = V_30;
-		if (!L_137)
+		bool L_135;
+		L_135 = WebSocketReceiveResult_get_EndOfMessage_mC01D0E54A8A32BB01FC96087AA5B3ACB07EB062A_inline(L_134, NULL);
+		V_31 = (bool)((((int32_t)L_135) == ((int32_t)0))? 1 : 0);
+		bool L_136 = V_31;
+		if (!L_136)
 		{
-			goto IL_03f8;
+			goto IL_0401;
 		}
 	}
 	{
 		V_4 = (bool)1;
-		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_138 = V_3;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_139;
-		L_139 = ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_inline((&V_5), ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_RuntimeMethod_var);
-		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_140 = V_19;
+		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_137 = V_3;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_138;
+		L_138 = ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_inline((&V_5), ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_RuntimeMethod_var);
+		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_139 = V_19;
+		NullCheck(L_139);
+		WebSocketReceiveResult_t31FCE9F2E53843C065CD57BE10581EE47D6FAD2C* L_140;
+		L_140 = Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0(L_139, Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0_RuntimeMethod_var);
 		NullCheck(L_140);
-		WebSocketReceiveResult_t31FCE9F2E53843C065CD57BE10581EE47D6FAD2C* L_141;
-		L_141 = Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0(L_140, Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0_RuntimeMethod_var);
-		NullCheck(L_141);
-		int32_t L_142;
-		L_142 = WebSocketReceiveResult_get_Count_mCD1591C6EAFAA98DDEBA26821531A80EB9E614C6_inline(L_141, NULL);
-		NullCheck(L_138);
-		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(30 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_138, L_139, 0, L_142);
-		goto IL_04cf;
+		int32_t L_141;
+		L_141 = WebSocketReceiveResult_get_Count_mCD1591C6EAFAA98DDEBA26821531A80EB9E614C6_inline(L_140, NULL);
+		NullCheck(L_137);
+		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(30 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_137, L_138, 0, L_141);
+		goto IL_04d8;
 	}
 
-IL_03f8:
+IL_0401:
 	{
-		bool L_143 = V_4;
-		V_31 = L_143;
-		bool L_144 = V_31;
-		if (!L_144)
+		bool L_142 = V_4;
+		V_32 = L_142;
+		bool L_143 = V_32;
+		if (!L_143)
 		{
-			goto IL_0430;
+			goto IL_0439;
 		}
 	}
 	{
-		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_145 = V_3;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_146;
-		L_146 = ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_inline((&V_5), ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_RuntimeMethod_var);
-		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_147 = V_19;
+		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_144 = V_3;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_145;
+		L_145 = ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_inline((&V_5), ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_RuntimeMethod_var);
+		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_146 = V_19;
+		NullCheck(L_146);
+		WebSocketReceiveResult_t31FCE9F2E53843C065CD57BE10581EE47D6FAD2C* L_147;
+		L_147 = Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0(L_146, Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0_RuntimeMethod_var);
 		NullCheck(L_147);
-		WebSocketReceiveResult_t31FCE9F2E53843C065CD57BE10581EE47D6FAD2C* L_148;
-		L_148 = Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0(L_147, Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0_RuntimeMethod_var);
-		NullCheck(L_148);
-		int32_t L_149;
-		L_149 = WebSocketReceiveResult_get_Count_mCD1591C6EAFAA98DDEBA26821531A80EB9E614C6_inline(L_148, NULL);
-		NullCheck(L_145);
-		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(30 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_145, L_146, 0, L_149);
-		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_150 = V_3;
-		NullCheck(L_150);
-		int64_t L_151;
-		L_151 = VirtualFuncInvoker0< int64_t >::Invoke(10 /* System.Int64 System.IO.Stream::get_Length() */, L_150);
-		V_23 = ((int32_t)L_151);
-		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_152 = V_3;
-		NullCheck(L_152);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_153;
-		L_153 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(33 /* System.Byte[] System.IO.MemoryStream::GetBuffer() */, L_152);
-		V_22 = L_153;
-		goto IL_0452;
+		int32_t L_148;
+		L_148 = WebSocketReceiveResult_get_Count_mCD1591C6EAFAA98DDEBA26821531A80EB9E614C6_inline(L_147, NULL);
+		NullCheck(L_144);
+		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(30 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_144, L_145, 0, L_148);
+		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_149 = V_3;
+		NullCheck(L_149);
+		int64_t L_150;
+		L_150 = VirtualFuncInvoker0< int64_t >::Invoke(10 /* System.Int64 System.IO.Stream::get_Length() */, L_149);
+		V_24 = ((int32_t)L_150);
+		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_151 = V_3;
+		NullCheck(L_151);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_152;
+		L_152 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(33 /* System.Byte[] System.IO.MemoryStream::GetBuffer() */, L_151);
+		V_23 = L_152;
+		goto IL_045b;
 	}
 
-IL_0430:
+IL_0439:
 	{
-		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_154 = V_19;
+		Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* L_153 = V_19;
+		NullCheck(L_153);
+		WebSocketReceiveResult_t31FCE9F2E53843C065CD57BE10581EE47D6FAD2C* L_154;
+		L_154 = Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0(L_153, Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0_RuntimeMethod_var);
 		NullCheck(L_154);
-		WebSocketReceiveResult_t31FCE9F2E53843C065CD57BE10581EE47D6FAD2C* L_155;
-		L_155 = Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0(L_154, Task_1_get_Result_mF04CC2412956E1676AB682623F7260E5711E3BA0_RuntimeMethod_var);
-		NullCheck(L_155);
-		int32_t L_156;
-		L_156 = WebSocketReceiveResult_get_Count_mCD1591C6EAFAA98DDEBA26821531A80EB9E614C6_inline(L_155, NULL);
+		int32_t L_155;
+		L_155 = WebSocketReceiveResult_get_Count_mCD1591C6EAFAA98DDEBA26821531A80EB9E614C6_inline(L_154, NULL);
+		V_24 = L_155;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_156;
+		L_156 = ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_inline((&V_5), ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_RuntimeMethod_var);
 		V_23 = L_156;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_157;
-		L_157 = ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_inline((&V_5), ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_RuntimeMethod_var);
-		V_22 = L_157;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_158 = V_22;
-		NullCheck(L_158);
-		int32_t L_159 = 5;
-		uint8_t L_160 = (L_158)->GetAt(static_cast<il2cpp_array_size_t>(L_159));
-		V_24 = (bool)((((int32_t)L_160) == ((int32_t)0))? 1 : 0);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_157 = V_23;
+		NullCheck(L_157);
+		int32_t L_158 = 5;
+		uint8_t L_159 = (L_157)->GetAt(static_cast<il2cpp_array_size_t>(L_158));
+		V_25 = (bool)((((int32_t)L_159) == ((int32_t)0))? 1 : 0);
 	}
 
-IL_0452:
+IL_045b:
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_161 = V_22;
-		NullCheck(L_161);
-		int32_t L_162 = 5;
-		uint8_t L_163 = (L_161)->GetAt(static_cast<il2cpp_array_size_t>(L_162));
-		V_24 = (bool)((((int32_t)L_163) == ((int32_t)0))? 1 : 0);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_164 = V_22;
-		int32_t L_165 = V_23;
-		IPhotonSocket_HandleReceivedDatagram_mE732DCDE0858559B4F838D8DDF66C979F7DAA974(__this, L_164, L_165, (bool)1, NULL);
-		bool L_166 = V_4;
-		V_32 = L_166;
-		bool L_167 = V_32;
-		if (!L_167)
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_160 = V_23;
+		NullCheck(L_160);
+		int32_t L_161 = 5;
+		uint8_t L_162 = (L_160)->GetAt(static_cast<il2cpp_array_size_t>(L_161));
+		V_25 = (bool)((((int32_t)L_162) == ((int32_t)0))? 1 : 0);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_163 = V_23;
+		int32_t L_164 = V_24;
+		IPhotonSocket_HandleReceivedDatagram_mE732DCDE0858559B4F838D8DDF66C979F7DAA974(__this, L_163, L_164, (bool)1, NULL);
+		bool L_165 = V_4;
+		V_33 = L_165;
+		bool L_166 = V_33;
+		if (!L_166)
 		{
-			goto IL_0486;
+			goto IL_048f;
 		}
 	}
 	{
+		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_167 = V_3;
+		NullCheck(L_167);
+		VirtualActionInvoker1< int64_t >::Invoke(26 /* System.Void System.IO.Stream::SetLength(System.Int64) */, L_167, ((int64_t)0));
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_168 = V_3;
 		NullCheck(L_168);
-		VirtualActionInvoker1< int64_t >::Invoke(26 /* System.Void System.IO.Stream::SetLength(System.Int64) */, L_168, ((int64_t)0));
-		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_169 = V_3;
-		NullCheck(L_169);
-		VirtualActionInvoker1< int64_t >::Invoke(12 /* System.Void System.IO.Stream::set_Position(System.Int64) */, L_169, ((int64_t)0));
+		VirtualActionInvoker1< int64_t >::Invoke(12 /* System.Void System.IO.Stream::set_Position(System.Int64) */, L_168, ((int64_t)0));
 		V_4 = (bool)0;
 	}
 
-IL_0486:
+IL_048f:
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_170 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___peerBase_0;
-		NullCheck(L_170);
-		bool L_171;
-		L_171 = PeerBase_get_TrafficStatsEnabled_mCC1511B967600ABB65663EE7B8AC96942DC75879(L_170, NULL);
-		V_33 = L_171;
-		bool L_172 = V_33;
-		if (!L_172)
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_169 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___peerBase_0;
+		NullCheck(L_169);
+		bool L_170;
+		L_170 = PeerBase_get_TrafficStatsEnabled_mCC1511B967600ABB65663EE7B8AC96942DC75879(L_169, NULL);
+		V_34 = L_170;
+		bool L_171 = V_34;
+		if (!L_171)
 		{
-			goto IL_04cd;
+			goto IL_04d6;
 		}
 	}
 	{
-		bool L_173 = V_24;
-		V_34 = L_173;
-		bool L_174 = V_34;
-		if (!L_174)
+		bool L_172 = V_25;
+		V_35 = L_172;
+		bool L_173 = V_35;
+		if (!L_173)
 		{
-			goto IL_04b7;
+			goto IL_04c0;
 		}
 	}
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_175 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___peerBase_0;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_174 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___peerBase_0;
+		NullCheck(L_174);
+		TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_175;
+		L_175 = PeerBase_get_TrafficStatsIncoming_m0C70F8727D31B14AEE92DDB1B65A1CF20E838855(L_174, NULL);
+		int32_t L_176 = V_24;
 		NullCheck(L_175);
-		TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_176;
-		L_176 = PeerBase_get_TrafficStatsIncoming_m0C70F8727D31B14AEE92DDB1B65A1CF20E838855(L_175, NULL);
-		int32_t L_177 = V_23;
-		NullCheck(L_176);
-		TrafficStats_CountReliableOpCommand_mD9D723FD5DFFC806355B121EDAF34F05A1D10E7F(L_176, L_177, NULL);
-		goto IL_04cc;
+		TrafficStats_CountReliableOpCommand_mD9D723FD5DFFC806355B121EDAF34F05A1D10E7F(L_175, L_176, NULL);
+		goto IL_04d5;
 	}
 
-IL_04b7:
+IL_04c0:
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_178 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___peerBase_0;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_177 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)__this)->___peerBase_0;
+		NullCheck(L_177);
+		TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_178;
+		L_178 = PeerBase_get_TrafficStatsIncoming_m0C70F8727D31B14AEE92DDB1B65A1CF20E838855(L_177, NULL);
+		int32_t L_179 = V_24;
 		NullCheck(L_178);
-		TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_179;
-		L_179 = PeerBase_get_TrafficStatsIncoming_m0C70F8727D31B14AEE92DDB1B65A1CF20E838855(L_178, NULL);
-		int32_t L_180 = V_23;
-		NullCheck(L_179);
-		TrafficStats_CountUnreliableOpCommand_m145B50835A379E19BA4FC7365A8ED0BB1CFCDE7C(L_179, L_180, NULL);
+		TrafficStats_CountUnreliableOpCommand_m145B50835A379E19BA4FC7365A8ED0BB1CFCDE7C(L_178, L_179, NULL);
 	}
 
-IL_04cc:
+IL_04d5:
 	{
 	}
 
-IL_04cd:
+IL_04d6:
 	{
 	}
 
-IL_04ce:
+IL_04d7:
 	{
 	}
 
-IL_04cf:
+IL_04d8:
 	{
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_181 = __this->___clientWebSocket_12;
-		NullCheck(L_181);
-		int32_t L_182;
-		L_182 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_181);
-		V_35 = (bool)((((int32_t)L_182) == ((int32_t)2))? 1 : 0);
-		bool L_183 = V_35;
-		if (L_183)
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_180 = __this->___clientWebSocket_13;
+		NullCheck(L_180);
+		int32_t L_181;
+		L_181 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_180);
+		V_36 = (bool)((((int32_t)L_181) == ((int32_t)2))? 1 : 0);
+		bool L_182 = V_36;
+		if (L_182)
 		{
-			goto IL_024c;
+			goto IL_0248;
+		}
+	}
+	{
+		int32_t L_183;
+		L_183 = IPhotonSocket_get_State_mC833F4A6B469A8BC24A89013DC0DE7035FEE321B_inline(__this, NULL);
+		if ((((int32_t)L_183) == ((int32_t)3)))
+		{
+			goto IL_0503;
 		}
 	}
 	{
 		int32_t L_184;
 		L_184 = IPhotonSocket_get_State_mC833F4A6B469A8BC24A89013DC0DE7035FEE321B_inline(__this, NULL);
-		if ((((int32_t)L_184) == ((int32_t)3)))
-		{
-			goto IL_04fa;
-		}
-	}
-	{
-		int32_t L_185;
-		L_185 = IPhotonSocket_get_State_mC833F4A6B469A8BC24A89013DC0DE7035FEE321B_inline(__this, NULL);
-		G_B67_0 = ((!(((uint32_t)L_185) <= ((uint32_t)0)))? 1 : 0);
-		goto IL_04fb;
+		G_B67_0 = ((!(((uint32_t)L_184) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_0504;
 	}
 
-IL_04fa:
+IL_0503:
 	{
 		G_B67_0 = 0;
 	}
 
-IL_04fb:
+IL_0504:
 	{
-		V_36 = (bool)G_B67_0;
-		bool L_186 = V_36;
-		if (!L_186)
+		V_37 = (bool)G_B67_0;
+		bool L_185 = V_37;
+		if (!L_185)
 		{
-			goto IL_0590;
+			goto IL_0599;
 		}
 	}
 	{
-		int32_t L_187;
-		L_187 = IPhotonSocket_get_State_mC833F4A6B469A8BC24A89013DC0DE7035FEE321B_inline(__this, NULL);
-		V_29 = L_187;
-		Il2CppFakeBox<int32_t> L_188(PhotonSocketState_t7F72F90C12B6D46FEE5435BA595D630D536C97BB_il2cpp_TypeInfo_var, (&V_29));
-		String_t* L_189;
-		L_189 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_188), NULL);
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_190 = __this->___clientWebSocket_12;
-		NullCheck(L_190);
-		int32_t L_191;
-		L_191 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_190);
-		V_18 = L_191;
-		Il2CppFakeBox<int32_t> L_192(WebSocketState_tDA525C32450C7EA01B5D22DAB7A6DAB08AADBF25_il2cpp_TypeInfo_var, (&V_18));
+		int32_t L_186;
+		L_186 = IPhotonSocket_get_State_mC833F4A6B469A8BC24A89013DC0DE7035FEE321B_inline(__this, NULL);
+		V_30 = L_186;
+		Il2CppFakeBox<int32_t> L_187(PhotonSocketState_t7F72F90C12B6D46FEE5435BA595D630D536C97BB_il2cpp_TypeInfo_var, (&V_30));
+		String_t* L_188;
+		L_188 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_187), NULL);
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_189 = __this->___clientWebSocket_13;
+		NullCheck(L_189);
+		int32_t L_190;
+		L_190 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_189);
+		V_18 = L_190;
+		Il2CppFakeBox<int32_t> L_191(WebSocketState_tDA525C32450C7EA01B5D22DAB7A6DAB08AADBF25_il2cpp_TypeInfo_var, (&V_18));
+		String_t* L_192;
+		L_192 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_191), NULL);
 		String_t* L_193;
-		L_193 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_192), NULL);
-		String_t* L_194;
-		L_194 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral9204B2470486C749313CB848FBA5C09497BDB818, L_189, _stringLiteralCF50B046C7817C362D0A73E5067D55321200263E, L_193, NULL);
-		IPhotonSocket_EnqueueDebugReturn_mB5088055254D8D7831447BA5F748D8F74FD69C58(__this, 3, L_194, NULL);
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_195 = __this->___clientWebSocket_12;
-		NullCheck(L_195);
-		int32_t L_196;
-		L_196 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_195);
-		V_37 = (bool)((((int32_t)L_196) == ((int32_t)4))? 1 : 0);
-		bool L_197 = V_37;
-		if (!L_197)
+		L_193 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral9204B2470486C749313CB848FBA5C09497BDB818, L_188, _stringLiteralCF50B046C7817C362D0A73E5067D55321200263E, L_192, NULL);
+		IPhotonSocket_EnqueueDebugReturn_mB5088055254D8D7831447BA5F748D8F74FD69C58(__this, 3, L_193, NULL);
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_194 = __this->___clientWebSocket_13;
+		NullCheck(L_194);
+		int32_t L_195;
+		L_195 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_194);
+		V_38 = (bool)((((int32_t)L_195) == ((int32_t)4))? 1 : 0);
+		bool L_196 = V_38;
+		if (!L_196)
 		{
-			goto IL_056d;
+			goto IL_0576;
 		}
 	}
 	{
 		IPhotonSocket_HandleException_m50599D782455D34378626862B68079C79834B2AF(__this, ((int32_t)1043), NULL);
 	}
 
-IL_056d:
+IL_0576:
 	{
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_198 = __this->___clientWebSocket_12;
-		NullCheck(L_198);
-		int32_t L_199;
-		L_199 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_198);
-		V_38 = (bool)((((int32_t)L_199) == ((int32_t)6))? 1 : 0);
-		bool L_200 = V_38;
-		if (!L_200)
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_197 = __this->___clientWebSocket_13;
+		NullCheck(L_197);
+		int32_t L_198;
+		L_198 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_197);
+		V_39 = (bool)((((int32_t)L_198) == ((int32_t)6))? 1 : 0);
+		bool L_199 = V_39;
+		if (!L_199)
 		{
-			goto IL_058f;
+			goto IL_0598;
 		}
 	}
 	{
 		IPhotonSocket_HandleException_m50599D782455D34378626862B68079C79834B2AF(__this, ((int32_t)1044), NULL);
 	}
 
-IL_058f:
+IL_0598:
 	{
 	}
 
-IL_0590:
+IL_0599:
 	{
-		bool L_201;
-		L_201 = VirtualFuncInvoker0< bool >::Invoke(5 /* System.Boolean ExitGames.Client.Photon.IPhotonSocket::Disconnect() */, __this);
+		bool L_200;
+		L_200 = VirtualFuncInvoker0< bool >::Invoke(5 /* System.Boolean ExitGames.Client.Photon.IPhotonSocket::Disconnect() */, __this);
 	}
 
-IL_0597:
+IL_05a0:
 	{
 		return;
 	}
@@ -6241,6 +6241,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonClientWebSocket_Disconnect_mD63558
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3CB8F1DD89E18A9FF0F91F5BF7C943B19D1FB279);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral74FDE1A60AB73E521ADFB9455E55677E6341387A);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -6248,200 +6249,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonClientWebSocket_Disconnect_mD63558
 	Exception_t* V_1 = NULL;
 	bool V_2 = false;
 	bool V_3 = false;
+	bool V_4 = false;
+	Exception_t* V_5 = NULL;
+	bool V_6 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
-	int32_t G_B4_0 = 0;
-	Exception_t* G_B10_0 = NULL;
-	String_t* G_B10_1 = NULL;
-	int32_t G_B10_2 = 0;
-	PhotonClientWebSocket_t790B2D747769B55857A7040EF348FE0941B5C49F* G_B10_3 = NULL;
+	int32_t G_B3_0 = 0;
 	Exception_t* G_B9_0 = NULL;
 	String_t* G_B9_1 = NULL;
 	int32_t G_B9_2 = 0;
 	PhotonClientWebSocket_t790B2D747769B55857A7040EF348FE0941B5C49F* G_B9_3 = NULL;
-	String_t* G_B11_0 = NULL;
-	String_t* G_B11_1 = NULL;
-	int32_t G_B11_2 = 0;
-	PhotonClientWebSocket_t790B2D747769B55857A7040EF348FE0941B5C49F* G_B11_3 = NULL;
+	Exception_t* G_B8_0 = NULL;
+	String_t* G_B8_1 = NULL;
+	int32_t G_B8_2 = 0;
+	PhotonClientWebSocket_t790B2D747769B55857A7040EF348FE0941B5C49F* G_B8_3 = NULL;
+	String_t* G_B10_0 = NULL;
+	String_t* G_B10_1 = NULL;
+	int32_t G_B10_2 = 0;
+	PhotonClientWebSocket_t790B2D747769B55857A7040EF348FE0941B5C49F* G_B10_3 = NULL;
+	int32_t G_B17_0 = 0;
+	Exception_t* G_B23_0 = NULL;
+	String_t* G_B23_1 = NULL;
+	int32_t G_B23_2 = 0;
+	PhotonClientWebSocket_t790B2D747769B55857A7040EF348FE0941B5C49F* G_B23_3 = NULL;
+	Exception_t* G_B22_0 = NULL;
+	String_t* G_B22_1 = NULL;
+	int32_t G_B22_2 = 0;
+	PhotonClientWebSocket_t790B2D747769B55857A7040EF348FE0941B5C49F* G_B22_3 = NULL;
+	String_t* G_B24_0 = NULL;
+	String_t* G_B24_1 = NULL;
+	int32_t G_B24_2 = 0;
+	PhotonClientWebSocket_t790B2D747769B55857A7040EF348FE0941B5C49F* G_B24_3 = NULL;
 	{
-		IPhotonSocket_set_State_m1C4129DE87BE2283C221C784876E02864BC1457A_inline(__this, 3, NULL);
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_0 = __this->___clientWebSocket_12;
-		if (!L_0)
-		{
-			goto IL_0032;
-		}
-	}
-	{
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_1 = __this->___clientWebSocket_12;
-		NullCheck(L_1);
-		int32_t L_2;
-		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_1);
-		if ((((int32_t)L_2) == ((int32_t)5)))
-		{
-			goto IL_0032;
-		}
-	}
-	{
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_3 = __this->___clientWebSocket_12;
-		NullCheck(L_3);
-		int32_t L_4;
-		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_3);
-		G_B4_0 = ((((int32_t)((((int32_t)L_4) == ((int32_t)3))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		goto IL_0033;
-	}
-
-IL_0032:
-	{
-		G_B4_0 = 0;
-	}
-
-IL_0033:
-	{
-		V_0 = (bool)G_B4_0;
-		bool L_5 = V_0;
-		if (!L_5)
-		{
-			goto IL_0089;
-		}
-	}
-	{
-	}
-	try
-	{// begin try (depth: 1)
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_6 = __this->___clientWebSocket_12;
-		il2cpp_codegen_runtime_class_init_inline(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
-		CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_7;
-		L_7 = CancellationToken_get_None_mB0E2D3427C25F09ACEBB2D060F82088EEC00BA53(NULL);
-		NullCheck(L_6);
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_8;
-		L_8 = VirtualFuncInvoker3< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, int32_t, String_t*, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED >::Invoke(8 /* System.Threading.Tasks.Task System.Net.WebSockets.WebSocket::CloseOutputAsync(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken) */, L_6, ((int32_t)1000), _stringLiteral74FDE1A60AB73E521ADFB9455E55677E6341387A, L_7);
-		goto IL_0088;
-	}// end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
-		{
-			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_0057;
-		}
-		throw e;
-	}
-
-CATCH_0057:
-	{// begin catch(System.Exception)
-		{
-			V_1 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
-			bool L_9;
-			L_9 = IPhotonSocket_ReportDebugOfLevel_mA64EDC0A11AF42C58BDA2913720540F8ECD772AE(__this, 3, NULL);
-			V_2 = L_9;
-			bool L_10 = V_2;
-			if (!L_10)
-			{
-				goto IL_0085;
-			}
-		}
-		{
-			Exception_t* L_11 = V_1;
-			Exception_t* L_12 = L_11;
-			G_B9_0 = L_12;
-			G_B9_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral62ECB95E9856C0B0299922D89B3B50D174BB40C5));
-			G_B9_2 = 3;
-			G_B9_3 = __this;
-			if (L_12)
-			{
-				G_B10_0 = L_12;
-				G_B10_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral62ECB95E9856C0B0299922D89B3B50D174BB40C5));
-				G_B10_2 = 3;
-				G_B10_3 = __this;
-				goto IL_0074;
-			}
-		}
-		{
-			G_B11_0 = ((String_t*)(NULL));
-			G_B11_1 = G_B9_1;
-			G_B11_2 = G_B9_2;
-			G_B11_3 = G_B9_3;
-			goto IL_0079;
-		}
-
-IL_0074:
-		{
-			NullCheck(G_B10_0);
-			String_t* L_13;
-			L_13 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B10_0);
-			G_B11_0 = L_13;
-			G_B11_1 = G_B10_1;
-			G_B11_2 = G_B10_2;
-			G_B11_3 = G_B10_3;
-		}
-
-IL_0079:
-		{
-			String_t* L_14;
-			L_14 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B11_1, G_B11_0, NULL);
-			NullCheck(G_B11_3);
-			IPhotonSocket_EnqueueDebugReturn_mB5088055254D8D7831447BA5F748D8F74FD69C58(G_B11_3, G_B11_2, L_14, NULL);
-		}
-
-IL_0085:
-		{
-			IL2CPP_POP_ACTIVE_EXCEPTION();
-			goto IL_0088;
-		}
-	}// end catch (depth: 1)
-
-IL_0088:
-	{
-	}
-
-IL_0089:
-	{
-		IPhotonSocket_set_State_m1C4129DE87BE2283C221C784876E02864BC1457A_inline(__this, 0, NULL);
-		V_3 = (bool)1;
-		goto IL_0095;
-	}
-
-IL_0095:
-	{
-		bool L_15 = V_3;
-		return L_15;
-	}
-}
-// ExitGames.Client.Photon.PhotonSocketError ExitGames.Client.Photon.PhotonClientWebSocket::Send(System.Byte[],System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonClientWebSocket_Send_m49A6A56E52C17EB49C2F61246534E65326E3BE48 (PhotonClientWebSocket_t790B2D747769B55857A7040EF348FE0941B5C49F* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___data0, int32_t ___length1, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArraySegment_1__ctor_m664EA6AD314FAA6BCA4F6D0586AEF01559537F20_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral04D3CDFEC27657DE952D7034BF9FC04361EA8EE5);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	int32_t V_1 = 0;
-	bool V_2 = false;
-	bool V_3 = false;
-	bool V_4 = false;
-	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
-	int32_t G_B3_0 = 0;
-	int32_t G_B10_0 = 0;
-	int32_t G_B12_0 = 0;
-	int32_t G_B22_0 = 0;
-	{
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_0 = __this->___sendTask_13;
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_0 = __this->___clientWebSocket_13;
 		if (!L_0)
 		{
 			goto IL_0019;
 		}
 	}
 	{
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_1 = __this->___sendTask_13;
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_1 = __this->___clientWebSocket_13;
 		NullCheck(L_1);
-		bool L_2;
-		L_2 = Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831(L_1, NULL);
-		G_B3_0 = ((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		int32_t L_2;
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_1);
+		G_B3_0 = ((((int32_t)L_2) == ((int32_t)4))? 1 : 0);
 		goto IL_001a;
 	}
 
@@ -6456,202 +6306,574 @@ IL_001a:
 		bool L_3 = V_0;
 		if (!L_3)
 		{
-			goto IL_0026;
+			goto IL_007e;
 		}
 	}
 	{
-		V_1 = 4;
-		goto IL_0119;
+	}
+	try
+	{// begin try (depth: 1)
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_4 = __this->___clientWebSocket_13;
+		il2cpp_codegen_runtime_class_init_inline(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
+		CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_5;
+		L_5 = CancellationToken_get_None_mB0E2D3427C25F09ACEBB2D060F82088EEC00BA53(NULL);
+		NullCheck(L_4);
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_6;
+		L_6 = VirtualFuncInvoker3< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, int32_t, String_t*, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED >::Invoke(8 /* System.Threading.Tasks.Task System.Net.WebSockets.WebSocket::CloseAsync(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken) */, L_4, ((int32_t)1000), _stringLiteral3CB8F1DD89E18A9FF0F91F5BF7C943B19D1FB279, L_5);
+		goto IL_006f;
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_003e;
+		}
+		throw e;
 	}
 
-IL_0026:
-	{
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_4 = __this->___clientWebSocket_12;
-		if (!L_4)
+CATCH_003e:
+	{// begin catch(System.Exception)
 		{
-			goto IL_0053;
+			V_1 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+			bool L_7;
+			L_7 = IPhotonSocket_ReportDebugOfLevel_mA64EDC0A11AF42C58BDA2913720540F8ECD772AE(__this, 5, NULL);
+			V_2 = L_7;
+			bool L_8 = V_2;
+			if (!L_8)
+			{
+				goto IL_006c;
+			}
+		}
+		{
+			Exception_t* L_9 = V_1;
+			Exception_t* L_10 = L_9;
+			G_B8_0 = L_10;
+			G_B8_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralBFDF154002EE93B55039558B3EFED58CB5DAF2AA));
+			G_B8_2 = 5;
+			G_B8_3 = __this;
+			if (L_10)
+			{
+				G_B9_0 = L_10;
+				G_B9_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralBFDF154002EE93B55039558B3EFED58CB5DAF2AA));
+				G_B9_2 = 5;
+				G_B9_3 = __this;
+				goto IL_005b;
+			}
+		}
+		{
+			G_B10_0 = ((String_t*)(NULL));
+			G_B10_1 = G_B8_1;
+			G_B10_2 = G_B8_2;
+			G_B10_3 = G_B8_3;
+			goto IL_0060;
+		}
+
+IL_005b:
+		{
+			NullCheck(G_B9_0);
+			String_t* L_11;
+			L_11 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B9_0);
+			G_B10_0 = L_11;
+			G_B10_1 = G_B9_1;
+			G_B10_2 = G_B9_2;
+			G_B10_3 = G_B9_3;
+		}
+
+IL_0060:
+		{
+			String_t* L_12;
+			L_12 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B10_1, G_B10_0, NULL);
+			NullCheck(G_B10_3);
+			IPhotonSocket_EnqueueDebugReturn_mB5088055254D8D7831447BA5F748D8F74FD69C58(G_B10_3, G_B10_2, L_12, NULL);
+		}
+
+IL_006c:
+		{
+			IL2CPP_POP_ACTIVE_EXCEPTION();
+			goto IL_006f;
+		}
+	}// end catch (depth: 1)
+
+IL_006f:
+	{
+		IPhotonSocket_set_State_m1C4129DE87BE2283C221C784876E02864BC1457A_inline(__this, 0, NULL);
+		V_3 = (bool)1;
+		goto IL_0118;
+	}
+
+IL_007e:
+	{
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_13 = __this->___clientWebSocket_13;
+		if (!L_13)
+		{
+			goto IL_00a7;
 		}
 	}
 	{
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_5 = __this->___clientWebSocket_12;
-		NullCheck(L_5);
-		int32_t L_6;
-		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_5);
-		if ((((int32_t)L_6) == ((int32_t)2)))
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_14 = __this->___clientWebSocket_13;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_14);
+		if ((((int32_t)L_15) == ((int32_t)5)))
 		{
-			goto IL_0053;
+			goto IL_00a7;
 		}
 	}
 	{
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_16 = __this->___clientWebSocket_13;
+		NullCheck(L_16);
+		int32_t L_17;
+		L_17 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_16);
+		G_B17_0 = ((((int32_t)((((int32_t)L_17) == ((int32_t)3))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_00a8;
+	}
+
+IL_00a7:
+	{
+		G_B17_0 = 0;
+	}
+
+IL_00a8:
+	{
+		V_4 = (bool)G_B17_0;
+		bool L_18 = V_4;
+		if (!L_18)
+		{
+			goto IL_010c;
+		}
+	}
+	{
+		IPhotonSocket_set_State_m1C4129DE87BE2283C221C784876E02864BC1457A_inline(__this, 3, NULL);
+	}
+	try
+	{// begin try (depth: 1)
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_19 = __this->___clientWebSocket_13;
+		il2cpp_codegen_runtime_class_init_inline(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
+		CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_20;
+		L_20 = CancellationToken_get_None_mB0E2D3427C25F09ACEBB2D060F82088EEC00BA53(NULL);
+		NullCheck(L_19);
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_21;
+		L_21 = VirtualFuncInvoker3< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, int32_t, String_t*, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED >::Invoke(9 /* System.Threading.Tasks.Task System.Net.WebSockets.WebSocket::CloseOutputAsync(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken) */, L_19, ((int32_t)1000), _stringLiteral74FDE1A60AB73E521ADFB9455E55677E6341387A, L_20);
+		goto IL_010b;
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00d6;
+		}
+		throw e;
+	}
+
+CATCH_00d6:
+	{// begin catch(System.Exception)
+		{
+			V_5 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+			bool L_22;
+			L_22 = IPhotonSocket_ReportDebugOfLevel_mA64EDC0A11AF42C58BDA2913720540F8ECD772AE(__this, 5, NULL);
+			V_6 = L_22;
+			bool L_23 = V_6;
+			if (!L_23)
+			{
+				goto IL_0108;
+			}
+		}
+		{
+			Exception_t* L_24 = V_5;
+			Exception_t* L_25 = L_24;
+			G_B22_0 = L_25;
+			G_B22_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral591910FD4B49686BF6ECD879911D4D1636126FAF));
+			G_B22_2 = 5;
+			G_B22_3 = __this;
+			if (L_25)
+			{
+				G_B23_0 = L_25;
+				G_B23_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral591910FD4B49686BF6ECD879911D4D1636126FAF));
+				G_B23_2 = 5;
+				G_B23_3 = __this;
+				goto IL_00f7;
+			}
+		}
+		{
+			G_B24_0 = ((String_t*)(NULL));
+			G_B24_1 = G_B22_1;
+			G_B24_2 = G_B22_2;
+			G_B24_3 = G_B22_3;
+			goto IL_00fc;
+		}
+
+IL_00f7:
+		{
+			NullCheck(G_B23_0);
+			String_t* L_26;
+			L_26 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B23_0);
+			G_B24_0 = L_26;
+			G_B24_1 = G_B23_1;
+			G_B24_2 = G_B23_2;
+			G_B24_3 = G_B23_3;
+		}
+
+IL_00fc:
+		{
+			String_t* L_27;
+			L_27 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B24_1, G_B24_0, NULL);
+			NullCheck(G_B24_3);
+			IPhotonSocket_EnqueueDebugReturn_mB5088055254D8D7831447BA5F748D8F74FD69C58(G_B24_3, G_B24_2, L_27, NULL);
+		}
+
+IL_0108:
+		{
+			IL2CPP_POP_ACTIVE_EXCEPTION();
+			goto IL_010b;
+		}
+	}// end catch (depth: 1)
+
+IL_010b:
+	{
+	}
+
+IL_010c:
+	{
+		IPhotonSocket_set_State_m1C4129DE87BE2283C221C784876E02864BC1457A_inline(__this, 0, NULL);
+		V_3 = (bool)1;
+		goto IL_0118;
+	}
+
+IL_0118:
+	{
+		bool L_28 = V_3;
+		return L_28;
+	}
+}
+// ExitGames.Client.Photon.PhotonSocketError ExitGames.Client.Photon.PhotonClientWebSocket::Send(System.Byte[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonClientWebSocket_Send_m49A6A56E52C17EB49C2F61246534E65326E3BE48 (PhotonClientWebSocket_t790B2D747769B55857A7040EF348FE0941B5C49F* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___data0, int32_t ___length1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArraySegment_1__ctor_m664EA6AD314FAA6BCA4F6D0586AEF01559537F20_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonSocketState_t7F72F90C12B6D46FEE5435BA595D630D536C97BB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3EE846A57D04A581E3D2A0AE59E141B6BE4BCD26);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	bool V_10 = false;
+	int32_t G_B5_0 = 0;
+	int32_t G_B7_0 = 0;
+	int32_t G_B17_0 = 0;
+	int32_t G_B25_0 = 0;
+	int32_t G_B32_0 = 0;
+	{
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_0 = __this->___clientWebSocket_13;
+		if (!L_0)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_1 = __this->___clientWebSocket_13;
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_1);
+		if ((((int32_t)L_2) == ((int32_t)2)))
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		int32_t L_3;
+		L_3 = IPhotonSocket_get_State_mC833F4A6B469A8BC24A89013DC0DE7035FEE321B_inline(__this, NULL);
+		if ((((int32_t)L_3) == ((int32_t)3)))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		int32_t L_4;
+		L_4 = IPhotonSocket_get_State_mC833F4A6B469A8BC24A89013DC0DE7035FEE321B_inline(__this, NULL);
+		G_B5_0 = ((!(((uint32_t)L_4) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_002c;
+	}
+
+IL_002b:
+	{
+		G_B5_0 = 0;
+	}
+
+IL_002c:
+	{
+		G_B7_0 = G_B5_0;
+		goto IL_002f;
+	}
+
+IL_002e:
+	{
+		G_B7_0 = 0;
+	}
+
+IL_002f:
+	{
+		V_0 = (bool)G_B7_0;
+		bool L_5 = V_0;
+		if (!L_5)
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_6 = __this->___clientWebSocket_13;
+		NullCheck(L_6);
 		int32_t L_7;
-		L_7 = IPhotonSocket_get_State_mC833F4A6B469A8BC24A89013DC0DE7035FEE321B_inline(__this, NULL);
-		if ((((int32_t)L_7) == ((int32_t)3)))
+		L_7 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_6);
+		V_1 = (bool)((((int32_t)L_7) == ((int32_t)4))? 1 : 0);
+		bool L_8 = V_1;
+		if (!L_8)
 		{
-			goto IL_0050;
+			goto IL_005a;
 		}
 	}
 	{
-		int32_t L_8;
-		L_8 = IPhotonSocket_get_State_mC833F4A6B469A8BC24A89013DC0DE7035FEE321B_inline(__this, NULL);
-		G_B10_0 = ((!(((uint32_t)L_8) <= ((uint32_t)0)))? 1 : 0);
-		goto IL_0051;
+		IPhotonSocket_HandleException_m50599D782455D34378626862B68079C79834B2AF(__this, ((int32_t)1043), NULL);
+		V_2 = 3;
+		goto IL_0188;
 	}
 
-IL_0050:
+IL_005a:
 	{
-		G_B10_0 = 0;
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_9 = __this->___clientWebSocket_13;
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_9);
+		V_3 = (bool)((((int32_t)L_10) == ((int32_t)6))? 1 : 0);
+		bool L_11 = V_3;
+		if (!L_11)
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		IPhotonSocket_HandleException_m50599D782455D34378626862B68079C79834B2AF(__this, ((int32_t)1044), NULL);
+		V_2 = 3;
+		goto IL_0188;
 	}
 
-IL_0051:
+IL_0080:
 	{
-		G_B12_0 = G_B10_0;
-		goto IL_0054;
 	}
 
-IL_0053:
+IL_0081:
 	{
-		G_B12_0 = 0;
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_12 = __this->___clientWebSocket_13;
+		V_4 = (bool)((((RuntimeObject*)(ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F*)L_12) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_13 = V_4;
+		if (!L_13)
+		{
+			goto IL_00e7;
+		}
 	}
-
-IL_0054:
 	{
-		V_2 = (bool)G_B12_0;
-		bool L_9 = V_2;
-		if (!L_9)
+		int32_t L_14;
+		L_14 = IPhotonSocket_get_State_mC833F4A6B469A8BC24A89013DC0DE7035FEE321B_inline(__this, NULL);
+		if ((((int32_t)L_14) == ((int32_t)3)))
 		{
 			goto IL_00a5;
 		}
 	}
 	{
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_10 = __this->___clientWebSocket_12;
-		NullCheck(L_10);
-		int32_t L_11;
-		L_11 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_10);
-		V_3 = (bool)((((int32_t)L_11) == ((int32_t)4))? 1 : 0);
-		bool L_12 = V_3;
-		if (!L_12)
-		{
-			goto IL_007f;
-		}
-	}
-	{
-		IPhotonSocket_HandleException_m50599D782455D34378626862B68079C79834B2AF(__this, ((int32_t)1043), NULL);
-		V_1 = 3;
-		goto IL_0119;
-	}
-
-IL_007f:
-	{
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_13 = __this->___clientWebSocket_12;
-		NullCheck(L_13);
-		int32_t L_14;
-		L_14 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Net.WebSockets.WebSocketState System.Net.WebSockets.WebSocket::get_State() */, L_13);
-		V_4 = (bool)((((int32_t)L_14) == ((int32_t)6))? 1 : 0);
-		bool L_15 = V_4;
-		if (!L_15)
-		{
-			goto IL_00a4;
-		}
-	}
-	{
-		IPhotonSocket_HandleException_m50599D782455D34378626862B68079C79834B2AF(__this, ((int32_t)1044), NULL);
-		V_1 = 3;
-		goto IL_0119;
-	}
-
-IL_00a4:
-	{
+		int32_t L_15;
+		L_15 = IPhotonSocket_get_State_mC833F4A6B469A8BC24A89013DC0DE7035FEE321B_inline(__this, NULL);
+		G_B17_0 = ((((int32_t)L_15) == ((int32_t)0))? 1 : 0);
+		goto IL_00a6;
 	}
 
 IL_00a5:
 	{
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_16 = __this->___clientWebSocket_12;
-		V_5 = (bool)((((RuntimeObject*)(ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F*)L_16) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		bool L_17 = V_5;
-		if (!L_17)
+		G_B17_0 = 1;
+	}
+
+IL_00a6:
+	{
+		V_5 = (bool)G_B17_0;
+		bool L_16 = V_5;
+		if (!L_16)
 		{
-			goto IL_00f5;
+			goto IL_00b4;
 		}
 	}
 	{
-		int32_t L_18;
-		L_18 = IPhotonSocket_get_State_mC833F4A6B469A8BC24A89013DC0DE7035FEE321B_inline(__this, NULL);
-		if ((((int32_t)L_18) == ((int32_t)3)))
+		V_2 = 1;
+		goto IL_0188;
+	}
+
+IL_00b4:
+	{
+		bool L_17;
+		L_17 = IPhotonSocket_ReportDebugOfLevel_mA64EDC0A11AF42C58BDA2913720540F8ECD772AE(__this, 1, NULL);
+		V_6 = L_17;
+		bool L_18 = V_6;
+		if (!L_18)
 		{
-			goto IL_00c9;
+			goto IL_00e0;
 		}
 	}
 	{
 		int32_t L_19;
 		L_19 = IPhotonSocket_get_State_mC833F4A6B469A8BC24A89013DC0DE7035FEE321B_inline(__this, NULL);
-		G_B22_0 = ((((int32_t)L_19) == ((int32_t)0))? 1 : 0);
-		goto IL_00ca;
+		int32_t L_20 = L_19;
+		RuntimeObject* L_21 = Box(PhotonSocketState_t7F72F90C12B6D46FEE5435BA595D630D536C97BB_il2cpp_TypeInfo_var, &L_20);
+		String_t* L_22;
+		L_22 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral3EE846A57D04A581E3D2A0AE59E141B6BE4BCD26, L_21, NULL);
+		IPhotonSocket_EnqueueDebugReturn_mB5088055254D8D7831447BA5F748D8F74FD69C58(__this, 1, L_22, NULL);
 	}
 
-IL_00c9:
+IL_00e0:
 	{
-		G_B22_0 = 1;
+		V_2 = 3;
+		goto IL_0188;
 	}
 
-IL_00ca:
+IL_00e7:
 	{
-		V_6 = (bool)G_B22_0;
-		bool L_20 = V_6;
-		if (!L_20)
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_23 = __this->___sendTask_14;
+		if (!L_23)
 		{
-			goto IL_00d5;
+			goto IL_00ff;
 		}
 	}
 	{
-		V_1 = 1;
-		goto IL_0119;
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_24 = __this->___sendTask_14;
+		NullCheck(L_24);
+		bool L_25;
+		L_25 = Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831(L_24, NULL);
+		G_B25_0 = ((((int32_t)L_25) == ((int32_t)0))? 1 : 0);
+		goto IL_0100;
 	}
 
-IL_00d5:
+IL_00ff:
 	{
-		bool L_21;
-		L_21 = IPhotonSocket_ReportDebugOfLevel_mA64EDC0A11AF42C58BDA2913720540F8ECD772AE(__this, 1, NULL);
-		V_7 = L_21;
-		bool L_22 = V_7;
-		if (!L_22)
+		G_B25_0 = 0;
+	}
+
+IL_0100:
+	{
+		V_7 = (bool)G_B25_0;
+		bool L_26 = V_7;
+		if (!L_26)
 		{
-			goto IL_00f1;
+			goto IL_0122;
 		}
 	}
 	{
-		IPhotonSocket_EnqueueDebugReturn_mB5088055254D8D7831447BA5F748D8F74FD69C58(__this, 1, _stringLiteral04D3CDFEC27657DE952D7034BF9FC04361EA8EE5, NULL);
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_27 = __this->___sendTask_14;
+		NullCheck(L_27);
+		bool L_28;
+		L_28 = Task_Wait_m1EB7259EC8BCE121E41C780CAA3C136A4772C1A5(L_27, 5, NULL);
+		V_8 = (bool)((((int32_t)L_28) == ((int32_t)0))? 1 : 0);
+		bool L_29 = V_8;
+		if (!L_29)
+		{
+			goto IL_0121;
+		}
+	}
+	{
+		V_2 = 4;
+		goto IL_0188;
 	}
 
-IL_00f1:
+IL_0121:
 	{
-		V_1 = 3;
-		goto IL_0119;
 	}
 
-IL_00f5:
+IL_0122:
 	{
-		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_23 = __this->___clientWebSocket_12;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_24 = ___data0;
-		int32_t L_25 = ___length1;
-		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_26;
-		memset((&L_26), 0, sizeof(L_26));
-		ArraySegment_1__ctor_m664EA6AD314FAA6BCA4F6D0586AEF01559537F20((&L_26), L_24, 0, L_25, /*hidden argument*/ArraySegment_1__ctor_m664EA6AD314FAA6BCA4F6D0586AEF01559537F20_RuntimeMethod_var);
+		ClientWebSocket_tCA318357FEA5850DFE2109A0139A57F152E0D71F* L_30 = __this->___clientWebSocket_13;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_31 = ___data0;
+		int32_t L_32 = ___length1;
+		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_33;
+		memset((&L_33), 0, sizeof(L_33));
+		ArraySegment_1__ctor_m664EA6AD314FAA6BCA4F6D0586AEF01559537F20((&L_33), L_31, 0, L_32, /*hidden argument*/ArraySegment_1__ctor_m664EA6AD314FAA6BCA4F6D0586AEF01559537F20_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
-		CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_27;
-		L_27 = CancellationToken_get_None_mB0E2D3427C25F09ACEBB2D060F82088EEC00BA53(NULL);
-		NullCheck(L_23);
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_28;
-		L_28 = VirtualFuncInvoker4< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093, int32_t, bool, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED >::Invoke(11 /* System.Threading.Tasks.Task System.Net.WebSockets.WebSocket::SendAsync(System.ArraySegment`1<System.Byte>,System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken) */, L_23, L_26, 1, (bool)1, L_27);
-		__this->___sendTask_13 = L_28;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___sendTask_13), (void*)L_28);
-		V_1 = 0;
-		goto IL_0119;
+		CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_34;
+		L_34 = CancellationToken_get_None_mB0E2D3427C25F09ACEBB2D060F82088EEC00BA53(NULL);
+		NullCheck(L_30);
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_35;
+		L_35 = VirtualFuncInvoker4< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093, int32_t, bool, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED >::Invoke(12 /* System.Threading.Tasks.Task System.Net.WebSockets.WebSocket::SendAsync(System.ArraySegment`1<System.Byte>,System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken) */, L_30, L_33, 1, (bool)1, L_34);
+		__this->___sendTask_14 = L_35;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___sendTask_14), (void*)L_35);
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_36 = __this->___sendTask_14;
+		if (!L_36)
+		{
+			goto IL_015a;
+		}
+	}
+	{
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_37 = __this->___sendTask_14;
+		NullCheck(L_37);
+		bool L_38;
+		L_38 = Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831(L_37, NULL);
+		G_B32_0 = ((((int32_t)L_38) == ((int32_t)0))? 1 : 0);
+		goto IL_015b;
 	}
 
-IL_0119:
+IL_015a:
 	{
-		int32_t L_29 = V_1;
-		return L_29;
+		G_B32_0 = 0;
+	}
+
+IL_015b:
+	{
+		V_9 = (bool)G_B32_0;
+		bool L_39 = V_9;
+		if (!L_39)
+		{
+			goto IL_017d;
+		}
+	}
+	{
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_40 = __this->___sendTask_14;
+		NullCheck(L_40);
+		bool L_41;
+		L_41 = Task_Wait_m1EB7259EC8BCE121E41C780CAA3C136A4772C1A5(L_40, 5, NULL);
+		V_10 = (bool)((((int32_t)L_41) == ((int32_t)0))? 1 : 0);
+		bool L_42 = V_10;
+		if (!L_42)
+		{
+			goto IL_017c;
+		}
+	}
+	{
+		V_2 = 5;
+		goto IL_0188;
+	}
+
+IL_017c:
+	{
+	}
+
+IL_017d:
+	{
+		__this->___sendTask_14 = (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___sendTask_14), (void*)(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL);
+		V_2 = 0;
+		goto IL_0188;
+	}
+
+IL_0188:
+	{
+		int32_t L_43 = V_2;
+		return L_43;
 	}
 }
 // ExitGames.Client.Photon.PhotonSocketError ExitGames.Client.Photon.PhotonClientWebSocket::Receive(System.Byte[]&)
@@ -6985,6 +7207,57 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_SocketImplementation_mA6E
 		return;
 	}
 }
+// System.Int32 ExitGames.Client.Photon.PhotonPeer::get_SocketErrorCode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_SocketErrorCode_m327032379D12C4877517E0436B105D9580B00FBE (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t G_B4_0 = 0;
+	{
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_1 = __this->___peerBase_53;
+		NullCheck(L_1);
+		IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34* L_2 = L_1->___PhotonSocket_3;
+		if (L_2)
+		{
+			goto IL_0019;
+		}
+	}
+
+IL_0016:
+	{
+		G_B4_0 = 0;
+		goto IL_0029;
+	}
+
+IL_0019:
+	{
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_3 = __this->___peerBase_53;
+		NullCheck(L_3);
+		IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34* L_4 = L_3->___PhotonSocket_3;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = IPhotonSocket_get_SocketErrorCode_mE853A81A89EF38FB83B372EB50E623713A1EBAAB_inline(L_4, NULL);
+		G_B4_0 = L_5;
+	}
+
+IL_0029:
+	{
+		V_0 = G_B4_0;
+		goto IL_002c;
+	}
+
+IL_002c:
+	{
+		int32_t L_6 = V_0;
+		return L_6;
+	}
+}
 // ExitGames.Client.Photon.IPhotonPeerListener ExitGames.Client.Photon.PhotonPeer::get_Listener()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PhotonPeer_get_Listener_mB769F69826EC32376B6FB257FEF8B7AC7881B971 (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) 
 {
@@ -7112,7 +7385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_ReuseEventInstance_m6CE01
 	bool V_1 = false;
 	bool V_2 = false;
 	{
-		RuntimeObject* L_0 = __this->___DispatchLockObject_54;
+		RuntimeObject* L_0 = __this->___DispatchLockObject_55;
 		V_0 = L_0;
 		V_1 = (bool)0;
 	}
@@ -7156,7 +7429,7 @@ IL_003e:
 				}
 			}
 			{
-				PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_7 = __this->___peerBase_52;
+				PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_7 = __this->___peerBase_53;
 				NullCheck(L_7);
 				L_7->___reusableEventData_28 = (EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681*)NULL;
 				Il2CppCodeGenWriteBarrier((void**)(&L_7->___reusableEventData_28), (void*)(EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681*)NULL);
@@ -7233,7 +7506,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteArraySlicePool_t0C931CEF6AE81634ED6034D55
 {
 	ByteArraySlicePool_t0C931CEF6AE81634ED6034D55404F61E8ADEF387* V_0 = NULL;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		IProtocol_t81522842E9975A0B8ADDCB83BBAB7A1A28A95223* L_1 = L_0->___SerializationProtocol_1;
 		NullCheck(L_1);
@@ -7253,7 +7526,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t PhotonPeer_get_BytesIn_mD31F17B16D051
 {
 	int64_t V_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		int64_t L_1;
 		L_1 = PeerBase_get_BytesIn_mF2C0D6121386EAF0BAF5CB54B188897FCED4BA74(L_0, NULL);
@@ -7272,7 +7545,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t PhotonPeer_get_BytesOut_m26EF91B29F57
 {
 	int64_t V_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		int64_t L_1;
 		L_1 = PeerBase_get_BytesOut_m944A7050804178CA0CC748C490A204D83687A5A9(L_0, NULL);
@@ -7291,7 +7564,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_ByteCountCurrentDispat
 {
 	int32_t V_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___ByteCountCurrentDispatch_8;
 		V_0 = L_1;
@@ -7316,7 +7589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PhotonPeer_get_CommandInfoCurrentDi
 	String_t* V_0 = NULL;
 	String_t* G_B3_0 = NULL;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_1 = L_0->___CommandInCurrentDispatch_9;
 		if (L_1)
@@ -7332,7 +7605,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PhotonPeer_get_CommandInfoCurrentDi
 
 IL_0015:
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_3 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_3 = __this->___peerBase_53;
 		NullCheck(L_3);
 		NCommand_t47ACF759A20E471E2A0FCE81D3FA13937C981DA1* L_4 = L_3->___CommandInCurrentDispatch_9;
 		NullCheck(L_4);
@@ -7358,7 +7631,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_ByteCountLastOperation
 {
 	int32_t V_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___ByteCountLastOperation_7;
 		V_0 = L_1;
@@ -7435,7 +7708,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t PhotonPeer_get_PeerState_mFE3E3AA3BB9
 	uint8_t V_1 = 0;
 	int32_t G_B3_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		uint8_t L_1 = L_0->___peerConnectionState_6;
 		if ((!(((uint32_t)L_1) == ((uint32_t)3))))
@@ -7444,7 +7717,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t PhotonPeer_get_PeerState_mFE3E3AA3BB9
 		}
 	}
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_2 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_2 = __this->___peerBase_53;
 		NullCheck(L_2);
 		bool L_3 = L_2->___ApplicationIsInitialized_35;
 		G_B3_0 = ((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
@@ -7472,7 +7745,7 @@ IL_0020:
 
 IL_002a:
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_5 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_5 = __this->___peerBase_53;
 		NullCheck(L_5);
 		uint8_t L_6 = L_5->___peerConnectionState_6;
 		V_1 = L_6;
@@ -7490,7 +7763,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PhotonPeer_get_PeerID_m45C5EABD3528
 {
 	String_t* V_0 = NULL;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String ExitGames.Client.Photon.PeerBase::get_PeerID() */, L_0);
@@ -7509,7 +7782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_QueuedIncomingCommands
 {
 	int32_t V_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 ExitGames.Client.Photon.PeerBase::get_QueuedIncomingCommandsCount() */, L_0);
@@ -7528,7 +7801,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_QueuedOutgoingCommands
 {
 	int32_t V_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 ExitGames.Client.Photon.PeerBase::get_QueuedOutgoingCommandsCount() */, L_0);
@@ -7742,7 +8015,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_CrcEnabled_mDBB6D92402982
 
 IL_0010:
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_3 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_3 = __this->___peerBase_53;
 		NullCheck(L_3);
 		uint8_t L_4 = L_3->___peerConnectionState_6;
 		V_1 = (bool)((!(((uint32_t)L_4) <= ((uint32_t)0)))? 1 : 0);
@@ -7775,7 +8048,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_PacketLossByCrc_m623E7
 {
 	int32_t V_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___packetLossByCrc_10;
 		V_0 = L_1;
@@ -7793,7 +8066,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_PacketLossByChallenge_
 {
 	int32_t V_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___packetLossByChallenge_11;
 		V_0 = L_1;
@@ -7811,7 +8084,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_SentReliableCommandsCo
 {
 	int32_t V_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 ExitGames.Client.Photon.PeerBase::get_SentReliableCommandsCount() */, L_0);
@@ -7845,7 +8118,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_ResentReliableCommands
 		}
 	}
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_1 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_1 = __this->___peerBase_53;
 		NullCheck(((EnetPeer_tD564D9EBA7748312B4DFA76365AC936D646E9381*)CastclassClass((RuntimeObject*)L_1, EnetPeer_tD564D9EBA7748312B4DFA76365AC936D646E9381_il2cpp_TypeInfo_var)));
 		int32_t L_2 = ((EnetPeer_tD564D9EBA7748312B4DFA76365AC936D646E9381*)CastclassClass((RuntimeObject*)L_1, EnetPeer_tD564D9EBA7748312B4DFA76365AC936D646E9381_il2cpp_TypeInfo_var))->___reliableCommandsRepeated_63;
 		G_B3_0 = L_2;
@@ -7874,7 +8147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_DisconnectTimeout_mDE9
 {
 	int32_t V_0 = 0;
 	{
-		int32_t L_0 = __this->___disconnectTimeout_38;
+		int32_t L_0 = __this->___disconnectTimeout_39;
 		V_0 = L_0;
 		goto IL_000a;
 	}
@@ -7900,7 +8173,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_DisconnectTimeout_m716901
 		}
 	}
 	{
-		__this->___disconnectTimeout_38 = ((int32_t)10000);
+		__this->___disconnectTimeout_39 = ((int32_t)10000);
 		goto IL_0031;
 	}
 
@@ -7915,13 +8188,13 @@ IL_0018:
 		}
 	}
 	{
-		__this->___disconnectTimeout_38 = ((int32_t)65535);
+		__this->___disconnectTimeout_39 = ((int32_t)65535);
 	}
 
 IL_0031:
 	{
 		int32_t L_4 = ___value0;
-		__this->___disconnectTimeout_38 = L_4;
+		__this->___disconnectTimeout_39 = L_4;
 		return;
 	}
 }
@@ -7931,7 +8204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_ServerTimeInMilliSecon
 	int32_t V_0 = 0;
 	int32_t G_B3_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		bool L_1 = L_0->___serverTimeOffsetIsAvailable_15;
 		if (L_1)
@@ -7946,7 +8219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_ServerTimeInMilliSecon
 
 IL_0011:
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_2 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_2 = __this->___peerBase_53;
 		NullCheck(L_2);
 		int32_t L_3 = L_2->___serverTimeOffset_14;
 		int32_t L_4;
@@ -8016,7 +8289,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_ConnectionTime_mCD6026
 {
 	int32_t V_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = PeerBase_get_timeInt_m58B98F2C895A84331EE6E9CC340117F1DF7DBF6F(L_0, NULL);
@@ -8035,7 +8308,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_LastSendAckTime_m7904A
 {
 	int32_t V_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___timeLastSendAck_33;
 		V_0 = L_1;
@@ -8053,7 +8326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_LastSendOutgoingTime_m
 {
 	int32_t V_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___timeLastSendOutgoing_34;
 		V_0 = L_1;
@@ -8071,7 +8344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_LongestSentCall_mACBF6
 {
 	int32_t V_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___longestSentCall_32;
 		V_0 = L_1;
@@ -8088,7 +8361,7 @@ IL_000f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_LongestSentCall_m580B110615B4A91015C16B35DD741FEE84FB8669 (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, int32_t ___value0, const RuntimeMethod* method) 
 {
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		int32_t L_1 = ___value0;
 		NullCheck(L_0);
 		L_0->___longestSentCall_32 = L_1;
@@ -8100,7 +8373,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_RoundTripTime_mD58FA92
 {
 	int32_t V_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___roundTripTime_16;
 		V_0 = L_1;
@@ -8118,7 +8391,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_RoundTripTimeVariance_
 {
 	int32_t V_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___roundTripTimeVariance_17;
 		V_0 = L_1;
@@ -8136,7 +8409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_LastRoundTripTime_m2AC
 {
 	int32_t V_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___lastRoundTripTime_18;
 		V_0 = L_1;
@@ -8154,7 +8427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_TimestampOfLastSocketR
 {
 	int32_t V_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___timestampOfLastReceive_21;
 		V_0 = L_1;
@@ -8172,7 +8445,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PhotonPeer_get_ServerAddress_m457DB
 {
 	String_t* V_0 = NULL;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = PeerBase_get_ServerAddress_mB49A10CE97A4B3D6F5934FE9FA8A635A8DA16522_inline(L_0, NULL);
@@ -8208,7 +8481,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t PhotonPeer_get_UsedProtocol_m0C826B71
 {
 	uint8_t V_0 = 0;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		uint8_t L_1 = L_0->___usedTransportProtocol_2;
 		V_0 = L_1;
@@ -8225,7 +8498,7 @@ IL_000f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t PhotonPeer_get_TransportProtocol_mC3688A65F01A1BDB8B5CAFFAFAF5BA6980885AF8 (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) 
 {
 	{
-		uint8_t L_0 = __this->___U3CTransportProtocolU3Ek__BackingField_39;
+		uint8_t L_0 = __this->___U3CTransportProtocolU3Ek__BackingField_40;
 		return L_0;
 	}
 }
@@ -8234,7 +8507,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_TransportProtocol_mAF4EE9
 {
 	{
 		uint8_t L_0 = ___value0;
-		__this->___U3CTransportProtocolU3Ek__BackingField_39 = L_0;
+		__this->___U3CTransportProtocolU3Ek__BackingField_40 = L_0;
 		return;
 	}
 }
@@ -8284,7 +8557,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_IsSimulationEnabled_m273B
 
 IL_0016:
 	{
-		RuntimeObject* L_4 = __this->___SendOutgoingLockObject_53;
+		RuntimeObject* L_4 = __this->___SendOutgoingLockObject_54;
 		V_1 = L_4;
 		V_2 = (bool)0;
 	}
@@ -8339,7 +8612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetworkSimulationSet_t4BA8B34DF74B489FCB89281
 {
 	NetworkSimulationSet_t4BA8B34DF74B489FCB89281132F777080DBEAF49* V_0 = NULL;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		NetworkSimulationSet_t4BA8B34DF74B489FCB89281132F777080DBEAF49* L_1;
 		L_1 = PeerBase_get_NetworkSimulationSettings_mC086D6F425E4C02DF87A6295FB4E91517CB6F106(L_0, NULL);
@@ -8358,7 +8631,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_MaximumTransferUnit_mA
 {
 	int32_t V_0 = 0;
 	{
-		int32_t L_0 = __this->___mtu_41;
+		int32_t L_0 = __this->___mtu_42;
 		V_0 = L_0;
 		goto IL_000a;
 	}
@@ -8417,7 +8690,7 @@ IL_0033:
 IL_0048:
 	{
 		int32_t L_9 = ___value0;
-		__this->___mtu_41 = L_9;
+		__this->___mtu_42 = L_9;
 		return;
 	}
 }
@@ -8426,7 +8699,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_get_IsEncryptionAvailable_mDD
 {
 	bool V_0 = false;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		bool L_1 = L_0->___isEncryptionAvailable_36;
 		V_0 = L_1;
@@ -8443,7 +8716,7 @@ IL_000f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_get_IsSendingOnlyAcks_mD43DAEF10662BDAFF303AF607CE92EB2AB4C7001 (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) 
 {
 	{
-		bool L_0 = __this->___U3CIsSendingOnlyAcksU3Ek__BackingField_42;
+		bool L_0 = __this->___U3CIsSendingOnlyAcksU3Ek__BackingField_43;
 		return L_0;
 	}
 }
@@ -8452,7 +8725,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_IsSendingOnlyAcks_m516538
 {
 	{
 		bool L_0 = ___value0;
-		__this->___U3CIsSendingOnlyAcksU3Ek__BackingField_42 = L_0;
+		__this->___U3CIsSendingOnlyAcksU3Ek__BackingField_43 = L_0;
 		return;
 	}
 }
@@ -8460,7 +8733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_IsSendingOnlyAcks_m516538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* PhotonPeer_get_TrafficStatsIncoming_mFBFFDE72C315515EF874F92B67D135BEEE3E67D9 (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) 
 {
 	{
-		TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_0 = __this->___U3CTrafficStatsIncomingU3Ek__BackingField_47;
+		TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_0 = __this->___U3CTrafficStatsIncomingU3Ek__BackingField_48;
 		return L_0;
 	}
 }
@@ -8469,8 +8742,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_TrafficStatsIncoming_mE03
 {
 	{
 		TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_0 = ___value0;
-		__this->___U3CTrafficStatsIncomingU3Ek__BackingField_47 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrafficStatsIncomingU3Ek__BackingField_47), (void*)L_0);
+		__this->___U3CTrafficStatsIncomingU3Ek__BackingField_48 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrafficStatsIncomingU3Ek__BackingField_48), (void*)L_0);
 		return;
 	}
 }
@@ -8478,7 +8751,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_TrafficStatsIncoming_mE03
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* PhotonPeer_get_TrafficStatsOutgoing_mDD70068CDA34548046EF39295A045E978315AADE (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) 
 {
 	{
-		TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_0 = __this->___U3CTrafficStatsOutgoingU3Ek__BackingField_48;
+		TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_0 = __this->___U3CTrafficStatsOutgoingU3Ek__BackingField_49;
 		return L_0;
 	}
 }
@@ -8487,8 +8760,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_TrafficStatsOutgoing_mADB
 {
 	{
 		TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_0 = ___value0;
-		__this->___U3CTrafficStatsOutgoingU3Ek__BackingField_48 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrafficStatsOutgoingU3Ek__BackingField_48), (void*)L_0);
+		__this->___U3CTrafficStatsOutgoingU3Ek__BackingField_49 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrafficStatsOutgoingU3Ek__BackingField_49), (void*)L_0);
 		return;
 	}
 }
@@ -8496,7 +8769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_TrafficStatsOutgoing_mADB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9* PhotonPeer_get_TrafficStatsGameLevel_m83D92F2C803367552F09AD55007BAD250309ED27 (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) 
 {
 	{
-		TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9* L_0 = __this->___U3CTrafficStatsGameLevelU3Ek__BackingField_49;
+		TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9* L_0 = __this->___U3CTrafficStatsGameLevelU3Ek__BackingField_50;
 		return L_0;
 	}
 }
@@ -8505,8 +8778,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_TrafficStatsGameLevel_mE2
 {
 	{
 		TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9* L_0 = ___value0;
-		__this->___U3CTrafficStatsGameLevelU3Ek__BackingField_49 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrafficStatsGameLevelU3Ek__BackingField_49), (void*)L_0);
+		__this->___U3CTrafficStatsGameLevelU3Ek__BackingField_50 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrafficStatsGameLevelU3Ek__BackingField_50), (void*)L_0);
 		return;
 	}
 }
@@ -8516,7 +8789,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t PhotonPeer_get_TrafficStatsElapsedMs_
 	int64_t V_0 = 0;
 	int64_t G_B3_0 = 0;
 	{
-		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_0 = __this->___trafficStatsStopwatch_50;
+		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_0 = __this->___trafficStatsStopwatch_51;
 		if (L_0)
 		{
 			goto IL_000d;
@@ -8529,7 +8802,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t PhotonPeer_get_TrafficStatsElapsedMs_
 
 IL_000d:
 	{
-		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_1 = __this->___trafficStatsStopwatch_50;
+		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_1 = __this->___trafficStatsStopwatch_51;
 		NullCheck(L_1);
 		int64_t L_2;
 		L_2 = Stopwatch_get_ElapsedMilliseconds_m8D8E60ADEB47D008C06D8E57D28D41EAE07AECBF(L_1, NULL);
@@ -8553,7 +8826,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_get_TrafficStatsEnabled_mB7C4
 {
 	bool V_0 = false;
 	{
-		bool L_0 = __this->___trafficStatsEnabled_51;
+		bool L_0 = __this->___trafficStatsEnabled_52;
 		V_0 = L_0;
 		goto IL_000a;
 	}
@@ -8572,7 +8845,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_TrafficStatsEnabled_mACC1
 	bool V_2 = false;
 	bool V_3 = false;
 	{
-		bool L_0 = __this->___trafficStatsEnabled_51;
+		bool L_0 = __this->___trafficStatsEnabled_52;
 		bool L_1 = ___value0;
 		V_0 = (bool)((((int32_t)L_0) == ((int32_t)L_1))? 1 : 0);
 		bool L_2 = V_0;
@@ -8588,8 +8861,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_TrafficStatsEnabled_mACC1
 IL_0011:
 	{
 		bool L_3 = ___value0;
-		__this->___trafficStatsEnabled_51 = L_3;
-		bool L_4 = __this->___trafficStatsEnabled_51;
+		__this->___trafficStatsEnabled_52 = L_3;
+		bool L_4 = __this->___trafficStatsEnabled_52;
 		V_1 = L_4;
 		bool L_5 = V_1;
 		if (!L_5)
@@ -8598,7 +8871,7 @@ IL_0011:
 		}
 	}
 	{
-		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_6 = __this->___trafficStatsStopwatch_50;
+		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_6 = __this->___trafficStatsStopwatch_51;
 		V_2 = (bool)((((RuntimeObject*)(Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043*)L_6) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_7 = V_2;
 		if (!L_7)
@@ -8612,7 +8885,7 @@ IL_0011:
 
 IL_0039:
 	{
-		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_8 = __this->___trafficStatsStopwatch_50;
+		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_8 = __this->___trafficStatsStopwatch_51;
 		NullCheck(L_8);
 		Stopwatch_Start_m35906A38C7D336CF9DD35854C7E170D762A55915(L_8, NULL);
 		goto IL_0063;
@@ -8620,7 +8893,7 @@ IL_0039:
 
 IL_0048:
 	{
-		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_9 = __this->___trafficStatsStopwatch_50;
+		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_9 = __this->___trafficStatsStopwatch_51;
 		V_3 = (bool)((!(((RuntimeObject*)(Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043*)L_9) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_10 = V_3;
 		if (!L_10)
@@ -8629,7 +8902,7 @@ IL_0048:
 		}
 	}
 	{
-		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_11 = __this->___trafficStatsStopwatch_50;
+		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_11 = __this->___trafficStatsStopwatch_51;
 		NullCheck(L_11);
 		Stopwatch_Stop_m8F2A2EFD9D7D5B4180A5E5379E5443864618D7DC(L_11, NULL);
 	}
@@ -8663,7 +8936,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_InitializeTrafficStats_mBC2C6
 	bool V_0 = false;
 	bool V_1 = false;
 	{
-		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_0 = __this->___trafficStatsStopwatch_50;
+		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_0 = __this->___trafficStatsStopwatch_51;
 		V_0 = (bool)((((RuntimeObject*)(Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_1 = V_0;
 		if (!L_1)
@@ -8675,40 +8948,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_InitializeTrafficStats_mBC2C6
 		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_2 = (Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043*)il2cpp_codegen_object_new(Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
 		Stopwatch__ctor_mAFE6B2F45CF1C3469EF6D5307972BC098B473D0A(L_2, NULL);
-		__this->___trafficStatsStopwatch_50 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___trafficStatsStopwatch_50), (void*)L_2);
+		__this->___trafficStatsStopwatch_51 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___trafficStatsStopwatch_51), (void*)L_2);
 		goto IL_002b;
 	}
 
 IL_001d:
 	{
-		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_3 = __this->___trafficStatsStopwatch_50;
+		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_3 = __this->___trafficStatsStopwatch_51;
 		NullCheck(L_3);
 		Stopwatch_Reset_mF22DE61FDE7FF5825C750D2F6482B591BDC715FA(L_3, NULL);
 	}
 
 IL_002b:
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_4 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_4 = __this->___peerBase_53;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->___TrafficPackageHeaderSize_45;
 		TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_6 = (TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503*)il2cpp_codegen_object_new(TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503_il2cpp_TypeInfo_var);
 		NullCheck(L_6);
 		TrafficStats__ctor_m5A22A339466F49270AA9099AC64198C00E453B4B(L_6, L_5, NULL);
 		PhotonPeer_set_TrafficStatsIncoming_mE0361077C63D519B2C6F64D5C576D3AF172C98CC_inline(__this, L_6, NULL);
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_7 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_7 = __this->___peerBase_53;
 		NullCheck(L_7);
 		int32_t L_8 = L_7->___TrafficPackageHeaderSize_45;
 		TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_9 = (TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503*)il2cpp_codegen_object_new(TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503_il2cpp_TypeInfo_var);
 		NullCheck(L_9);
 		TrafficStats__ctor_m5A22A339466F49270AA9099AC64198C00E453B4B(L_9, L_8, NULL);
 		PhotonPeer_set_TrafficStatsOutgoing_mADB5735546DF76167F761F392A9DAC7D35809BB7_inline(__this, L_9, NULL);
-		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_10 = __this->___trafficStatsStopwatch_50;
+		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_10 = __this->___trafficStatsStopwatch_51;
 		TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9* L_11 = (TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9*)il2cpp_codegen_object_new(TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9_il2cpp_TypeInfo_var);
 		NullCheck(L_11);
 		TrafficStatsGameLevel__ctor_m923164041302CC673DE025E588418A7D12598D6B(L_11, L_10, NULL);
 		PhotonPeer_set_TrafficStatsGameLevel_mE2B779FDD3532990EA845275C81A7F06DCD8341D_inline(__this, L_11, NULL);
-		bool L_12 = __this->___trafficStatsEnabled_51;
+		bool L_12 = __this->___trafficStatsEnabled_52;
 		V_1 = L_12;
 		bool L_13 = V_1;
 		if (!L_13)
@@ -8717,7 +8990,7 @@ IL_002b:
 		}
 	}
 	{
-		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_14 = __this->___trafficStatsStopwatch_50;
+		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_14 = __this->___trafficStatsStopwatch_51;
 		NullCheck(L_14);
 		Stopwatch_Start_m35906A38C7D336CF9DD35854C7E170D762A55915(L_14, NULL);
 	}
@@ -8909,7 +9182,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PhotonPeer_get_PayloadEncryptorType_m
 {
 	Type_t* V_0 = NULL;
 	{
-		Type_t* L_0 = __this->___payloadEncryptorType_56;
+		Type_t* L_0 = __this->___payloadEncryptorType_57;
 		V_0 = L_0;
 		goto IL_000a;
 	}
@@ -8977,8 +9250,8 @@ IL_001f:
 	}
 	{
 		Type_t* L_8 = ___value0;
-		__this->___payloadEncryptorType_56 = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___payloadEncryptorType_56), (void*)L_8);
+		__this->___payloadEncryptorType_57 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___payloadEncryptorType_57), (void*)L_8);
 		goto IL_0044;
 	}
 
@@ -9000,7 +9273,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PhotonPeer_get_EncryptorType_mE8B13B4
 {
 	Type_t* V_0 = NULL;
 	{
-		Type_t* L_0 = __this->___encryptorType_58;
+		Type_t* L_0 = __this->___encryptorType_59;
 		V_0 = L_0;
 		goto IL_000a;
 	}
@@ -9068,8 +9341,8 @@ IL_001f:
 	}
 	{
 		Type_t* L_8 = ___value0;
-		__this->___encryptorType_58 = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___encryptorType_58), (void*)L_8);
+		__this->___encryptorType_59 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___encryptorType_59), (void*)L_8);
 		goto IL_0044;
 	}
 
@@ -9090,7 +9363,7 @@ IL_0044:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_CountDiscarded_m935B1A3980DDD368873E3865ED091C2D3E60A8EE (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = __this->___U3CCountDiscardedU3Ek__BackingField_60;
+		int32_t L_0 = __this->___U3CCountDiscardedU3Ek__BackingField_61;
 		return L_0;
 	}
 }
@@ -9099,7 +9372,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_CountDiscarded_mA149B78E4
 {
 	{
 		int32_t L_0 = ___value0;
-		__this->___U3CCountDiscardedU3Ek__BackingField_60 = L_0;
+		__this->___U3CCountDiscardedU3Ek__BackingField_61 = L_0;
 		return;
 	}
 }
@@ -9107,7 +9380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_CountDiscarded_mA149B78E4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonPeer_get_DeltaUnreliableNumber_m9E06E285070823225BF07B9888B20531FCB9E564 (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = __this->___U3CDeltaUnreliableNumberU3Ek__BackingField_61;
+		int32_t L_0 = __this->___U3CDeltaUnreliableNumberU3Ek__BackingField_62;
 		return L_0;
 	}
 }
@@ -9116,7 +9389,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_set_DeltaUnreliableNumber_m27
 {
 	{
 		int32_t L_0 = ___value0;
-		__this->___U3CDeltaUnreliableNumberU3Ek__BackingField_61 = L_0;
+		__this->___U3CDeltaUnreliableNumberU3Ek__BackingField_62 = L_0;
 		return;
 	}
 }
@@ -9150,24 +9423,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer__ctor_mF8FA39905A8224500C063D
 		__this->___SentCountAllowance_35 = 7;
 		__this->___InitialResendTimeMax_36 = ((int32_t)400);
 		__this->___TimePingInterval_37 = ((int32_t)1000);
-		__this->___disconnectTimeout_38 = ((int32_t)10000);
-		__this->___mtu_41 = ((int32_t)1200);
-		__this->___trafficStatsEnabled_51 = (bool)0;
+		__this->___PingUsedAsInit_38 = (bool)0;
+		__this->___disconnectTimeout_39 = ((int32_t)10000);
+		__this->___mtu_42 = ((int32_t)1200);
+		__this->___trafficStatsEnabled_52 = (bool)0;
 		RuntimeObject* L_0 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_0, NULL);
-		__this->___SendOutgoingLockObject_53 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___SendOutgoingLockObject_53), (void*)L_0);
+		__this->___SendOutgoingLockObject_54 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SendOutgoingLockObject_54), (void*)L_0);
 		RuntimeObject* L_1 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
 		NullCheck(L_1);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_1, NULL);
-		__this->___DispatchLockObject_54 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___DispatchLockObject_54), (void*)L_1);
+		__this->___DispatchLockObject_55 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___DispatchLockObject_55), (void*)L_1);
 		RuntimeObject* L_2 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_2, NULL);
-		__this->___EnqueueLock_55 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___EnqueueLock_55), (void*)L_2);
+		__this->___EnqueueLock_56 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___EnqueueLock_56), (void*)L_2);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		uint8_t L_3 = ___protocolType0;
 		PhotonPeer_set_TransportProtocol_mAF4EE9345BAC9F2E8540CE79F8A791BD3E13014C_inline(__this, L_3, NULL);
@@ -9286,7 +9560,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_Connect_m307DD13A79BD0EB19543
 	int32_t G_B16_4 = 0;
 	RuntimeObject* G_B16_5 = NULL;
 	{
-		RuntimeObject* L_0 = __this->___DispatchLockObject_54;
+		RuntimeObject* L_0 = __this->___DispatchLockObject_55;
 		V_0 = L_0;
 		V_1 = (bool)0;
 	}
@@ -9294,13 +9568,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_Connect_m307DD13A79BD0EB19543
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_0208:
+FINALLY_020f:
 			{// begin finally (depth: 1)
 				{
 					bool L_1 = V_1;
 					if (!L_1)
 					{
-						goto IL_0212;
+						goto IL_0219;
 					}
 				}
 				{
@@ -9308,7 +9582,7 @@ FINALLY_0208:
 					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_2, NULL);
 				}
 
-IL_0212:
+IL_0219:
 				{
 					return;
 				}
@@ -9319,7 +9593,7 @@ IL_0212:
 			{
 				RuntimeObject* L_3 = V_0;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
-				RuntimeObject* L_4 = __this->___SendOutgoingLockObject_53;
+				RuntimeObject* L_4 = __this->___SendOutgoingLockObject_54;
 				V_2 = L_4;
 				V_3 = (bool)0;
 			}
@@ -9327,13 +9601,13 @@ IL_0212:
 				auto __finallyBlock = il2cpp::utils::Finally([&]
 				{
 
-FINALLY_01fd_1:
+FINALLY_0204_1:
 					{// begin finally (depth: 2)
 						{
 							bool L_5 = V_3;
 							if (!L_5)
 							{
-								goto IL_0207_1;
+								goto IL_020e_1;
 							}
 						}
 						{
@@ -9341,7 +9615,7 @@ FINALLY_01fd_1:
 							Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_6, NULL);
 						}
 
-IL_0207_1:
+IL_020e_1:
 						{
 							return;
 						}
@@ -9352,14 +9626,14 @@ IL_0207_1:
 					{
 						RuntimeObject* L_7 = V_2;
 						Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_7, (&V_3), NULL);
-						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_8 = __this->___peerBase_52;
+						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_8 = __this->___peerBase_53;
 						if (!L_8)
 						{
 							goto IL_003f_2;
 						}
 					}
 					{
-						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_9 = __this->___peerBase_52;
+						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_9 = __this->___peerBase_53;
 						NullCheck(L_9);
 						uint8_t L_10 = L_9->___peerConnectionState_6;
 						G_B5_0 = ((!(((uint32_t)L_10) <= ((uint32_t)0)))? 1 : 0);
@@ -9386,7 +9660,7 @@ IL_0040_2:
 						NullCheck(L_12);
 						InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_tCF670245092F1C9F0BB8F83AE0742E9473417E6D_il2cpp_TypeInfo_var, L_12, 2, _stringLiteral7320E85A8DE6C28D8BEFAC38D01CE66FADFE0968);
 						V_6 = (bool)0;
-						goto IL_0213;
+						goto IL_021a;
 					}
 
 IL_0061_2:
@@ -9400,39 +9674,40 @@ IL_0061_2:
 						}
 					}
 					{
-						__this->___Encryptor_59 = (RuntimeObject*)NULL;
-						Il2CppCodeGenWriteBarrier((void**)(&__this->___Encryptor_59), (void*)(RuntimeObject*)NULL);
-						__this->___RandomizedSequenceNumbers_45 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
-						Il2CppCodeGenWriteBarrier((void**)(&__this->___RandomizedSequenceNumbers_45), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL);
-						__this->___RandomizeSequenceNumbers_44 = (bool)0;
-						__this->___GcmDatagramEncryption_46 = (bool)0;
+						__this->___Encryptor_60 = (RuntimeObject*)NULL;
+						Il2CppCodeGenWriteBarrier((void**)(&__this->___Encryptor_60), (void*)(RuntimeObject*)NULL);
+						__this->___RandomizedSequenceNumbers_46 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
+						Il2CppCodeGenWriteBarrier((void**)(&__this->___RandomizedSequenceNumbers_46), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL);
+						__this->___RandomizeSequenceNumbers_45 = (bool)0;
+						__this->___GcmDatagramEncryption_47 = (bool)0;
 					}
 
 IL_008a_2:
 					{
 						PhotonPeer_CreatePeerBase_m7908E7FF9B7DB4078A1C6973AC2CBF9A19D2E8A1(__this, NULL);
-						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_15 = __this->___peerBase_52;
+						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_15 = __this->___peerBase_53;
 						NullCheck(L_15);
 						VirtualActionInvoker0::Invoke(8 /* System.Void ExitGames.Client.Photon.PeerBase::Reset() */, L_15);
-						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_16 = __this->___peerBase_52;
+						__this->___PingUsedAsInit_38 = (bool)0;
+						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_16 = __this->___peerBase_53;
 						String_t* L_17 = ___serverAddress0;
 						NullCheck(L_16);
 						PeerBase_set_ServerAddress_m229B3EFFF8A4FA76DD0C9E13DF27324E7CC6885D_inline(L_16, L_17, NULL);
-						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_18 = __this->___peerBase_52;
+						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_18 = __this->___peerBase_53;
 						String_t* L_19 = ___proxyServerAddress1;
 						NullCheck(L_18);
 						PeerBase_set_ProxyServerAddress_mC1756E869CAEBD9D94F12B73786DB400307C1988_inline(L_18, L_19, NULL);
-						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_20 = __this->___peerBase_52;
+						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_20 = __this->___peerBase_53;
 						String_t* L_21 = ___appId2;
 						NullCheck(L_20);
 						L_20->___AppId_27 = L_21;
 						Il2CppCodeGenWriteBarrier((void**)(&L_20->___AppId_27), (void*)L_21);
-						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_22 = __this->___peerBase_52;
+						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_22 = __this->___peerBase_53;
 						RuntimeObject* L_23 = ___photonToken3;
 						NullCheck(L_22);
 						L_22->___PhotonToken_25 = L_23;
 						Il2CppCodeGenWriteBarrier((void**)(&L_22->___PhotonToken_25), (void*)L_23);
-						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_24 = __this->___peerBase_52;
+						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_24 = __this->___peerBase_53;
 						RuntimeObject* L_25 = ___customInitData4;
 						NullCheck(L_24);
 						L_24->___CustomInitData_26 = L_25;
@@ -9448,11 +9723,11 @@ IL_008a_2:
 						bool L_29 = V_8;
 						if (!L_29)
 						{
-							goto IL_0142_2;
+							goto IL_0149_2;
 						}
 					}
 					{
-						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_30 = __this->___peerBase_52;
+						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_30 = __this->___peerBase_53;
 						uint8_t L_31;
 						L_31 = PhotonPeer_get_TransportProtocol_mC3688A65F01A1BDB8B5CAFFAFAF5BA6980885AF8_inline(__this, NULL);
 						V_9 = L_31;
@@ -9468,22 +9743,22 @@ IL_008a_2:
 						NullCheck(L_30);
 						PeerBase_EnqueueDebugReturn_m8A6D9158E69A1F8236110E81489001905D199231(L_30, 1, L_36, NULL);
 						V_6 = (bool)0;
-						goto IL_0213;
+						goto IL_021a;
 					}
 
-IL_0142_2:
+IL_0149_2:
 					{
 						Type_t* L_37 = V_4;
 						PhotonPeer_set_SocketImplementation_mA6EB6E03CD0A4D2E278981CC11610F9078E34A61_inline(__this, L_37, NULL);
 					}
 					try
 					{// begin try (depth: 3)
-						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_38 = __this->___peerBase_52;
+						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_38 = __this->___peerBase_53;
 						Type_t* L_39;
 						L_39 = PhotonPeer_get_SocketImplementation_mE28201437EE67C611F6330E4D18AF46C9CFFC628_inline(__this, NULL);
 						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_40 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_41 = L_40;
-						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_42 = __this->___peerBase_52;
+						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_42 = __this->___peerBase_53;
 						NullCheck(L_41);
 						ArrayElementTypeCheck (L_41, L_42);
 						(L_41)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_42);
@@ -9492,19 +9767,19 @@ IL_0142_2:
 						NullCheck(L_38);
 						L_38->___PhotonSocket_3 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)CastclassClass((RuntimeObject*)L_43, IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34_il2cpp_TypeInfo_var));
 						Il2CppCodeGenWriteBarrier((void**)(&L_38->___PhotonSocket_3), (void*)((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34*)CastclassClass((RuntimeObject*)L_43, IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34_il2cpp_TypeInfo_var)));
-						goto IL_01e9_2;
+						goto IL_01f0_2;
 					}// end try (depth: 3)
 					catch(Il2CppExceptionWrapper& e)
 					{
 						if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 						{
 							IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-							goto CATCH_0179_2;
+							goto CATCH_0180_2;
 						}
 						throw e;
 					}
 
-CATCH_0179_2:
+CATCH_0180_2:
 					{// begin catch(System.Exception)
 						{
 							V_10 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
@@ -9558,7 +9833,7 @@ CATCH_0179_2:
 								G_B15_3 = L_56;
 								G_B15_4 = 1;
 								G_B15_5 = L_44;
-								goto IL_01d3_2;
+								goto IL_01da_2;
 							}
 						}
 						{
@@ -9568,10 +9843,10 @@ CATCH_0179_2:
 							G_B16_3 = G_B14_3;
 							G_B16_4 = G_B14_4;
 							G_B16_5 = G_B14_5;
-							goto IL_01d8_2;
+							goto IL_01df_2;
 						}
 
-IL_01d3_2:
+IL_01da_2:
 						{
 							NullCheck(G_B15_0);
 							String_t* L_59;
@@ -9584,7 +9859,7 @@ IL_01d3_2:
 							G_B16_5 = G_B15_5;
 						}
 
-IL_01d8_2:
+IL_01df_2:
 						{
 							NullCheck(G_B16_2);
 							ArrayElementTypeCheck (G_B16_2, G_B16_0);
@@ -9595,13 +9870,13 @@ IL_01d8_2:
 							InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&IPhotonPeerListener_tCF670245092F1C9F0BB8F83AE0742E9473417E6D_il2cpp_TypeInfo_var)), G_B16_5, G_B16_4, L_60);
 							V_6 = (bool)0;
 							IL2CPP_POP_ACTIVE_EXCEPTION();
-							goto IL_0213;
+							goto IL_021a;
 						}
 					}// end catch (depth: 3)
 
-IL_01e9_2:
+IL_01f0_2:
 					{
-						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_61 = __this->___peerBase_52;
+						PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_61 = __this->___peerBase_53;
 						String_t* L_62 = ___serverAddress0;
 						String_t* L_63 = ___proxyServerAddress1;
 						String_t* L_64 = ___appId2;
@@ -9610,7 +9885,7 @@ IL_01e9_2:
 						bool L_66;
 						L_66 = VirtualFuncInvoker4< bool, String_t*, String_t*, String_t*, RuntimeObject* >::Invoke(9 /* System.Boolean ExitGames.Client.Photon.PeerBase::Connect(System.String,System.String,System.String,System.Object) */, L_61, L_62, L_63, L_64, L_65);
 						V_6 = L_66;
-						goto IL_0213;
+						goto IL_021a;
 					}
 				}// end try (depth: 2)
 				catch(Il2CppExceptionWrapper& e)
@@ -9625,7 +9900,7 @@ IL_01e9_2:
 		}
 	}
 
-IL_0213:
+IL_021a:
 	{
 		bool L_67 = V_6;
 		return L_67;
@@ -9676,7 +9951,7 @@ IL_0010:
 
 IL_0018:
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_4 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_4 = __this->___peerBase_53;
 		V_0 = ((TPeer_t760747CAFC06B43A930E033172A1FEF042FCF694*)IsInstClass((RuntimeObject*)L_4, TPeer_t760747CAFC06B43A930E033172A1FEF042FCF694_il2cpp_TypeInfo_var));
 		TPeer_t760747CAFC06B43A930E033172A1FEF042FCF694* L_5 = V_0;
 		V_3 = (bool)((((RuntimeObject*)(TPeer_t760747CAFC06B43A930E033172A1FEF042FCF694*)L_5) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
@@ -9692,8 +9967,8 @@ IL_0018:
 		TPeer__ctor_m9136E1467838B691AFF69734FCB9E78CFDB3AD0F(L_7, NULL);
 		V_0 = L_7;
 		TPeer_t760747CAFC06B43A930E033172A1FEF042FCF694* L_8 = V_0;
-		__this->___peerBase_52 = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___peerBase_52), (void*)L_8);
+		__this->___peerBase_53 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___peerBase_53), (void*)L_8);
 	}
 
 IL_003b:
@@ -9708,7 +9983,7 @@ IL_003b:
 
 IL_004c:
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_11 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_11 = __this->___peerBase_53;
 		V_4 = (bool)((((int32_t)((!(((RuntimeObject*)(EnetPeer_tD564D9EBA7748312B4DFA76365AC936D646E9381*)((EnetPeer_tD564D9EBA7748312B4DFA76365AC936D646E9381*)IsInstClass((RuntimeObject*)L_11, EnetPeer_tD564D9EBA7748312B4DFA76365AC936D646E9381_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		bool L_12 = V_4;
 		if (!L_12)
@@ -9720,8 +9995,8 @@ IL_004c:
 		EnetPeer_tD564D9EBA7748312B4DFA76365AC936D646E9381* L_13 = (EnetPeer_tD564D9EBA7748312B4DFA76365AC936D646E9381*)il2cpp_codegen_object_new(EnetPeer_tD564D9EBA7748312B4DFA76365AC936D646E9381_il2cpp_TypeInfo_var);
 		NullCheck(L_13);
 		EnetPeer__ctor_mF325B1652BDE728D7240978C99A8F30FCBD5BE87(L_13, NULL);
-		__this->___peerBase_52 = L_13;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___peerBase_52), (void*)L_13);
+		__this->___peerBase_53 = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___peerBase_53), (void*)L_13);
 	}
 
 IL_0070:
@@ -9731,11 +10006,11 @@ IL_0070:
 
 IL_0072:
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_14 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_14 = __this->___peerBase_53;
 		NullCheck(L_14);
 		L_14->___photonPeer_0 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_14->___photonPeer_0), (void*)__this);
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_15 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_15 = __this->___peerBase_53;
 		uint8_t L_16;
 		L_16 = PhotonPeer_get_TransportProtocol_mC3688A65F01A1BDB8B5CAFFAFAF5BA6980885AF8_inline(__this, NULL);
 		NullCheck(L_15);
@@ -9751,7 +10026,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_Disconnect_mEE6C8D45726908DB2
 	RuntimeObject* V_2 = NULL;
 	bool V_3 = false;
 	{
-		RuntimeObject* L_0 = __this->___DispatchLockObject_54;
+		RuntimeObject* L_0 = __this->___DispatchLockObject_55;
 		V_0 = L_0;
 		V_1 = (bool)0;
 	}
@@ -9784,7 +10059,7 @@ IL_004e:
 			{
 				RuntimeObject* L_3 = V_0;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
-				RuntimeObject* L_4 = __this->___SendOutgoingLockObject_53;
+				RuntimeObject* L_4 = __this->___SendOutgoingLockObject_54;
 				V_2 = L_4;
 				V_3 = (bool)0;
 			}
@@ -9816,7 +10091,7 @@ IL_0040_1:
 				{// begin try (depth: 2)
 					RuntimeObject* L_7 = V_2;
 					Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_7, (&V_3), NULL);
-					PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_8 = __this->___peerBase_52;
+					PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_8 = __this->___peerBase_53;
 					NullCheck(L_8);
 					VirtualActionInvoker0::Invoke(11 /* System.Void ExitGames.Client.Photon.PeerBase::Disconnect() */, L_8);
 					goto IL_0041_1;
@@ -9876,7 +10151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_StopThread_m1D697405E78F9121D
 	RuntimeObject* V_2 = NULL;
 	bool V_3 = false;
 	{
-		RuntimeObject* L_0 = __this->___DispatchLockObject_54;
+		RuntimeObject* L_0 = __this->___DispatchLockObject_55;
 		V_0 = L_0;
 		V_1 = (bool)0;
 	}
@@ -9909,7 +10184,7 @@ IL_004e:
 			{
 				RuntimeObject* L_3 = V_0;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
-				RuntimeObject* L_4 = __this->___SendOutgoingLockObject_53;
+				RuntimeObject* L_4 = __this->___SendOutgoingLockObject_54;
 				V_2 = L_4;
 				V_3 = (bool)0;
 			}
@@ -9941,7 +10216,7 @@ IL_0040_1:
 				{// begin try (depth: 2)
 					RuntimeObject* L_7 = V_2;
 					Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_7, (&V_3), NULL);
-					PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_8 = __this->___peerBase_52;
+					PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_8 = __this->___peerBase_53;
 					NullCheck(L_8);
 					VirtualActionInvoker0::Invoke(12 /* System.Void ExitGames.Client.Photon.PeerBase::StopConnection() */, L_8);
 					goto IL_0041_1;
@@ -9972,7 +10247,7 @@ IL_004f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_FetchServerTimestamp_m71F67149B17C6B449057D5222CBA32E952071D8B (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) 
 {
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
 		NullCheck(L_0);
 		VirtualActionInvoker0::Invoke(13 /* System.Void ExitGames.Client.Photon.PeerBase::FetchServerTimestamp() */, L_0);
 		return;
@@ -9985,7 +10260,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_EstablishEncryption_m85A9EC5C
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonPeer_U3CEstablishEncryptionU3Eb__220_0_m8064421E85E4D9AE31FDCD7E95764B9DF1182AF3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonPeer_U3CEstablishEncryptionU3Eb__223_0_m991EA7172A89A1B515D03EAA40F04A01B7B05B6D_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SupportClass_t32D0DFFDDE8571589E7CEE5BEA6955AD56E8D4A7_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -9995,7 +10270,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_EstablishEncryption_m85A9EC5C
 	bool V_1 = false;
 	{
 		il2cpp_codegen_runtime_class_init_inline(PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_il2cpp_TypeInfo_var);
-		bool L_0 = ((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_StaticFields*)il2cpp_codegen_static_fields_for(PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_il2cpp_TypeInfo_var))->___AsyncKeyExchange_43;
+		bool L_0 = ((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_StaticFields*)il2cpp_codegen_static_fields_for(PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_il2cpp_TypeInfo_var))->___AsyncKeyExchange_44;
 		V_0 = L_0;
 		bool L_1 = V_0;
 		if (!L_1)
@@ -10006,7 +10281,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_EstablishEncryption_m85A9EC5C
 	{
 		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_2 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
-		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_2, __this, (intptr_t)((void*)PhotonPeer_U3CEstablishEncryptionU3Eb__220_0_m8064421E85E4D9AE31FDCD7E95764B9DF1182AF3_RuntimeMethod_var), NULL);
+		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_2, __this, (intptr_t)((void*)PhotonPeer_U3CEstablishEncryptionU3Eb__223_0_m991EA7172A89A1B515D03EAA40F04A01B7B05B6D_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(SupportClass_t32D0DFFDDE8571589E7CEE5BEA6955AD56E8D4A7_il2cpp_TypeInfo_var);
 		uint8_t L_3;
 		L_3 = SupportClass_StartBackgroundCalls_m42B198ADEDAE9A907D4931759B4C1D5AC0F7B329(L_2, ((int32_t)100), _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -10016,8 +10291,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_EstablishEncryption_m85A9EC5C
 
 IL_0028:
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_4 = __this->___peerBase_52;
-		RuntimeObject* L_5 = __this->___SendOutgoingLockObject_53;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_4 = __this->___peerBase_53;
+		RuntimeObject* L_5 = __this->___SendOutgoingLockObject_54;
 		NullCheck(L_4);
 		bool L_6;
 		L_6 = PeerBase_ExchangeKeysForEncryption_mEE8DB9194700A135FD9A9FB39A03354AC063B13D(L_4, L_5, NULL);
@@ -10103,9 +10378,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_InitDatagramEncryption_m32B89
 			L_3 = PhotonPeer_get_EncryptorType_mE8B13B417C653487B8D2293581B013CBD30B4101(__this, NULL);
 			RuntimeObject* L_4;
 			L_4 = Activator_CreateInstance_mFF030428C64FDDFACC74DFAC97388A1C628BFBCF(L_3, NULL);
-			__this->___Encryptor_59 = ((RuntimeObject*)Castclass((RuntimeObject*)L_4, IPhotonEncryptor_tACE5277867F34445F8CAB737A6C60770A74FE635_il2cpp_TypeInfo_var));
-			Il2CppCodeGenWriteBarrier((void**)(&__this->___Encryptor_59), (void*)((RuntimeObject*)Castclass((RuntimeObject*)L_4, IPhotonEncryptor_tACE5277867F34445F8CAB737A6C60770A74FE635_il2cpp_TypeInfo_var)));
-			RuntimeObject* L_5 = __this->___Encryptor_59;
+			__this->___Encryptor_60 = ((RuntimeObject*)Castclass((RuntimeObject*)L_4, IPhotonEncryptor_tACE5277867F34445F8CAB737A6C60770A74FE635_il2cpp_TypeInfo_var));
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___Encryptor_60), (void*)((RuntimeObject*)Castclass((RuntimeObject*)L_4, IPhotonEncryptor_tACE5277867F34445F8CAB737A6C60770A74FE635_il2cpp_TypeInfo_var)));
+			RuntimeObject* L_5 = __this->___Encryptor_60;
 			V_1 = (bool)((((RuntimeObject*)(RuntimeObject*)L_5) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 			bool L_6 = V_1;
 			if (!L_6)
@@ -10192,7 +10467,7 @@ IL_0076:
 
 IL_0077:
 	{
-		RuntimeObject* L_13 = __this->___Encryptor_59;
+		RuntimeObject* L_13 = __this->___Encryptor_60;
 		V_3 = (bool)((((RuntimeObject*)(RuntimeObject*)L_13) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_14 = V_3;
 		if (!L_14)
@@ -10204,13 +10479,13 @@ IL_0077:
 		EncryptorNet_tBB295B3BD0B56E2FA757A5FD38280C962E985214* L_15 = (EncryptorNet_tBB295B3BD0B56E2FA757A5FD38280C962E985214*)il2cpp_codegen_object_new(EncryptorNet_tBB295B3BD0B56E2FA757A5FD38280C962E985214_il2cpp_TypeInfo_var);
 		NullCheck(L_15);
 		EncryptorNet__ctor_m2957F804DA7D56350E57F5D63DD2E79AA7F57963(L_15, NULL);
-		__this->___Encryptor_59 = L_15;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___Encryptor_59), (void*)L_15);
+		__this->___Encryptor_60 = L_15;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Encryptor_60), (void*)L_15);
 	}
 
 IL_0091:
 	{
-		RuntimeObject* L_16 = __this->___Encryptor_59;
+		RuntimeObject* L_16 = __this->___Encryptor_60;
 		V_4 = (bool)((((RuntimeObject*)(RuntimeObject*)L_16) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_17 = V_4;
 		if (!L_17)
@@ -10229,7 +10504,7 @@ IL_00ac:
 	{
 		RuntimeObject* L_19;
 		L_19 = PhotonPeer_get_Listener_mB769F69826EC32376B6FB257FEF8B7AC7881B971_inline(__this, NULL);
-		RuntimeObject* L_20 = __this->___Encryptor_59;
+		RuntimeObject* L_20 = __this->___Encryptor_60;
 		NullCheck(L_20);
 		Type_t* L_21;
 		L_21 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_20, NULL);
@@ -10285,11 +10560,11 @@ IL_00d0:
 		L_29 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral30E5724F525D340FDB525A466D6BFDEF0CDF3E63, L_27, _stringLiteralBE88536CAF0A93F3E73938C34CF81E424272DF2E, L_28, NULL);
 		NullCheck(L_26);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_tCF670245092F1C9F0BB8F83AE0742E9473417E6D_il2cpp_TypeInfo_var, L_26, 3, L_29);
-		RuntimeObject* L_30 = __this->___Encryptor_59;
+		RuntimeObject* L_30 = __this->___Encryptor_60;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_31 = ___encryptionSecret0;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_32 = ___hmacSecret1;
 		bool L_33 = ___chainingModeGCM3;
-		int32_t L_34 = __this->___mtu_41;
+		int32_t L_34 = __this->___mtu_42;
 		NullCheck(L_30);
 		InterfaceActionInvoker5< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, bool, int32_t >::Invoke(0 /* System.Void ExitGames.Client.Photon.Encryption.IPhotonEncryptor::Init(System.Byte[],System.Byte[],System.Byte[],System.Boolean,System.Int32) */, IPhotonEncryptor_tACE5277867F34445F8CAB737A6C60770A74FE635_il2cpp_TypeInfo_var, L_30, L_31, L_32, (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL, L_33, L_34);
 		bool L_35 = ___randomizedSequenceNumbers2;
@@ -10302,11 +10577,11 @@ IL_00d0:
 	}
 	{
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_37 = ___encryptionSecret0;
-		__this->___RandomizedSequenceNumbers_45 = L_37;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___RandomizedSequenceNumbers_45), (void*)L_37);
-		__this->___RandomizeSequenceNumbers_44 = (bool)1;
+		__this->___RandomizedSequenceNumbers_46 = L_37;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___RandomizedSequenceNumbers_46), (void*)L_37);
+		__this->___RandomizeSequenceNumbers_45 = (bool)1;
 		bool L_38 = ___chainingModeGCM3;
-		__this->___GcmDatagramEncryption_46 = L_38;
+		__this->___GcmDatagramEncryption_47 = L_38;
 	}
 
 IL_014b:
@@ -10326,8 +10601,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer_InitPayloadEncryption_mE95E05
 {
 	{
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___secret0;
-		__this->___PayloadEncryptionSecret_57 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___PayloadEncryptionSecret_57), (void*)L_0);
+		__this->___PayloadEncryptionSecret_58 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___PayloadEncryptionSecret_58), (void*)L_0);
 		return;
 	}
 }
@@ -10404,7 +10679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_SendOutgoingCommands_m6777CFA
 
 IL_0019:
 	{
-		RuntimeObject* L_3 = __this->___SendOutgoingLockObject_53;
+		RuntimeObject* L_3 = __this->___SendOutgoingLockObject_54;
 		V_1 = L_3;
 		V_2 = (bool)0;
 	}
@@ -10436,7 +10711,7 @@ IL_0044:
 		{// begin try (depth: 1)
 			RuntimeObject* L_6 = V_1;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_6, (&V_2), NULL);
-			PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_7 = __this->___peerBase_52;
+			PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_7 = __this->___peerBase_53;
 			NullCheck(L_7);
 			bool L_8;
 			L_8 = VirtualFuncInvoker0< bool >::Invoke(16 /* System.Boolean ExitGames.Client.Photon.PeerBase::SendOutgoingCommands() */, L_7);
@@ -10481,7 +10756,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_SendAcksOnly_m68F4D53EAAFCF87
 
 IL_0019:
 	{
-		RuntimeObject* L_3 = __this->___SendOutgoingLockObject_53;
+		RuntimeObject* L_3 = __this->___SendOutgoingLockObject_54;
 		V_1 = L_3;
 		V_2 = (bool)0;
 	}
@@ -10513,7 +10788,7 @@ IL_0044:
 		{// begin try (depth: 1)
 			RuntimeObject* L_6 = V_1;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_6, (&V_2), NULL);
-			PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_7 = __this->___peerBase_52;
+			PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_7 = __this->___peerBase_53;
 			NullCheck(L_7);
 			bool L_8;
 			L_8 = VirtualFuncInvoker0< bool >::Invoke(17 /* System.Boolean ExitGames.Client.Photon.PeerBase::SendAcksOnly() */, L_7);
@@ -10558,7 +10833,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_DispatchIncomingCommands_m30F
 
 IL_0019:
 	{
-		RuntimeObject* L_3 = __this->___DispatchLockObject_54;
+		RuntimeObject* L_3 = __this->___DispatchLockObject_55;
 		V_1 = L_3;
 		V_2 = (bool)0;
 	}
@@ -10590,10 +10865,10 @@ IL_0050:
 		{// begin try (depth: 1)
 			RuntimeObject* L_6 = V_1;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_6, (&V_2), NULL);
-			PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_7 = __this->___peerBase_52;
+			PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_7 = __this->___peerBase_53;
 			NullCheck(L_7);
 			L_7->___ByteCountCurrentDispatch_8 = 0;
-			PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_8 = __this->___peerBase_52;
+			PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_8 = __this->___peerBase_53;
 			NullCheck(L_8);
 			bool L_9;
 			L_9 = VirtualFuncInvoker0< bool >::Invoke(19 /* System.Boolean ExitGames.Client.Photon.PeerBase::DispatchIncomingCommands() */, L_8);
@@ -10655,7 +10930,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_SendOperation_m4B2A47D53B4B34
 		}
 	}
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_3 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_3 = __this->___peerBase_53;
 		NullCheck(L_3);
 		uint8_t L_4 = L_3->___usedTransportProtocol_2;
 		G_B4_0 = ((((int32_t)((((int32_t)L_4) == ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -10685,7 +10960,7 @@ IL_0025:
 
 IL_0035:
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_7 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_7 = __this->___peerBase_53;
 		NullCheck(L_7);
 		uint8_t L_8 = L_7->___peerConnectionState_6;
 		V_1 = (bool)((((int32_t)((((int32_t)L_8) == ((int32_t)3))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -10709,7 +10984,7 @@ IL_0035:
 		L_12 = PhotonPeer_get_Listener_mB769F69826EC32376B6FB257FEF8B7AC7881B971_inline(__this, NULL);
 		String_t* L_13;
 		L_13 = Byte_ToString_mB80CE094B94215119578E4D796566E71D7277EE4((&___operationCode0), NULL);
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_14 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_14 = __this->___peerBase_53;
 		NullCheck(L_14);
 		uint8_t* L_15 = (&L_14->___peerConnectionState_6);
 		Il2CppFakeBox<uint8_t> L_16(ConnectionStateValue_tE2E514D341A8EC31202D5F056037C4BED4B54921_il2cpp_TypeInfo_var, L_15);
@@ -10800,7 +11075,7 @@ IL_0127:
 
 IL_013c:
 	{
-		RuntimeObject* L_39 = __this->___EnqueueLock_55;
+		RuntimeObject* L_39 = __this->___EnqueueLock_56;
 		V_6 = L_39;
 		V_7 = (bool)0;
 	}
@@ -10832,7 +11107,7 @@ IL_0185:
 		{// begin try (depth: 1)
 			RuntimeObject* L_42 = V_6;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_42, (&V_7), NULL);
-			PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_43 = __this->___peerBase_52;
+			PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_43 = __this->___peerBase_53;
 			uint8_t L_44 = ___operationCode0;
 			Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_45 = ___operationParameters1;
 			SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 L_46 = ___sendOptions2;
@@ -10841,7 +11116,7 @@ IL_0185:
 			StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_48;
 			L_48 = PeerBase_SerializeOperationToMessage_m0AE5BF6FB6330A2116D7F313DA8C231F57089A5E(L_43, L_44, L_45, 2, L_47, NULL);
 			V_8 = L_48;
-			PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_49 = __this->___peerBase_52;
+			PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_49 = __this->___peerBase_53;
 			StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_50 = V_8;
 			SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 L_51 = ___sendOptions2;
 			NullCheck(L_49);
@@ -10905,7 +11180,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_SendOperation_m399D773432691B
 		}
 	}
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_3 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_3 = __this->___peerBase_53;
 		NullCheck(L_3);
 		uint8_t L_4 = L_3->___usedTransportProtocol_2;
 		G_B4_0 = ((((int32_t)((((int32_t)L_4) == ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -10935,7 +11210,7 @@ IL_0025:
 
 IL_0035:
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_7 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_7 = __this->___peerBase_53;
 		NullCheck(L_7);
 		uint8_t L_8 = L_7->___peerConnectionState_6;
 		V_1 = (bool)((((int32_t)((((int32_t)L_8) == ((int32_t)3))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -10959,7 +11234,7 @@ IL_0035:
 		L_12 = PhotonPeer_get_Listener_mB769F69826EC32376B6FB257FEF8B7AC7881B971_inline(__this, NULL);
 		String_t* L_13;
 		L_13 = Byte_ToString_mB80CE094B94215119578E4D796566E71D7277EE4((&___operationCode0), NULL);
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_14 = __this->___peerBase_52;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_14 = __this->___peerBase_53;
 		NullCheck(L_14);
 		uint8_t* L_15 = (&L_14->___peerConnectionState_6);
 		Il2CppFakeBox<uint8_t> L_16(ConnectionStateValue_tE2E514D341A8EC31202D5F056037C4BED4B54921_il2cpp_TypeInfo_var, L_15);
@@ -11050,7 +11325,7 @@ IL_0127:
 
 IL_013c:
 	{
-		RuntimeObject* L_39 = __this->___EnqueueLock_55;
+		RuntimeObject* L_39 = __this->___EnqueueLock_56;
 		V_6 = L_39;
 		V_7 = (bool)0;
 	}
@@ -11082,7 +11357,7 @@ IL_0185:
 		{// begin try (depth: 1)
 			RuntimeObject* L_42 = V_6;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_42, (&V_7), NULL);
-			PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_43 = __this->___peerBase_52;
+			PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_43 = __this->___peerBase_53;
 			uint8_t L_44 = ___operationCode0;
 			ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_45 = ___operationParameters1;
 			SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 L_46 = ___sendOptions2;
@@ -11091,7 +11366,7 @@ IL_0185:
 			StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_48;
 			L_48 = PeerBase_SerializeOperationToMessage_m819A3893658424FCC353570427A09870A767B02C(L_43, L_44, L_45, 2, L_47, NULL);
 			V_8 = L_48;
-			PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_49 = __this->___peerBase_52;
+			PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_49 = __this->___peerBase_53;
 			StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_50 = V_8;
 			SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 L_51 = ___sendOptions2;
 			NullCheck(L_49);
@@ -11181,18 +11456,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonPeer__cctor_mF33AFE3AAE082F326584E
 		((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_StaticFields*)il2cpp_codegen_static_fields_for(PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_il2cpp_TypeInfo_var))->___NativeSocketLibAvailable_13 = (bool)0;
 		((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_StaticFields*)il2cpp_codegen_static_fields_for(PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_il2cpp_TypeInfo_var))->___NativePayloadEncryptionLibAvailable_14 = (bool)0;
 		((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_StaticFields*)il2cpp_codegen_static_fields_for(PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_il2cpp_TypeInfo_var))->___NativeDatagramEncryptionLibAvailable_15 = (bool)0;
-		((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_StaticFields*)il2cpp_codegen_static_fields_for(PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_il2cpp_TypeInfo_var))->___OutgoingStreamBufferSize_40 = ((int32_t)1200);
-		((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_StaticFields*)il2cpp_codegen_static_fields_for(PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_il2cpp_TypeInfo_var))->___AsyncKeyExchange_43 = (bool)0;
+		((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_StaticFields*)il2cpp_codegen_static_fields_for(PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_il2cpp_TypeInfo_var))->___OutgoingStreamBufferSize_41 = ((int32_t)1200);
+		((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_StaticFields*)il2cpp_codegen_static_fields_for(PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_il2cpp_TypeInfo_var))->___AsyncKeyExchange_44 = (bool)0;
 		return;
 	}
 }
-// System.Boolean ExitGames.Client.Photon.PhotonPeer::<EstablishEncryption>b__220_0()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_U3CEstablishEncryptionU3Eb__220_0_m8064421E85E4D9AE31FDCD7E95764B9DF1182AF3 (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) 
+// System.Boolean ExitGames.Client.Photon.PhotonPeer::<EstablishEncryption>b__223_0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonPeer_U3CEstablishEncryptionU3Eb__223_0_m991EA7172A89A1B515D03EAA40F04A01B7B05B6D (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
-		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_52;
-		RuntimeObject* L_1 = __this->___SendOutgoingLockObject_53;
+		PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* L_0 = __this->___peerBase_53;
+		RuntimeObject* L_1 = __this->___SendOutgoingLockObject_54;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = PeerBase_ExchangeKeysForEncryption_mEE8DB9194700A135FD9A9FB39A03354AC063B13D(L_0, L_1, NULL);
@@ -24755,8 +25030,8 @@ IL_00e7:
 	{
 		CustomType_tF4D3491414C20AFB2ABC890C0EF3FF4892902C6C* L_44 = V_3;
 		NullCheck(L_44);
-		SerializeStreamMethod_tE9A207ADBB74A63C939A741C47F75676E0A82BEF* L_45 = L_44->___SerializeStreamFunction_4;
-		V_13 = (bool)((((RuntimeObject*)(SerializeStreamMethod_tE9A207ADBB74A63C939A741C47F75676E0A82BEF*)L_45) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		DeserializeStreamMethod_tC0EA7F2D58AD1B0A85B30C169AAEBD600889E448* L_45 = L_44->___DeserializeStreamFunction_5;
+		V_13 = (bool)((((RuntimeObject*)(DeserializeStreamMethod_tC0EA7F2D58AD1B0A85B30C169AAEBD600889E448*)L_45) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_46 = V_13;
 		if (!L_46)
 		{
@@ -25995,7 +26270,7 @@ IL_006b:
 		ArrayElementTypeCheck (L_27, L_31);
 		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(0), (UnknownType_t1E9575676A35479E033E4C91364ADA75D3052BE8*)L_31);
 		V_11 = (RuntimeObject*)L_27;
-		goto IL_01e9;
+		goto IL_020c;
 	}
 
 IL_00a1:
@@ -26008,7 +26283,7 @@ IL_00a1:
 		L_38 = Array_CreateInstance_m13B202130951A03AF5F52470A19E17D3AD2A8983(L_36, L_37, NULL);
 		V_3 = L_38;
 		V_12 = 0;
-		goto IL_01d6;
+		goto IL_01f9;
 	}
 
 IL_00b6:
@@ -26072,7 +26347,7 @@ IL_010d:
 		bool L_53 = V_17;
 		if (!L_53)
 		{
-			goto IL_0129;
+			goto IL_014c;
 		}
 	}
 	{
@@ -26080,162 +26355,174 @@ IL_010d:
 		StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_55 = ___stream0;
 		NullCheck(L_55);
 		int32_t L_56;
-		L_56 = StreamBuffer_get_Available_mB2E2DB534E3C065C5D1DA30BE24DF2C1419BC778(L_55, NULL);
+		L_56 = StreamBuffer_get_Length_m8BF20D43953229862DFDBEC8D74C8F76442833A7(L_55, NULL);
 		NullCheck(L_54);
 		StreamBuffer_set_Position_mE4F84AAB7F10D3EAA4639CFC26CB45C0EF7C6460(L_54, L_56, NULL);
-		RuntimeArray* L_57 = V_3;
-		V_11 = L_57;
-		goto IL_01e9;
-	}
-
-IL_0129:
-	{
-		CustomType_tF4D3491414C20AFB2ABC890C0EF3FF4892902C6C* L_58 = V_2;
+		String_t* L_57;
+		L_57 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_13), NULL);
+		StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_58 = ___stream0;
 		NullCheck(L_58);
-		SerializeStreamMethod_tE9A207ADBB74A63C939A741C47F75676E0A82BEF* L_59 = L_58->___SerializeStreamFunction_4;
-		V_18 = (bool)((((RuntimeObject*)(SerializeStreamMethod_tE9A207ADBB74A63C939A741C47F75676E0A82BEF*)L_59) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		bool L_60 = V_18;
-		if (!L_60)
-		{
-			goto IL_0160;
-		}
+		int32_t L_59;
+		L_59 = StreamBuffer_get_Available_mB2E2DB534E3C065C5D1DA30BE24DF2C1419BC778(L_58, NULL);
+		V_16 = L_59;
+		String_t* L_60;
+		L_60 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_16), NULL);
+		String_t* L_61;
+		L_61 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3FD779475CD0DA4A9D46E1E27765C9B4A9C2AE36)), L_57, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral7B2D80B6DA6E8F9067B61285F407833670B4F44F)), L_60, NULL);
+		InvalidDataException_tD95123913E9ABF07AD338CE2BCCD26A7C5C12B78* L_62 = (InvalidDataException_tD95123913E9ABF07AD338CE2BCCD26A7C5C12B78*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidDataException_tD95123913E9ABF07AD338CE2BCCD26A7C5C12B78_il2cpp_TypeInfo_var)));
+		NullCheck(L_62);
+		InvalidDataException__ctor_m151CD489FFA32196B318F7DA9A71D21DC0E0B6CF(L_62, L_61, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_62, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Protocol18_ReadCustomTypeArray_m08934D8455D6872E5C6CE504DBC391875AD3CD88_RuntimeMethod_var)));
 	}
+
+IL_014c:
 	{
-		int32_t L_61 = V_13;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_62 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_61);
-		V_19 = L_62;
-		StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_63 = ___stream0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_64 = V_19;
-		int32_t L_65 = V_13;
+		CustomType_tF4D3491414C20AFB2ABC890C0EF3FF4892902C6C* L_63 = V_2;
 		NullCheck(L_63);
-		int32_t L_66;
-		L_66 = StreamBuffer_Read_mF13CA6548BEFB0577CA506CA0C8A6353296F736B(L_63, L_64, 0, L_65, NULL);
-		CustomType_tF4D3491414C20AFB2ABC890C0EF3FF4892902C6C* L_67 = V_2;
-		NullCheck(L_67);
-		DeserializeMethod_t7647EA2260150DE19C0CDCAFAD36D61F4F1AA6D7* L_68 = L_67->___DeserializeFunction_3;
+		DeserializeStreamMethod_tC0EA7F2D58AD1B0A85B30C169AAEBD600889E448* L_64 = L_63->___DeserializeStreamFunction_5;
+		V_18 = (bool)((((RuntimeObject*)(DeserializeStreamMethod_tC0EA7F2D58AD1B0A85B30C169AAEBD600889E448*)L_64) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_65 = V_18;
+		if (!L_65)
+		{
+			goto IL_0183;
+		}
+	}
+	{
+		int32_t L_66 = V_13;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_67 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_66);
+		V_19 = L_67;
+		StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_68 = ___stream0;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_69 = V_19;
+		int32_t L_70 = V_13;
 		NullCheck(L_68);
-		RuntimeObject* L_70;
-		L_70 = DeserializeMethod_Invoke_mB9E9B310CCFB51812796328813CA4BEA5A321BF0_inline(L_68, L_69, NULL);
-		V_14 = L_70;
-		goto IL_01a3;
-	}
-
-IL_0160:
-	{
-		StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_71 = ___stream0;
-		NullCheck(L_71);
-		int32_t L_72;
-		L_72 = StreamBuffer_get_Position_m61D98C2FFB37B4FEEDC2790FD8E432B004FB47F4(L_71, NULL);
-		V_20 = L_72;
-		CustomType_tF4D3491414C20AFB2ABC890C0EF3FF4892902C6C* L_73 = V_2;
+		int32_t L_71;
+		L_71 = StreamBuffer_Read_mF13CA6548BEFB0577CA506CA0C8A6353296F736B(L_68, L_69, 0, L_70, NULL);
+		CustomType_tF4D3491414C20AFB2ABC890C0EF3FF4892902C6C* L_72 = V_2;
+		NullCheck(L_72);
+		DeserializeMethod_t7647EA2260150DE19C0CDCAFAD36D61F4F1AA6D7* L_73 = L_72->___DeserializeFunction_3;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_74 = V_19;
 		NullCheck(L_73);
-		DeserializeStreamMethod_tC0EA7F2D58AD1B0A85B30C169AAEBD600889E448* L_74 = L_73->___DeserializeStreamFunction_5;
-		StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_75 = ___stream0;
-		int32_t L_76 = V_13;
-		NullCheck(L_74);
-		RuntimeObject* L_77;
-		L_77 = DeserializeStreamMethod_Invoke_mE2882E722CB7AE5B5E393C82F1B45A80D266089A_inline(L_74, L_75, ((int16_t)L_76), NULL);
-		V_14 = L_77;
-		StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_78 = ___stream0;
+		RuntimeObject* L_75;
+		L_75 = DeserializeMethod_Invoke_mB9E9B310CCFB51812796328813CA4BEA5A321BF0_inline(L_73, L_74, NULL);
+		V_14 = L_75;
+		goto IL_01c6;
+	}
+
+IL_0183:
+	{
+		StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_76 = ___stream0;
+		NullCheck(L_76);
+		int32_t L_77;
+		L_77 = StreamBuffer_get_Position_m61D98C2FFB37B4FEEDC2790FD8E432B004FB47F4(L_76, NULL);
+		V_20 = L_77;
+		CustomType_tF4D3491414C20AFB2ABC890C0EF3FF4892902C6C* L_78 = V_2;
 		NullCheck(L_78);
-		int32_t L_79;
-		L_79 = StreamBuffer_get_Position_m61D98C2FFB37B4FEEDC2790FD8E432B004FB47F4(L_78, NULL);
-		int32_t L_80 = V_20;
-		V_21 = ((int32_t)il2cpp_codegen_subtract(L_79, L_80));
-		int32_t L_81 = V_21;
-		int32_t L_82 = V_13;
-		V_22 = (bool)((((int32_t)((((int32_t)L_81) == ((int32_t)L_82))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_83 = V_22;
-		if (!L_83)
-		{
-			goto IL_01a2;
-		}
-	}
-	{
-		StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_84 = ___stream0;
+		DeserializeStreamMethod_tC0EA7F2D58AD1B0A85B30C169AAEBD600889E448* L_79 = L_78->___DeserializeStreamFunction_5;
+		StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_80 = ___stream0;
+		int32_t L_81 = V_13;
+		NullCheck(L_79);
+		RuntimeObject* L_82;
+		L_82 = DeserializeStreamMethod_Invoke_mE2882E722CB7AE5B5E393C82F1B45A80D266089A_inline(L_79, L_80, ((int16_t)L_81), NULL);
+		V_14 = L_82;
+		StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_83 = ___stream0;
+		NullCheck(L_83);
+		int32_t L_84;
+		L_84 = StreamBuffer_get_Position_m61D98C2FFB37B4FEEDC2790FD8E432B004FB47F4(L_83, NULL);
 		int32_t L_85 = V_20;
-		int32_t L_86 = V_13;
-		NullCheck(L_84);
-		StreamBuffer_set_Position_mE4F84AAB7F10D3EAA4639CFC26CB45C0EF7C6460(L_84, ((int32_t)il2cpp_codegen_add(L_85, L_86)), NULL);
-	}
-
-IL_01a2:
-	{
-	}
-
-IL_01a3:
-	{
-		RuntimeObject* L_87 = V_14;
-		if (!L_87)
+		V_21 = ((int32_t)il2cpp_codegen_subtract(L_84, L_85));
+		int32_t L_86 = V_21;
+		int32_t L_87 = V_13;
+		V_22 = (bool)((((int32_t)((((int32_t)L_86) == ((int32_t)L_87))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_88 = V_22;
+		if (!L_88)
 		{
-			goto IL_01bb;
+			goto IL_01c5;
 		}
 	}
 	{
-		CustomType_tF4D3491414C20AFB2ABC890C0EF3FF4892902C6C* L_88 = V_2;
-		NullCheck(L_88);
-		Type_t* L_89 = L_88->___Type_1;
-		RuntimeObject* L_90 = V_14;
-		NullCheck(L_90);
-		Type_t* L_91;
-		L_91 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_90, NULL);
+		StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB* L_89 = ___stream0;
+		int32_t L_90 = V_20;
+		int32_t L_91 = V_13;
 		NullCheck(L_89);
-		bool L_92;
-		L_92 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_89, L_91);
-		G_B24_0 = ((int32_t)(L_92));
-		goto IL_01bc;
+		StreamBuffer_set_Position_mE4F84AAB7F10D3EAA4639CFC26CB45C0EF7C6460(L_89, ((int32_t)il2cpp_codegen_add(L_90, L_91)), NULL);
 	}
 
-IL_01bb:
+IL_01c5:
+	{
+	}
+
+IL_01c6:
+	{
+		RuntimeObject* L_92 = V_14;
+		if (!L_92)
+		{
+			goto IL_01de;
+		}
+	}
+	{
+		CustomType_tF4D3491414C20AFB2ABC890C0EF3FF4892902C6C* L_93 = V_2;
+		NullCheck(L_93);
+		Type_t* L_94 = L_93->___Type_1;
+		RuntimeObject* L_95 = V_14;
+		NullCheck(L_95);
+		Type_t* L_96;
+		L_96 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_95, NULL);
+		NullCheck(L_94);
+		bool L_97;
+		L_97 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_94, L_96);
+		G_B24_0 = ((int32_t)(L_97));
+		goto IL_01df;
+	}
+
+IL_01de:
 	{
 		G_B24_0 = 0;
 	}
 
-IL_01bc:
+IL_01df:
 	{
 		V_23 = (bool)G_B24_0;
-		bool L_93 = V_23;
-		if (!L_93)
+		bool L_98 = V_23;
+		if (!L_98)
 		{
-			goto IL_01cf;
+			goto IL_01f2;
 		}
 	}
 	{
-		RuntimeArray* L_94 = V_3;
-		RuntimeObject* L_95 = V_14;
-		uint32_t L_96 = V_12;
-		NullCheck(L_94);
-		Array_SetValue_mE9507B366ED84E91E92BF32649D36916F96C67B8(L_94, L_95, L_96, NULL);
+		RuntimeArray* L_99 = V_3;
+		RuntimeObject* L_100 = V_14;
+		uint32_t L_101 = V_12;
+		NullCheck(L_99);
+		Array_SetValue_mE9507B366ED84E91E92BF32649D36916F96C67B8(L_99, L_100, L_101, NULL);
 	}
 
-IL_01cf:
+IL_01f2:
 	{
-		uint32_t L_97 = V_12;
-		V_12 = ((int32_t)il2cpp_codegen_add((int32_t)L_97, 1));
+		uint32_t L_102 = V_12;
+		V_12 = ((int32_t)il2cpp_codegen_add((int32_t)L_102, 1));
 	}
 
-IL_01d6:
+IL_01f9:
 	{
-		uint32_t L_98 = V_12;
-		uint32_t L_99 = V_0;
-		V_24 = (bool)((!(((uint32_t)L_98) >= ((uint32_t)L_99)))? 1 : 0);
-		bool L_100 = V_24;
-		if (L_100)
+		uint32_t L_103 = V_12;
+		uint32_t L_104 = V_0;
+		V_24 = (bool)((!(((uint32_t)L_103) >= ((uint32_t)L_104)))? 1 : 0);
+		bool L_105 = V_24;
+		if (L_105)
 		{
 			goto IL_00b6;
 		}
 	}
 	{
-		RuntimeArray* L_101 = V_3;
-		V_11 = L_101;
-		goto IL_01e9;
+		RuntimeArray* L_106 = V_3;
+		V_11 = L_106;
+		goto IL_020c;
 	}
 
-IL_01e9:
+IL_020c:
 	{
-		RuntimeObject* L_102 = V_11;
-		return L_102;
+		RuntimeObject* L_107 = V_11;
+		return L_107;
 	}
 }
 // System.Type ExitGames.Client.Photon.Protocol18::ReadDictionaryType(ExitGames.Client.Photon.StreamBuffer,ExitGames.Client.Photon.Protocol18/GpType&,ExitGames.Client.Photon.Protocol18/GpType&)
@@ -33668,7 +33955,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IPhotonSocket_set_AddressRes
 {
 	{
 		bool L_0 = ___value0;
-		__this->___U3CAddressResolvedAsIpv6U3Ek__BackingField_9 = L_0;
+		__this->___U3CAddressResolvedAsIpv6U3Ek__BackingField_10 = L_0;
 		return;
 	}
 }
@@ -33682,14 +33969,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ClientWebSocketOptions_t5FB2F0C70
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* IPhotonSocket_get_ServerAddress_mF93AD47F8B257D59A4225A0B6B3957E9C234AEFE_inline (IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34* __this, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = __this->___U3CServerAddressU3Ek__BackingField_5;
+		String_t* L_0 = __this->___U3CServerAddressU3Ek__BackingField_6;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t IPhotonSocket_get_ServerPort_m10F7BAEE54223D7D4D7B73CAB9F9AC608EE00737_inline (IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34* __this, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = __this->___U3CServerPortU3Ek__BackingField_8;
+		int32_t L_0 = __this->___U3CServerPortU3Ek__BackingField_9;
 		return L_0;
 	}
 }
@@ -33714,6 +34001,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool WebSocketReceiveResult_get_E
 		return L_0;
 	}
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t IPhotonSocket_get_SocketErrorCode_mE853A81A89EF38FB83B372EB50E623713A1EBAAB_inline (IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CSocketErrorCodeU3Ek__BackingField_4;
+		return L_0;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* PeerBase_get_ServerAddress_mB49A10CE97A4B3D6F5934FE9FA8A635A8DA16522_inline (PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -33730,7 +34024,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* IPhotonSocket_get_Serve
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		String_t* L_0 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34_StaticFields*)il2cpp_codegen_static_fields_for(IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34_il2cpp_TypeInfo_var))->___U3CServerIpAddressU3Ek__BackingField_7;
+		String_t* L_0 = ((IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34_StaticFields*)il2cpp_codegen_static_fields_for(IPhotonSocket_t6A0296888E3EF101268457B4C80B266EE7176F34_il2cpp_TypeInfo_var))->___U3CServerIpAddressU3Ek__BackingField_8;
 		return L_0;
 	}
 }
@@ -33738,8 +34032,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PhotonPeer_set_TrafficStatsI
 {
 	{
 		TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_0 = ___value0;
-		__this->___U3CTrafficStatsIncomingU3Ek__BackingField_47 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrafficStatsIncomingU3Ek__BackingField_47), (void*)L_0);
+		__this->___U3CTrafficStatsIncomingU3Ek__BackingField_48 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrafficStatsIncomingU3Ek__BackingField_48), (void*)L_0);
 		return;
 	}
 }
@@ -33747,8 +34041,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PhotonPeer_set_TrafficStatsO
 {
 	{
 		TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_0 = ___value0;
-		__this->___U3CTrafficStatsOutgoingU3Ek__BackingField_48 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrafficStatsOutgoingU3Ek__BackingField_48), (void*)L_0);
+		__this->___U3CTrafficStatsOutgoingU3Ek__BackingField_49 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrafficStatsOutgoingU3Ek__BackingField_49), (void*)L_0);
 		return;
 	}
 }
@@ -33756,29 +34050,29 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PhotonPeer_set_TrafficStatsG
 {
 	{
 		TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9* L_0 = ___value0;
-		__this->___U3CTrafficStatsGameLevelU3Ek__BackingField_49 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrafficStatsGameLevelU3Ek__BackingField_49), (void*)L_0);
+		__this->___U3CTrafficStatsGameLevelU3Ek__BackingField_50 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTrafficStatsGameLevelU3Ek__BackingField_50), (void*)L_0);
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9* PhotonPeer_get_TrafficStatsGameLevel_m83D92F2C803367552F09AD55007BAD250309ED27_inline (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) 
 {
 	{
-		TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9* L_0 = __this->___U3CTrafficStatsGameLevelU3Ek__BackingField_49;
+		TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9* L_0 = __this->___U3CTrafficStatsGameLevelU3Ek__BackingField_50;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* PhotonPeer_get_TrafficStatsIncoming_mFBFFDE72C315515EF874F92B67D135BEEE3E67D9_inline (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) 
 {
 	{
-		TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_0 = __this->___U3CTrafficStatsIncomingU3Ek__BackingField_47;
+		TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_0 = __this->___U3CTrafficStatsIncomingU3Ek__BackingField_48;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* PhotonPeer_get_TrafficStatsOutgoing_mDD70068CDA34548046EF39295A045E978315AADE_inline (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) 
 {
 	{
-		TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_0 = __this->___U3CTrafficStatsOutgoingU3Ek__BackingField_48;
+		TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* L_0 = __this->___U3CTrafficStatsOutgoingU3Ek__BackingField_49;
 		return L_0;
 	}
 }
@@ -33793,7 +34087,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PhotonPeer_set_TransportProt
 {
 	{
 		uint8_t L_0 = ___value0;
-		__this->___U3CTransportProtocolU3Ek__BackingField_39 = L_0;
+		__this->___U3CTransportProtocolU3Ek__BackingField_40 = L_0;
 		return;
 	}
 }
@@ -33827,7 +34121,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PeerBase_set_ProxyServerAddr
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t PhotonPeer_get_TransportProtocol_mC3688A65F01A1BDB8B5CAFFAFAF5BA6980885AF8_inline (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) 
 {
 	{
-		uint8_t L_0 = __this->___U3CTransportProtocolU3Ek__BackingField_39;
+		uint8_t L_0 = __this->___U3CTransportProtocolU3Ek__BackingField_40;
 		return L_0;
 	}
 }

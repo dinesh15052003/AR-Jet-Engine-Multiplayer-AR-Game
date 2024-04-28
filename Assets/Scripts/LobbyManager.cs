@@ -23,6 +23,9 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     [SerializeField] private TextMeshProUGUI _textOut;
     [SerializeField] private RectTransform _scanZone;
 
+    [SerializeField] private TMP_InputField RoomCodeInput;
+    [SerializeField] private TMP_Text RoomCodeText;
+
 
     private Texture2D _storeEncodedTexture; // to store the generated encoded texture
     private bool _isCamAvailable; // to check for camera avilability
@@ -62,6 +65,7 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     public void CreateRoom()
     {
         string roomName = UnityEngine.Random.Range(0, 1000).ToString("D3");
+        RoomCodeText.text = roomName;
 
         // Encode the room name to create QR Code
         Color32[] _convertPixelToTexture = Encode(roomName, _storeEncodedTexture.width, _storeEncodedTexture.height);
@@ -88,6 +92,13 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     public void OnClickScanBtn()
     {
         Scan();
+    }
+
+    public void OnClickEnterRoomBtn()
+    {
+        string roomname = RoomCodeInput.text;
+        PhotonNetwork.JoinRoom(roomname);
+        SceneManager.LoadScene("ARGameScene");
     }
 
     #region PRIVATE METHODS

@@ -896,6 +896,47 @@ struct InternalStringComparer_t04B2D1768998E940BC4619579B7044102591E38B  : publi
 {
 };
 
+// System.Collections.Concurrent.PaddedHeadAndTail
+struct PaddedHeadAndTail_t1DAB41665EC6BE441A9807218EB9514A1E75B8A8 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___Head_0_OffsetPadding[128];
+					// System.Int32 System.Collections.Concurrent.PaddedHeadAndTail::Head
+					int32_t ___Head_0;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___Head_0_OffsetPadding_forAlignmentOnly[128];
+					int32_t ___Head_0_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___Tail_1_OffsetPadding[256];
+					// System.Int32 System.Collections.Concurrent.PaddedHeadAndTail::Tail
+					int32_t ___Tail_1;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___Tail_1_OffsetPadding_forAlignmentOnly[256];
+					int32_t ___Tail_1_forAlignmentOnly;
+				};
+			};
+		};
+		uint8_t PaddedHeadAndTail_t1DAB41665EC6BE441A9807218EB9514A1E75B8A8__padding[384];
+	};
+};
+
 // System.Single
 struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
 {
@@ -7840,6 +7881,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyValuePairsU5BU5D_t417375671A6D0988A66AEB4B
 		return L_1;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

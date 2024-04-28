@@ -313,6 +313,8 @@ struct MemberInfo_t;
 struct MethodInfo_t;
 // UnityEngine.MonoBehaviour
 struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+// Photon.Realtime.MonoBehaviourEmpty
+struct MonoBehaviourEmpty_t8BBCD2C733FF1AA5B134D7290654C2869AA7C2E9;
 // Photon.Pun.MonoBehaviourPun
 struct MonoBehaviourPun_t64DD82CBA1C47A70448DAB2263AB90A4411621BD;
 // Photon.Pun.MonoBehaviourPunCallbacks
@@ -383,6 +385,8 @@ struct ServerSettings_t41BE4338E7E76BFB4919D4039BAFC6799E242152;
 struct Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043;
 // System.String
 struct String_t;
+// Photon.Realtime.SystemConnectionSummary
+struct SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A;
 // UnityEngine.Transform
 struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
 // System.Type
@@ -1436,10 +1440,16 @@ struct RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB  : public Runtime
 	Action_1_tD013146E11DC5068784A80C11B7415DC9FE54B74* ___onCompleteCall_5;
 	// System.Int32 Photon.Realtime.RegionHandler::previousPing
 	int32_t ___previousPing_6;
-	// System.Boolean Photon.Realtime.RegionHandler::<IsPinging>k__BackingField
-	bool ___U3CIsPingingU3Ek__BackingField_7;
 	// System.String Photon.Realtime.RegionHandler::previousSummaryProvided
-	String_t* ___previousSummaryProvided_8;
+	String_t* ___previousSummaryProvided_7;
+	// System.Boolean Photon.Realtime.RegionHandler::<IsPinging>k__BackingField
+	bool ___U3CIsPingingU3Ek__BackingField_9;
+	// System.Boolean Photon.Realtime.RegionHandler::<Aborted>k__BackingField
+	bool ___U3CAbortedU3Ek__BackingField_10;
+	// System.Int32 Photon.Realtime.RegionHandler::BestRegionSummaryPingLimit
+	int32_t ___BestRegionSummaryPingLimit_11;
+	// Photon.Realtime.MonoBehaviourEmpty Photon.Realtime.RegionHandler::emptyMonoBehavior
+	MonoBehaviourEmpty_t8BBCD2C733FF1AA5B134D7290654C2869AA7C2E9* ___emptyMonoBehavior_12;
 };
 
 struct RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB_StaticFields
@@ -1447,7 +1457,7 @@ struct RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB_StaticFields
 	// System.Type Photon.Realtime.RegionHandler::PingImplementation
 	Type_t* ___PingImplementation_0;
 	// System.UInt16 Photon.Realtime.RegionHandler::PortToPingOverride
-	uint16_t ___PortToPingOverride_9;
+	uint16_t ___PortToPingOverride_8;
 };
 
 // Photon.Realtime.RoomInfo
@@ -1457,8 +1467,8 @@ struct RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D  : public RuntimeObjec
 	bool ___RemovedFromList_0;
 	// ExitGames.Client.Photon.Hashtable Photon.Realtime.RoomInfo::customProperties
 	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___customProperties_1;
-	// System.Byte Photon.Realtime.RoomInfo::maxPlayers
-	uint8_t ___maxPlayers_2;
+	// System.Int32 Photon.Realtime.RoomInfo::maxPlayers
+	int32_t ___maxPlayers_2;
 	// System.Int32 Photon.Realtime.RoomInfo::emptyRoomTtl
 	int32_t ___emptyRoomTtl_3;
 	// System.Int32 Photon.Realtime.RoomInfo::playerTtl
@@ -2163,48 +2173,50 @@ struct LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4  : public R
 	ErrorInfoCallbacksContainer_tF60CA97691A86635843C02EEA1D689A384BC7ED7* ___ErrorInfoCallbackTargets_28;
 	// Photon.Realtime.DisconnectCause Photon.Realtime.LoadBalancingClient::<DisconnectedCause>k__BackingField
 	int32_t ___U3CDisconnectedCauseU3Ek__BackingField_29;
+	// Photon.Realtime.SystemConnectionSummary Photon.Realtime.LoadBalancingClient::SystemConnectionSummary
+	SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A* ___SystemConnectionSummary_30;
 	// Photon.Realtime.TypedLobby Photon.Realtime.LoadBalancingClient::<CurrentLobby>k__BackingField
-	TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9* ___U3CCurrentLobbyU3Ek__BackingField_30;
+	TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9* ___U3CCurrentLobbyU3Ek__BackingField_31;
 	// System.Boolean Photon.Realtime.LoadBalancingClient::EnableLobbyStatistics
-	bool ___EnableLobbyStatistics_31;
+	bool ___EnableLobbyStatistics_32;
 	// System.Collections.Generic.List`1<Photon.Realtime.TypedLobbyInfo> Photon.Realtime.LoadBalancingClient::lobbyStatistics
-	List_1_t9502060F404ACB6B9ACF04BFA5D0DFC653142A15* ___lobbyStatistics_32;
+	List_1_t9502060F404ACB6B9ACF04BFA5D0DFC653142A15* ___lobbyStatistics_33;
 	// Photon.Realtime.Player Photon.Realtime.LoadBalancingClient::<LocalPlayer>k__BackingField
-	Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* ___U3CLocalPlayerU3Ek__BackingField_33;
+	Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* ___U3CLocalPlayerU3Ek__BackingField_34;
 	// Photon.Realtime.Room Photon.Realtime.LoadBalancingClient::<CurrentRoom>k__BackingField
-	Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* ___U3CCurrentRoomU3Ek__BackingField_34;
+	Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* ___U3CCurrentRoomU3Ek__BackingField_35;
 	// System.Int32 Photon.Realtime.LoadBalancingClient::<PlayersOnMasterCount>k__BackingField
-	int32_t ___U3CPlayersOnMasterCountU3Ek__BackingField_35;
+	int32_t ___U3CPlayersOnMasterCountU3Ek__BackingField_36;
 	// System.Int32 Photon.Realtime.LoadBalancingClient::<PlayersInRoomsCount>k__BackingField
-	int32_t ___U3CPlayersInRoomsCountU3Ek__BackingField_36;
+	int32_t ___U3CPlayersInRoomsCountU3Ek__BackingField_37;
 	// System.Int32 Photon.Realtime.LoadBalancingClient::<RoomsCount>k__BackingField
-	int32_t ___U3CRoomsCountU3Ek__BackingField_37;
+	int32_t ___U3CRoomsCountU3Ek__BackingField_38;
 	// Photon.Realtime.JoinType Photon.Realtime.LoadBalancingClient::lastJoinType
-	int32_t ___lastJoinType_38;
+	int32_t ___lastJoinType_39;
 	// Photon.Realtime.EnterRoomParams Photon.Realtime.LoadBalancingClient::enterRoomParamsCache
-	EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* ___enterRoomParamsCache_39;
+	EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* ___enterRoomParamsCache_40;
 	// ExitGames.Client.Photon.OperationResponse Photon.Realtime.LoadBalancingClient::failedRoomEntryOperation
-	OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* ___failedRoomEntryOperation_40;
+	OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* ___failedRoomEntryOperation_41;
 	// System.String[] Photon.Realtime.LoadBalancingClient::friendListRequested
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___friendListRequested_42;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___friendListRequested_43;
 	// System.String Photon.Realtime.LoadBalancingClient::<CloudRegion>k__BackingField
-	String_t* ___U3CCloudRegionU3Ek__BackingField_43;
+	String_t* ___U3CCloudRegionU3Ek__BackingField_44;
 	// System.String Photon.Realtime.LoadBalancingClient::<CurrentCluster>k__BackingField
-	String_t* ___U3CCurrentClusterU3Ek__BackingField_44;
+	String_t* ___U3CCurrentClusterU3Ek__BackingField_45;
 	// Photon.Realtime.RegionHandler Photon.Realtime.LoadBalancingClient::RegionHandler
-	RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB* ___RegionHandler_45;
+	RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB* ___RegionHandler_46;
 	// System.String Photon.Realtime.LoadBalancingClient::bestRegionSummaryFromStorage
-	String_t* ___bestRegionSummaryFromStorage_46;
+	String_t* ___bestRegionSummaryFromStorage_47;
 	// System.String Photon.Realtime.LoadBalancingClient::SummaryToCache
-	String_t* ___SummaryToCache_47;
+	String_t* ___SummaryToCache_48;
 	// System.Boolean Photon.Realtime.LoadBalancingClient::connectToBestRegion
-	bool ___connectToBestRegion_48;
+	bool ___connectToBestRegion_49;
 	// System.Collections.Generic.Queue`1<Photon.Realtime.LoadBalancingClient/CallbackTargetChange> Photon.Realtime.LoadBalancingClient::callbackTargetChanges
-	Queue_1_t9BA80EF655597EC91F8BA37831960B5B70540B02* ___callbackTargetChanges_49;
+	Queue_1_t9BA80EF655597EC91F8BA37831960B5B70540B02* ___callbackTargetChanges_50;
 	// System.Collections.Generic.HashSet`1<System.Object> Photon.Realtime.LoadBalancingClient::callbackTargets
-	HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* ___callbackTargets_50;
+	HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* ___callbackTargets_51;
 	// System.Int32 Photon.Realtime.LoadBalancingClient::NameServerPortInAppSettings
-	int32_t ___NameServerPortInAppSettings_51;
+	int32_t ___NameServerPortInAppSettings_52;
 };
 
 struct LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4_StaticFields
@@ -2438,17 +2450,25 @@ struct ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4  : public Mon
 	// System.Boolean Photon.Realtime.ConnectionHandler::ApplyDontDestroyOnLoad
 	bool ___ApplyDontDestroyOnLoad_8;
 	// System.Byte Photon.Realtime.ConnectionHandler::fallbackThreadId
-	uint8_t ___fallbackThreadId_10;
+	uint8_t ___fallbackThreadId_14;
 	// System.Boolean Photon.Realtime.ConnectionHandler::didSendAcks
-	bool ___didSendAcks_11;
+	bool ___didSendAcks_15;
 	// System.Diagnostics.Stopwatch Photon.Realtime.ConnectionHandler::backgroundStopwatch
-	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ___backgroundStopwatch_12;
+	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ___backgroundStopwatch_16;
 };
 
 struct ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_StaticFields
 {
 	// System.Boolean Photon.Realtime.ConnectionHandler::AppQuits
 	bool ___AppQuits_9;
+	// System.Boolean Photon.Realtime.ConnectionHandler::AppPause
+	bool ___AppPause_10;
+	// System.Boolean Photon.Realtime.ConnectionHandler::AppPauseRecent
+	bool ___AppPauseRecent_11;
+	// System.Boolean Photon.Realtime.ConnectionHandler::AppOutOfFocus
+	bool ___AppOutOfFocus_12;
+	// System.Boolean Photon.Realtime.ConnectionHandler::AppOutOfFocusRecent
+	bool ___AppOutOfFocusRecent_13;
 };
 
 // Photon.Pun.MonoBehaviourPun
@@ -3381,8 +3401,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_get_IsConnected_mBEE4F9C1E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_set_applyRootMotion_mA0953B6AEE43D4AF0837365E7BFF60FCC74B0F98 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, bool ___value0, const RuntimeMethod* method) ;
 // System.Boolean Photon.Pun.PhotonNetwork::get_InRoom()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_get_InRoom_mFBE0C1A516C34FBAD9923933C73E07080FDA199D (const RuntimeMethod* method) ;
-// System.Byte Photon.Realtime.Room::get_PlayerCount()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Room_get_PlayerCount_mB51FD867790C849B312565EA2052474828EA3F1A (Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* __this, const RuntimeMethod* method) ;
+// System.Int32 Photon.Realtime.Room::get_PlayerCount()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Room_get_PlayerCount_m663432EB660EDFF2D7428BD6B6AE7142505BFE1F (Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* __this, const RuntimeMethod* method) ;
 // System.Void Photon.Pun.PhotonStreamQueue::Reset()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonStreamQueue_Reset_mFA7E5F8D55298A77E34531897694C14274BCE257 (PhotonStreamQueue_t8131497D9983956A47379D2BA8B52656B5DE50C0* __this, const RuntimeMethod* method) ;
 // System.Void Photon.Pun.PhotonAnimatorView::SerializeDataContinuously()
@@ -10758,8 +10778,8 @@ IL_0036:
 		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_8;
 		L_8 = PhotonNetwork_get_CurrentRoom_m72D3601299E109EED858E132DE1BD316226BA38D(NULL);
 		NullCheck(L_8);
-		uint8_t L_9;
-		L_9 = Room_get_PlayerCount_mB51FD867790C849B312565EA2052474828EA3F1A(L_8, NULL);
+		int32_t L_9;
+		L_9 = Room_get_PlayerCount_m663432EB660EDFF2D7428BD6B6AE7142505BFE1F(L_8, NULL);
 		G_B9_0 = ((((int32_t)((((int32_t)L_9) > ((int32_t)1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		goto IL_0050;
 	}
@@ -14166,95 +14186,114 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonTransformView_Update_mD3D053E917A6
 	}
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
 	bool V_1 = false;
+	bool V_2 = false;
 	{
 		// var tr = transform;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		V_0 = L_0;
-		// if (m_UseLocal)
-		bool L_1 = __this->___m_UseLocal_14;
-		V_1 = L_1;
-		bool L_2 = V_1;
-		if (!L_2)
+		// if (!this.photonView.IsMine)
+		PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* L_1;
+		L_1 = MonoBehaviourPun_get_photonView_m0DBC40909E2E885D7FA3D40157A189FADEE98A67(__this, NULL);
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = PhotonView_get_IsMine_mE26FB70A42C0D92C66536B45D7A7F8F491C8D648_inline(L_1, NULL);
+		V_1 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		bool L_3 = V_1;
+		if (!L_3)
 		{
-			goto IL_006c;
+			goto IL_00db;
+		}
+	}
+	{
+		// if (m_UseLocal)
+		bool L_4 = __this->___m_UseLocal_14;
+		V_2 = L_4;
+		bool L_5 = V_2;
+		if (!L_5)
+		{
+			goto IL_0082;
 		}
 	}
 	{
 		// tr.localPosition = Vector3.MoveTowards(tr.localPosition, this.m_NetworkPosition, this.m_Distance  * Time.deltaTime * PhotonNetwork.SerializationRate);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = V_0;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = V_0;
-		NullCheck(L_4);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
-		L_5 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_4, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = __this->___m_NetworkPosition_8;
-		float L_7 = __this->___m_Distance_5;
-		float L_8;
-		L_8 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = V_0;
+		NullCheck(L_7);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_7, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = __this->___m_NetworkPosition_8;
+		float L_10 = __this->___m_Distance_5;
+		float L_11;
+		L_11 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
-		int32_t L_9;
-		L_9 = PhotonNetwork_get_SerializationRate_m9761A548751079532BB24A59510AEF80D95ED18C(NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
-		L_10 = Vector3_MoveTowards_m0363264647799F3173AC37F8E819F98298249B08_inline(L_5, L_6, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_7, L_8)), ((float)L_9))), NULL);
-		NullCheck(L_3);
-		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_3, L_10, NULL);
+		int32_t L_12;
+		L_12 = PhotonNetwork_get_SerializationRate_m9761A548751079532BB24A59510AEF80D95ED18C(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Vector3_MoveTowards_m0363264647799F3173AC37F8E819F98298249B08_inline(L_8, L_9, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_10, L_11)), ((float)L_12))), NULL);
+		NullCheck(L_6);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_6, L_13, NULL);
 		// tr.localRotation = Quaternion.RotateTowards(tr.localRotation, this.m_NetworkRotation, this.m_Angle * Time.deltaTime * PhotonNetwork.SerializationRate);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = V_0;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = V_0;
-		NullCheck(L_12);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13;
-		L_13 = Transform_get_localRotation_mD53D37611A5DAE93EC6C7BBCAC337408C5CACA77(L_12, NULL);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = __this->___m_NetworkRotation_10;
-		float L_15 = __this->___m_Angle_6;
-		float L_16;
-		L_16 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		int32_t L_17;
-		L_17 = PhotonNetwork_get_SerializationRate_m9761A548751079532BB24A59510AEF80D95ED18C(NULL);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18;
-		L_18 = Quaternion_RotateTowards_m50EF9D609C80CD423CDA856EA3481DE2004633A3_inline(L_13, L_14, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_15, L_16)), ((float)L_17))), NULL);
-		NullCheck(L_11);
-		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_11, L_18, NULL);
-		goto IL_00c4;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15 = V_0;
+		NullCheck(L_15);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16;
+		L_16 = Transform_get_localRotation_mD53D37611A5DAE93EC6C7BBCAC337408C5CACA77(L_15, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17 = __this->___m_NetworkRotation_10;
+		float L_18 = __this->___m_Angle_6;
+		float L_19;
+		L_19 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		int32_t L_20;
+		L_20 = PhotonNetwork_get_SerializationRate_m9761A548751079532BB24A59510AEF80D95ED18C(NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_21;
+		L_21 = Quaternion_RotateTowards_m50EF9D609C80CD423CDA856EA3481DE2004633A3_inline(L_16, L_17, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_18, L_19)), ((float)L_20))), NULL);
+		NullCheck(L_14);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_14, L_21, NULL);
+		goto IL_00da;
 	}
 
-IL_006c:
+IL_0082:
 	{
 		// tr.position = Vector3.MoveTowards(tr.position, this.m_NetworkPosition, this.m_Distance * Time.deltaTime * PhotonNetwork.SerializationRate);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19 = V_0;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20 = V_0;
-		NullCheck(L_20);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
-		L_21 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_20, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = __this->___m_NetworkPosition_8;
-		float L_23 = __this->___m_Distance_5;
-		float L_24;
-		L_24 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23 = V_0;
+		NullCheck(L_23);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
+		L_24 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_23, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = __this->___m_NetworkPosition_8;
+		float L_26 = __this->___m_Distance_5;
+		float L_27;
+		L_27 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
-		int32_t L_25;
-		L_25 = PhotonNetwork_get_SerializationRate_m9761A548751079532BB24A59510AEF80D95ED18C(NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
-		L_26 = Vector3_MoveTowards_m0363264647799F3173AC37F8E819F98298249B08_inline(L_21, L_22, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_23, L_24)), ((float)L_25))), NULL);
-		NullCheck(L_19);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_19, L_26, NULL);
+		int32_t L_28;
+		L_28 = PhotonNetwork_get_SerializationRate_m9761A548751079532BB24A59510AEF80D95ED18C(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
+		L_29 = Vector3_MoveTowards_m0363264647799F3173AC37F8E819F98298249B08_inline(L_24, L_25, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_27)), ((float)L_28))), NULL);
+		NullCheck(L_22);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_22, L_29, NULL);
 		// tr.rotation = Quaternion.RotateTowards(tr.rotation, this.m_NetworkRotation, this.m_Angle * Time.deltaTime *  PhotonNetwork.SerializationRate);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27 = V_0;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28 = V_0;
-		NullCheck(L_28);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_29;
-		L_29 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_28, NULL);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_30 = __this->___m_NetworkRotation_10;
-		float L_31 = __this->___m_Angle_6;
-		float L_32;
-		L_32 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		int32_t L_33;
-		L_33 = PhotonNetwork_get_SerializationRate_m9761A548751079532BB24A59510AEF80D95ED18C(NULL);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_34;
-		L_34 = Quaternion_RotateTowards_m50EF9D609C80CD423CDA856EA3481DE2004633A3_inline(L_29, L_30, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_31, L_32)), ((float)L_33))), NULL);
-		NullCheck(L_27);
-		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_27, L_34, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31 = V_0;
+		NullCheck(L_31);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_32;
+		L_32 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_31, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_33 = __this->___m_NetworkRotation_10;
+		float L_34 = __this->___m_Angle_6;
+		float L_35;
+		L_35 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		int32_t L_36;
+		L_36 = PhotonNetwork_get_SerializationRate_m9761A548751079532BB24A59510AEF80D95ED18C(NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_37;
+		L_37 = Quaternion_RotateTowards_m50EF9D609C80CD423CDA856EA3481DE2004633A3_inline(L_32, L_33, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_34, L_35)), ((float)L_36))), NULL);
+		NullCheck(L_30);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_30, L_37, NULL);
 	}
 
-IL_00c4:
+IL_00da:
+	{
+	}
+
+IL_00db:
 	{
 		// }
 		return;

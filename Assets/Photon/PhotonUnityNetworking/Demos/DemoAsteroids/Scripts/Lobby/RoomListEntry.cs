@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Photon.Pun.Demo.Asteroids
@@ -30,6 +31,11 @@ namespace Photon.Pun.Demo.Asteroids
 
             RoomNameText.text = name;
             RoomPlayersText.text = currentPlayers + " / " + maxPlayers;
+        }
+
+        internal void Initialize(string name, byte playerCount, int maxPlayers)
+        {
+            throw new NotImplementedException();
         }
     }
 }

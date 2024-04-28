@@ -427,6 +427,8 @@ struct MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553;
 struct MethodInfo_t;
 // UnityEngine.MonoBehaviour
 struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+// Photon.Realtime.MonoBehaviourEmpty
+struct MonoBehaviourEmpty_t8BBCD2C733FF1AA5B134D7290654C2869AA7C2E9;
 // ExitGames.Client.Photon.NetworkSimulationSet
 struct NetworkSimulationSet_t4BA8B34DF74B489FCB89281132F777080DBEAF49;
 // System.NotSupportedException
@@ -473,6 +475,8 @@ struct StreamBuffer_tE57C7EEE4C12F51CE0B37E8C4FD1040EB5ED63FB;
 struct String_t;
 // ExitGames.Client.Photon.StructWrapping.StructWrapperPools
 struct StructWrapperPools_t578C08F079D4A055E0ED8EF8196750B3DEDCEBBD;
+// Photon.Realtime.SystemConnectionSummary
+struct SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A;
 // System.Threading.Thread
 struct Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F;
 // ExitGames.Client.Photon.TrafficStats
@@ -591,10 +595,12 @@ IL2CPP_EXTERN_C RuntimeClass* SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32
 IL2CPP_EXTERN_C RuntimeClass* SerializeStreamMethod_tE9A207ADBB74A63C939A741C47F75676E0A82BEF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ServerConnection_t91F7686050F68425C6517C7AC3225669636DD0CC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StackTrace_t7C150C7C14136F985311A83A93524B1019F70853_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StatusCode_tD49F9E026EFABFD71BA675213E28355707A67D74_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SupportClass_t32D0DFFDDE8571589E7CEE5BEA6955AD56E8D4A7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TypedLobbyInfo_t96769DF10F16EB926E1D59D6F0385F6B57262E91_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9_il2cpp_TypeInfo_var;
@@ -658,6 +664,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral5967B8D3A47230A185386CC96B6A93453C7F2DCC
 IL2CPP_EXTERN_C String_t* _stringLiteral5AD194AA46079367AB547D148055FFFE8A6115D9;
 IL2CPP_EXTERN_C String_t* _stringLiteral5BEFD8CC60A79699B5BB00E37BAC5B62D371E174;
 IL2CPP_EXTERN_C String_t* _stringLiteral5CC276B37E509D0A87B48DDA3D1AD69893D116EB;
+IL2CPP_EXTERN_C String_t* _stringLiteral5D0B0A1BAAF44FA032DE24CD1090228E1AC44C6F;
 IL2CPP_EXTERN_C String_t* _stringLiteral5E0F376DE4F3EA2E4EEAC2FE381BEA419B18B020;
 IL2CPP_EXTERN_C String_t* _stringLiteral6028A6B8D9F0AEC8F28264D3169B852FD7D1553C;
 IL2CPP_EXTERN_C String_t* _stringLiteral608EF1367A32D4278E31034E4BF98EF6D228D67F;
@@ -671,6 +678,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral77E3A5DFDF30AC18B4DB9AC5D034EFEA29F1AAE3
 IL2CPP_EXTERN_C String_t* _stringLiteral7A35FE2B71A1AAA56976DFEAC65C62AD1C99A11E;
 IL2CPP_EXTERN_C String_t* _stringLiteral7E761C1EC081FA27ACF0F34BF8528BA8B0B07C42;
 IL2CPP_EXTERN_C String_t* _stringLiteral7EFEF633F8061123E5753ACA7793F53B8E491F34;
+IL2CPP_EXTERN_C String_t* _stringLiteral80996E27DFB1150E8EBF56208A54BEF962E22F86;
 IL2CPP_EXTERN_C String_t* _stringLiteral80E7CF73ABE78832F677B6B12A03A933ED22EDCE;
 IL2CPP_EXTERN_C String_t* _stringLiteral81CC22F6D8F4D38B0120802C14B5FABCAEF3C06C;
 IL2CPP_EXTERN_C String_t* _stringLiteral8317A1D07176E4B4B8220229692A67A52D7640FD;
@@ -695,6 +703,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralAB296F79B2F6662D481870A8F479A5867E8C1667
 IL2CPP_EXTERN_C String_t* _stringLiteralAB6C2FC49680162A4ACABC1F35845C211B4676B4;
 IL2CPP_EXTERN_C String_t* _stringLiteralACD463FD0B8E87D2710A370DF0921FAAFE77F2FA;
 IL2CPP_EXTERN_C String_t* _stringLiteralAD6CD2C36915DEB6A18BCF0F46B294FC1D97072F;
+IL2CPP_EXTERN_C String_t* _stringLiteralAE261A7CAE6A7E6050E869C8F2CC06783989F0DE;
 IL2CPP_EXTERN_C String_t* _stringLiteralAF62439FC3A6158C1E9F849DC7C3EEE2126B925C;
 IL2CPP_EXTERN_C String_t* _stringLiteralAFCB9462B5678BE4E1B7BE3465F0E62E39C5FFB2;
 IL2CPP_EXTERN_C String_t* _stringLiteralB056053ED873F9751A6BF8D0EBEA1D10D0FF2F34;
@@ -704,6 +713,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralB552EBC34680620FD4882048D3CE5CA68BC3C68F
 IL2CPP_EXTERN_C String_t* _stringLiteralB6E27057756DCA144F5C0F63E9F9918A57D91CFE;
 IL2CPP_EXTERN_C String_t* _stringLiteralB7A0517E53F97847DA11954EC5BB6A0ABEB18E1F;
 IL2CPP_EXTERN_C String_t* _stringLiteralB922F35FA150BA1DA83B3BE444CDAEB18CDF5885;
+IL2CPP_EXTERN_C String_t* _stringLiteralB9628F79B38E3674001690F30D2CDBA2C244BF80;
 IL2CPP_EXTERN_C String_t* _stringLiteralBA43E6630EE7BAE2075D12976B22BF5FEF7B6522;
 IL2CPP_EXTERN_C String_t* _stringLiteralBB635031C2DC03497D23E81CDBEC6777B30D1B3E;
 IL2CPP_EXTERN_C String_t* _stringLiteralBC7E60FEBB3FA2D9BEB97C1197B3CBB721A63B09;
@@ -737,6 +747,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralE04C69C7A45EFC4EA5B3E17972B1669E2AA36C61
 IL2CPP_EXTERN_C String_t* _stringLiteralE56A5193C1E1560FCCED0ED3643F10BEC4942DA4;
 IL2CPP_EXTERN_C String_t* _stringLiteralEA6824010DE96FAEEDC5701C23C1377985B771A8;
 IL2CPP_EXTERN_C String_t* _stringLiteralEB7E10C5BC725D24A6F8F93FB6B05AB3DF639C16;
+IL2CPP_EXTERN_C String_t* _stringLiteralEC71DFB617708CE08AA76436A6F191DB44E3A6F3;
 IL2CPP_EXTERN_C String_t* _stringLiteralEE616C7944C0F8BFE8AA3D3D48914FC5EEF2121A;
 IL2CPP_EXTERN_C String_t* _stringLiteralEFCB97E699D7AF619D08BCA78C1FA66E3DE5B766;
 IL2CPP_EXTERN_C String_t* _stringLiteralF21EBFE1C104A20E9BD26C28A1EFC59E11FB4C8C;
@@ -1626,50 +1637,52 @@ struct PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C  : public RuntimeObj
 	int32_t ___InitialResendTimeMax_36;
 	// System.Int32 ExitGames.Client.Photon.PhotonPeer::TimePingInterval
 	int32_t ___TimePingInterval_37;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::PingUsedAsInit
+	bool ___PingUsedAsInit_38;
 	// System.Int32 ExitGames.Client.Photon.PhotonPeer::disconnectTimeout
-	int32_t ___disconnectTimeout_38;
+	int32_t ___disconnectTimeout_39;
 	// ExitGames.Client.Photon.ConnectionProtocol ExitGames.Client.Photon.PhotonPeer::<TransportProtocol>k__BackingField
-	uint8_t ___U3CTransportProtocolU3Ek__BackingField_39;
+	uint8_t ___U3CTransportProtocolU3Ek__BackingField_40;
 	// System.Int32 ExitGames.Client.Photon.PhotonPeer::mtu
-	int32_t ___mtu_41;
+	int32_t ___mtu_42;
 	// System.Boolean ExitGames.Client.Photon.PhotonPeer::<IsSendingOnlyAcks>k__BackingField
-	bool ___U3CIsSendingOnlyAcksU3Ek__BackingField_42;
+	bool ___U3CIsSendingOnlyAcksU3Ek__BackingField_43;
 	// System.Boolean ExitGames.Client.Photon.PhotonPeer::RandomizeSequenceNumbers
-	bool ___RandomizeSequenceNumbers_44;
+	bool ___RandomizeSequenceNumbers_45;
 	// System.Byte[] ExitGames.Client.Photon.PhotonPeer::RandomizedSequenceNumbers
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___RandomizedSequenceNumbers_45;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___RandomizedSequenceNumbers_46;
 	// System.Boolean ExitGames.Client.Photon.PhotonPeer::GcmDatagramEncryption
-	bool ___GcmDatagramEncryption_46;
+	bool ___GcmDatagramEncryption_47;
 	// ExitGames.Client.Photon.TrafficStats ExitGames.Client.Photon.PhotonPeer::<TrafficStatsIncoming>k__BackingField
-	TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* ___U3CTrafficStatsIncomingU3Ek__BackingField_47;
+	TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* ___U3CTrafficStatsIncomingU3Ek__BackingField_48;
 	// ExitGames.Client.Photon.TrafficStats ExitGames.Client.Photon.PhotonPeer::<TrafficStatsOutgoing>k__BackingField
-	TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* ___U3CTrafficStatsOutgoingU3Ek__BackingField_48;
+	TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* ___U3CTrafficStatsOutgoingU3Ek__BackingField_49;
 	// ExitGames.Client.Photon.TrafficStatsGameLevel ExitGames.Client.Photon.PhotonPeer::<TrafficStatsGameLevel>k__BackingField
-	TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9* ___U3CTrafficStatsGameLevelU3Ek__BackingField_49;
+	TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9* ___U3CTrafficStatsGameLevelU3Ek__BackingField_50;
 	// System.Diagnostics.Stopwatch ExitGames.Client.Photon.PhotonPeer::trafficStatsStopwatch
-	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ___trafficStatsStopwatch_50;
+	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ___trafficStatsStopwatch_51;
 	// System.Boolean ExitGames.Client.Photon.PhotonPeer::trafficStatsEnabled
-	bool ___trafficStatsEnabled_51;
+	bool ___trafficStatsEnabled_52;
 	// ExitGames.Client.Photon.PeerBase ExitGames.Client.Photon.PhotonPeer::peerBase
-	PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* ___peerBase_52;
+	PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* ___peerBase_53;
 	// System.Object ExitGames.Client.Photon.PhotonPeer::SendOutgoingLockObject
-	RuntimeObject* ___SendOutgoingLockObject_53;
+	RuntimeObject* ___SendOutgoingLockObject_54;
 	// System.Object ExitGames.Client.Photon.PhotonPeer::DispatchLockObject
-	RuntimeObject* ___DispatchLockObject_54;
+	RuntimeObject* ___DispatchLockObject_55;
 	// System.Object ExitGames.Client.Photon.PhotonPeer::EnqueueLock
-	RuntimeObject* ___EnqueueLock_55;
+	RuntimeObject* ___EnqueueLock_56;
 	// System.Type ExitGames.Client.Photon.PhotonPeer::payloadEncryptorType
-	Type_t* ___payloadEncryptorType_56;
+	Type_t* ___payloadEncryptorType_57;
 	// System.Byte[] ExitGames.Client.Photon.PhotonPeer::PayloadEncryptionSecret
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___PayloadEncryptionSecret_57;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___PayloadEncryptionSecret_58;
 	// System.Type ExitGames.Client.Photon.PhotonPeer::encryptorType
-	Type_t* ___encryptorType_58;
+	Type_t* ___encryptorType_59;
 	// ExitGames.Client.Photon.Encryption.IPhotonEncryptor ExitGames.Client.Photon.PhotonPeer::Encryptor
-	RuntimeObject* ___Encryptor_59;
+	RuntimeObject* ___Encryptor_60;
 	// System.Int32 ExitGames.Client.Photon.PhotonPeer::<CountDiscarded>k__BackingField
-	int32_t ___U3CCountDiscardedU3Ek__BackingField_60;
+	int32_t ___U3CCountDiscardedU3Ek__BackingField_61;
 	// System.Int32 ExitGames.Client.Photon.PhotonPeer::<DeltaUnreliableNumber>k__BackingField
-	int32_t ___U3CDeltaUnreliableNumberU3Ek__BackingField_61;
+	int32_t ___U3CDeltaUnreliableNumberU3Ek__BackingField_62;
 };
 
 struct PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_StaticFields
@@ -1685,9 +1698,9 @@ struct PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_StaticFields
 	// System.Boolean ExitGames.Client.Photon.PhotonPeer::NativeDatagramEncryptionLibAvailable
 	bool ___NativeDatagramEncryptionLibAvailable_15;
 	// System.Int32 ExitGames.Client.Photon.PhotonPeer::OutgoingStreamBufferSize
-	int32_t ___OutgoingStreamBufferSize_40;
+	int32_t ___OutgoingStreamBufferSize_41;
 	// System.Boolean ExitGames.Client.Photon.PhotonPeer::AsyncKeyExchange
-	bool ___AsyncKeyExchange_43;
+	bool ___AsyncKeyExchange_44;
 };
 
 // Photon.Realtime.Player
@@ -1764,10 +1777,16 @@ struct RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB  : public Runtime
 	Action_1_tD013146E11DC5068784A80C11B7415DC9FE54B74* ___onCompleteCall_5;
 	// System.Int32 Photon.Realtime.RegionHandler::previousPing
 	int32_t ___previousPing_6;
-	// System.Boolean Photon.Realtime.RegionHandler::<IsPinging>k__BackingField
-	bool ___U3CIsPingingU3Ek__BackingField_7;
 	// System.String Photon.Realtime.RegionHandler::previousSummaryProvided
-	String_t* ___previousSummaryProvided_8;
+	String_t* ___previousSummaryProvided_7;
+	// System.Boolean Photon.Realtime.RegionHandler::<IsPinging>k__BackingField
+	bool ___U3CIsPingingU3Ek__BackingField_9;
+	// System.Boolean Photon.Realtime.RegionHandler::<Aborted>k__BackingField
+	bool ___U3CAbortedU3Ek__BackingField_10;
+	// System.Int32 Photon.Realtime.RegionHandler::BestRegionSummaryPingLimit
+	int32_t ___BestRegionSummaryPingLimit_11;
+	// Photon.Realtime.MonoBehaviourEmpty Photon.Realtime.RegionHandler::emptyMonoBehavior
+	MonoBehaviourEmpty_t8BBCD2C733FF1AA5B134D7290654C2869AA7C2E9* ___emptyMonoBehavior_12;
 };
 
 struct RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB_StaticFields
@@ -1775,7 +1794,7 @@ struct RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB_StaticFields
 	// System.Type Photon.Realtime.RegionHandler::PingImplementation
 	Type_t* ___PingImplementation_0;
 	// System.UInt16 Photon.Realtime.RegionHandler::PortToPingOverride
-	uint16_t ___PortToPingOverride_9;
+	uint16_t ___PortToPingOverride_8;
 };
 
 // Photon.Realtime.RoomInfo
@@ -1785,8 +1804,8 @@ struct RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D  : public RuntimeObjec
 	bool ___RemovedFromList_0;
 	// ExitGames.Client.Photon.Hashtable Photon.Realtime.RoomInfo::customProperties
 	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___customProperties_1;
-	// System.Byte Photon.Realtime.RoomInfo::maxPlayers
-	uint8_t ___maxPlayers_2;
+	// System.Int32 Photon.Realtime.RoomInfo::maxPlayers
+	int32_t ___maxPlayers_2;
 	// System.Int32 Photon.Realtime.RoomInfo::emptyRoomTtl
 	int32_t ___emptyRoomTtl_3;
 	// System.Int32 Photon.Realtime.RoomInfo::playerTtl
@@ -1816,8 +1835,8 @@ struct RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23  : public RuntimeOb
 	bool ___isVisible_0;
 	// System.Boolean Photon.Realtime.RoomOptions::isOpen
 	bool ___isOpen_1;
-	// System.Byte Photon.Realtime.RoomOptions::MaxPlayers
-	uint8_t ___MaxPlayers_2;
+	// System.Int32 Photon.Realtime.RoomOptions::MaxPlayers
+	int32_t ___MaxPlayers_2;
 	// System.Int32 Photon.Realtime.RoomOptions::PlayerTtl
 	int32_t ___PlayerTtl_3;
 	// System.Int32 Photon.Realtime.RoomOptions::EmptyRoomTtl
@@ -1846,19 +1865,19 @@ struct RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23  : public RuntimeOb
 struct StackTrace_t7C150C7C14136F985311A83A93524B1019F70853  : public RuntimeObject
 {
 	// System.Diagnostics.StackFrame[] System.Diagnostics.StackTrace::frames
-	StackFrameU5BU5D_tF4310E8FAB8C2853A3F0843921BF9FBEC18ABBF7* ___frames_0;
+	StackFrameU5BU5D_tF4310E8FAB8C2853A3F0843921BF9FBEC18ABBF7* ___frames_2;
 	// System.Diagnostics.StackTrace[] System.Diagnostics.StackTrace::captured_traces
-	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_1;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_3;
 	// System.Boolean System.Diagnostics.StackTrace::debug_info
-	bool ___debug_info_2;
+	bool ___debug_info_4;
 };
 
 struct StackTrace_t7C150C7C14136F985311A83A93524B1019F70853_StaticFields
 {
 	// System.Boolean System.Diagnostics.StackTrace::isAotidSet
-	bool ___isAotidSet_3;
+	bool ___isAotidSet_5;
 	// System.String System.Diagnostics.StackTrace::aotid
-	String_t* ___aotid_4;
+	String_t* ___aotid_6;
 };
 
 // System.Diagnostics.Stopwatch
@@ -1904,6 +1923,39 @@ struct String_t_StaticFields
 {
 	// System.String System.String::Empty
 	String_t* ___Empty_6;
+};
+
+// Photon.Realtime.SystemConnectionSummary
+struct SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A  : public RuntimeObject
+{
+	// System.Byte Photon.Realtime.SystemConnectionSummary::Version
+	uint8_t ___Version_0;
+	// System.Byte Photon.Realtime.SystemConnectionSummary::UsedProtocol
+	uint8_t ___UsedProtocol_1;
+	// System.Boolean Photon.Realtime.SystemConnectionSummary::AppQuits
+	bool ___AppQuits_2;
+	// System.Boolean Photon.Realtime.SystemConnectionSummary::AppPause
+	bool ___AppPause_3;
+	// System.Boolean Photon.Realtime.SystemConnectionSummary::AppPauseRecent
+	bool ___AppPauseRecent_4;
+	// System.Boolean Photon.Realtime.SystemConnectionSummary::AppOutOfFocus
+	bool ___AppOutOfFocus_5;
+	// System.Boolean Photon.Realtime.SystemConnectionSummary::AppOutOfFocusRecent
+	bool ___AppOutOfFocusRecent_6;
+	// System.Boolean Photon.Realtime.SystemConnectionSummary::NetworkReachable
+	bool ___NetworkReachable_7;
+	// System.Boolean Photon.Realtime.SystemConnectionSummary::ErrorCodeFits
+	bool ___ErrorCodeFits_8;
+	// System.Boolean Photon.Realtime.SystemConnectionSummary::ErrorCodeWinSock
+	bool ___ErrorCodeWinSock_9;
+	// System.Int32 Photon.Realtime.SystemConnectionSummary::SocketErrorCode
+	int32_t ___SocketErrorCode_10;
+};
+
+struct SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A_StaticFields
+{
+	// System.String[] Photon.Realtime.SystemConnectionSummary::ProtocolIdToName
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___ProtocolIdToName_11;
 };
 
 // Photon.Realtime.TypedLobby
@@ -2299,7 +2351,7 @@ struct IntPtr_t_StaticFields
 struct LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F  : public PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C
 {
 	// ExitGames.Client.Photon.Pool`1<ExitGames.Client.Photon.ParameterDictionary> Photon.Realtime.LoadBalancingPeer::paramDictionaryPool
-	Pool_1_t47635E10016E83A1E327B583977D1F043544FB48* ___paramDictionaryPool_62;
+	Pool_1_t47635E10016E83A1E327B583977D1F043544FB48* ___paramDictionaryPool_63;
 };
 
 // Photon.Realtime.LobbyCallbacksContainer
@@ -2736,48 +2788,50 @@ struct LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4  : public R
 	ErrorInfoCallbacksContainer_tF60CA97691A86635843C02EEA1D689A384BC7ED7* ___ErrorInfoCallbackTargets_28;
 	// Photon.Realtime.DisconnectCause Photon.Realtime.LoadBalancingClient::<DisconnectedCause>k__BackingField
 	int32_t ___U3CDisconnectedCauseU3Ek__BackingField_29;
+	// Photon.Realtime.SystemConnectionSummary Photon.Realtime.LoadBalancingClient::SystemConnectionSummary
+	SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A* ___SystemConnectionSummary_30;
 	// Photon.Realtime.TypedLobby Photon.Realtime.LoadBalancingClient::<CurrentLobby>k__BackingField
-	TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9* ___U3CCurrentLobbyU3Ek__BackingField_30;
+	TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9* ___U3CCurrentLobbyU3Ek__BackingField_31;
 	// System.Boolean Photon.Realtime.LoadBalancingClient::EnableLobbyStatistics
-	bool ___EnableLobbyStatistics_31;
+	bool ___EnableLobbyStatistics_32;
 	// System.Collections.Generic.List`1<Photon.Realtime.TypedLobbyInfo> Photon.Realtime.LoadBalancingClient::lobbyStatistics
-	List_1_t9502060F404ACB6B9ACF04BFA5D0DFC653142A15* ___lobbyStatistics_32;
+	List_1_t9502060F404ACB6B9ACF04BFA5D0DFC653142A15* ___lobbyStatistics_33;
 	// Photon.Realtime.Player Photon.Realtime.LoadBalancingClient::<LocalPlayer>k__BackingField
-	Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* ___U3CLocalPlayerU3Ek__BackingField_33;
+	Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* ___U3CLocalPlayerU3Ek__BackingField_34;
 	// Photon.Realtime.Room Photon.Realtime.LoadBalancingClient::<CurrentRoom>k__BackingField
-	Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* ___U3CCurrentRoomU3Ek__BackingField_34;
+	Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* ___U3CCurrentRoomU3Ek__BackingField_35;
 	// System.Int32 Photon.Realtime.LoadBalancingClient::<PlayersOnMasterCount>k__BackingField
-	int32_t ___U3CPlayersOnMasterCountU3Ek__BackingField_35;
+	int32_t ___U3CPlayersOnMasterCountU3Ek__BackingField_36;
 	// System.Int32 Photon.Realtime.LoadBalancingClient::<PlayersInRoomsCount>k__BackingField
-	int32_t ___U3CPlayersInRoomsCountU3Ek__BackingField_36;
+	int32_t ___U3CPlayersInRoomsCountU3Ek__BackingField_37;
 	// System.Int32 Photon.Realtime.LoadBalancingClient::<RoomsCount>k__BackingField
-	int32_t ___U3CRoomsCountU3Ek__BackingField_37;
+	int32_t ___U3CRoomsCountU3Ek__BackingField_38;
 	// Photon.Realtime.JoinType Photon.Realtime.LoadBalancingClient::lastJoinType
-	int32_t ___lastJoinType_38;
+	int32_t ___lastJoinType_39;
 	// Photon.Realtime.EnterRoomParams Photon.Realtime.LoadBalancingClient::enterRoomParamsCache
-	EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* ___enterRoomParamsCache_39;
+	EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* ___enterRoomParamsCache_40;
 	// ExitGames.Client.Photon.OperationResponse Photon.Realtime.LoadBalancingClient::failedRoomEntryOperation
-	OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* ___failedRoomEntryOperation_40;
+	OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* ___failedRoomEntryOperation_41;
 	// System.String[] Photon.Realtime.LoadBalancingClient::friendListRequested
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___friendListRequested_42;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___friendListRequested_43;
 	// System.String Photon.Realtime.LoadBalancingClient::<CloudRegion>k__BackingField
-	String_t* ___U3CCloudRegionU3Ek__BackingField_43;
+	String_t* ___U3CCloudRegionU3Ek__BackingField_44;
 	// System.String Photon.Realtime.LoadBalancingClient::<CurrentCluster>k__BackingField
-	String_t* ___U3CCurrentClusterU3Ek__BackingField_44;
+	String_t* ___U3CCurrentClusterU3Ek__BackingField_45;
 	// Photon.Realtime.RegionHandler Photon.Realtime.LoadBalancingClient::RegionHandler
-	RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB* ___RegionHandler_45;
+	RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB* ___RegionHandler_46;
 	// System.String Photon.Realtime.LoadBalancingClient::bestRegionSummaryFromStorage
-	String_t* ___bestRegionSummaryFromStorage_46;
+	String_t* ___bestRegionSummaryFromStorage_47;
 	// System.String Photon.Realtime.LoadBalancingClient::SummaryToCache
-	String_t* ___SummaryToCache_47;
+	String_t* ___SummaryToCache_48;
 	// System.Boolean Photon.Realtime.LoadBalancingClient::connectToBestRegion
-	bool ___connectToBestRegion_48;
+	bool ___connectToBestRegion_49;
 	// System.Collections.Generic.Queue`1<Photon.Realtime.LoadBalancingClient/CallbackTargetChange> Photon.Realtime.LoadBalancingClient::callbackTargetChanges
-	Queue_1_t9BA80EF655597EC91F8BA37831960B5B70540B02* ___callbackTargetChanges_49;
+	Queue_1_t9BA80EF655597EC91F8BA37831960B5B70540B02* ___callbackTargetChanges_50;
 	// System.Collections.Generic.HashSet`1<System.Object> Photon.Realtime.LoadBalancingClient::callbackTargets
-	HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* ___callbackTargets_50;
+	HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* ___callbackTargets_51;
 	// System.Int32 Photon.Realtime.LoadBalancingClient::NameServerPortInAppSettings
-	int32_t ___NameServerPortInAppSettings_51;
+	int32_t ___NameServerPortInAppSettings_52;
 };
 
 struct LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4_StaticFields
@@ -2993,17 +3047,25 @@ struct ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4  : public Mon
 	// System.Boolean Photon.Realtime.ConnectionHandler::ApplyDontDestroyOnLoad
 	bool ___ApplyDontDestroyOnLoad_8;
 	// System.Byte Photon.Realtime.ConnectionHandler::fallbackThreadId
-	uint8_t ___fallbackThreadId_10;
+	uint8_t ___fallbackThreadId_14;
 	// System.Boolean Photon.Realtime.ConnectionHandler::didSendAcks
-	bool ___didSendAcks_11;
+	bool ___didSendAcks_15;
 	// System.Diagnostics.Stopwatch Photon.Realtime.ConnectionHandler::backgroundStopwatch
-	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ___backgroundStopwatch_12;
+	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ___backgroundStopwatch_16;
 };
 
 struct ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_StaticFields
 {
 	// System.Boolean Photon.Realtime.ConnectionHandler::AppQuits
 	bool ___AppQuits_9;
+	// System.Boolean Photon.Realtime.ConnectionHandler::AppPause
+	bool ___AppPause_10;
+	// System.Boolean Photon.Realtime.ConnectionHandler::AppPauseRecent
+	bool ___AppPauseRecent_11;
+	// System.Boolean Photon.Realtime.ConnectionHandler::AppOutOfFocus
+	bool ___AppOutOfFocus_12;
+	// System.Boolean Photon.Realtime.ConnectionHandler::AppOutOfFocusRecent
+	bool ___AppOutOfFocusRecent_13;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -3326,6 +3388,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_Disconnect_m9E92F0FD
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, const RuntimeMethod* method) ;
 // System.Boolean ExitGames.Client.Photon.SupportClass::StopAllBackgroundCalls()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SupportClass_StopAllBackgroundCalls_mC7687D2B76B94DF0E51DC0DF578390017431D8DC (const RuntimeMethod* method) ;
+// System.Void UnityEngine.MonoBehaviour::CancelInvoke(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_CancelInvoke_m268FFD58AFF64C07FD4C9B9B8B85F58BD86F3A01 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, String_t* ___methodName0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.MonoBehaviour::Invoke(System.String,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, String_t* ___methodName0, float ___time1, const RuntimeMethod* method) ;
+// UnityEngine.NetworkReachability UnityEngine.Application::get_internetReachability()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_internetReachability_m3FECA8BA005340369BB952CE8CDF3E1A53F3BA0E (const RuntimeMethod* method) ;
 // System.Boolean Photon.Realtime.ConnectionHandler::get_FallbackThreadRunning()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConnectionHandler_get_FallbackThreadRunning_m0235762837B9DBBC35FCE72E4EEDB53AD74FC074 (ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4* __this, const RuntimeMethod* method) ;
 // System.Void System.Func`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
@@ -3902,6 +3970,8 @@ inline uint8_t Nullable_1_GetValueOrDefault_m97F94690881C66DA3C9B9A097E34A6AD030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionCallbacksContainer_OnDisconnected_mB6E52AB9B90D96CE72512973BBDD74529515AFA0 (ConnectionCallbacksContainer_t4E9F72F713D87B67F0CA63162CFC7D100554BFFD* __this, int32_t ___cause0, const RuntimeMethod* method) ;
 // System.Void System.Diagnostics.StackTrace::.ctor(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void StackTrace__ctor_m269D00E49783BC3205FD5C7E879888884D72107C (StackTrace_t7C150C7C14136F985311A83A93524B1019F70853* __this, bool ___fNeedFileInfo0, const RuntimeMethod* method) ;
+// System.Void Photon.Realtime.SystemConnectionSummary::.ctor(Photon.Realtime.LoadBalancingClient)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SystemConnectionSummary__ctor_m8FE68C2E73195E8485EEC496FD6ACBB67CCA326E (SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A* __this, LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* ___client0, const RuntimeMethod* method) ;
 // System.Boolean Photon.Realtime.LoadBalancingClient::get_EnableProtocolFallback()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool LoadBalancingClient_get_EnableProtocolFallback_m65B7F799CD2BC4BCDE41F887AB94F75A86BA752A_inline (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, const RuntimeMethod* method) ;
 // System.Int32 ExitGames.Client.Photon.EventData::get_Sender()
@@ -5295,7 +5365,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConnectionHandler_get_FallbackThreadRunn
 	bool V_0 = false;
 	{
 		// get { return this.fallbackThreadId < 255; }
-		uint8_t L_0 = __this->___fallbackThreadId_10;
+		uint8_t L_0 = __this->___fallbackThreadId_14;
 		V_0 = (bool)((((int32_t)L_0) < ((int32_t)((int32_t)255)))? 1 : 0);
 		goto IL_0011;
 	}
@@ -5319,22 +5389,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionHandler_StaticReset_m8794CE7E5
 	{
 		// AppQuits = false;
 		((ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_StaticFields*)il2cpp_codegen_static_fields_for(ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var))->___AppQuits_9 = (bool)0;
-		// }
-		return;
-	}
-}
-// System.Void Photon.Realtime.ConnectionHandler::OnApplicationQuit()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionHandler_OnApplicationQuit_mD1B84B9CE50EFA98A97CF821F9DA780BA633E5B2 (ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// AppQuits = true;
-		((ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_StaticFields*)il2cpp_codegen_static_fields_for(ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var))->___AppQuits_9 = (bool)1;
+		// AppPause = false;
+		((ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_StaticFields*)il2cpp_codegen_static_fields_for(ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var))->___AppPause_10 = (bool)0;
+		// AppPauseRecent = false;
+		((ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_StaticFields*)il2cpp_codegen_static_fields_for(ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var))->___AppPauseRecent_11 = (bool)0;
+		// AppOutOfFocus = false;
+		((ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_StaticFields*)il2cpp_codegen_static_fields_for(ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var))->___AppOutOfFocus_12 = (bool)0;
+		// AppOutOfFocusRecent = false;
+		((ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_StaticFields*)il2cpp_codegen_static_fields_for(ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var))->___AppOutOfFocusRecent_13 = (bool)0;
 		// }
 		return;
 	}
@@ -5436,7 +5498,7 @@ IL_0028:
 		LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* L_6;
 		L_6 = ConnectionHandler_get_Client_mDDF8A1B26F8DCBC20DEC3B6602CA2A070B1CA35C_inline(__this, NULL);
 		NullCheck(L_6);
-		LoadBalancingClient_Disconnect_m9E92F0FD6E20FA7FCB107FD132A62F6DEEC9AEF8(L_6, ((int32_t)18), NULL);
+		LoadBalancingClient_Disconnect_m9E92F0FD6E20FA7FCB107FD132A62F6DEEC9AEF8(L_6, ((int32_t)20), NULL);
 		// this.Client.LoadBalancingPeer.StopThread();
 		LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* L_7;
 		L_7 = ConnectionHandler_get_Client_mDDF8A1B26F8DCBC20DEC3B6602CA2A070B1CA35C_inline(__this, NULL);
@@ -5459,6 +5521,161 @@ IL_0054:
 	{
 		// }
 		return;
+	}
+}
+// System.Void Photon.Realtime.ConnectionHandler::OnApplicationQuit()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionHandler_OnApplicationQuit_mD1B84B9CE50EFA98A97CF821F9DA780BA633E5B2 (ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// AppQuits = true;
+		((ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_StaticFields*)il2cpp_codegen_static_fields_for(ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var))->___AppQuits_9 = (bool)1;
+		// }
+		return;
+	}
+}
+// System.Void Photon.Realtime.ConnectionHandler::OnApplicationPause(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionHandler_OnApplicationPause_m9791707ACE12B1496EAFE588380ED269D4D4D206 (ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4* __this, bool ___pause0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB9628F79B38E3674001690F30D2CDBA2C244BF80);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// AppPause = pause;
+		bool L_0 = ___pause0;
+		((ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_StaticFields*)il2cpp_codegen_static_fields_for(ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var))->___AppPause_10 = L_0;
+		// if (pause)
+		bool L_1 = ___pause0;
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		// AppPauseRecent = true;
+		((ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_StaticFields*)il2cpp_codegen_static_fields_for(ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var))->___AppPauseRecent_11 = (bool)1;
+		// this.CancelInvoke(nameof(this.ResetAppPauseRecent));
+		MonoBehaviour_CancelInvoke_m268FFD58AFF64C07FD4C9B9B8B85F58BD86F3A01(__this, _stringLiteralB9628F79B38E3674001690F30D2CDBA2C244BF80, NULL);
+		goto IL_0035;
+	}
+
+IL_0022:
+	{
+		// Invoke(nameof(this.ResetAppPauseRecent), 5f);
+		MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB(__this, _stringLiteralB9628F79B38E3674001690F30D2CDBA2C244BF80, (5.0f), NULL);
+	}
+
+IL_0035:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Photon.Realtime.ConnectionHandler::ResetAppPauseRecent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionHandler_ResetAppPauseRecent_mD8863DDFFD7601FA30A2EFFB20937BE59BEBB5C8 (ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// AppPauseRecent = false;
+		((ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_StaticFields*)il2cpp_codegen_static_fields_for(ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var))->___AppPauseRecent_11 = (bool)0;
+		// }
+		return;
+	}
+}
+// System.Void Photon.Realtime.ConnectionHandler::OnApplicationFocus(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionHandler_OnApplicationFocus_m47F924973C2A3C051EF81C5B8760EDB897B9AF25 (ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4* __this, bool ___focus0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAE261A7CAE6A7E6050E869C8F2CC06783989F0DE);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// AppOutOfFocus = !focus;
+		bool L_0 = ___focus0;
+		((ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_StaticFields*)il2cpp_codegen_static_fields_for(ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var))->___AppOutOfFocus_12 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		// if (!focus)
+		bool L_1 = ___focus0;
+		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		// AppOutOfFocusRecent = true;
+		((ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_StaticFields*)il2cpp_codegen_static_fields_for(ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var))->___AppOutOfFocusRecent_13 = (bool)1;
+		// this.CancelInvoke(nameof(this.ResetAppOutOfFocusRecent));
+		MonoBehaviour_CancelInvoke_m268FFD58AFF64C07FD4C9B9B8B85F58BD86F3A01(__this, _stringLiteralAE261A7CAE6A7E6050E869C8F2CC06783989F0DE, NULL);
+		goto IL_003b;
+	}
+
+IL_0028:
+	{
+		// this.Invoke(nameof(this.ResetAppOutOfFocusRecent), 5f);
+		MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB(__this, _stringLiteralAE261A7CAE6A7E6050E869C8F2CC06783989F0DE, (5.0f), NULL);
+	}
+
+IL_003b:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Photon.Realtime.ConnectionHandler::ResetAppOutOfFocusRecent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionHandler_ResetAppOutOfFocusRecent_m080C5FE4B7D7623623E6391AF56ED4AA4D82EAAD (ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// AppOutOfFocusRecent = false;
+		((ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_StaticFields*)il2cpp_codegen_static_fields_for(ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4_il2cpp_TypeInfo_var))->___AppOutOfFocusRecent_13 = (bool)0;
+		// }
+		return;
+	}
+}
+// System.Boolean Photon.Realtime.ConnectionHandler::IsNetworkReachableUnity()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConnectionHandler_IsNetworkReachableUnity_m797FF915CD954E153C5D2A353E3B8D205893DF87 (const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		// return Application.internetReachability != NetworkReachability.NotReachable;
+		int32_t L_0;
+		L_0 = Application_get_internetReachability_m3FECA8BA005340369BB952CE8CDF3E1A53F3BA0E(NULL);
+		V_0 = (bool)((!(((uint32_t)L_0) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		// }
+		bool L_1 = V_0;
+		return L_1;
 	}
 }
 // System.Void Photon.Realtime.ConnectionHandler::StartFallbackSendAckThread()
@@ -5499,7 +5716,7 @@ IL_000e:
 		il2cpp_codegen_runtime_class_init_inline(SupportClass_t32D0DFFDDE8571589E7CEE5BEA6955AD56E8D4A7_il2cpp_TypeInfo_var);
 		uint8_t L_3;
 		L_3 = SupportClass_StartBackgroundCalls_m42B198ADEDAE9A907D4931759B4C1D5AC0F7B329(L_2, ((int32_t)50), _stringLiteral228278B3B19D275FE83B11E3BC9D9AB91B54DA72, NULL);
-		__this->___fallbackThreadId_10 = L_3;
+		__this->___fallbackThreadId_14 = L_3;
 	}
 
 IL_002c:
@@ -5537,12 +5754,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionHandler_StopFallbackSendAckThr
 IL_0011:
 	{
 		// SupportClass.StopBackgroundCalls(this.fallbackThreadId);
-		uint8_t L_2 = __this->___fallbackThreadId_10;
+		uint8_t L_2 = __this->___fallbackThreadId_14;
 		il2cpp_codegen_runtime_class_init_inline(SupportClass_t32D0DFFDDE8571589E7CEE5BEA6955AD56E8D4A7_il2cpp_TypeInfo_var);
 		bool L_3;
 		L_3 = SupportClass_StopBackgroundCalls_mD8871A3E501ABAECDD35BF9BDADCBDF630460A20(L_2, NULL);
 		// this.fallbackThreadId = 255;
-		__this->___fallbackThreadId_10 = (uint8_t)((int32_t)255);
+		__this->___fallbackThreadId_14 = (uint8_t)((int32_t)255);
 	}
 
 IL_0028:
@@ -5589,7 +5806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConnectionHandler_RealtimeFallbackThread
 	}
 	{
 		// this.didSendAcks = false;
-		__this->___didSendAcks_11 = (bool)0;
+		__this->___didSendAcks_15 = (bool)0;
 		// return true;
 		V_2 = (bool)1;
 		goto IL_0100;
@@ -5623,7 +5840,7 @@ IL_0033:
 	}
 	{
 		// if (!this.didSendAcks)
-		bool L_12 = __this->___didSendAcks_11;
+		bool L_12 = __this->___didSendAcks_15;
 		V_4 = (bool)((((int32_t)L_12) == ((int32_t)0))? 1 : 0);
 		bool L_13 = V_4;
 		if (!L_13)
@@ -5633,11 +5850,11 @@ IL_0033:
 	}
 	{
 		// backgroundStopwatch.Reset();
-		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_14 = __this->___backgroundStopwatch_12;
+		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_14 = __this->___backgroundStopwatch_16;
 		NullCheck(L_14);
 		Stopwatch_Reset_mF22DE61FDE7FF5825C750D2F6482B591BDC715FA(L_14, NULL);
 		// backgroundStopwatch.Start();
-		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_15 = __this->___backgroundStopwatch_12;
+		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_15 = __this->___backgroundStopwatch_16;
 		NullCheck(L_15);
 		Stopwatch_Start_m35906A38C7D336CF9DD35854C7E170D762A55915(L_15, NULL);
 	}
@@ -5645,7 +5862,7 @@ IL_0033:
 IL_0089:
 	{
 		// if (backgroundStopwatch.ElapsedMilliseconds > this.KeepAliveInBackground)
-		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_16 = __this->___backgroundStopwatch_12;
+		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_16 = __this->___backgroundStopwatch_16;
 		NullCheck(L_16);
 		int64_t L_17;
 		L_17 = Stopwatch_get_ElapsedMilliseconds_m8D8E60ADEB47D008C06D8E57D28D41EAE07AECBF(L_16, NULL);
@@ -5672,7 +5889,7 @@ IL_0089:
 		LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* L_22;
 		L_22 = ConnectionHandler_get_Client_mDDF8A1B26F8DCBC20DEC3B6602CA2A070B1CA35C_inline(__this, NULL);
 		NullCheck(L_22);
-		LoadBalancingClient_Disconnect_m9E92F0FD6E20FA7FCB107FD132A62F6DEEC9AEF8(L_22, ((int32_t)15), NULL);
+		LoadBalancingClient_Disconnect_m9E92F0FD6E20FA7FCB107FD132A62F6DEEC9AEF8(L_22, ((int32_t)17), NULL);
 	}
 
 IL_00c0:
@@ -5685,7 +5902,7 @@ IL_00c0:
 IL_00c4:
 	{
 		// this.didSendAcks = true;
-		__this->___didSendAcks_11 = (bool)1;
+		__this->___didSendAcks_15 = (bool)1;
 		// this.CountSendAcksOnly++;
 		int32_t L_23;
 		L_23 = ConnectionHandler_get_CountSendAcksOnly_mE8F7AB881BA832EF6CE145DC1F92CE040DC1E031_inline(__this, NULL);
@@ -5707,7 +5924,7 @@ IL_00c4:
 IL_00f2:
 	{
 		// this.didSendAcks = false;
-		__this->___didSendAcks_11 = (bool)0;
+		__this->___didSendAcks_15 = (bool)0;
 	}
 
 IL_00fb:
@@ -5745,13 +5962,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionHandler__ctor_mEA7C67FBE750BA7
 		// public bool ApplyDontDestroyOnLoad = true;
 		__this->___ApplyDontDestroyOnLoad_8 = (bool)1;
 		// private byte fallbackThreadId = 255;
-		__this->___fallbackThreadId_10 = (uint8_t)((int32_t)255);
+		__this->___fallbackThreadId_14 = (uint8_t)((int32_t)255);
 		// private readonly Stopwatch backgroundStopwatch = new Stopwatch();
 		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_0 = (Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043*)il2cpp_codegen_object_new(Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Stopwatch__ctor_mAFE6B2F45CF1C3469EF6D5307972BC098B473D0A(L_0, NULL);
-		__this->___backgroundStopwatch_12 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___backgroundStopwatch_12), (void*)L_0);
+		__this->___backgroundStopwatch_16 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___backgroundStopwatch_16), (void*)L_0);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -9025,7 +9242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TypedLobby_t29F38D993E984979E53A9212143F1B770
 {
 	{
 		// public TypedLobby CurrentLobby { get; internal set; }
-		TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9* L_0 = __this->___U3CCurrentLobbyU3Ek__BackingField_30;
+		TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9* L_0 = __this->___U3CCurrentLobbyU3Ek__BackingField_31;
 		return L_0;
 	}
 }
@@ -9035,8 +9252,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_set_CurrentLobby_m4E
 	{
 		// public TypedLobby CurrentLobby { get; internal set; }
 		TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9* L_0 = ___value0;
-		__this->___U3CCurrentLobbyU3Ek__BackingField_30 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCurrentLobbyU3Ek__BackingField_30), (void*)L_0);
+		__this->___U3CCurrentLobbyU3Ek__BackingField_31 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCurrentLobbyU3Ek__BackingField_31), (void*)L_0);
 		return;
 	}
 }
@@ -9045,7 +9262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA3
 {
 	{
 		// public Player LocalPlayer { get; internal set; }
-		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_0 = __this->___U3CLocalPlayerU3Ek__BackingField_33;
+		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_0 = __this->___U3CLocalPlayerU3Ek__BackingField_34;
 		return L_0;
 	}
 }
@@ -9055,8 +9272,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_set_LocalPlayer_m6F3
 	{
 		// public Player LocalPlayer { get; internal set; }
 		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_0 = ___value0;
-		__this->___U3CLocalPlayerU3Ek__BackingField_33 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CLocalPlayerU3Ek__BackingField_33), (void*)L_0);
+		__this->___U3CLocalPlayerU3Ek__BackingField_34 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CLocalPlayerU3Ek__BackingField_34), (void*)L_0);
 		return;
 	}
 }
@@ -9205,7 +9422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E3637
 {
 	{
 		// public Room CurrentRoom { get; set; }
-		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_0 = __this->___U3CCurrentRoomU3Ek__BackingField_34;
+		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_0 = __this->___U3CCurrentRoomU3Ek__BackingField_35;
 		return L_0;
 	}
 }
@@ -9215,8 +9432,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_set_CurrentRoom_m54F
 	{
 		// public Room CurrentRoom { get; set; }
 		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_0 = ___value0;
-		__this->___U3CCurrentRoomU3Ek__BackingField_34 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCurrentRoomU3Ek__BackingField_34), (void*)L_0);
+		__this->___U3CCurrentRoomU3Ek__BackingField_35 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCurrentRoomU3Ek__BackingField_35), (void*)L_0);
 		return;
 	}
 }
@@ -9263,7 +9480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LoadBalancingClient_get_PlayersOnMast
 {
 	{
 		// public int PlayersOnMasterCount { get; internal set; }
-		int32_t L_0 = __this->___U3CPlayersOnMasterCountU3Ek__BackingField_35;
+		int32_t L_0 = __this->___U3CPlayersOnMasterCountU3Ek__BackingField_36;
 		return L_0;
 	}
 }
@@ -9273,7 +9490,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_set_PlayersOnMasterC
 	{
 		// public int PlayersOnMasterCount { get; internal set; }
 		int32_t L_0 = ___value0;
-		__this->___U3CPlayersOnMasterCountU3Ek__BackingField_35 = L_0;
+		__this->___U3CPlayersOnMasterCountU3Ek__BackingField_36 = L_0;
 		return;
 	}
 }
@@ -9282,7 +9499,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LoadBalancingClient_get_PlayersInRoom
 {
 	{
 		// public int PlayersInRoomsCount { get; internal set; }
-		int32_t L_0 = __this->___U3CPlayersInRoomsCountU3Ek__BackingField_36;
+		int32_t L_0 = __this->___U3CPlayersInRoomsCountU3Ek__BackingField_37;
 		return L_0;
 	}
 }
@@ -9292,7 +9509,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_set_PlayersInRoomsCo
 	{
 		// public int PlayersInRoomsCount { get; internal set; }
 		int32_t L_0 = ___value0;
-		__this->___U3CPlayersInRoomsCountU3Ek__BackingField_36 = L_0;
+		__this->___U3CPlayersInRoomsCountU3Ek__BackingField_37 = L_0;
 		return;
 	}
 }
@@ -9301,7 +9518,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LoadBalancingClient_get_RoomsCount_m9
 {
 	{
 		// public int RoomsCount { get; internal set; }
-		int32_t L_0 = __this->___U3CRoomsCountU3Ek__BackingField_37;
+		int32_t L_0 = __this->___U3CRoomsCountU3Ek__BackingField_38;
 		return L_0;
 	}
 }
@@ -9311,7 +9528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_set_RoomsCount_mF45C
 	{
 		// public int RoomsCount { get; internal set; }
 		int32_t L_0 = ___value0;
-		__this->___U3CRoomsCountU3Ek__BackingField_37 = L_0;
+		__this->___U3CRoomsCountU3Ek__BackingField_38 = L_0;
 		return;
 	}
 }
@@ -9321,7 +9538,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LoadBalancingClient_get_IsFetchingFriend
 	bool V_0 = false;
 	{
 		// public bool IsFetchingFriendList { get { return this.friendListRequested != null; } }
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___friendListRequested_42;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___friendListRequested_43;
 		V_0 = (bool)((!(((RuntimeObject*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		goto IL_000d;
 	}
@@ -9338,7 +9555,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LoadBalancingClient_get_CloudRegion
 {
 	{
 		// public string CloudRegion { get; private set; }
-		String_t* L_0 = __this->___U3CCloudRegionU3Ek__BackingField_43;
+		String_t* L_0 = __this->___U3CCloudRegionU3Ek__BackingField_44;
 		return L_0;
 	}
 }
@@ -9348,8 +9565,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_set_CloudRegion_m6A1
 	{
 		// public string CloudRegion { get; private set; }
 		String_t* L_0 = ___value0;
-		__this->___U3CCloudRegionU3Ek__BackingField_43 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCloudRegionU3Ek__BackingField_43), (void*)L_0);
+		__this->___U3CCloudRegionU3Ek__BackingField_44 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCloudRegionU3Ek__BackingField_44), (void*)L_0);
 		return;
 	}
 }
@@ -9358,7 +9575,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LoadBalancingClient_get_CurrentClus
 {
 	{
 		// public string CurrentCluster { get; private set; }
-		String_t* L_0 = __this->___U3CCurrentClusterU3Ek__BackingField_44;
+		String_t* L_0 = __this->___U3CCurrentClusterU3Ek__BackingField_45;
 		return L_0;
 	}
 }
@@ -9368,8 +9585,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_set_CurrentCluster_m
 	{
 		// public string CurrentCluster { get; private set; }
 		String_t* L_0 = ___value0;
-		__this->___U3CCurrentClusterU3Ek__BackingField_44 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCurrentClusterU3Ek__BackingField_44), (void*)L_0);
+		__this->___U3CCurrentClusterU3Ek__BackingField_45 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCurrentClusterU3Ek__BackingField_45), (void*)L_0);
 		return;
 	}
 }
@@ -9413,22 +9630,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient__ctor_mC3FD7885A9F9E
 		List_1_t9502060F404ACB6B9ACF04BFA5D0DFC653142A15* L_0 = (List_1_t9502060F404ACB6B9ACF04BFA5D0DFC653142A15*)il2cpp_codegen_object_new(List_1_t9502060F404ACB6B9ACF04BFA5D0DFC653142A15_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m11844E990E10296E80636C0635E4D0A52416A185(L_0, List_1__ctor_m11844E990E10296E80636C0635E4D0A52416A185_RuntimeMethod_var);
-		__this->___lobbyStatistics_32 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___lobbyStatistics_32), (void*)L_0);
+		__this->___lobbyStatistics_33 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lobbyStatistics_33), (void*)L_0);
 		// private bool connectToBestRegion = true;
-		__this->___connectToBestRegion_48 = (bool)1;
+		__this->___connectToBestRegion_49 = (bool)1;
 		// private readonly Queue<CallbackTargetChange> callbackTargetChanges = new Queue<CallbackTargetChange>();
 		Queue_1_t9BA80EF655597EC91F8BA37831960B5B70540B02* L_1 = (Queue_1_t9BA80EF655597EC91F8BA37831960B5B70540B02*)il2cpp_codegen_object_new(Queue_1_t9BA80EF655597EC91F8BA37831960B5B70540B02_il2cpp_TypeInfo_var);
 		NullCheck(L_1);
 		Queue_1__ctor_m5F980EC68C4443F2FF043EE030531E098BBAC211(L_1, Queue_1__ctor_m5F980EC68C4443F2FF043EE030531E098BBAC211_RuntimeMethod_var);
-		__this->___callbackTargetChanges_49 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___callbackTargetChanges_49), (void*)L_1);
+		__this->___callbackTargetChanges_50 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___callbackTargetChanges_50), (void*)L_1);
 		// private readonly HashSet<object> callbackTargets = new HashSet<object>();
 		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_2 = (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885*)il2cpp_codegen_object_new(HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
 		HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E(L_2, HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_RuntimeMethod_var);
-		__this->___callbackTargets_50 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___callbackTargets_50), (void*)L_2);
+		__this->___callbackTargets_51 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___callbackTargets_51), (void*)L_2);
 		// public LoadBalancingClient(ConnectionProtocol protocol = ConnectionProtocol.Udp)
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		// this.ConnectionCallbackTargets = new ConnectionCallbacksContainer(this);
@@ -9553,7 +9770,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LoadBalancingClient_GetNameServerAd
 		bool L_3;
 		L_3 = Dictionary_2_TryGetValue_m7A41D6DDBFFD29C4429FA26A1BA2BF864009A3BE(L_0, L_2, (&V_0), Dictionary_2_TryGetValue_m7A41D6DDBFFD29C4429FA26A1BA2BF864009A3BE_RuntimeMethod_var);
 		// if (this.NameServerPortInAppSettings != 0)
-		int32_t L_4 = __this->___NameServerPortInAppSettings_51;
+		int32_t L_4 = __this->___NameServerPortInAppSettings_52;
 		V_1 = (bool)((!(((uint32_t)L_4) <= ((uint32_t)0)))? 1 : 0);
 		bool L_5 = V_1;
 		if (!L_5)
@@ -9563,14 +9780,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LoadBalancingClient_GetNameServerAd
 	}
 	{
 		// this.DebugReturn(DebugLevel.INFO, string.Format("Using NameServerPortInAppSettings: {0}", this.NameServerPortInAppSettings));
-		int32_t L_6 = __this->___NameServerPortInAppSettings_51;
+		int32_t L_6 = __this->___NameServerPortInAppSettings_52;
 		int32_t L_7 = L_6;
 		RuntimeObject* L_8 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_7);
 		String_t* L_9;
 		L_9 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralA194ED65E10F76C43ADA784ADF3CD7DFDEC7CCFC, L_8, NULL);
 		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 3, L_9);
 		// protocolPort = this.NameServerPortInAppSettings;
-		int32_t L_10 = __this->___NameServerPortInAppSettings_51;
+		int32_t L_10 = __this->___NameServerPortInAppSettings_52;
 		V_0 = L_10;
 	}
 
@@ -9751,7 +9968,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LoadBalancingClient_ConnectUsingSettings
 		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 2, L_7);
 		// return false;
 		V_2 = (bool)0;
-		goto IL_0293;
+		goto IL_029a;
 	}
 
 IL_0046:
@@ -9770,7 +9987,7 @@ IL_0046:
 		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 1, _stringLiteral3BAD168215B6409DFD378F9C0FBE1D56E09E7BB9);
 		// return false;
 		V_2 = (bool)0;
-		goto IL_0293;
+		goto IL_029a;
 	}
 
 IL_0063:
@@ -9857,12 +10074,12 @@ IL_00b1:
 		L_25 = LoadBalancingClient_get_CloudRegion_m0093F59A916A2AC5BB01A653D31ED2A45C9421F0_inline(__this, NULL);
 		bool L_26;
 		L_26 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_25, NULL);
-		__this->___connectToBestRegion_48 = L_26;
+		__this->___connectToBestRegion_49 = L_26;
 		// this.EnableLobbyStatistics = appSettings.EnableLobbyStatistics;
 		AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7* L_27 = ___appSettings0;
 		NullCheck(L_27);
 		bool L_28 = L_27->___EnableLobbyStatistics_14;
-		__this->___EnableLobbyStatistics_31 = L_28;
+		__this->___EnableLobbyStatistics_32 = L_28;
 		// this.LoadBalancingPeer.DebugOut = appSettings.NetworkLogging;
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_29;
 		L_29 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
@@ -9931,10 +10148,13 @@ IL_0169:
 		AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7* L_47 = ___appSettings0;
 		NullCheck(L_47);
 		String_t* L_48 = L_47->___BestRegionSummaryFromStorage_7;
-		__this->___bestRegionSummaryFromStorage_46 = L_48;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___bestRegionSummaryFromStorage_46), (void*)L_48);
+		__this->___bestRegionSummaryFromStorage_47 = L_48;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___bestRegionSummaryFromStorage_47), (void*)L_48);
 		// this.DisconnectedCause = DisconnectCause.None;
 		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, 0, NULL);
+		// this.SystemConnectionSummary = null;
+		__this->___SystemConnectionSummary_30 = (SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SystemConnectionSummary_30), (void*)(SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A*)NULL);
 		// if (this.IsUsingNameServer)
 		bool L_49;
 		L_49 = LoadBalancingClient_get_IsUsingNameServer_m435766375EA546A9C0BC46E8F5881BA82E58D907_inline(__this, NULL);
@@ -9942,7 +10162,7 @@ IL_0169:
 		bool L_50 = V_8;
 		if (!L_50)
 		{
-			goto IL_0215;
+			goto IL_021c;
 		}
 	}
 	{
@@ -9957,7 +10177,7 @@ IL_0169:
 		bool L_53 = V_9;
 		if (!L_53)
 		{
-			goto IL_01bc;
+			goto IL_01c3;
 		}
 	}
 	{
@@ -9969,7 +10189,7 @@ IL_0169:
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___NameServerHost_10), (void*)L_55);
 	}
 
-IL_01bc:
+IL_01c3:
 	{
 		// this.ProxyServerAddress = appSettings.ProxyServer;
 		AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7* L_56 = ___appSettings0;
@@ -9981,7 +10201,7 @@ IL_01bc:
 		AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7* L_58 = ___appSettings0;
 		NullCheck(L_58);
 		int32_t L_59 = L_58->___Port_9;
-		__this->___NameServerPortInAppSettings_51 = L_59;
+		__this->___NameServerPortInAppSettings_52 = L_59;
 		// if (!this.LoadBalancingPeer.Connect(this.NameServerAddress, this.ProxyServerAddress, this.AppId, this.TokenForInit))
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_60;
 		L_60 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
@@ -9999,23 +10219,23 @@ IL_01bc:
 		bool L_66 = V_10;
 		if (!L_66)
 		{
-			goto IL_0209;
+			goto IL_0210;
 		}
 	}
 	{
 		// return false;
 		V_2 = (bool)0;
-		goto IL_0293;
+		goto IL_029a;
 	}
 
-IL_0209:
+IL_0210:
 	{
 		// this.State = ClientState.ConnectingToNameServer;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)16), NULL);
-		goto IL_028f;
+		goto IL_0296;
 	}
 
-IL_0215:
+IL_021c:
 	{
 		// this.Server = ServerConnection.MasterServer;
 		LoadBalancingClient_set_Server_m14EE3B0146B7CF9FB5FA81757B483762628E1A73_inline(__this, 0, NULL);
@@ -10026,7 +10246,7 @@ IL_0215:
 		L_68 = AppSettings_get_IsDefaultPort_m33C153D59C12548E7B02156976EA8B4F30CB3ACC(L_67, NULL);
 		if (L_68)
 		{
-			goto IL_022e;
+			goto IL_0235;
 		}
 	}
 	{
@@ -10034,15 +10254,15 @@ IL_0215:
 		NullCheck(L_69);
 		int32_t L_70 = L_69->___Port_9;
 		G_B21_0 = L_70;
-		goto IL_0233;
+		goto IL_023a;
 	}
 
-IL_022e:
+IL_0235:
 	{
 		G_B21_0 = ((int32_t)5055);
 	}
 
-IL_0233:
+IL_023a:
 	{
 		V_11 = G_B21_0;
 		// this.MasterServerAddress = string.Format("{0}:{1}", appSettings.Server, portToUse);
@@ -10072,29 +10292,29 @@ IL_0233:
 		bool L_83 = V_12;
 		if (!L_83)
 		{
-			goto IL_0285;
+			goto IL_028c;
 		}
 	}
 	{
 		// return false;
 		V_2 = (bool)0;
-		goto IL_0293;
+		goto IL_029a;
 	}
 
-IL_0285:
+IL_028c:
 	{
 		// this.State = ClientState.ConnectingToMasterServer;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)12), NULL);
 	}
 
-IL_028f:
+IL_0296:
 	{
 		// return true;
 		V_2 = (bool)1;
-		goto IL_0293;
+		goto IL_029a;
 	}
 
-IL_0293:
+IL_029a:
 	{
 		// }
 		bool L_84 = V_2;
@@ -10168,7 +10388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LoadBalancingClient_ConnectToMasterServe
 		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 2, L_7);
 		// return false;
 		V_2 = (bool)0;
-		goto IL_00d9;
+		goto IL_00e0;
 	}
 
 IL_0046:
@@ -10212,11 +10432,16 @@ IL_005a:
 		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 1, L_14);
 		// return false;
 		V_2 = (bool)0;
-		goto IL_00d9;
+		goto IL_00e0;
 	}
 
 IL_0086:
 	{
+		// this.DisconnectedCause = DisconnectCause.None;
+		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, 0, NULL);
+		// this.SystemConnectionSummary = null;
+		__this->___SystemConnectionSummary_30 = (SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SystemConnectionSummary_30), (void*)(SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A*)NULL);
 		// if (this.LoadBalancingPeer.Connect(this.MasterServerAddress, this.ProxyServerAddress, this.AppId, this.TokenForInit))
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_15;
 		L_15 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
@@ -10234,31 +10459,29 @@ IL_0086:
 		bool L_21 = V_4;
 		if (!L_21)
 		{
-			goto IL_00d5;
+			goto IL_00dc;
 		}
 	}
 	{
-		// this.DisconnectedCause = DisconnectCause.None;
-		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, 0, NULL);
 		// this.connectToBestRegion = false;
-		__this->___connectToBestRegion_48 = (bool)0;
+		__this->___connectToBestRegion_49 = (bool)0;
 		// this.State = ClientState.ConnectingToMasterServer;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)12), NULL);
 		// this.Server = ServerConnection.MasterServer;
 		LoadBalancingClient_set_Server_m14EE3B0146B7CF9FB5FA81757B483762628E1A73_inline(__this, 0, NULL);
 		// return true;
 		V_2 = (bool)1;
-		goto IL_00d9;
+		goto IL_00e0;
 	}
 
-IL_00d5:
+IL_00dc:
 	{
 		// return false;
 		V_2 = (bool)0;
-		goto IL_00d9;
+		goto IL_00e0;
 	}
 
-IL_00d9:
+IL_00e0:
 	{
 		// }
 		bool L_22 = V_2;
@@ -10316,7 +10539,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LoadBalancingClient_ConnectToNameServer_
 		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 2, L_7);
 		// return false;
 		V_2 = (bool)0;
-		goto IL_00f5;
+		goto IL_00fc;
 	}
 
 IL_0046:
@@ -10372,6 +10595,11 @@ IL_0095:
 
 IL_00a3:
 	{
+		// this.DisconnectedCause = DisconnectCause.None;
+		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, 0, NULL);
+		// this.SystemConnectionSummary = null;
+		__this->___SystemConnectionSummary_30 = (SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SystemConnectionSummary_30), (void*)(SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A*)NULL);
 		// if (this.LoadBalancingPeer.Connect(this.NameServerAddress, this.ProxyServerAddress, "NameServer", this.TokenForInit))
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_17;
 		L_17 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
@@ -10387,31 +10615,29 @@ IL_00a3:
 		bool L_22 = V_6;
 		if (!L_22)
 		{
-			goto IL_00f1;
+			goto IL_00f8;
 		}
 	}
 	{
-		// this.DisconnectedCause = DisconnectCause.None;
-		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, 0, NULL);
 		// this.connectToBestRegion = false;
-		__this->___connectToBestRegion_48 = (bool)0;
+		__this->___connectToBestRegion_49 = (bool)0;
 		// this.State = ClientState.ConnectingToNameServer;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)16), NULL);
 		// this.Server = ServerConnection.NameServer;
 		LoadBalancingClient_set_Server_m14EE3B0146B7CF9FB5FA81757B483762628E1A73_inline(__this, 2, NULL);
 		// return true;
 		V_2 = (bool)1;
-		goto IL_00f5;
+		goto IL_00fc;
 	}
 
-IL_00f1:
+IL_00f8:
 	{
 		// return false;
 		V_2 = (bool)0;
-		goto IL_00f5;
+		goto IL_00fc;
 	}
 
-IL_00f5:
+IL_00fc:
 	{
 		// }
 		bool L_23 = V_2;
@@ -10460,7 +10686,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LoadBalancingClient_ConnectToRegionMaste
 		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 1, _stringLiteral5AD194AA46079367AB547D148055FFFE8A6115D9);
 		// return false;
 		V_1 = (bool)0;
-		goto IL_014f;
+		goto IL_0156;
 	}
 
 IL_0020:
@@ -10499,7 +10725,7 @@ IL_005a:
 	{
 		// return true;
 		V_1 = (bool)1;
-		goto IL_014f;
+		goto IL_0156;
 	}
 
 IL_0061:
@@ -10541,7 +10767,7 @@ IL_0094:
 		// return authenticating;
 		bool L_14 = V_5;
 		V_1 = L_14;
-		goto IL_014f;
+		goto IL_0156;
 	}
 
 IL_009c:
@@ -10602,9 +10828,12 @@ IL_00f1:
 IL_00ff:
 	{
 		// this.connectToBestRegion = false;
-		__this->___connectToBestRegion_48 = (bool)0;
+		__this->___connectToBestRegion_49 = (bool)0;
 		// this.DisconnectedCause = DisconnectCause.None;
 		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, 0, NULL);
+		// this.SystemConnectionSummary = null;
+		__this->___SystemConnectionSummary_30 = (SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SystemConnectionSummary_30), (void*)(SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A*)NULL);
 		// if (!this.LoadBalancingPeer.Connect(this.NameServerAddress, this.ProxyServerAddress, "NameServer", null))
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_26;
 		L_26 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
@@ -10618,16 +10847,16 @@ IL_00ff:
 		bool L_30 = V_10;
 		if (!L_30)
 		{
-			goto IL_013a;
+			goto IL_0141;
 		}
 	}
 	{
 		// return false;
 		V_1 = (bool)0;
-		goto IL_014f;
+		goto IL_0156;
 	}
 
-IL_013a:
+IL_0141:
 	{
 		// this.State = ClientState.ConnectingToNameServer;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)16), NULL);
@@ -10635,10 +10864,10 @@ IL_013a:
 		LoadBalancingClient_set_Server_m14EE3B0146B7CF9FB5FA81757B483762628E1A73_inline(__this, 2, NULL);
 		// return true;
 		V_1 = (bool)1;
-		goto IL_014f;
+		goto IL_0156;
 	}
 
-IL_014f:
+IL_0156:
 	{
 		// }
 		bool L_31 = V_1;
@@ -10700,7 +10929,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LoadBalancingClient_Connect_mD820A0BAF4F
 		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 1, L_5);
 		// return false;
 		V_3 = (bool)0;
-		goto IL_0109;
+		goto IL_0110;
 	}
 
 IL_003d:
@@ -10754,11 +10983,16 @@ IL_0055:
 		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 1, L_15);
 		// return false;
 		V_3 = (bool)0;
-		goto IL_0109;
+		goto IL_0110;
 	}
 
 IL_0095:
 	{
+		// this.DisconnectedCause = DisconnectCause.None;
+		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, 0, NULL);
+		// this.SystemConnectionSummary = null;
+		__this->___SystemConnectionSummary_30 = (SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SystemConnectionSummary_30), (void*)(SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A*)NULL);
 		// bool connecting = this.LoadBalancingPeer.Connect(serverAddress, proxyServerAddress, this.AppId, this.TokenForInit);
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_16;
 		L_16 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
@@ -10778,12 +11012,10 @@ IL_0095:
 		bool L_23 = V_5;
 		if (!L_23)
 		{
-			goto IL_0105;
+			goto IL_010c;
 		}
 	}
 	{
-		// this.DisconnectedCause = DisconnectCause.None;
-		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, 0, NULL);
 		// this.Server = serverType;
 		int32_t L_24 = ___serverType2;
 		LoadBalancingClient_set_Server_m14EE3B0146B7CF9FB5FA81757B483762628E1A73_inline(__this, L_24, NULL);
@@ -10797,59 +11029,59 @@ IL_0095:
 		{
 			case 0:
 			{
-				goto IL_00ef;
+				goto IL_00f6;
 			}
 			case 1:
 			{
-				goto IL_00fa;
+				goto IL_0101;
 			}
 			case 2:
 			{
-				goto IL_00e4;
+				goto IL_00eb;
 			}
 		}
 	}
 	{
-		goto IL_0104;
+		goto IL_010b;
 	}
 
-IL_00e4:
+IL_00eb:
 	{
 		// State = ClientState.ConnectingToNameServer;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)16), NULL);
 		// break;
-		goto IL_0104;
+		goto IL_010b;
 	}
 
-IL_00ef:
+IL_00f6:
 	{
 		// State = ClientState.ConnectingToMasterServer;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)12), NULL);
 		// break;
-		goto IL_0104;
+		goto IL_010b;
 	}
 
-IL_00fa:
+IL_0101:
 	{
 		// State = ClientState.ConnectingToGameServer;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, 6, NULL);
 		// break;
-		goto IL_0104;
+		goto IL_010b;
 	}
 
-IL_0104:
+IL_010b:
 	{
 	}
 
-IL_0105:
+IL_010c:
 	{
 		// return connecting;
 		bool L_28 = V_0;
 		V_3 = L_28;
-		goto IL_0109;
+		goto IL_0110;
 	}
 
-IL_0109:
+IL_0110:
 	{
 		// }
 		bool L_29 = V_3;
@@ -11078,7 +11310,7 @@ IL_0046:
 IL_006a:
 	{
 		// if (this.enterRoomParamsCache == null)
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_11 = __this->___enterRoomParamsCache_39;
+		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_11 = __this->___enterRoomParamsCache_40;
 		V_4 = (bool)((((RuntimeObject*)(EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9*)L_11) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_12 = V_4;
 		if (!L_12)
@@ -11152,7 +11384,7 @@ IL_00cc:
 		}
 	}
 	{
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_22 = __this->___enterRoomParamsCache_39;
+		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_22 = __this->___enterRoomParamsCache_40;
 		G_B13_0 = ((!(((RuntimeObject*)(EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9*)L_22) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		goto IL_00f7;
 	}
@@ -11173,9 +11405,9 @@ IL_00f7:
 	}
 	{
 		// this.lastJoinType = JoinType.JoinRoom;
-		__this->___lastJoinType_38 = 1;
+		__this->___lastJoinType_39 = 1;
 		// this.enterRoomParamsCache.JoinMode = JoinMode.RejoinOnly;
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_24 = __this->___enterRoomParamsCache_39;
+		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_24 = __this->___enterRoomParamsCache_40;
 		NullCheck(L_24);
 		L_24->___JoinMode_5 = 3;
 		// return this.Connect(this.GameServerAddress, this.ProxyServerAddress, ServerConnection.GameServer);
@@ -11655,7 +11887,7 @@ IL_00d3:
 		L_29 = LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline(__this, NULL);
 		String_t* L_30;
 		L_30 = LoadBalancingClient_get_CloudRegion_m0093F59A916A2AC5BB01A653D31ED2A45C9421F0_inline(__this, NULL);
-		bool L_31 = __this->___EnableLobbyStatistics_31;
+		bool L_31 = __this->___EnableLobbyStatistics_32;
 		G_B13_0 = L_30;
 		G_B13_1 = L_29;
 		G_B13_2 = L_28;
@@ -12216,8 +12448,8 @@ IL_01a6:
 IL_01a7:
 	{
 		NullCheck(G_B26_1);
-		G_B26_1->___friendListRequested_42 = G_B26_0;
-		Il2CppCodeGenWriteBarrier((void**)(&G_B26_1->___friendListRequested_42), (void*)G_B26_0);
+		G_B26_1->___friendListRequested_43 = G_B26_0;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B26_1->___friendListRequested_43), (void*)G_B26_0);
 		// return sent;
 		bool L_61 = V_2;
 		V_4 = L_61;
@@ -12434,10 +12666,10 @@ IL_0034:
 		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_6 = (EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9*)il2cpp_codegen_object_new(EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9_il2cpp_TypeInfo_var);
 		NullCheck(L_6);
 		EnterRoomParams__ctor_m59BB4C9762321F59D7238996F68C7EB970ACDBB8(L_6, NULL);
-		__this->___enterRoomParamsCache_39 = L_6;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___enterRoomParamsCache_39), (void*)L_6);
+		__this->___enterRoomParamsCache_40 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___enterRoomParamsCache_40), (void*)L_6);
 		// this.enterRoomParamsCache.Lobby = opJoinRandomRoomParams.TypedLobby;
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_7 = __this->___enterRoomParamsCache_39;
+		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_7 = __this->___enterRoomParamsCache_40;
 		OpJoinRandomRoomParams_t5DCB0B5EBE3D5C35A483669A8D997D47E17D6DBA* L_8 = ___opJoinRandomRoomParams0;
 		NullCheck(L_8);
 		TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9* L_9 = L_8->___TypedLobby_3;
@@ -12445,7 +12677,7 @@ IL_0034:
 		L_7->___Lobby_2 = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&L_7->___Lobby_2), (void*)L_9);
 		// this.enterRoomParamsCache.ExpectedUsers = opJoinRandomRoomParams.ExpectedUsers;
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_10 = __this->___enterRoomParamsCache_39;
+		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_10 = __this->___enterRoomParamsCache_40;
 		OpJoinRandomRoomParams_t5DCB0B5EBE3D5C35A483669A8D997D47E17D6DBA* L_11 = ___opJoinRandomRoomParams0;
 		NullCheck(L_11);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = L_11->___ExpectedUsers_5;
@@ -12471,7 +12703,7 @@ IL_0034:
 	}
 	{
 		// this.lastJoinType = JoinType.JoinRandomRoom;
-		__this->___lastJoinType_38 = 2;
+		__this->___lastJoinType_39 = 2;
 		// this.State = ClientState.Joining;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, 8, NULL);
 	}
@@ -12573,10 +12805,10 @@ IL_0047:
 		L_9->___JoinMode_5 = 1;
 		// this.enterRoomParamsCache = createRoomParams;
 		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_10 = ___createRoomParams1;
-		__this->___enterRoomParamsCache_39 = L_10;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___enterRoomParamsCache_39), (void*)L_10);
+		__this->___enterRoomParamsCache_40 = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___enterRoomParamsCache_40), (void*)L_10);
 		// this.enterRoomParamsCache.Lobby = opJoinRandomRoomParams.TypedLobby;
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_11 = __this->___enterRoomParamsCache_39;
+		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_11 = __this->___enterRoomParamsCache_40;
 		OpJoinRandomRoomParams_t5DCB0B5EBE3D5C35A483669A8D997D47E17D6DBA* L_12 = ___opJoinRandomRoomParams0;
 		NullCheck(L_12);
 		TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9* L_13 = L_12->___TypedLobby_3;
@@ -12584,7 +12816,7 @@ IL_0047:
 		L_11->___Lobby_2 = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&L_11->___Lobby_2), (void*)L_13);
 		// this.enterRoomParamsCache.ExpectedUsers = opJoinRandomRoomParams.ExpectedUsers;
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_14 = __this->___enterRoomParamsCache_39;
+		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_14 = __this->___enterRoomParamsCache_40;
 		OpJoinRandomRoomParams_t5DCB0B5EBE3D5C35A483669A8D997D47E17D6DBA* L_15 = ___opJoinRandomRoomParams0;
 		NullCheck(L_15);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = L_15->___ExpectedUsers_5;
@@ -12611,7 +12843,7 @@ IL_0047:
 	}
 	{
 		// this.lastJoinType = JoinType.JoinRandomOrCreateRoom;
-		__this->___lastJoinType_38 = 3;
+		__this->___lastJoinType_39 = 3;
 		// this.State = ClientState.Joining;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, 8, NULL);
 	}
@@ -12688,8 +12920,8 @@ IL_0023:
 	{
 		// this.enterRoomParamsCache = enterRoomParams;
 		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_8 = ___enterRoomParams0;
-		__this->___enterRoomParamsCache_39 = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___enterRoomParamsCache_39), (void*)L_8);
+		__this->___enterRoomParamsCache_40 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___enterRoomParamsCache_40), (void*)L_8);
 	}
 
 IL_0047:
@@ -12713,7 +12945,7 @@ IL_0047:
 	}
 	{
 		// this.lastJoinType = JoinType.CreateRoom;
-		__this->___lastJoinType_38 = 0;
+		__this->___lastJoinType_39 = 0;
 		// this.State = ClientState.Joining;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, 8, NULL);
 	}
@@ -12794,8 +13026,8 @@ IL_0023:
 	{
 		// this.enterRoomParamsCache = enterRoomParams;
 		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_9 = ___enterRoomParams0;
-		__this->___enterRoomParamsCache_39 = L_9;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___enterRoomParamsCache_39), (void*)L_9);
+		__this->___enterRoomParamsCache_40 = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___enterRoomParamsCache_40), (void*)L_9);
 	}
 
 IL_004e:
@@ -12819,7 +13051,7 @@ IL_004e:
 	}
 	{
 		// this.lastJoinType = JoinType.JoinOrCreateRoom;
-		__this->___lastJoinType_38 = 4;
+		__this->___lastJoinType_39 = 4;
 		// this.State = ClientState.Joining;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, 8, NULL);
 	}
@@ -12900,8 +13132,8 @@ IL_0023:
 	{
 		// this.enterRoomParamsCache = enterRoomParams;
 		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_8 = ___enterRoomParams0;
-		__this->___enterRoomParamsCache_39 = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___enterRoomParamsCache_39), (void*)L_8);
+		__this->___enterRoomParamsCache_40 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___enterRoomParamsCache_40), (void*)L_8);
 	}
 
 IL_0047:
@@ -12950,7 +13182,7 @@ IL_0069:
 IL_006a:
 	{
 		NullCheck(G_B8_1);
-		G_B8_1->___lastJoinType_38 = G_B8_0;
+		G_B8_1->___lastJoinType_39 = G_B8_0;
 		// this.State = ClientState.Joining;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, 8, NULL);
 	}
@@ -13018,8 +13250,8 @@ IL_0024:
 		V_1 = L_4;
 		// this.enterRoomParamsCache = opParams;
 		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_5 = V_1;
-		__this->___enterRoomParamsCache_39 = L_5;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___enterRoomParamsCache_39), (void*)L_5);
+		__this->___enterRoomParamsCache_40 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___enterRoomParamsCache_40), (void*)L_5);
 		// opParams.RoomName = roomName;
 		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_6 = V_1;
 		String_t* L_7 = ___roomName0;
@@ -13054,7 +13286,7 @@ IL_0024:
 	}
 	{
 		// this.lastJoinType = JoinType.JoinRoom;
-		__this->___lastJoinType_38 = 1;
+		__this->___lastJoinType_39 = 1;
 		// this.State = ClientState.Joining;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, 8, NULL);
 	}
@@ -13113,8 +13345,8 @@ IL_0023:
 		String_t* L_3 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
 		LoadBalancingClient_set_GameServerAddress_m8FD60CD030C217ECDC7870DAF3E236C542DA9F46_inline(__this, L_3, NULL);
 		// this.enterRoomParamsCache = null;
-		__this->___enterRoomParamsCache_39 = (EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___enterRoomParamsCache_39), (void*)(EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9*)NULL);
+		__this->___enterRoomParamsCache_40 = (EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___enterRoomParamsCache_40), (void*)(EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9*)NULL);
 		// return this.LoadBalancingPeer.OpLeaveRoom(becomeInactive, sendAuthCookie);
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_4;
 		L_4 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
@@ -14587,10 +14819,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_GameEnteredOnGameSer
 	int32_t G_B11_0 = 0;
 	{
 		// this.CurrentRoom = this.CreateRoom(this.enterRoomParamsCache.RoomName, this.enterRoomParamsCache.RoomOptions);
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_0 = __this->___enterRoomParamsCache_39;
+		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_0 = __this->___enterRoomParamsCache_40;
 		NullCheck(L_0);
 		String_t* L_1 = L_0->___RoomName_0;
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_2 = __this->___enterRoomParamsCache_39;
+		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_2 = __this->___enterRoomParamsCache_40;
 		NullCheck(L_2);
 		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_3 = L_2->___RoomOptions_1;
 		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_4;
@@ -14681,8 +14913,6 @@ IL_0082:
 
 IL_00da:
 	{
-		// this.State = ClientState.Joined;
-		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)9), NULL);
 		// if (this.CurrentRoom.SuppressRoomEvents)
 		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_29;
 		L_29 = LoadBalancingClient_get_CurrentRoom_mADB06D45AD1F8289D93F08F322C9FDB694EAC291_inline(__this, NULL);
@@ -14697,15 +14927,17 @@ IL_00da:
 		}
 	}
 	{
+		// this.State = ClientState.Joined;
+		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)9), NULL);
 		// if (this.lastJoinType == JoinType.CreateRoom || (this.lastJoinType == JoinType.JoinOrCreateRoom && this.LocalPlayer.ActorNumber == 1))
-		int32_t L_32 = __this->___lastJoinType_38;
+		int32_t L_32 = __this->___lastJoinType_39;
 		if (!L_32)
 		{
 			goto IL_0119;
 		}
 	}
 	{
-		int32_t L_33 = __this->___lastJoinType_38;
+		int32_t L_33 = __this->___lastJoinType_39;
 		if ((!(((uint32_t)L_33) == ((uint32_t)4))))
 		{
 			goto IL_0116;
@@ -16211,7 +16443,7 @@ IL_005f:
 	}
 	{
 		// this.Disconnect(DisconnectCause.DisconnectByOperationLimit);
-		LoadBalancingClient_Disconnect_m9E92F0FD6E20FA7FCB107FD132A62F6DEEC9AEF8(__this, ((int32_t)16), NULL);
+		LoadBalancingClient_Disconnect_m9E92F0FD6E20FA7FCB107FD132A62F6DEEC9AEF8(__this, ((int32_t)18), NULL);
 	}
 
 IL_007b:
@@ -16421,7 +16653,7 @@ IL_0182:
 IL_018d:
 	{
 		// this.DisconnectedCause = DisconnectCause.InvalidAuthentication;
-		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, ((int32_t)9), NULL);
+		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, ((int32_t)11), NULL);
 		// break;
 		goto IL_01e1;
 	}
@@ -16429,7 +16661,7 @@ IL_018d:
 IL_0198:
 	{
 		// this.DisconnectedCause = DisconnectCause.CustomAuthenticationFailed;
-		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, ((int32_t)10), NULL);
+		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, ((int32_t)12), NULL);
 		// this.ConnectionCallbackTargets.OnCustomAuthenticationFailed(operationResponse.DebugMessage);
 		ConnectionCallbacksContainer_t4E9F72F713D87B67F0CA63162CFC7D100554BFFD* L_44 = __this->___ConnectionCallbackTargets_23;
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_45 = ___operationResponse0;
@@ -16444,7 +16676,7 @@ IL_0198:
 IL_01b5:
 	{
 		// this.DisconnectedCause = DisconnectCause.InvalidRegion;
-		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, ((int32_t)13), NULL);
+		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, ((int32_t)15), NULL);
 		// break;
 		goto IL_01e1;
 	}
@@ -16452,7 +16684,7 @@ IL_01b5:
 IL_01c0:
 	{
 		// this.DisconnectedCause = DisconnectCause.MaxCcuReached;
-		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, ((int32_t)12), NULL);
+		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, ((int32_t)14), NULL);
 		// break;
 		goto IL_01e1;
 	}
@@ -16460,7 +16692,7 @@ IL_01c0:
 IL_01cb:
 	{
 		// this.DisconnectedCause = DisconnectCause.OperationNotAllowedInCurrentState;
-		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, ((int32_t)14), NULL);
+		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, ((int32_t)16), NULL);
 		// break;
 		goto IL_01e1;
 	}
@@ -16468,7 +16700,7 @@ IL_01cb:
 IL_01d6:
 	{
 		// this.DisconnectedCause = DisconnectCause.AuthenticationTicketExpired;
-		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, ((int32_t)11), NULL);
+		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, ((int32_t)13), NULL);
 		// break;
 		goto IL_01e1;
 	}
@@ -16782,7 +17014,7 @@ IL_0406:
 		// this.State = ClientState.ConnectedToMasterServer;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)15), NULL);
 		// if (this.failedRoomEntryOperation == null)
-		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_113 = __this->___failedRoomEntryOperation_40;
+		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_113 = __this->___failedRoomEntryOperation_41;
 		V_28 = (bool)((((RuntimeObject*)(OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED*)L_113) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_114 = V_28;
 		if (!L_114)
@@ -16801,11 +17033,11 @@ IL_0406:
 IL_043e:
 	{
 		// this.CallbackRoomEnterFailed(this.failedRoomEntryOperation);
-		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_116 = __this->___failedRoomEntryOperation_40;
+		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_116 = __this->___failedRoomEntryOperation_41;
 		LoadBalancingClient_CallbackRoomEnterFailed_m742870A90CC600896660FDE535035291D587D4AA(__this, L_116, NULL);
 		// this.failedRoomEntryOperation = null;
-		__this->___failedRoomEntryOperation_40 = (OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___failedRoomEntryOperation_40), (void*)(OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED*)NULL);
+		__this->___failedRoomEntryOperation_41 = (OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___failedRoomEntryOperation_41), (void*)(OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED*)NULL);
 	}
 
 IL_0454:
@@ -16823,7 +17055,7 @@ IL_0454:
 		// this.LoadBalancingPeer.OpSettings(this.EnableLobbyStatistics);
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_119;
 		L_119 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
-		bool L_120 = __this->___EnableLobbyStatistics_31;
+		bool L_120 = __this->___EnableLobbyStatistics_32;
 		NullCheck(L_119);
 		bool L_121;
 		L_121 = VirtualFuncInvoker1< bool, bool >::Invoke(31 /* System.Boolean Photon.Realtime.LoadBalancingPeer::OpSettings(System.Boolean) */, L_119, L_120);
@@ -16850,7 +17082,7 @@ IL_047d:
 		// this.State = ClientState.Joining;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, 8, NULL);
 		// if (this.enterRoomParamsCache.JoinMode == JoinMode.RejoinOnly)
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_124 = __this->___enterRoomParamsCache_39;
+		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_124 = __this->___enterRoomParamsCache_40;
 		NullCheck(L_124);
 		uint8_t L_125 = L_124->___JoinMode_5;
 		V_31 = (bool)((((int32_t)L_125) == ((int32_t)3))? 1 : 0);
@@ -16862,7 +17094,7 @@ IL_047d:
 	}
 	{
 		// this.enterRoomParamsCache.PlayerProperties = null;
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_127 = __this->___enterRoomParamsCache_39;
+		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_127 = __this->___enterRoomParamsCache_40;
 		NullCheck(L_127);
 		L_127->___PlayerProperties_3 = (Hashtable_tD626399B3ADFD501225241D7366103F35472542A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_127->___PlayerProperties_3), (void*)(Hashtable_tD626399B3ADFD501225241D7366103F35472542A*)NULL);
@@ -16915,7 +17147,7 @@ IL_04bc:
 IL_050a:
 	{
 		// this.enterRoomParamsCache.PlayerProperties = allProps;
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_139 = __this->___enterRoomParamsCache_39;
+		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_139 = __this->___enterRoomParamsCache_40;
 		Hashtable_tD626399B3ADFD501225241D7366103F35472542A* L_140 = V_32;
 		NullCheck(L_139);
 		L_139->___PlayerProperties_3 = L_140;
@@ -16925,32 +17157,32 @@ IL_050a:
 IL_0518:
 	{
 		// this.enterRoomParamsCache.OnGameServer = true;
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_141 = __this->___enterRoomParamsCache_39;
+		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_141 = __this->___enterRoomParamsCache_40;
 		NullCheck(L_141);
 		L_141->___OnGameServer_4 = (bool)1;
 		// if (this.lastJoinType == JoinType.JoinRoom || this.lastJoinType == JoinType.JoinRandomRoom  || this.lastJoinType == JoinType.JoinRandomOrCreateRoom || this.lastJoinType == JoinType.JoinOrCreateRoom)
-		int32_t L_142 = __this->___lastJoinType_38;
+		int32_t L_142 = __this->___lastJoinType_39;
 		if ((((int32_t)L_142) == ((int32_t)1)))
 		{
 			goto IL_054a;
 		}
 	}
 	{
-		int32_t L_143 = __this->___lastJoinType_38;
+		int32_t L_143 = __this->___lastJoinType_39;
 		if ((((int32_t)L_143) == ((int32_t)2)))
 		{
 			goto IL_054a;
 		}
 	}
 	{
-		int32_t L_144 = __this->___lastJoinType_38;
+		int32_t L_144 = __this->___lastJoinType_39;
 		if ((((int32_t)L_144) == ((int32_t)3)))
 		{
 			goto IL_054a;
 		}
 	}
 	{
-		int32_t L_145 = __this->___lastJoinType_38;
+		int32_t L_145 = __this->___lastJoinType_39;
 		G_B66_0 = ((((int32_t)L_145) == ((int32_t)4))? 1 : 0);
 		goto IL_054b;
 	}
@@ -16973,7 +17205,7 @@ IL_054b:
 		// this.LoadBalancingPeer.OpJoinRoom(this.enterRoomParamsCache);
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_147;
 		L_147 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_148 = __this->___enterRoomParamsCache_39;
+		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_148 = __this->___enterRoomParamsCache_40;
 		NullCheck(L_147);
 		bool L_149;
 		L_149 = VirtualFuncInvoker1< bool, EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* >::Invoke(21 /* System.Boolean Photon.Realtime.LoadBalancingPeer::OpJoinRoom(Photon.Realtime.EnterRoomParams) */, L_147, L_148);
@@ -16983,7 +17215,7 @@ IL_054b:
 IL_0567:
 	{
 		// else if (this.lastJoinType == JoinType.CreateRoom)
-		int32_t L_150 = __this->___lastJoinType_38;
+		int32_t L_150 = __this->___lastJoinType_39;
 		V_35 = (bool)((((int32_t)L_150) == ((int32_t)0))? 1 : 0);
 		bool L_151 = V_35;
 		if (!L_151)
@@ -16995,7 +17227,7 @@ IL_0567:
 		// this.LoadBalancingPeer.OpCreateRoom(this.enterRoomParamsCache);
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_152;
 		L_152 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_153 = __this->___enterRoomParamsCache_39;
+		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_153 = __this->___enterRoomParamsCache_40;
 		NullCheck(L_152);
 		bool L_154;
 		L_154 = VirtualFuncInvoker1< bool, EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* >::Invoke(20 /* System.Boolean Photon.Realtime.LoadBalancingPeer::OpCreateRoom(Photon.Realtime.EnterRoomParams) */, L_152, L_153);
@@ -17064,7 +17296,7 @@ IL_05c1:
 		L_168 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(L_166, L_167, NULL);
 		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 1, L_168);
 		// this.Disconnect(DisconnectCause.InvalidAuthentication);
-		LoadBalancingClient_Disconnect_m9E92F0FD6E20FA7FCB107FD132A62F6DEEC9AEF8(__this, ((int32_t)9), NULL);
+		LoadBalancingClient_Disconnect_m9E92F0FD6E20FA7FCB107FD132A62F6DEEC9AEF8(__this, ((int32_t)11), NULL);
 		// break;
 		goto IL_09b3;
 	}
@@ -17096,7 +17328,7 @@ IL_0605:
 		L_177 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral44B7BED7A42870907FEBE165FF7067499E5D4D1B, L_174, _stringLiteral1168E92C164109D6220480DEDA987085B2A21155, L_176, NULL);
 		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 1, L_177);
 		// this.Disconnect(DisconnectCause.InvalidAuthentication);
-		LoadBalancingClient_Disconnect_m9E92F0FD6E20FA7FCB107FD132A62F6DEEC9AEF8(__this, ((int32_t)9), NULL);
+		LoadBalancingClient_Disconnect_m9E92F0FD6E20FA7FCB107FD132A62F6DEEC9AEF8(__this, ((int32_t)11), NULL);
 		// break;
 		goto IL_09b3;
 	}
@@ -17104,7 +17336,7 @@ IL_0605:
 IL_064b:
 	{
 		// if (this.RegionHandler == null)
-		RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB* L_178 = __this->___RegionHandler_45;
+		RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB* L_178 = __this->___RegionHandler_46;
 		V_39 = (bool)((((RuntimeObject*)(RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB*)L_178) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_179 = V_39;
 		if (!L_179)
@@ -17119,14 +17351,14 @@ IL_064b:
 		RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB* L_182 = (RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB*)il2cpp_codegen_object_new(RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB_il2cpp_TypeInfo_var);
 		NullCheck(L_182);
 		RegionHandler__ctor_m5AB54F3B57DEDBBE99776A020AB2E80BFFF47D56(L_182, L_181, NULL);
-		__this->___RegionHandler_45 = L_182;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___RegionHandler_45), (void*)L_182);
+		__this->___RegionHandler_46 = L_182;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___RegionHandler_46), (void*)L_182);
 	}
 
 IL_0672:
 	{
 		// if (this.RegionHandler.IsPinging)
-		RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB* L_183 = __this->___RegionHandler_45;
+		RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB* L_183 = __this->___RegionHandler_46;
 		NullCheck(L_183);
 		bool L_184;
 		L_184 = RegionHandler_get_IsPinging_m5C6F194C3DF9C39DD3D21F18BC085F6E02B27444_inline(L_183, NULL);
@@ -17147,17 +17379,17 @@ IL_0672:
 IL_0696:
 	{
 		// this.RegionHandler.SetRegions(operationResponse);
-		RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB* L_186 = __this->___RegionHandler_45;
+		RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB* L_186 = __this->___RegionHandler_46;
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_187 = ___operationResponse0;
 		NullCheck(L_186);
 		RegionHandler_SetRegions_m34D3FD667DEEDD6035EBB826E68EE9C2B030D496(L_186, L_187, NULL);
 		// this.ConnectionCallbackTargets.OnRegionListReceived(this.RegionHandler);
 		ConnectionCallbacksContainer_t4E9F72F713D87B67F0CA63162CFC7D100554BFFD* L_188 = __this->___ConnectionCallbackTargets_23;
-		RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB* L_189 = __this->___RegionHandler_45;
+		RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB* L_189 = __this->___RegionHandler_46;
 		NullCheck(L_188);
 		ConnectionCallbacksContainer_OnRegionListReceived_mCAD5192264F3990C360389875560C566CE4829DE(L_188, L_189, NULL);
 		// if (this.connectToBestRegion)
-		bool L_190 = __this->___connectToBestRegion_48;
+		bool L_190 = __this->___connectToBestRegion_49;
 		V_41 = L_190;
 		bool L_191 = V_41;
 		if (!L_191)
@@ -17167,11 +17399,11 @@ IL_0696:
 	}
 	{
 		// this.RegionHandler.PingMinimumOfRegions(this.OnRegionPingCompleted, this.bestRegionSummaryFromStorage);
-		RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB* L_192 = __this->___RegionHandler_45;
+		RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB* L_192 = __this->___RegionHandler_46;
 		Action_1_tD013146E11DC5068784A80C11B7415DC9FE54B74* L_193 = (Action_1_tD013146E11DC5068784A80C11B7415DC9FE54B74*)il2cpp_codegen_object_new(Action_1_tD013146E11DC5068784A80C11B7415DC9FE54B74_il2cpp_TypeInfo_var);
 		NullCheck(L_193);
 		Action_1__ctor_m215F7D57B46C05B7411E4B5B4C7DDB91EEA86681(L_193, __this, (intptr_t)((void*)LoadBalancingClient_OnRegionPingCompleted_mAC9EE6239EDB3249FA7201BD9F814326B68BD6BF_RuntimeMethod_var), NULL);
-		String_t* L_194 = __this->___bestRegionSummaryFromStorage_46;
+		String_t* L_194 = __this->___bestRegionSummaryFromStorage_47;
 		NullCheck(L_192);
 		bool L_195;
 		L_195 = RegionHandler_PingMinimumOfRegions_mBDA481EF544E14116455B0352A160D07B6AF5762(L_192, L_193, L_194, NULL);
@@ -17210,8 +17442,8 @@ IL_06e6:
 	{
 		// this.failedRoomEntryOperation = operationResponse;
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_201 = ___operationResponse0;
-		__this->___failedRoomEntryOperation_40 = L_201;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___failedRoomEntryOperation_40), (void*)L_201);
+		__this->___failedRoomEntryOperation_41 = L_201;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___failedRoomEntryOperation_41), (void*)L_201);
 		// this.DisconnectToReconnect();
 		LoadBalancingClient_DisconnectToReconnect_m71F7485F2BC534308A0A8EDE09217E091D0C3639(__this, NULL);
 		goto IL_0735;
@@ -17325,7 +17557,7 @@ IL_07a5:
 	}
 	{
 		// this.enterRoomParamsCache.RoomName = roomName;
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_221 = __this->___enterRoomParamsCache_39;
+		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_221 = __this->___enterRoomParamsCache_40;
 		String_t* L_222 = V_45;
 		NullCheck(L_221);
 		L_221->___RoomName_0 = L_222;
@@ -17520,8 +17752,8 @@ IL_08d1:
 		L_252 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralCB6B6070830934EFB7E401FD365900538CAC6803, L_251, NULL);
 		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 1, L_252);
 		// this.friendListRequested = null;
-		__this->___friendListRequested_42 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___friendListRequested_42), (void*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL);
+		__this->___friendListRequested_43 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___friendListRequested_43), (void*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL);
 		// break;
 		goto IL_09b3;
 	}
@@ -17541,7 +17773,7 @@ IL_0905:
 		L_256 = OperationResponse_get_Item_mEB2FFC5B967D14E344238A457F480DCD9E976422(L_255, (uint8_t)2, NULL);
 		V_6 = ((StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)IsInst((RuntimeObject*)L_256, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var));
 		// List<FriendInfo> friendList = new List<FriendInfo>(this.friendListRequested.Length);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_257 = __this->___friendListRequested_42;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_257 = __this->___friendListRequested_43;
 		NullCheck(L_257);
 		List_1_tAF836F2F45E5E36A0C7B30A5B2C2B8FED009605F* L_258 = (List_1_tAF836F2F45E5E36A0C7B30A5B2C2B8FED009605F*)il2cpp_codegen_object_new(List_1_tAF836F2F45E5E36A0C7B30A5B2C2B8FED009605F_il2cpp_TypeInfo_var);
 		NullCheck(L_258);
@@ -17561,7 +17793,7 @@ IL_0935:
 		V_53 = L_259;
 		// friend.UserId = this.friendListRequested[index];
 		FriendInfo_t526B12BCA185952B031803F395F895AD8169A0FC* L_260 = V_53;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_261 = __this->___friendListRequested_42;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_261 = __this->___friendListRequested_43;
 		int32_t L_262 = V_52;
 		NullCheck(L_261);
 		int32_t L_263 = L_262;
@@ -17601,7 +17833,7 @@ IL_097b:
 	{
 		// for (int index = 0; index < this.friendListRequested.Length; index++)
 		int32_t L_279 = V_52;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_280 = __this->___friendListRequested_42;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_280 = __this->___friendListRequested_43;
 		NullCheck(L_280);
 		V_54 = (bool)((((int32_t)L_279) < ((int32_t)((int32_t)(((RuntimeArray*)L_280)->max_length))))? 1 : 0);
 		bool L_281 = V_54;
@@ -17612,8 +17844,8 @@ IL_097b:
 	}
 	{
 		// this.friendListRequested = null;
-		__this->___friendListRequested_42 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___friendListRequested_42), (void*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL);
+		__this->___friendListRequested_43 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___friendListRequested_43), (void*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL);
 		// this.MatchMakingCallbackTargets.OnFriendListUpdate(friendList);
 		MatchMakingCallbacksContainer_tEDF984018478E15D3031775F859CD94D66275C97* L_282 = __this->___MatchMakingCallbackTargets_24;
 		List_1_tAF836F2F45E5E36A0C7B30A5B2C2B8FED009605F* L_283 = V_7;
@@ -17665,23 +17897,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_OnStatusChanged_m435
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ClientState_t37749736ADC28D4E9C0B442B1DC988F76AAE4FA3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConnectionProtocol_t5F53E5A9D1B47CD4A9FAE10E5F648DE2596D46F2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DisconnectCause_t2C4E3D34FE0D1842B3C915A63ECCE068B8A258E5_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_GetValueOrDefault_m97F94690881C66DA3C9B9A097E34A6AD030BEE7C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_get_HasValue_m68E8C9C0F902524A0F264D8F2B95722949CAB744_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_get_Value_mD2669113FE2CC13783821705D0EFC4E7652F39BE_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_tC61504D4999670A5A2480A3B5CB4AC8A71EEE32E_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ServerConnection_t91F7686050F68425C6517C7AC3225669636DD0CC_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StackTrace_t7C150C7C14136F985311A83A93524B1019F70853_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StatusCode_tD49F9E026EFABFD71BA675213E28355707A67D74_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral18FC6CDBC4D9F22623A30FD463723F653620E640);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1F44842A41E913AA425012041A06E0F24F5C0DC7);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3CB44A15535AE17D63858812D14D079DE9243C54);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5D0B0A1BAAF44FA032DE24CD1090228E1AC44C6F);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral68D7F8920CC9A5C9EB6CEA86D4BDEC243463A827);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral80996E27DFB1150E8EBF56208A54BEF962E22F86);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral950FD55111A69F05B48F108E971FB188C3E11919);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9B59743473DE4ED29B6A0B13170BF039B92269F5);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAB6C2FC49680162A4ACABC1F35845C211B4676B4);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralACD463FD0B8E87D2710A370DF0921FAAFE77F2FA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEC71DFB617708CE08AA76436A6F191DB44E3A6F3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF348E0FF61176937CC44637226B04499E6EB8844);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -17689,7 +17929,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_OnStatusChanged_m435
 	bool V_1 = false;
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
-	bool V_4 = false;
+	int32_t V_4 = 0;
 	bool V_5 = false;
 	bool V_6 = false;
 	bool V_7 = false;
@@ -17702,174 +17942,182 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_OnStatusChanged_m435
 	bool V_14 = false;
 	bool V_15 = false;
 	bool V_16 = false;
-	int32_t V_17 = 0;
-	bool V_18 = false;
+	bool V_17 = false;
+	int32_t V_18 = 0;
 	bool V_19 = false;
-	Nullable_1_tC61504D4999670A5A2480A3B5CB4AC8A71EEE32E V_20;
-	memset((&V_20), 0, sizeof(V_20));
-	String_t* V_21 = NULL;
-	int32_t V_22 = 0;
+	bool V_20 = false;
+	Nullable_1_tC61504D4999670A5A2480A3B5CB4AC8A71EEE32E V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	String_t* V_22 = NULL;
 	int32_t V_23 = 0;
-	bool V_24 = false;
-	bool V_25 = false;
-	int32_t V_26 = 0;
+	int32_t V_24 = 0;
+	int32_t V_25 = 0;
+	uint8_t V_26 = 0;
 	bool V_27 = false;
 	bool V_28 = false;
 	bool V_29 = false;
+	int32_t V_30 = 0;
+	bool V_31 = false;
+	bool V_32 = false;
+	bool V_33 = false;
+	bool V_34 = false;
+	bool V_35 = false;
+	bool V_36 = false;
+	bool V_37 = false;
 	int32_t G_B20_0 = 0;
 	int32_t G_B32_0 = 0;
 	int32_t G_B44_0 = 0;
-	LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* G_B54_0 = NULL;
-	LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* G_B53_0 = NULL;
-	int32_t G_B55_0 = 0;
-	LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* G_B55_1 = NULL;
-	int32_t G_B74_0 = 0;
-	int32_t G_B85_0 = 0;
+	LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* G_B57_0 = NULL;
+	LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* G_B56_0 = NULL;
+	int32_t G_B58_0 = 0;
+	LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* G_B58_1 = NULL;
+	int32_t G_B78_0 = 0;
+	int32_t G_B90_0 = 0;
 	{
 		// switch (statusCode)
 		int32_t L_0 = ___statusCode0;
-		V_3 = L_0;
-		int32_t L_1 = V_3;
-		V_2 = L_1;
-		int32_t L_2 = V_2;
+		V_4 = L_0;
+		int32_t L_1 = V_4;
+		V_3 = L_1;
+		int32_t L_2 = V_3;
 		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_2, ((int32_t)1022))))
 		{
 			case 0:
 			{
-				goto IL_056c;
+				goto IL_061c;
 			}
 			case 1:
 			{
-				goto IL_056c;
+				goto IL_061c;
 			}
 			case 2:
 			{
-				goto IL_008e;
+				goto IL_0090;
 			}
 			case 3:
 			{
-				goto IL_0268;
+				goto IL_026a;
 			}
 			case 4:
 			{
-				goto IL_05ac;
+				goto IL_06d2;
 			}
 			case 5:
 			{
-				goto IL_0635;
+				goto IL_084d;
 			}
 			case 6:
 			{
-				goto IL_0635;
+				goto IL_084d;
 			}
 			case 7:
 			{
-				goto IL_0635;
+				goto IL_084d;
 			}
 			case 8:
 			{
-				goto IL_05ac;
+				goto IL_06d2;
 			}
 			case 9:
 			{
-				goto IL_0635;
+				goto IL_084d;
 			}
 			case 10:
 			{
-				goto IL_0635;
+				goto IL_084d;
 			}
 			case 11:
 			{
-				goto IL_0635;
+				goto IL_084d;
 			}
 			case 12:
 			{
-				goto IL_0635;
+				goto IL_084d;
 			}
 			case 13:
 			{
-				goto IL_0635;
+				goto IL_084d;
 			}
 			case 14:
 			{
-				goto IL_0635;
+				goto IL_084d;
 			}
 			case 15:
 			{
-				goto IL_0635;
+				goto IL_084d;
 			}
 			case 16:
 			{
-				goto IL_0635;
+				goto IL_084d;
 			}
 			case 17:
 			{
-				goto IL_05ac;
+				goto IL_06d2;
 			}
 			case 18:
 			{
-				goto IL_05f8;
+				goto IL_0772;
 			}
 			case 19:
 			{
-				goto IL_05bf;
+				goto IL_0722;
 			}
 			case 20:
 			{
-				goto IL_051c;
+				goto IL_05cc;
 			}
 			case 21:
 			{
-				goto IL_05d2;
+				goto IL_0825;
 			}
 			case 22:
 			{
-				goto IL_05e5;
+				goto IL_0839;
 			}
 			case 23:
 			{
-				goto IL_0635;
+				goto IL_084d;
 			}
 			case 24:
 			{
-				goto IL_0635;
+				goto IL_084d;
 			}
 			case 25:
 			{
-				goto IL_0635;
+				goto IL_084d;
 			}
 			case 26:
 			{
-				goto IL_01c3;
+				goto IL_01c5;
 			}
 			case 27:
 			{
-				goto IL_056c;
+				goto IL_061c;
 			}
 			case 28:
 			{
-				goto IL_0556;
+				goto IL_0606;
 			}
 			case 29:
 			{
-				goto IL_0540;
+				goto IL_05f0;
 			}
 		}
 	}
 	{
-		goto IL_0635;
+		goto IL_084d;
 	}
 
-IL_008e:
+IL_0090:
 	{
 		// if (this.State == ClientState.ConnectingToNameServer)
 		int32_t L_3;
 		L_3 = LoadBalancingClient_get_State_m8553D8C2483058BD64DDED8EC2648AE77836D12C(__this, NULL);
-		V_4 = (bool)((((int32_t)L_3) == ((int32_t)((int32_t)16)))? 1 : 0);
-		bool L_4 = V_4;
+		V_5 = (bool)((((int32_t)L_3) == ((int32_t)((int32_t)16)))? 1 : 0);
+		bool L_4 = V_5;
 		if (!L_4)
 		{
-			goto IL_00ec;
+			goto IL_00ee;
 		}
 	}
 	{
@@ -17878,11 +18126,11 @@ IL_008e:
 		L_5 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
 		NullCheck(L_5);
 		uint8_t L_6 = ((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C*)L_5)->___DebugOut_20;
-		V_5 = (bool)((((int32_t)((((int32_t)L_6) < ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_7 = V_5;
+		V_6 = (bool)((((int32_t)((((int32_t)L_6) < ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_7 = V_6;
 		if (!L_7)
 		{
-			goto IL_00c5;
+			goto IL_00c7;
 		}
 	}
 	{
@@ -17890,18 +18138,18 @@ IL_008e:
 		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 5, _stringLiteral3CB44A15535AE17D63858812D14D079DE9243C54);
 	}
 
-IL_00c5:
+IL_00c7:
 	{
 		// this.Server = ServerConnection.NameServer;
 		LoadBalancingClient_set_Server_m14EE3B0146B7CF9FB5FA81757B483762628E1A73_inline(__this, 2, NULL);
 		// if (this.AuthValues != null)
 		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_8;
 		L_8 = LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline(__this, NULL);
-		V_6 = (bool)((!(((RuntimeObject*)(AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7*)L_8) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_9 = V_6;
+		V_7 = (bool)((!(((RuntimeObject*)(AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7*)L_8) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_9 = V_7;
 		if (!L_9)
 		{
-			goto IL_00eb;
+			goto IL_00ed;
 		}
 	}
 	{
@@ -17912,20 +18160,20 @@ IL_00c5:
 		AuthenticationValues_set_Token_m57EE6E43FED43BEFD7DCEF6AC703CF606F0AB369_inline(L_10, NULL, NULL);
 	}
 
-IL_00eb:
+IL_00ed:
 	{
 	}
 
-IL_00ec:
+IL_00ee:
 	{
 		// if (this.State == ClientState.ConnectingToGameServer)
 		int32_t L_11;
 		L_11 = LoadBalancingClient_get_State_m8553D8C2483058BD64DDED8EC2648AE77836D12C(__this, NULL);
-		V_7 = (bool)((((int32_t)L_11) == ((int32_t)6))? 1 : 0);
-		bool L_12 = V_7;
+		V_8 = (bool)((((int32_t)L_11) == ((int32_t)6))? 1 : 0);
+		bool L_12 = V_8;
 		if (!L_12)
 		{
-			goto IL_012b;
+			goto IL_012d;
 		}
 	}
 	{
@@ -17934,11 +18182,11 @@ IL_00ec:
 		L_13 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
 		NullCheck(L_13);
 		uint8_t L_14 = ((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C*)L_13)->___DebugOut_20;
-		V_8 = (bool)((((int32_t)((((int32_t)L_14) < ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_15 = V_8;
+		V_9 = (bool)((((int32_t)((((int32_t)L_14) < ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_15 = V_9;
 		if (!L_15)
 		{
-			goto IL_0122;
+			goto IL_0124;
 		}
 	}
 	{
@@ -17946,22 +18194,22 @@ IL_00ec:
 		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 5, _stringLiteral1F44842A41E913AA425012041A06E0F24F5C0DC7);
 	}
 
-IL_0122:
+IL_0124:
 	{
 		// this.Server = ServerConnection.GameServer;
 		LoadBalancingClient_set_Server_m14EE3B0146B7CF9FB5FA81757B483762628E1A73_inline(__this, 1, NULL);
 	}
 
-IL_012b:
+IL_012d:
 	{
 		// if (this.State == ClientState.ConnectingToMasterServer)
 		int32_t L_16;
 		L_16 = LoadBalancingClient_get_State_m8553D8C2483058BD64DDED8EC2648AE77836D12C(__this, NULL);
-		V_9 = (bool)((((int32_t)L_16) == ((int32_t)((int32_t)12)))? 1 : 0);
-		bool L_17 = V_9;
+		V_10 = (bool)((((int32_t)L_16) == ((int32_t)((int32_t)12)))? 1 : 0);
+		bool L_17 = V_10;
 		if (!L_17)
 		{
-			goto IL_0177;
+			goto IL_0179;
 		}
 	}
 	{
@@ -17970,11 +18218,11 @@ IL_012b:
 		L_18 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
 		NullCheck(L_18);
 		uint8_t L_19 = ((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C*)L_18)->___DebugOut_20;
-		V_10 = (bool)((((int32_t)((((int32_t)L_19) < ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_20 = V_10;
+		V_11 = (bool)((((int32_t)((((int32_t)L_19) < ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_20 = V_11;
 		if (!L_20)
 		{
-			goto IL_0162;
+			goto IL_0164;
 		}
 	}
 	{
@@ -17982,7 +18230,7 @@ IL_012b:
 		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 5, _stringLiteral18FC6CDBC4D9F22623A30FD463723F653620E640);
 	}
 
-IL_0162:
+IL_0164:
 	{
 		// this.Server = ServerConnection.MasterServer;
 		LoadBalancingClient_set_Server_m14EE3B0146B7CF9FB5FA81757B483762628E1A73_inline(__this, 0, NULL);
@@ -17992,7 +18240,7 @@ IL_0162:
 		ConnectionCallbacksContainer_OnConnected_m5B2064A195DF1E637739A1059271D4519507F0DE(L_21, NULL);
 	}
 
-IL_0177:
+IL_0179:
 	{
 		// if (this.LoadBalancingPeer.TransportProtocol != ConnectionProtocol.WebSocketSecure)
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_22;
@@ -18000,11 +18248,11 @@ IL_0177:
 		NullCheck(L_22);
 		uint8_t L_23;
 		L_23 = PhotonPeer_get_TransportProtocol_mC3688A65F01A1BDB8B5CAFFAFAF5BA6980885AF8_inline(L_22, NULL);
-		V_11 = (bool)((((int32_t)((((int32_t)L_23) == ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_24 = V_11;
+		V_12 = (bool)((((int32_t)((((int32_t)L_23) == ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_24 = V_12;
 		if (!L_24)
 		{
-			goto IL_01bb;
+			goto IL_01bd;
 		}
 	}
 	{
@@ -18013,27 +18261,27 @@ IL_0177:
 		L_25 = LoadBalancingClient_get_Server_mA8B81137D1F683A5F4D926B768AF3A568ED0F201_inline(__this, NULL);
 		if ((((int32_t)L_25) == ((int32_t)2)))
 		{
-			goto IL_01a3;
+			goto IL_01a5;
 		}
 	}
 	{
 		int32_t L_26 = __this->___AuthMode_5;
 		G_B20_0 = ((((int32_t)L_26) == ((int32_t)0))? 1 : 0);
-		goto IL_01a4;
+		goto IL_01a6;
 	}
 
-IL_01a3:
+IL_01a5:
 	{
 		G_B20_0 = 1;
 	}
 
-IL_01a4:
+IL_01a6:
 	{
-		V_12 = (bool)G_B20_0;
-		bool L_27 = V_12;
+		V_13 = (bool)G_B20_0;
+		bool L_27 = V_13;
 		if (!L_27)
 		{
-			goto IL_01b8;
+			goto IL_01ba;
 		}
 	}
 	{
@@ -18045,33 +18293,33 @@ IL_01a4:
 		L_29 = PhotonPeer_EstablishEncryption_m85A9EC5CE626B9EB6115B61F71C7AA0E5E2514E5(L_28, NULL);
 	}
 
-IL_01b8:
+IL_01ba:
 	{
-		goto IL_01be;
+		goto IL_01c0;
 	}
 
-IL_01bb:
+IL_01bd:
 	{
 		// goto case StatusCode.EncryptionEstablished;
-		goto IL_01c3;
+		goto IL_01c5;
 	}
 
-IL_01be:
+IL_01c0:
 	{
 		// break;
-		goto IL_0635;
+		goto IL_084d;
 	}
 
-IL_01c3:
+IL_01c5:
 	{
 		// if (this.Server == ServerConnection.NameServer)
 		int32_t L_30;
 		L_30 = LoadBalancingClient_get_Server_mA8B81137D1F683A5F4D926B768AF3A568ED0F201_inline(__this, NULL);
-		V_13 = (bool)((((int32_t)L_30) == ((int32_t)2))? 1 : 0);
-		bool L_31 = V_13;
+		V_14 = (bool)((((int32_t)L_30) == ((int32_t)2))? 1 : 0);
+		bool L_31 = V_14;
 		if (!L_31)
 		{
-			goto IL_01fd;
+			goto IL_01ff;
 		}
 	}
 	{
@@ -18082,11 +18330,11 @@ IL_01c3:
 		L_32 = LoadBalancingClient_get_CloudRegion_m0093F59A916A2AC5BB01A653D31ED2A45C9421F0_inline(__this, NULL);
 		bool L_33;
 		L_33 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_32, NULL);
-		V_14 = L_33;
-		bool L_34 = V_14;
+		V_15 = L_33;
+		bool L_34 = V_15;
 		if (!L_34)
 		{
-			goto IL_01fa;
+			goto IL_01fc;
 		}
 	}
 	{
@@ -18094,53 +18342,53 @@ IL_01c3:
 		bool L_35;
 		L_35 = LoadBalancingClient_OpGetRegions_m75D91FA3601213F1C42D0984378A875C1AA137AF(__this, NULL);
 		// break;
-		goto IL_0635;
+		goto IL_084d;
 	}
 
-IL_01fa:
+IL_01fc:
 	{
-		goto IL_0220;
+		goto IL_0222;
 	}
 
-IL_01fd:
+IL_01ff:
 	{
 		// if (this.AuthMode == AuthModeOption.AuthOnce || this.AuthMode == AuthModeOption.AuthOnceWss)
 		int32_t L_36 = __this->___AuthMode_5;
 		if ((((int32_t)L_36) == ((int32_t)1)))
 		{
-			goto IL_0212;
+			goto IL_0214;
 		}
 	}
 	{
 		int32_t L_37 = __this->___AuthMode_5;
 		G_B32_0 = ((((int32_t)L_37) == ((int32_t)2))? 1 : 0);
-		goto IL_0213;
+		goto IL_0215;
 	}
 
-IL_0212:
+IL_0214:
 	{
 		G_B32_0 = 1;
 	}
 
-IL_0213:
+IL_0215:
 	{
-		V_15 = (bool)G_B32_0;
-		bool L_38 = V_15;
+		V_16 = (bool)G_B32_0;
+		bool L_38 = V_16;
 		if (!L_38)
 		{
-			goto IL_021f;
+			goto IL_0221;
 		}
 	}
 	{
 		// break;
-		goto IL_0635;
+		goto IL_084d;
 	}
 
-IL_021f:
+IL_0221:
 	{
 	}
 
-IL_0220:
+IL_0222:
 	{
 		// bool authenticating = this.CallAuthenticate();
 		bool L_39;
@@ -18148,26 +18396,26 @@ IL_0220:
 		V_0 = L_39;
 		// if (authenticating)
 		bool L_40 = V_0;
-		V_16 = L_40;
-		bool L_41 = V_16;
+		V_17 = L_40;
+		bool L_41 = V_17;
 		if (!L_41)
 		{
-			goto IL_023a;
+			goto IL_023c;
 		}
 	}
 	{
 		// this.State = ClientState.Authenticating;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, 1, NULL);
-		goto IL_0263;
+		goto IL_0265;
 	}
 
-IL_023a:
+IL_023c:
 	{
 		// this.DebugReturn(DebugLevel.ERROR, "OpAuthenticate failed. Check log output and AuthValues. State: " + this.State);
 		int32_t L_42;
 		L_42 = LoadBalancingClient_get_State_m8553D8C2483058BD64DDED8EC2648AE77836D12C(__this, NULL);
-		V_17 = L_42;
-		Il2CppFakeBox<int32_t> L_43(ClientState_t37749736ADC28D4E9C0B442B1DC988F76AAE4FA3_il2cpp_TypeInfo_var, (&V_17));
+		V_18 = L_42;
+		Il2CppFakeBox<int32_t> L_43(ClientState_t37749736ADC28D4E9C0B442B1DC988F76AAE4FA3_il2cpp_TypeInfo_var, (&V_18));
 		String_t* L_44;
 		L_44 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_43), NULL);
 		String_t* L_45;
@@ -18175,34 +18423,34 @@ IL_023a:
 		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 1, L_45);
 	}
 
-IL_0263:
+IL_0265:
 	{
 		// break;
-		goto IL_0635;
+		goto IL_084d;
 	}
 
-IL_0268:
+IL_026a:
 	{
 		// this.friendListRequested = null;
-		__this->___friendListRequested_42 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___friendListRequested_42), (void*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL);
+		__this->___friendListRequested_43 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___friendListRequested_43), (void*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL);
 		// bool wasInRoom = this.CurrentRoom != null;
 		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_46;
 		L_46 = LoadBalancingClient_get_CurrentRoom_mADB06D45AD1F8289D93F08F322C9FDB694EAC291_inline(__this, NULL);
 		V_1 = (bool)((!(((RuntimeObject*)(Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373*)L_46) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		// this.CurrentRoom = null;    // players get cleaned up inside this, too, except LocalPlayer (which we keep)
+		// this.CurrentRoom = null; // players get cleaned up inside this, too, except LocalPlayer (which we keep)
 		LoadBalancingClient_set_CurrentRoom_m54F077811E8C961FB7EBBA1F5A1878E1FF57B8D5_inline(__this, (Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373*)NULL, NULL);
-		// this.ChangeLocalID(-1);     // depends on this.CurrentRoom, so it must be called after updating that
+		// this.ChangeLocalID(-1);  // depends on this.CurrentRoom, so it must be called after updating that
 		LoadBalancingClient_ChangeLocalID_m124BE42BD452BC35ACB8E83DAB6219B678A8921A(__this, (-1), NULL);
 		// if (this.Server == ServerConnection.GameServer && wasInRoom)
 		int32_t L_47;
 		L_47 = LoadBalancingClient_get_Server_mA8B81137D1F683A5F4D926B768AF3A568ED0F201_inline(__this, NULL);
 		bool L_48 = V_1;
-		V_18 = (bool)((int32_t)(((((int32_t)L_47) == ((int32_t)1))? 1 : 0)&(int32_t)L_48));
-		bool L_49 = V_18;
+		V_19 = (bool)((int32_t)(((((int32_t)L_47) == ((int32_t)1))? 1 : 0)&(int32_t)L_48));
+		bool L_49 = V_19;
 		if (!L_49)
 		{
-			goto IL_02a8;
+			goto IL_02aa;
 		}
 	}
 	{
@@ -18212,17 +18460,17 @@ IL_0268:
 		MatchMakingCallbacksContainer_OnLeftRoom_m6F7663274EEB2C06C40C0C937BB3063863995478(L_50, NULL);
 	}
 
-IL_02a8:
+IL_02aa:
 	{
 		// if (this.ExpectedProtocol != null && this.LoadBalancingPeer.TransportProtocol != this.ExpectedProtocol)
 		Nullable_1_tC61504D4999670A5A2480A3B5CB4AC8A71EEE32E L_51;
 		L_51 = LoadBalancingClient_get_ExpectedProtocol_m3BC45EEE403D2DA730E34E30B125A0ABB3D0AAFC_inline(__this, NULL);
-		V_20 = L_51;
+		V_21 = L_51;
 		bool L_52;
-		L_52 = Nullable_1_get_HasValue_m68E8C9C0F902524A0F264D8F2B95722949CAB744_inline((&V_20), Nullable_1_get_HasValue_m68E8C9C0F902524A0F264D8F2B95722949CAB744_RuntimeMethod_var);
+		L_52 = Nullable_1_get_HasValue_m68E8C9C0F902524A0F264D8F2B95722949CAB744_inline((&V_21), Nullable_1_get_HasValue_m68E8C9C0F902524A0F264D8F2B95722949CAB744_RuntimeMethod_var);
 		if (!L_52)
 		{
-			goto IL_02e2;
+			goto IL_02e4;
 		}
 	}
 	{
@@ -18233,27 +18481,27 @@ IL_02a8:
 		L_54 = PhotonPeer_get_TransportProtocol_mC3688A65F01A1BDB8B5CAFFAFAF5BA6980885AF8_inline(L_53, NULL);
 		Nullable_1_tC61504D4999670A5A2480A3B5CB4AC8A71EEE32E L_55;
 		L_55 = LoadBalancingClient_get_ExpectedProtocol_m3BC45EEE403D2DA730E34E30B125A0ABB3D0AAFC_inline(__this, NULL);
-		V_20 = L_55;
+		V_21 = L_55;
 		uint8_t L_56;
-		L_56 = Nullable_1_GetValueOrDefault_m97F94690881C66DA3C9B9A097E34A6AD030BEE7C_inline((&V_20), Nullable_1_GetValueOrDefault_m97F94690881C66DA3C9B9A097E34A6AD030BEE7C_RuntimeMethod_var);
+		L_56 = Nullable_1_GetValueOrDefault_m97F94690881C66DA3C9B9A097E34A6AD030BEE7C_inline((&V_21), Nullable_1_GetValueOrDefault_m97F94690881C66DA3C9B9A097E34A6AD030BEE7C_RuntimeMethod_var);
 		bool L_57;
-		L_57 = Nullable_1_get_HasValue_m68E8C9C0F902524A0F264D8F2B95722949CAB744_inline((&V_20), Nullable_1_get_HasValue_m68E8C9C0F902524A0F264D8F2B95722949CAB744_RuntimeMethod_var);
+		L_57 = Nullable_1_get_HasValue_m68E8C9C0F902524A0F264D8F2B95722949CAB744_inline((&V_21), Nullable_1_get_HasValue_m68E8C9C0F902524A0F264D8F2B95722949CAB744_RuntimeMethod_var);
 		G_B44_0 = ((((int32_t)((int32_t)(((((int32_t)L_54) == ((int32_t)L_56))? 1 : 0)&(int32_t)L_57))) == ((int32_t)0))? 1 : 0);
-		goto IL_02e3;
+		goto IL_02e5;
 	}
 
-IL_02e2:
+IL_02e4:
 	{
 		G_B44_0 = 0;
 	}
 
-IL_02e3:
+IL_02e5:
 	{
-		V_19 = (bool)G_B44_0;
-		bool L_58 = V_19;
+		V_20 = (bool)G_B44_0;
+		bool L_58 = V_20;
 		if (!L_58)
 		{
-			goto IL_0334;
+			goto IL_0336;
 		}
 	}
 	{
@@ -18270,495 +18518,726 @@ IL_02e3:
 		L_63 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
 		Nullable_1_tC61504D4999670A5A2480A3B5CB4AC8A71EEE32E L_64;
 		L_64 = LoadBalancingClient_get_ExpectedProtocol_m3BC45EEE403D2DA730E34E30B125A0ABB3D0AAFC_inline(__this, NULL);
-		V_20 = L_64;
+		V_21 = L_64;
 		uint8_t L_65;
-		L_65 = Nullable_1_get_Value_mD2669113FE2CC13783821705D0EFC4E7652F39BE((&V_20), Nullable_1_get_Value_mD2669113FE2CC13783821705D0EFC4E7652F39BE_RuntimeMethod_var);
+		L_65 = Nullable_1_get_Value_mD2669113FE2CC13783821705D0EFC4E7652F39BE((&V_21), Nullable_1_get_Value_mD2669113FE2CC13783821705D0EFC4E7652F39BE_RuntimeMethod_var);
 		NullCheck(L_63);
 		PhotonPeer_set_TransportProtocol_mAF4EE9345BAC9F2E8540CE79F8A791BD3E13014C_inline(L_63, L_65, NULL);
 		// this.ExpectedProtocol = null;
-		il2cpp_codegen_initobj((&V_20), sizeof(Nullable_1_tC61504D4999670A5A2480A3B5CB4AC8A71EEE32E));
-		Nullable_1_tC61504D4999670A5A2480A3B5CB4AC8A71EEE32E L_66 = V_20;
+		il2cpp_codegen_initobj((&V_21), sizeof(Nullable_1_tC61504D4999670A5A2480A3B5CB4AC8A71EEE32E));
+		Nullable_1_tC61504D4999670A5A2480A3B5CB4AC8A71EEE32E L_66 = V_21;
 		LoadBalancingClient_set_ExpectedProtocol_m45D91A66DA18AB07ECD45D1DE1DF244BD34FE72B_inline(__this, L_66, NULL);
 	}
 
-IL_0334:
+IL_0336:
 	{
 		// switch (this.State)
 		int32_t L_67;
 		L_67 = LoadBalancingClient_get_State_m8553D8C2483058BD64DDED8EC2648AE77836D12C(__this, NULL);
-		V_23 = L_67;
-		int32_t L_68 = V_23;
-		V_22 = L_68;
-		int32_t L_69 = V_22;
+		V_24 = L_67;
+		int32_t L_68 = V_24;
+		V_23 = L_68;
+		int32_t L_69 = V_23;
 		if (!L_69)
 		{
-			goto IL_0400;
+			goto IL_04b0;
 		}
 	}
 	{
-		goto IL_0349;
+		goto IL_034b;
 	}
 
-IL_0349:
+IL_034b:
 	{
-		int32_t L_70 = V_22;
+		int32_t L_70 = V_23;
 		if ((((int32_t)L_70) == ((int32_t)5)))
-		{
-			goto IL_044a;
-		}
-	}
-	{
-		goto IL_0353;
-	}
-
-IL_0353:
-	{
-		int32_t L_71 = V_22;
-		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_71, ((int32_t)11))))
-		{
-			case 0:
-			{
-				goto IL_043e;
-			}
-			case 1:
-			{
-				goto IL_0468;
-			}
-			case 2:
-			{
-				goto IL_0400;
-			}
-			case 3:
-			{
-				goto IL_0463;
-			}
-			case 4:
-			{
-				goto IL_0468;
-			}
-			case 5:
-			{
-				goto IL_0468;
-			}
-			case 6:
-			{
-				goto IL_0468;
-			}
-			case 7:
-			{
-				goto IL_043e;
-			}
-			case 8:
-			{
-				goto IL_0386;
-			}
-		}
-	}
-	{
-		goto IL_0468;
-	}
-
-IL_0386:
-	{
-		// this.EnableProtocolFallback = false;    // the client does a fallback only one time
-		LoadBalancingClient_set_EnableProtocolFallback_mC5C15088260FAB02544DC4EA010542F678D1485B_inline(__this, (bool)0, NULL);
-		// this.LoadBalancingPeer.TransportProtocol = (this.LoadBalancingPeer.TransportProtocol == ConnectionProtocol.Tcp) ? ConnectionProtocol.Udp : ConnectionProtocol.Tcp;
-		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_72;
-		L_72 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
-		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_73;
-		L_73 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
-		NullCheck(L_73);
-		uint8_t L_74;
-		L_74 = PhotonPeer_get_TransportProtocol_mC3688A65F01A1BDB8B5CAFFAFAF5BA6980885AF8_inline(L_73, NULL);
-		G_B53_0 = L_72;
-		if ((((int32_t)L_74) == ((int32_t)1)))
-		{
-			G_B54_0 = L_72;
-			goto IL_03a5;
-		}
-	}
-	{
-		G_B55_0 = 1;
-		G_B55_1 = G_B53_0;
-		goto IL_03a6;
-	}
-
-IL_03a5:
-	{
-		G_B55_0 = 0;
-		G_B55_1 = G_B54_0;
-	}
-
-IL_03a6:
-	{
-		NullCheck(G_B55_1);
-		PhotonPeer_set_TransportProtocol_mAF4EE9345BAC9F2E8540CE79F8A791BD3E13014C_inline(G_B55_1, G_B55_0, NULL);
-		// this.NameServerPortInAppSettings = 0;                   // this does not affect the ServerSettings file, just a variable at runtime
-		__this->___NameServerPortInAppSettings_51 = 0;
-		// this.ServerPortOverrides = new PhotonPortDefinition();  // use default ports for the fallback
-		PhotonPortDefinition_t75A54992188E1DC3FF910A00927F213E7198590A* L_75 = (&__this->___ServerPortOverrides_13);
-		il2cpp_codegen_initobj(L_75, sizeof(PhotonPortDefinition_t75A54992188E1DC3FF910A00927F213E7198590A));
-		// if (!this.LoadBalancingPeer.Connect(this.NameServerAddress, this.ProxyServerAddress, this.AppId, this.TokenForInit))
-		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_76;
-		L_76 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
-		String_t* L_77;
-		L_77 = LoadBalancingClient_get_NameServerAddress_mF76A2AA4F5732BB121793AC0886120FDE5D37A8A(__this, NULL);
-		String_t* L_78 = __this->___ProxyServerAddress_18;
-		String_t* L_79;
-		L_79 = LoadBalancingClient_get_AppId_mC1D36AE3AFE5FB808FF7CA10785002F65E500D5C_inline(__this, NULL);
-		RuntimeObject* L_80;
-		L_80 = LoadBalancingClient_get_TokenForInit_mFFC5FB287CF4DED77AF2D457E524E22DCDDF21E8(__this, NULL);
-		NullCheck(L_76);
-		bool L_81;
-		L_81 = VirtualFuncInvoker5< bool, String_t*, String_t*, String_t*, RuntimeObject*, RuntimeObject* >::Invoke(7 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::Connect(System.String,System.String,System.String,System.Object,System.Object) */, L_76, L_77, L_78, L_79, L_80, NULL);
-		V_24 = (bool)((((int32_t)L_81) == ((int32_t)0))? 1 : 0);
-		bool L_82 = V_24;
-		if (!L_82)
-		{
-			goto IL_03f2;
-		}
-	}
-	{
-		// return;
-		goto IL_0635;
-	}
-
-IL_03f2:
-	{
-		// this.State = ClientState.ConnectingToNameServer;
-		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)16), NULL);
-		// break;
-		goto IL_0517;
-	}
-
-IL_0400:
-	{
-		// if (this.AuthValues != null)
-		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_83;
-		L_83 = LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline(__this, NULL);
-		V_25 = (bool)((!(((RuntimeObject*)(AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7*)L_83) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_84 = V_25;
-		if (!L_84)
-		{
-			goto IL_041e;
-		}
-	}
-	{
-		// this.AuthValues.Token = null; // when leaving the server, invalidate the secret (but not the auth values)
-		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_85;
-		L_85 = LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline(__this, NULL);
-		NullCheck(L_85);
-		AuthenticationValues_set_Token_m57EE6E43FED43BEFD7DCEF6AC703CF606F0AB369_inline(L_85, NULL, NULL);
-	}
-
-IL_041e:
-	{
-		// this.State = ClientState.Disconnected;
-		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)14), NULL);
-		// this.ConnectionCallbackTargets.OnDisconnected(this.DisconnectedCause);
-		ConnectionCallbacksContainer_t4E9F72F713D87B67F0CA63162CFC7D100554BFFD* L_86 = __this->___ConnectionCallbackTargets_23;
-		int32_t L_87;
-		L_87 = LoadBalancingClient_get_DisconnectedCause_m7A948064631F3E7A5D1BFA24CCA308852AB8C08D_inline(__this, NULL);
-		NullCheck(L_86);
-		ConnectionCallbacksContainer_OnDisconnected_mB6E52AB9B90D96CE72512973BBDD74529515AFA0(L_86, L_87, NULL);
-		// break;
-		goto IL_0517;
-	}
-
-IL_043e:
-	{
-		// this.ConnectToMasterServer();                 // this gets the client back to the Master Server
-		bool L_88;
-		L_88 = VirtualFuncInvoker0< bool >::Invoke(9 /* System.Boolean Photon.Realtime.LoadBalancingClient::ConnectToMasterServer() */, __this);
-		// break;
-		goto IL_0517;
-	}
-
-IL_044a:
-	{
-		// this.Connect(this.GameServerAddress, this.ProxyServerAddress, ServerConnection.GameServer);     // this connects the client with the Game Server (when joining/creating a room)
-		String_t* L_89;
-		L_89 = LoadBalancingClient_get_GameServerAddress_mA5C7E86447BEEB303C5AB1C932FC9DA907407F01_inline(__this, NULL);
-		String_t* L_90 = __this->___ProxyServerAddress_18;
-		bool L_91;
-		L_91 = LoadBalancingClient_Connect_mD820A0BAF4F6F1049574C440419BC11F6A0D923B(__this, L_89, L_90, 1, NULL);
-		// break;
-		goto IL_0517;
-	}
-
-IL_0463:
-	{
-		// break;
-		goto IL_0517;
-	}
-
-IL_0468:
-	{
-		// string stacktrace = "";
-		V_21 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
-		// stacktrace = new System.Diagnostics.StackTrace(true).ToString();
-		StackTrace_t7C150C7C14136F985311A83A93524B1019F70853* L_92 = (StackTrace_t7C150C7C14136F985311A83A93524B1019F70853*)il2cpp_codegen_object_new(StackTrace_t7C150C7C14136F985311A83A93524B1019F70853_il2cpp_TypeInfo_var);
-		NullCheck(L_92);
-		StackTrace__ctor_m269D00E49783BC3205FD5C7E879888884D72107C(L_92, (bool)1, NULL);
-		NullCheck(L_92);
-		String_t* L_93;
-		L_93 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_92);
-		V_21 = L_93;
-		// this.DebugReturn(DebugLevel.WARNING, "Got a unexpected Disconnect in LoadBalancingClient State: " + this.State + ". Server: " + this.Server + " Trace: " + stacktrace);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_94 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_95 = L_94;
-		NullCheck(L_95);
-		ArrayElementTypeCheck (L_95, _stringLiteralAB6C2FC49680162A4ACABC1F35845C211B4676B4);
-		(L_95)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralAB6C2FC49680162A4ACABC1F35845C211B4676B4);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_96 = L_95;
-		int32_t L_97;
-		L_97 = LoadBalancingClient_get_State_m8553D8C2483058BD64DDED8EC2648AE77836D12C(__this, NULL);
-		V_17 = L_97;
-		Il2CppFakeBox<int32_t> L_98(ClientState_t37749736ADC28D4E9C0B442B1DC988F76AAE4FA3_il2cpp_TypeInfo_var, (&V_17));
-		String_t* L_99;
-		L_99 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_98), NULL);
-		NullCheck(L_96);
-		ArrayElementTypeCheck (L_96, L_99);
-		(L_96)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_99);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_100 = L_96;
-		NullCheck(L_100);
-		ArrayElementTypeCheck (L_100, _stringLiteralF348E0FF61176937CC44637226B04499E6EB8844);
-		(L_100)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralF348E0FF61176937CC44637226B04499E6EB8844);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_101 = L_100;
-		int32_t L_102;
-		L_102 = LoadBalancingClient_get_Server_mA8B81137D1F683A5F4D926B768AF3A568ED0F201_inline(__this, NULL);
-		V_26 = L_102;
-		Il2CppFakeBox<int32_t> L_103(ServerConnection_t91F7686050F68425C6517C7AC3225669636DD0CC_il2cpp_TypeInfo_var, (&V_26));
-		String_t* L_104;
-		L_104 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_103), NULL);
-		NullCheck(L_101);
-		ArrayElementTypeCheck (L_101, L_104);
-		(L_101)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_104);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_105 = L_101;
-		NullCheck(L_105);
-		ArrayElementTypeCheck (L_105, _stringLiteral950FD55111A69F05B48F108E971FB188C3E11919);
-		(L_105)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral950FD55111A69F05B48F108E971FB188C3E11919);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_106 = L_105;
-		String_t* L_107 = V_21;
-		NullCheck(L_106);
-		ArrayElementTypeCheck (L_106, L_107);
-		(L_106)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_107);
-		String_t* L_108;
-		L_108 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_106, NULL);
-		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 2, L_108);
-		// if (this.AuthValues != null)
-		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_109;
-		L_109 = LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline(__this, NULL);
-		V_27 = (bool)((!(((RuntimeObject*)(AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7*)L_109) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_110 = V_27;
-		if (!L_110)
 		{
 			goto IL_04fa;
 		}
 	}
 	{
-		// this.AuthValues.Token = null; // when leaving the server, invalidate the secret (but not the auth values)
-		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_111;
-		L_111 = LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline(__this, NULL);
-		NullCheck(L_111);
-		AuthenticationValues_set_Token_m57EE6E43FED43BEFD7DCEF6AC703CF606F0AB369_inline(L_111, NULL, NULL);
+		goto IL_0355;
 	}
 
-IL_04fa:
+IL_0355:
+	{
+		int32_t L_71 = V_23;
+		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_71, ((int32_t)11))))
+		{
+			case 0:
+			{
+				goto IL_04ee;
+			}
+			case 1:
+			{
+				goto IL_0518;
+			}
+			case 2:
+			{
+				goto IL_04b0;
+			}
+			case 3:
+			{
+				goto IL_0513;
+			}
+			case 4:
+			{
+				goto IL_0518;
+			}
+			case 5:
+			{
+				goto IL_0518;
+			}
+			case 6:
+			{
+				goto IL_0518;
+			}
+			case 7:
+			{
+				goto IL_04ee;
+			}
+			case 8:
+			{
+				goto IL_0437;
+			}
+			case 9:
+			{
+				goto IL_038c;
+			}
+		}
+	}
+	{
+		goto IL_0518;
+	}
+
+IL_038c:
+	{
+		// this.DebugReturn(DebugLevel.INFO, string.Format("AuthOnceWss failed (WSS connection could not be established: " + this.DisconnectedCause + "). Trying again with protocol: " + this.LoadBalancingPeer.TransportProtocol));
+		int32_t L_72;
+		L_72 = LoadBalancingClient_get_DisconnectedCause_m7A948064631F3E7A5D1BFA24CCA308852AB8C08D_inline(__this, NULL);
+		V_25 = L_72;
+		Il2CppFakeBox<int32_t> L_73(DisconnectCause_t2C4E3D34FE0D1842B3C915A63ECCE068B8A258E5_il2cpp_TypeInfo_var, (&V_25));
+		String_t* L_74;
+		L_74 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_73), NULL);
+		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_75;
+		L_75 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
+		NullCheck(L_75);
+		uint8_t L_76;
+		L_76 = PhotonPeer_get_TransportProtocol_mC3688A65F01A1BDB8B5CAFFAFAF5BA6980885AF8_inline(L_75, NULL);
+		V_26 = L_76;
+		Il2CppFakeBox<uint8_t> L_77(ConnectionProtocol_t5F53E5A9D1B47CD4A9FAE10E5F648DE2596D46F2_il2cpp_TypeInfo_var, (&V_26));
+		String_t* L_78;
+		L_78 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_77), NULL);
+		String_t* L_79;
+		L_79 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteralEC71DFB617708CE08AA76436A6F191DB44E3A6F3, L_74, _stringLiteral5D0B0A1BAAF44FA032DE24CD1090228E1AC44C6F, L_78, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_80;
+		L_80 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		String_t* L_81;
+		L_81 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(L_79, L_80, NULL);
+		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 3, L_81);
+		// this.AuthMode = AuthModeOption.Auth;
+		__this->___AuthMode_5 = 0;
+		// this.NameServerPortInAppSettings = 0;                  // this does not affect the ServerSettings file, just a variable at runtime
+		__this->___NameServerPortInAppSettings_52 = 0;
+		// this.ServerPortOverrides = new PhotonPortDefinition(); // use default ports for the fallback
+		PhotonPortDefinition_t75A54992188E1DC3FF910A00927F213E7198590A* L_82 = (&__this->___ServerPortOverrides_13);
+		il2cpp_codegen_initobj(L_82, sizeof(PhotonPortDefinition_t75A54992188E1DC3FF910A00927F213E7198590A));
+		// if (!this.LoadBalancingPeer.Connect(this.NameServerAddress, this.ProxyServerAddress, this.AppId, this.TokenForInit))
+		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_83;
+		L_83 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
+		String_t* L_84;
+		L_84 = LoadBalancingClient_get_NameServerAddress_mF76A2AA4F5732BB121793AC0886120FDE5D37A8A(__this, NULL);
+		String_t* L_85 = __this->___ProxyServerAddress_18;
+		String_t* L_86;
+		L_86 = LoadBalancingClient_get_AppId_mC1D36AE3AFE5FB808FF7CA10785002F65E500D5C_inline(__this, NULL);
+		RuntimeObject* L_87;
+		L_87 = LoadBalancingClient_get_TokenForInit_mFFC5FB287CF4DED77AF2D457E524E22DCDDF21E8(__this, NULL);
+		NullCheck(L_83);
+		bool L_88;
+		L_88 = VirtualFuncInvoker5< bool, String_t*, String_t*, String_t*, RuntimeObject*, RuntimeObject* >::Invoke(7 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::Connect(System.String,System.String,System.String,System.Object,System.Object) */, L_83, L_84, L_85, L_86, L_87, NULL);
+		V_27 = (bool)((((int32_t)L_88) == ((int32_t)0))? 1 : 0);
+		bool L_89 = V_27;
+		if (!L_89)
+		{
+			goto IL_0429;
+		}
+	}
+	{
+		// return;
+		goto IL_084d;
+	}
+
+IL_0429:
+	{
+		// this.State = ClientState.ConnectingToNameServer;
+		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)16), NULL);
+		// break;
+		goto IL_05c7;
+	}
+
+IL_0437:
+	{
+		// this.EnableProtocolFallback = false; // the client does a fallback only one time
+		LoadBalancingClient_set_EnableProtocolFallback_mC5C15088260FAB02544DC4EA010542F678D1485B_inline(__this, (bool)0, NULL);
+		// this.LoadBalancingPeer.TransportProtocol = (this.LoadBalancingPeer.TransportProtocol != ConnectionProtocol.Udp) ? ConnectionProtocol.Udp : ConnectionProtocol.WebSocketSecure;
+		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_90;
+		L_90 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
+		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_91;
+		L_91 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
+		NullCheck(L_91);
+		uint8_t L_92;
+		L_92 = PhotonPeer_get_TransportProtocol_mC3688A65F01A1BDB8B5CAFFAFAF5BA6980885AF8_inline(L_91, NULL);
+		G_B56_0 = L_90;
+		if (L_92)
+		{
+			G_B57_0 = L_90;
+			goto IL_0455;
+		}
+	}
+	{
+		G_B58_0 = 5;
+		G_B58_1 = G_B56_0;
+		goto IL_0456;
+	}
+
+IL_0455:
+	{
+		G_B58_0 = 0;
+		G_B58_1 = G_B57_0;
+	}
+
+IL_0456:
+	{
+		NullCheck(G_B58_1);
+		PhotonPeer_set_TransportProtocol_mAF4EE9345BAC9F2E8540CE79F8A791BD3E13014C_inline(G_B58_1, G_B58_0, NULL);
+		// this.NameServerPortInAppSettings = 0;                  // this does not affect the ServerSettings file, just a variable at runtime
+		__this->___NameServerPortInAppSettings_52 = 0;
+		// this.ServerPortOverrides = new PhotonPortDefinition(); // use default ports for the fallback
+		PhotonPortDefinition_t75A54992188E1DC3FF910A00927F213E7198590A* L_93 = (&__this->___ServerPortOverrides_13);
+		il2cpp_codegen_initobj(L_93, sizeof(PhotonPortDefinition_t75A54992188E1DC3FF910A00927F213E7198590A));
+		// if (!this.LoadBalancingPeer.Connect(this.NameServerAddress, this.ProxyServerAddress, this.AppId, this.TokenForInit))
+		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_94;
+		L_94 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
+		String_t* L_95;
+		L_95 = LoadBalancingClient_get_NameServerAddress_mF76A2AA4F5732BB121793AC0886120FDE5D37A8A(__this, NULL);
+		String_t* L_96 = __this->___ProxyServerAddress_18;
+		String_t* L_97;
+		L_97 = LoadBalancingClient_get_AppId_mC1D36AE3AFE5FB808FF7CA10785002F65E500D5C_inline(__this, NULL);
+		RuntimeObject* L_98;
+		L_98 = LoadBalancingClient_get_TokenForInit_mFFC5FB287CF4DED77AF2D457E524E22DCDDF21E8(__this, NULL);
+		NullCheck(L_94);
+		bool L_99;
+		L_99 = VirtualFuncInvoker5< bool, String_t*, String_t*, String_t*, RuntimeObject*, RuntimeObject* >::Invoke(7 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::Connect(System.String,System.String,System.String,System.Object,System.Object) */, L_94, L_95, L_96, L_97, L_98, NULL);
+		V_28 = (bool)((((int32_t)L_99) == ((int32_t)0))? 1 : 0);
+		bool L_100 = V_28;
+		if (!L_100)
+		{
+			goto IL_04a2;
+		}
+	}
+	{
+		// return;
+		goto IL_084d;
+	}
+
+IL_04a2:
+	{
+		// this.State = ClientState.ConnectingToNameServer;
+		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)16), NULL);
+		// break;
+		goto IL_05c7;
+	}
+
+IL_04b0:
+	{
+		// if (this.AuthValues != null)
+		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_101;
+		L_101 = LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline(__this, NULL);
+		V_29 = (bool)((!(((RuntimeObject*)(AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7*)L_101) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_102 = V_29;
+		if (!L_102)
+		{
+			goto IL_04ce;
+		}
+	}
+	{
+		// this.AuthValues.Token = null; // when leaving the server, invalidate the secret (but not the auth values)
+		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_103;
+		L_103 = LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline(__this, NULL);
+		NullCheck(L_103);
+		AuthenticationValues_set_Token_m57EE6E43FED43BEFD7DCEF6AC703CF606F0AB369_inline(L_103, NULL, NULL);
+	}
+
+IL_04ce:
 	{
 		// this.State = ClientState.Disconnected;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)14), NULL);
 		// this.ConnectionCallbackTargets.OnDisconnected(this.DisconnectedCause);
-		ConnectionCallbacksContainer_t4E9F72F713D87B67F0CA63162CFC7D100554BFFD* L_112 = __this->___ConnectionCallbackTargets_23;
-		int32_t L_113;
-		L_113 = LoadBalancingClient_get_DisconnectedCause_m7A948064631F3E7A5D1BFA24CCA308852AB8C08D_inline(__this, NULL);
-		NullCheck(L_112);
-		ConnectionCallbacksContainer_OnDisconnected_mB6E52AB9B90D96CE72512973BBDD74529515AFA0(L_112, L_113, NULL);
+		ConnectionCallbacksContainer_t4E9F72F713D87B67F0CA63162CFC7D100554BFFD* L_104 = __this->___ConnectionCallbackTargets_23;
+		int32_t L_105;
+		L_105 = LoadBalancingClient_get_DisconnectedCause_m7A948064631F3E7A5D1BFA24CCA308852AB8C08D_inline(__this, NULL);
+		NullCheck(L_104);
+		ConnectionCallbacksContainer_OnDisconnected_mB6E52AB9B90D96CE72512973BBDD74529515AFA0(L_104, L_105, NULL);
 		// break;
-		goto IL_0517;
+		goto IL_05c7;
 	}
 
-IL_0517:
+IL_04ee:
+	{
+		// this.ConnectToMasterServer();                 // this gets the client back to the Master Server
+		bool L_106;
+		L_106 = VirtualFuncInvoker0< bool >::Invoke(9 /* System.Boolean Photon.Realtime.LoadBalancingClient::ConnectToMasterServer() */, __this);
+		// break;
+		goto IL_05c7;
+	}
+
+IL_04fa:
+	{
+		// this.Connect(this.GameServerAddress, this.ProxyServerAddress, ServerConnection.GameServer);     // this connects the client with the Game Server (when joining/creating a room)
+		String_t* L_107;
+		L_107 = LoadBalancingClient_get_GameServerAddress_mA5C7E86447BEEB303C5AB1C932FC9DA907407F01_inline(__this, NULL);
+		String_t* L_108 = __this->___ProxyServerAddress_18;
+		bool L_109;
+		L_109 = LoadBalancingClient_Connect_mD820A0BAF4F6F1049574C440419BC11F6A0D923B(__this, L_107, L_108, 1, NULL);
+		// break;
+		goto IL_05c7;
+	}
+
+IL_0513:
 	{
 		// break;
-		goto IL_0635;
+		goto IL_05c7;
 	}
 
-IL_051c:
+IL_0518:
+	{
+		// string stacktrace = "";
+		V_22 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		// stacktrace = new System.Diagnostics.StackTrace(true).ToString();
+		StackTrace_t7C150C7C14136F985311A83A93524B1019F70853* L_110 = (StackTrace_t7C150C7C14136F985311A83A93524B1019F70853*)il2cpp_codegen_object_new(StackTrace_t7C150C7C14136F985311A83A93524B1019F70853_il2cpp_TypeInfo_var);
+		NullCheck(L_110);
+		StackTrace__ctor_m269D00E49783BC3205FD5C7E879888884D72107C(L_110, (bool)1, NULL);
+		NullCheck(L_110);
+		String_t* L_111;
+		L_111 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_110);
+		V_22 = L_111;
+		// this.DebugReturn(DebugLevel.WARNING, "Got a unexpected Disconnect in LoadBalancingClient State: " + this.State + ". Server: " + this.Server + " Trace: " + stacktrace);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_112 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_113 = L_112;
+		NullCheck(L_113);
+		ArrayElementTypeCheck (L_113, _stringLiteralAB6C2FC49680162A4ACABC1F35845C211B4676B4);
+		(L_113)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralAB6C2FC49680162A4ACABC1F35845C211B4676B4);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_114 = L_113;
+		int32_t L_115;
+		L_115 = LoadBalancingClient_get_State_m8553D8C2483058BD64DDED8EC2648AE77836D12C(__this, NULL);
+		V_18 = L_115;
+		Il2CppFakeBox<int32_t> L_116(ClientState_t37749736ADC28D4E9C0B442B1DC988F76AAE4FA3_il2cpp_TypeInfo_var, (&V_18));
+		String_t* L_117;
+		L_117 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_116), NULL);
+		NullCheck(L_114);
+		ArrayElementTypeCheck (L_114, L_117);
+		(L_114)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_117);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_118 = L_114;
+		NullCheck(L_118);
+		ArrayElementTypeCheck (L_118, _stringLiteralF348E0FF61176937CC44637226B04499E6EB8844);
+		(L_118)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralF348E0FF61176937CC44637226B04499E6EB8844);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_119 = L_118;
+		int32_t L_120;
+		L_120 = LoadBalancingClient_get_Server_mA8B81137D1F683A5F4D926B768AF3A568ED0F201_inline(__this, NULL);
+		V_30 = L_120;
+		Il2CppFakeBox<int32_t> L_121(ServerConnection_t91F7686050F68425C6517C7AC3225669636DD0CC_il2cpp_TypeInfo_var, (&V_30));
+		String_t* L_122;
+		L_122 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_121), NULL);
+		NullCheck(L_119);
+		ArrayElementTypeCheck (L_119, L_122);
+		(L_119)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_122);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_123 = L_119;
+		NullCheck(L_123);
+		ArrayElementTypeCheck (L_123, _stringLiteral950FD55111A69F05B48F108E971FB188C3E11919);
+		(L_123)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral950FD55111A69F05B48F108E971FB188C3E11919);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_124 = L_123;
+		String_t* L_125 = V_22;
+		NullCheck(L_124);
+		ArrayElementTypeCheck (L_124, L_125);
+		(L_124)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_125);
+		String_t* L_126;
+		L_126 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_124, NULL);
+		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 2, L_126);
+		// if (this.AuthValues != null)
+		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_127;
+		L_127 = LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline(__this, NULL);
+		V_31 = (bool)((!(((RuntimeObject*)(AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7*)L_127) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_128 = V_31;
+		if (!L_128)
+		{
+			goto IL_05aa;
+		}
+	}
+	{
+		// this.AuthValues.Token = null; // when leaving the server, invalidate the secret (but not the auth values)
+		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_129;
+		L_129 = LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline(__this, NULL);
+		NullCheck(L_129);
+		AuthenticationValues_set_Token_m57EE6E43FED43BEFD7DCEF6AC703CF606F0AB369_inline(L_129, NULL, NULL);
+	}
+
+IL_05aa:
+	{
+		// this.State = ClientState.Disconnected;
+		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)14), NULL);
+		// this.ConnectionCallbackTargets.OnDisconnected(this.DisconnectedCause);
+		ConnectionCallbacksContainer_t4E9F72F713D87B67F0CA63162CFC7D100554BFFD* L_130 = __this->___ConnectionCallbackTargets_23;
+		int32_t L_131;
+		L_131 = LoadBalancingClient_get_DisconnectedCause_m7A948064631F3E7A5D1BFA24CCA308852AB8C08D_inline(__this, NULL);
+		NullCheck(L_130);
+		ConnectionCallbacksContainer_OnDisconnected_mB6E52AB9B90D96CE72512973BBDD74529515AFA0(L_130, L_131, NULL);
+		// break;
+		goto IL_05c7;
+	}
+
+IL_05c7:
+	{
+		// break;
+		goto IL_084d;
+	}
+
+IL_05cc:
 	{
 		// this.DebugReturn(DebugLevel.ERROR, "This connection was rejected due to the apps CCU limit.");
 		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 1, _stringLiteral68D7F8920CC9A5C9EB6CEA86D4BDEC243463A827);
 		// this.DisconnectedCause = DisconnectCause.MaxCcuReached;
-		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, ((int32_t)12), NULL);
+		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, ((int32_t)14), NULL);
 		// this.State = ClientState.Disconnecting;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)13), NULL);
 		// break;
-		goto IL_0635;
+		goto IL_084d;
 	}
 
-IL_0540:
+IL_05f0:
 	{
 		// this.DisconnectedCause = DisconnectCause.DnsExceptionOnConnect;
 		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, 2, NULL);
 		// this.State = ClientState.Disconnecting;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)13), NULL);
 		// break;
-		goto IL_0635;
+		goto IL_084d;
 	}
 
-IL_0556:
+IL_0606:
 	{
 		// this.DisconnectedCause = DisconnectCause.ServerAddressInvalid;
 		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, 3, NULL);
 		// this.State = ClientState.Disconnecting;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)13), NULL);
 		// break;
-		goto IL_0635;
+		goto IL_084d;
 	}
 
-IL_056c:
+IL_061c:
 	{
+		// this.SystemConnectionSummary = new SystemConnectionSummary(this);
+		SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A* L_132 = (SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A*)il2cpp_codegen_object_new(SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A_il2cpp_TypeInfo_var);
+		NullCheck(L_132);
+		SystemConnectionSummary__ctor_m8FE68C2E73195E8485EEC496FD6ACBB67CCA326E(L_132, __this, NULL);
+		__this->___SystemConnectionSummary_30 = L_132;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SystemConnectionSummary_30), (void*)L_132);
+		// this.DebugReturn(DebugLevel.ERROR, $"Connection lost. OnStatusChanged to {statusCode}. Client state was: {this.State}. {this.SystemConnectionSummary.ToString()}");
+		int32_t L_133 = ___statusCode0;
+		int32_t L_134 = L_133;
+		RuntimeObject* L_135 = Box(StatusCode_tD49F9E026EFABFD71BA675213E28355707A67D74_il2cpp_TypeInfo_var, &L_134);
+		int32_t L_136;
+		L_136 = LoadBalancingClient_get_State_m8553D8C2483058BD64DDED8EC2648AE77836D12C(__this, NULL);
+		int32_t L_137 = L_136;
+		RuntimeObject* L_138 = Box(ClientState_t37749736ADC28D4E9C0B442B1DC988F76AAE4FA3_il2cpp_TypeInfo_var, &L_137);
+		SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A* L_139 = __this->___SystemConnectionSummary_30;
+		NullCheck(L_139);
+		String_t* L_140;
+		L_140 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_139);
+		String_t* L_141;
+		L_141 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral80996E27DFB1150E8EBF56208A54BEF962E22F86, L_135, L_138, L_140, NULL);
+		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 1, L_141);
 		// this.DisconnectedCause = DisconnectCause.ExceptionOnConnect;
 		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, 1, NULL);
-		// if (this.EnableProtocolFallback && this.State == ClientState.ConnectingToNameServer)
-		bool L_114;
-		L_114 = LoadBalancingClient_get_EnableProtocolFallback_m65B7F799CD2BC4BCDE41F887AB94F75A86BA752A_inline(__this, NULL);
-		if (!L_114)
+		// ClientState nextState = ClientState.Disconnecting;
+		V_2 = ((int32_t)13);
+		// if (this.State == ClientState.ConnectingToNameServer)
+		int32_t L_142;
+		L_142 = LoadBalancingClient_get_State_m8553D8C2483058BD64DDED8EC2648AE77836D12C(__this, NULL);
+		V_32 = (bool)((((int32_t)L_142) == ((int32_t)((int32_t)16)))? 1 : 0);
+		bool L_143 = V_32;
+		if (!L_143)
 		{
-			goto IL_0588;
+			goto IL_06c5;
 		}
 	}
 	{
-		int32_t L_115;
-		L_115 = LoadBalancingClient_get_State_m8553D8C2483058BD64DDED8EC2648AE77836D12C(__this, NULL);
-		G_B74_0 = ((((int32_t)L_115) == ((int32_t)((int32_t)16)))? 1 : 0);
-		goto IL_0589;
-	}
-
-IL_0588:
-	{
-		G_B74_0 = 0;
-	}
-
-IL_0589:
-	{
-		V_28 = (bool)G_B74_0;
-		bool L_116 = V_28;
-		if (!L_116)
+		// if (this.AuthMode == AuthModeOption.AuthOnceWss && this.ExpectedProtocol != ConnectionProtocol.WebSocketSecure)
+		int32_t L_144 = __this->___AuthMode_5;
+		if ((!(((uint32_t)L_144) == ((uint32_t)2))))
 		{
-			goto IL_059c;
+			goto IL_069e;
 		}
 	}
 	{
-		// this.State = ClientState.ConnectWithFallbackProtocol;
-		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)19), NULL);
-		goto IL_05a7;
+		Nullable_1_tC61504D4999670A5A2480A3B5CB4AC8A71EEE32E L_145;
+		L_145 = LoadBalancingClient_get_ExpectedProtocol_m3BC45EEE403D2DA730E34E30B125A0ABB3D0AAFC_inline(__this, NULL);
+		V_21 = L_145;
+		V_26 = 5;
+		uint8_t L_146;
+		L_146 = Nullable_1_GetValueOrDefault_m97F94690881C66DA3C9B9A097E34A6AD030BEE7C_inline((&V_21), Nullable_1_GetValueOrDefault_m97F94690881C66DA3C9B9A097E34A6AD030BEE7C_RuntimeMethod_var);
+		uint8_t L_147 = V_26;
+		bool L_148;
+		L_148 = Nullable_1_get_HasValue_m68E8C9C0F902524A0F264D8F2B95722949CAB744_inline((&V_21), Nullable_1_get_HasValue_m68E8C9C0F902524A0F264D8F2B95722949CAB744_RuntimeMethod_var);
+		G_B78_0 = ((((int32_t)((int32_t)(((((int32_t)L_146) == ((int32_t)L_147))? 1 : 0)&(int32_t)L_148))) == ((int32_t)0))? 1 : 0);
+		goto IL_069f;
 	}
 
-IL_059c:
+IL_069e:
 	{
-		// this.State = ClientState.Disconnecting;
-		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)13), NULL);
+		G_B78_0 = 0;
 	}
 
-IL_05a7:
+IL_069f:
 	{
+		V_33 = (bool)G_B78_0;
+		bool L_149 = V_33;
+		if (!L_149)
+		{
+			goto IL_06ac;
+		}
+	}
+	{
+		// nextState = ClientState.ConnectWithoutAuthOnceWss;
+		V_2 = ((int32_t)20);
+		goto IL_06bd;
+	}
+
+IL_06ac:
+	{
+		// else if (this.EnableProtocolFallback)
+		bool L_150;
+		L_150 = LoadBalancingClient_get_EnableProtocolFallback_m65B7F799CD2BC4BCDE41F887AB94F75A86BA752A_inline(__this, NULL);
+		V_34 = L_150;
+		bool L_151 = V_34;
+		if (!L_151)
+		{
+			goto IL_06bd;
+		}
+	}
+	{
+		// nextState = ClientState.ConnectWithFallbackProtocol;
+		V_2 = ((int32_t)19);
+	}
+
+IL_06bd:
+	{
+		// this.AuthMode = AuthModeOption.AuthOnce;
+		__this->___AuthMode_5 = 1;
+	}
+
+IL_06c5:
+	{
+		// this.State = nextState;
+		int32_t L_152 = V_2;
+		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, L_152, NULL);
 		// break;
-		goto IL_0635;
+		goto IL_084d;
 	}
 
-IL_05ac:
+IL_06d2:
 	{
+		// this.SystemConnectionSummary = new SystemConnectionSummary(this);
+		SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A* L_153 = (SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A*)il2cpp_codegen_object_new(SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A_il2cpp_TypeInfo_var);
+		NullCheck(L_153);
+		SystemConnectionSummary__ctor_m8FE68C2E73195E8485EEC496FD6ACBB67CCA326E(L_153, __this, NULL);
+		__this->___SystemConnectionSummary_30 = L_153;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SystemConnectionSummary_30), (void*)L_153);
+		// this.DebugReturn(DebugLevel.ERROR, $"Connection lost. OnStatusChanged to {statusCode}. Client state was: {this.State}. {this.SystemConnectionSummary.ToString()}");
+		int32_t L_154 = ___statusCode0;
+		int32_t L_155 = L_154;
+		RuntimeObject* L_156 = Box(StatusCode_tD49F9E026EFABFD71BA675213E28355707A67D74_il2cpp_TypeInfo_var, &L_155);
+		int32_t L_157;
+		L_157 = LoadBalancingClient_get_State_m8553D8C2483058BD64DDED8EC2648AE77836D12C(__this, NULL);
+		int32_t L_158 = L_157;
+		RuntimeObject* L_159 = Box(ClientState_t37749736ADC28D4E9C0B442B1DC988F76AAE4FA3_il2cpp_TypeInfo_var, &L_158);
+		SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A* L_160 = __this->___SystemConnectionSummary_30;
+		NullCheck(L_160);
+		String_t* L_161;
+		L_161 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_160);
+		String_t* L_162;
+		L_162 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral80996E27DFB1150E8EBF56208A54BEF962E22F86, L_156, L_159, L_161, NULL);
+		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 1, L_162);
 		// this.DisconnectedCause = DisconnectCause.Exception;
 		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, 4, NULL);
 		// this.State = ClientState.Disconnecting;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)13), NULL);
 		// break;
-		goto IL_0635;
+		goto IL_084d;
 	}
 
-IL_05bf:
+IL_0722:
 	{
-		// this.DisconnectedCause = DisconnectCause.ServerTimeout;
-		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, 5, NULL);
-		// this.State = ClientState.Disconnecting;
-		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)13), NULL);
-		// break;
-		goto IL_0635;
-	}
-
-IL_05d2:
-	{
-		// this.DisconnectedCause = DisconnectCause.DisconnectByServerLogic;
+		// this.SystemConnectionSummary = new SystemConnectionSummary(this);
+		SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A* L_163 = (SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A*)il2cpp_codegen_object_new(SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A_il2cpp_TypeInfo_var);
+		NullCheck(L_163);
+		SystemConnectionSummary__ctor_m8FE68C2E73195E8485EEC496FD6ACBB67CCA326E(L_163, __this, NULL);
+		__this->___SystemConnectionSummary_30 = L_163;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SystemConnectionSummary_30), (void*)L_163);
+		// this.DebugReturn(DebugLevel.ERROR, $"Connection lost. OnStatusChanged to {statusCode}. Client state was: {this.State}. {this.SystemConnectionSummary.ToString()}");
+		int32_t L_164 = ___statusCode0;
+		int32_t L_165 = L_164;
+		RuntimeObject* L_166 = Box(StatusCode_tD49F9E026EFABFD71BA675213E28355707A67D74_il2cpp_TypeInfo_var, &L_165);
+		int32_t L_167;
+		L_167 = LoadBalancingClient_get_State_m8553D8C2483058BD64DDED8EC2648AE77836D12C(__this, NULL);
+		int32_t L_168 = L_167;
+		RuntimeObject* L_169 = Box(ClientState_t37749736ADC28D4E9C0B442B1DC988F76AAE4FA3_il2cpp_TypeInfo_var, &L_168);
+		SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A* L_170 = __this->___SystemConnectionSummary_30;
+		NullCheck(L_170);
+		String_t* L_171;
+		L_171 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_170);
+		String_t* L_172;
+		L_172 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral80996E27DFB1150E8EBF56208A54BEF962E22F86, L_166, L_169, L_171, NULL);
+		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 1, L_172);
+		// this.DisconnectedCause = DisconnectCause.ServerTimeout; // could check if app was in background (and is now back)
 		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, 7, NULL);
 		// this.State = ClientState.Disconnecting;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)13), NULL);
 		// break;
-		goto IL_0635;
+		goto IL_084d;
 	}
 
-IL_05e5:
+IL_0772:
+	{
+		// this.SystemConnectionSummary = new SystemConnectionSummary(this);
+		SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A* L_173 = (SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A*)il2cpp_codegen_object_new(SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A_il2cpp_TypeInfo_var);
+		NullCheck(L_173);
+		SystemConnectionSummary__ctor_m8FE68C2E73195E8485EEC496FD6ACBB67CCA326E(L_173, __this, NULL);
+		__this->___SystemConnectionSummary_30 = L_173;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SystemConnectionSummary_30), (void*)L_173);
+		// this.DebugReturn(DebugLevel.ERROR, $"Connection lost. OnStatusChanged to {statusCode}. Client state was: {this.State}. {this.SystemConnectionSummary.ToString()}");
+		int32_t L_174 = ___statusCode0;
+		int32_t L_175 = L_174;
+		RuntimeObject* L_176 = Box(StatusCode_tD49F9E026EFABFD71BA675213E28355707A67D74_il2cpp_TypeInfo_var, &L_175);
+		int32_t L_177;
+		L_177 = LoadBalancingClient_get_State_m8553D8C2483058BD64DDED8EC2648AE77836D12C(__this, NULL);
+		int32_t L_178 = L_177;
+		RuntimeObject* L_179 = Box(ClientState_t37749736ADC28D4E9C0B442B1DC988F76AAE4FA3_il2cpp_TypeInfo_var, &L_178);
+		SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A* L_180 = __this->___SystemConnectionSummary_30;
+		NullCheck(L_180);
+		String_t* L_181;
+		L_181 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_180);
+		String_t* L_182;
+		L_182 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral80996E27DFB1150E8EBF56208A54BEF962E22F86, L_176, L_179, L_181, NULL);
+		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 1, L_182);
+		// this.DisconnectedCause = DisconnectCause.ClientTimeout;
+		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, 8, NULL);
+		// nextState = ClientState.Disconnecting;
+		V_2 = ((int32_t)13);
+		// if (this.State == ClientState.ConnectingToNameServer)
+		int32_t L_183;
+		L_183 = LoadBalancingClient_get_State_m8553D8C2483058BD64DDED8EC2648AE77836D12C(__this, NULL);
+		V_35 = (bool)((((int32_t)L_183) == ((int32_t)((int32_t)16)))? 1 : 0);
+		bool L_184 = V_35;
+		if (!L_184)
+		{
+			goto IL_081b;
+		}
+	}
+	{
+		// if (this.AuthMode == AuthModeOption.AuthOnceWss && this.ExpectedProtocol != ConnectionProtocol.WebSocketSecure)
+		int32_t L_185 = __this->___AuthMode_5;
+		if ((!(((uint32_t)L_185) == ((uint32_t)2))))
+		{
+			goto IL_07f4;
+		}
+	}
+	{
+		Nullable_1_tC61504D4999670A5A2480A3B5CB4AC8A71EEE32E L_186;
+		L_186 = LoadBalancingClient_get_ExpectedProtocol_m3BC45EEE403D2DA730E34E30B125A0ABB3D0AAFC_inline(__this, NULL);
+		V_21 = L_186;
+		V_26 = 5;
+		uint8_t L_187;
+		L_187 = Nullable_1_GetValueOrDefault_m97F94690881C66DA3C9B9A097E34A6AD030BEE7C_inline((&V_21), Nullable_1_GetValueOrDefault_m97F94690881C66DA3C9B9A097E34A6AD030BEE7C_RuntimeMethod_var);
+		uint8_t L_188 = V_26;
+		bool L_189;
+		L_189 = Nullable_1_get_HasValue_m68E8C9C0F902524A0F264D8F2B95722949CAB744_inline((&V_21), Nullable_1_get_HasValue_m68E8C9C0F902524A0F264D8F2B95722949CAB744_RuntimeMethod_var);
+		G_B90_0 = ((((int32_t)((int32_t)(((((int32_t)L_187) == ((int32_t)L_188))? 1 : 0)&(int32_t)L_189))) == ((int32_t)0))? 1 : 0);
+		goto IL_07f5;
+	}
+
+IL_07f4:
+	{
+		G_B90_0 = 0;
+	}
+
+IL_07f5:
+	{
+		V_36 = (bool)G_B90_0;
+		bool L_190 = V_36;
+		if (!L_190)
+		{
+			goto IL_0802;
+		}
+	}
+	{
+		// nextState = ClientState.ConnectWithoutAuthOnceWss;
+		V_2 = ((int32_t)20);
+		goto IL_0813;
+	}
+
+IL_0802:
+	{
+		// else if (this.EnableProtocolFallback)
+		bool L_191;
+		L_191 = LoadBalancingClient_get_EnableProtocolFallback_m65B7F799CD2BC4BCDE41F887AB94F75A86BA752A_inline(__this, NULL);
+		V_37 = L_191;
+		bool L_192 = V_37;
+		if (!L_192)
+		{
+			goto IL_0813;
+		}
+	}
+	{
+		// nextState = ClientState.ConnectWithFallbackProtocol;
+		V_2 = ((int32_t)19);
+	}
+
+IL_0813:
+	{
+		// this.AuthMode = AuthModeOption.AuthOnce;
+		__this->___AuthMode_5 = 1;
+	}
+
+IL_081b:
+	{
+		// this.State = nextState;
+		int32_t L_193 = V_2;
+		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, L_193, NULL);
+		// break;
+		goto IL_084d;
+	}
+
+IL_0825:
+	{
+		// this.DisconnectedCause = DisconnectCause.DisconnectByServerLogic;
+		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, ((int32_t)9), NULL);
+		// this.State = ClientState.Disconnecting;
+		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)13), NULL);
+		// break;
+		goto IL_084d;
+	}
+
+IL_0839:
 	{
 		// this.DisconnectedCause = DisconnectCause.DisconnectByServerReasonUnknown;
-		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, 8, NULL);
+		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, ((int32_t)10), NULL);
 		// this.State = ClientState.Disconnecting;
 		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)13), NULL);
 		// break;
-		goto IL_0635;
+		goto IL_084d;
 	}
 
-IL_05f8:
-	{
-		// this.DisconnectedCause = DisconnectCause.ClientTimeout;
-		LoadBalancingClient_set_DisconnectedCause_mE0AF99BF68B2905394D2932434D8A021C4B5132D_inline(__this, 6, NULL);
-		// if (this.EnableProtocolFallback && this.State == ClientState.ConnectingToNameServer)
-		bool L_117;
-		L_117 = LoadBalancingClient_get_EnableProtocolFallback_m65B7F799CD2BC4BCDE41F887AB94F75A86BA752A_inline(__this, NULL);
-		if (!L_117)
-		{
-			goto IL_0614;
-		}
-	}
-	{
-		int32_t L_118;
-		L_118 = LoadBalancingClient_get_State_m8553D8C2483058BD64DDED8EC2648AE77836D12C(__this, NULL);
-		G_B85_0 = ((((int32_t)L_118) == ((int32_t)((int32_t)16)))? 1 : 0);
-		goto IL_0615;
-	}
-
-IL_0614:
-	{
-		G_B85_0 = 0;
-	}
-
-IL_0615:
-	{
-		V_29 = (bool)G_B85_0;
-		bool L_119 = V_29;
-		if (!L_119)
-		{
-			goto IL_0628;
-		}
-	}
-	{
-		// this.State = ClientState.ConnectWithFallbackProtocol;
-		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)19), NULL);
-		goto IL_0633;
-	}
-
-IL_0628:
-	{
-		// this.State = ClientState.Disconnecting;
-		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)13), NULL);
-	}
-
-IL_0633:
-	{
-		// break;
-		goto IL_0635;
-	}
-
-IL_0635:
+IL_084d:
 	{
 		// }
 		return;
@@ -18883,27 +19362,27 @@ IL_0020:
 		{
 			case 0:
 			{
-				goto IL_04d0;
+				goto IL_04dc;
 			}
 			case 1:
 			{
-				goto IL_03b2;
+				goto IL_03be;
 			}
 			case 2:
 			{
-				goto IL_0517;
+				goto IL_0523;
 			}
 			case 3:
 			{
-				goto IL_0368;
+				goto IL_0374;
 			}
 			case 4:
 			{
-				goto IL_0517;
+				goto IL_0523;
 			}
 			case 5:
 			{
-				goto IL_0517;
+				goto IL_0523;
 			}
 			case 6:
 			{
@@ -18926,19 +19405,19 @@ IL_005c:
 		{
 			case 0:
 			{
-				goto IL_04bc;
+				goto IL_04c8;
 			}
 			case 1:
 			{
-				goto IL_0517;
+				goto IL_0523;
 			}
 			case 2:
 			{
-				goto IL_02ee;
+				goto IL_02fa;
 			}
 			case 3:
 			{
-				goto IL_0215;
+				goto IL_0221;
 			}
 			case 4:
 			{
@@ -18947,7 +19426,7 @@ IL_005c:
 		}
 	}
 	{
-		goto IL_0517;
+		goto IL_0523;
 	}
 
 IL_0082:
@@ -19038,7 +19517,7 @@ IL_00ee:
 		NullCheck(L_25);
 		LobbyCallbacksContainer_OnRoomListUpdate_m511A5C40CF017CAD9358C788CF2416B42F34D2EB(L_25, L_26, NULL);
 		// break;
-		goto IL_0517;
+		goto IL_0523;
 	}
 
 IL_0100:
@@ -19126,7 +19605,7 @@ IL_0174:
 		bool L_50 = V_20;
 		if (!L_50)
 		{
-			goto IL_0201;
+			goto IL_020d;
 		}
 	}
 	{
@@ -19141,23 +19620,25 @@ IL_0174:
 		LoadBalancingClient_UpdatedActorList_m3D33C1112BAFF3F5B46965901120902410B50412(__this, L_53, NULL);
 		// originatingPlayer.HasRejoined = this.enterRoomParamsCache.JoinMode == JoinMode.RejoinOnly;
 		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_54 = V_1;
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_55 = __this->___enterRoomParamsCache_39;
+		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_55 = __this->___enterRoomParamsCache_40;
 		NullCheck(L_55);
 		uint8_t L_56 = L_55->___JoinMode_5;
 		NullCheck(L_54);
 		Player_set_HasRejoined_m10F076B9C1B713D39C854A3156ACBDB714509D81_inline(L_54, (bool)((((int32_t)L_56) == ((int32_t)3))? 1 : 0), NULL);
+		// this.State = ClientState.Joined;
+		LoadBalancingClient_set_State_m0DB5C9FF31959B98B6B70E35580B00C263414B7E(__this, ((int32_t)9), NULL);
 		// if (this.lastJoinType == JoinType.CreateRoom || (this.lastJoinType == JoinType.JoinOrCreateRoom && this.LocalPlayer.ActorNumber == 1))
-		int32_t L_57 = __this->___lastJoinType_38;
+		int32_t L_57 = __this->___lastJoinType_39;
 		if (!L_57)
 		{
-			goto IL_01dd;
+			goto IL_01e9;
 		}
 	}
 	{
-		int32_t L_58 = __this->___lastJoinType_38;
+		int32_t L_58 = __this->___lastJoinType_39;
 		if ((!(((uint32_t)L_58) == ((uint32_t)4))))
 		{
-			goto IL_01da;
+			goto IL_01e6;
 		}
 	}
 	{
@@ -19167,32 +19648,32 @@ IL_0174:
 		int32_t L_60;
 		L_60 = Player_get_ActorNumber_mE177B60195A5329B1E5D3012295DB0098B7A0F3A(L_59, NULL);
 		G_B24_0 = ((((int32_t)L_60) == ((int32_t)1))? 1 : 0);
-		goto IL_01db;
+		goto IL_01e7;
 	}
 
-IL_01da:
+IL_01e6:
 	{
 		G_B24_0 = 0;
 	}
 
-IL_01db:
+IL_01e7:
 	{
 		G_B26_0 = G_B24_0;
-		goto IL_01de;
+		goto IL_01ea;
 	}
 
-IL_01dd:
+IL_01e9:
 	{
 		G_B26_0 = 1;
 	}
 
-IL_01de:
+IL_01ea:
 	{
 		V_22 = (bool)G_B26_0;
 		bool L_61 = V_22;
 		if (!L_61)
 		{
-			goto IL_01f2;
+			goto IL_01fe;
 		}
 	}
 	{
@@ -19202,16 +19683,16 @@ IL_01de:
 		MatchMakingCallbacksContainer_OnCreatedRoom_m8E0D76B2CAC7D68CF6765FFA72291FBACDD826AB(L_62, NULL);
 	}
 
-IL_01f2:
+IL_01fe:
 	{
 		// this.MatchMakingCallbackTargets.OnJoinedRoom();
 		MatchMakingCallbacksContainer_tEDF984018478E15D3031775F859CD94D66275C97* L_63 = __this->___MatchMakingCallbackTargets_24;
 		NullCheck(L_63);
 		MatchMakingCallbacksContainer_OnJoinedRoom_m706BC3A5877F1873EAA56FD78F396B83B2D73C7F(L_63, NULL);
-		goto IL_0210;
+		goto IL_021c;
 	}
 
-IL_0201:
+IL_020d:
 	{
 		// this.InRoomCallbackTargets.OnPlayerEnteredRoom(originatingPlayer);
 		InRoomCallbacksContainer_t7730C9DD20B72CC201052C5E6FC914E6FD4B1488* L_64 = __this->___InRoomCallbackTargets_25;
@@ -19220,13 +19701,13 @@ IL_0201:
 		InRoomCallbacksContainer_OnPlayerEnteredRoom_mB99A8998A22C3A969C96FC91D27370A91D073346(L_64, L_65, NULL);
 	}
 
-IL_0210:
+IL_021c:
 	{
 		// break;
-		goto IL_0517;
+		goto IL_0523;
 	}
 
-IL_0215:
+IL_0221:
 	{
 		// if (originatingPlayer != null)
 		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_66 = V_1;
@@ -19234,7 +19715,7 @@ IL_0215:
 		bool L_67 = V_23;
 		if (!L_67)
 		{
-			goto IL_027e;
+			goto IL_028a;
 		}
 	}
 	{
@@ -19251,7 +19732,7 @@ IL_0215:
 		bool L_71 = V_25;
 		if (!L_71)
 		{
-			goto IL_0252;
+			goto IL_025e;
 		}
 	}
 	{
@@ -19265,449 +19746,445 @@ IL_0215:
 		V_24 = ((*(bool*)((bool*)(bool*)UnBox(L_74, Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var))));
 	}
 
-IL_0252:
+IL_025e:
 	{
-		// if (isInactive)
-		bool L_75 = V_24;
-		V_26 = L_75;
-		bool L_76 = V_26;
-		if (!L_76)
+		// originatingPlayer.IsInactive = isInactive;
+		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_75 = V_1;
+		bool L_76 = V_24;
+		NullCheck(L_75);
+		Player_set_IsInactive_m39CE08F38CC334EBF88D896944F86C7B1B68ACF5_inline(L_75, L_76, NULL);
+		// originatingPlayer.HasRejoined = false;
+		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_77 = V_1;
+		NullCheck(L_77);
+		Player_set_HasRejoined_m10F076B9C1B713D39C854A3156ACBDB714509D81_inline(L_77, (bool)0, NULL);
+		// if (!isInactive)
+		bool L_78 = V_24;
+		V_26 = (bool)((((int32_t)L_78) == ((int32_t)0))? 1 : 0);
+		bool L_79 = V_26;
+		if (!L_79)
 		{
-			goto IL_0266;
+			goto IL_0289;
 		}
 	}
 	{
-		// originatingPlayer.IsInactive = true;
-		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_77 = V_1;
-		NullCheck(L_77);
-		Player_set_IsInactive_m39CE08F38CC334EBF88D896944F86C7B1B68ACF5_inline(L_77, (bool)1, NULL);
-		goto IL_027d;
-	}
-
-IL_0266:
-	{
-		// originatingPlayer.IsInactive = false;
-		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_78 = V_1;
-		NullCheck(L_78);
-		Player_set_IsInactive_m39CE08F38CC334EBF88D896944F86C7B1B68ACF5_inline(L_78, (bool)0, NULL);
 		// this.CurrentRoom.RemovePlayer(actorNr);
-		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_79;
-		L_79 = LoadBalancingClient_get_CurrentRoom_mADB06D45AD1F8289D93F08F322C9FDB694EAC291_inline(__this, NULL);
-		int32_t L_80 = V_0;
-		NullCheck(L_79);
-		VirtualActionInvoker1< int32_t >::Invoke(7 /* System.Void Photon.Realtime.Room::RemovePlayer(System.Int32) */, L_79, L_80);
+		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_80;
+		L_80 = LoadBalancingClient_get_CurrentRoom_mADB06D45AD1F8289D93F08F322C9FDB694EAC291_inline(__this, NULL);
+		int32_t L_81 = V_0;
+		NullCheck(L_80);
+		VirtualActionInvoker1< int32_t >::Invoke(7 /* System.Void Photon.Realtime.Room::RemovePlayer(System.Int32) */, L_80, L_81);
 	}
 
-IL_027d:
+IL_0289:
 	{
 	}
 
-IL_027e:
+IL_028a:
 	{
 		// if (photonEvent.Parameters.ContainsKey(ParameterCode.MasterClientId))
-		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_81 = ___photonEvent0;
-		NullCheck(L_81);
-		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_82 = L_81->___Parameters_1;
+		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_82 = ___photonEvent0;
 		NullCheck(L_82);
-		bool L_83;
-		L_83 = ParameterDictionary_ContainsKey_m77BEFACAD281084DC233697EF94B7D8B55589AD2(L_82, (uint8_t)((int32_t)203), NULL);
-		V_27 = L_83;
-		bool L_84 = V_27;
-		if (!L_84)
+		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_83 = L_82->___Parameters_1;
+		NullCheck(L_83);
+		bool L_84;
+		L_84 = ParameterDictionary_ContainsKey_m77BEFACAD281084DC233697EF94B7D8B55589AD2(L_83, (uint8_t)((int32_t)203), NULL);
+		V_27 = L_84;
+		bool L_85 = V_27;
+		if (!L_85)
 		{
-			goto IL_02dc;
+			goto IL_02e8;
 		}
 	}
 	{
 		// int newMaster = (int)photonEvent[ParameterCode.MasterClientId];
-		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_85 = ___photonEvent0;
-		NullCheck(L_85);
-		RuntimeObject* L_86;
-		L_86 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_85, (uint8_t)((int32_t)203), NULL);
-		V_28 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_86, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))));
+		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_86 = ___photonEvent0;
+		NullCheck(L_86);
+		RuntimeObject* L_87;
+		L_87 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_86, (uint8_t)((int32_t)203), NULL);
+		V_28 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_87, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))));
 		// if (newMaster != 0)
-		int32_t L_87 = V_28;
-		V_29 = (bool)((!(((uint32_t)L_87) <= ((uint32_t)0)))? 1 : 0);
-		bool L_88 = V_29;
-		if (!L_88)
+		int32_t L_88 = V_28;
+		V_29 = (bool)((!(((uint32_t)L_88) <= ((uint32_t)0)))? 1 : 0);
+		bool L_89 = V_29;
+		if (!L_89)
 		{
-			goto IL_02db;
+			goto IL_02e7;
 		}
 	}
 	{
 		// this.CurrentRoom.masterClientId = newMaster;
-		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_89;
-		L_89 = LoadBalancingClient_get_CurrentRoom_mADB06D45AD1F8289D93F08F322C9FDB694EAC291_inline(__this, NULL);
-		int32_t L_90 = V_28;
-		NullCheck(L_89);
-		((RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D*)L_89)->___masterClientId_10 = L_90;
+		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_90;
+		L_90 = LoadBalancingClient_get_CurrentRoom_mADB06D45AD1F8289D93F08F322C9FDB694EAC291_inline(__this, NULL);
+		int32_t L_91 = V_28;
+		NullCheck(L_90);
+		((RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D*)L_90)->___masterClientId_10 = L_91;
 		// this.InRoomCallbackTargets.OnMasterClientSwitched(this.CurrentRoom.GetPlayer(newMaster));
-		InRoomCallbacksContainer_t7730C9DD20B72CC201052C5E6FC914E6FD4B1488* L_91 = __this->___InRoomCallbackTargets_25;
-		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_92;
-		L_92 = LoadBalancingClient_get_CurrentRoom_mADB06D45AD1F8289D93F08F322C9FDB694EAC291_inline(__this, NULL);
-		int32_t L_93 = V_28;
+		InRoomCallbacksContainer_t7730C9DD20B72CC201052C5E6FC914E6FD4B1488* L_92 = __this->___InRoomCallbackTargets_25;
+		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_93;
+		L_93 = LoadBalancingClient_get_CurrentRoom_mADB06D45AD1F8289D93F08F322C9FDB694EAC291_inline(__this, NULL);
+		int32_t L_94 = V_28;
+		NullCheck(L_93);
+		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_95;
+		L_95 = VirtualFuncInvoker2< Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C*, int32_t, bool >::Invoke(10 /* Photon.Realtime.Player Photon.Realtime.Room::GetPlayer(System.Int32,System.Boolean) */, L_93, L_94, (bool)0);
 		NullCheck(L_92);
-		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_94;
-		L_94 = VirtualFuncInvoker2< Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C*, int32_t, bool >::Invoke(10 /* Photon.Realtime.Player Photon.Realtime.Room::GetPlayer(System.Int32,System.Boolean) */, L_92, L_93, (bool)0);
-		NullCheck(L_91);
-		InRoomCallbacksContainer_OnMasterClientSwitched_m269C36AC3F9705DBA052299E2799DBCC6AEF28CC(L_91, L_94, NULL);
+		InRoomCallbacksContainer_OnMasterClientSwitched_m269C36AC3F9705DBA052299E2799DBCC6AEF28CC(L_92, L_95, NULL);
 	}
 
-IL_02db:
+IL_02e7:
 	{
 	}
 
-IL_02dc:
+IL_02e8:
 	{
 		// this.InRoomCallbackTargets.OnPlayerLeftRoom(originatingPlayer);
-		InRoomCallbacksContainer_t7730C9DD20B72CC201052C5E6FC914E6FD4B1488* L_95 = __this->___InRoomCallbackTargets_25;
-		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_96 = V_1;
-		NullCheck(L_95);
-		InRoomCallbacksContainer_OnPlayerLeftRoom_m025F6624FCA6E49DD87B1F9283B519375A0032ED(L_95, L_96, NULL);
+		InRoomCallbacksContainer_t7730C9DD20B72CC201052C5E6FC914E6FD4B1488* L_96 = __this->___InRoomCallbackTargets_25;
+		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_97 = V_1;
+		NullCheck(L_96);
+		InRoomCallbacksContainer_OnPlayerLeftRoom_m025F6624FCA6E49DD87B1F9283B519375A0032ED(L_96, L_97, NULL);
 		// break;
-		goto IL_0517;
+		goto IL_0523;
 	}
 
-IL_02ee:
+IL_02fa:
 	{
 		// int targetActorNr = 0;
 		V_5 = 0;
 		// if (photonEvent.Parameters.ContainsKey(ParameterCode.TargetActorNr))
-		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_97 = ___photonEvent0;
-		NullCheck(L_97);
-		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_98 = L_97->___Parameters_1;
+		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_98 = ___photonEvent0;
 		NullCheck(L_98);
-		bool L_99;
-		L_99 = ParameterDictionary_ContainsKey_m77BEFACAD281084DC233697EF94B7D8B55589AD2(L_98, (uint8_t)((int32_t)253), NULL);
-		V_30 = L_99;
-		bool L_100 = V_30;
-		if (!L_100)
+		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_99 = L_98->___Parameters_1;
+		NullCheck(L_99);
+		bool L_100;
+		L_100 = ParameterDictionary_ContainsKey_m77BEFACAD281084DC233697EF94B7D8B55589AD2(L_99, (uint8_t)((int32_t)253), NULL);
+		V_30 = L_100;
+		bool L_101 = V_30;
+		if (!L_101)
 		{
-			goto IL_031b;
+			goto IL_0327;
 		}
 	}
 	{
 		// targetActorNr = (int)photonEvent[ParameterCode.TargetActorNr];
-		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_101 = ___photonEvent0;
-		NullCheck(L_101);
-		RuntimeObject* L_102;
-		L_102 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_101, (uint8_t)((int32_t)253), NULL);
-		V_5 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_102, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))));
+		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_102 = ___photonEvent0;
+		NullCheck(L_102);
+		RuntimeObject* L_103;
+		L_103 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_102, (uint8_t)((int32_t)253), NULL);
+		V_5 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_103, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))));
 	}
 
-IL_031b:
+IL_0327:
 	{
 		// Hashtable gameProperties = null;
 		V_6 = (Hashtable_tD626399B3ADFD501225241D7366103F35472542A*)NULL;
 		// Hashtable actorProps = null;
 		V_7 = (Hashtable_tD626399B3ADFD501225241D7366103F35472542A*)NULL;
 		// if (targetActorNr == 0)
-		int32_t L_103 = V_5;
-		V_31 = (bool)((((int32_t)L_103) == ((int32_t)0))? 1 : 0);
-		bool L_104 = V_31;
-		if (!L_104)
+		int32_t L_104 = V_5;
+		V_31 = (bool)((((int32_t)L_104) == ((int32_t)0))? 1 : 0);
+		bool L_105 = V_31;
+		if (!L_105)
 		{
-			goto IL_0342;
+			goto IL_034e;
 		}
 	}
 	{
 		// gameProperties = (Hashtable)photonEvent[ParameterCode.Properties];
-		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_105 = ___photonEvent0;
-		NullCheck(L_105);
-		RuntimeObject* L_106;
-		L_106 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_105, (uint8_t)((int32_t)251), NULL);
-		V_6 = ((Hashtable_tD626399B3ADFD501225241D7366103F35472542A*)CastclassClass((RuntimeObject*)L_106, Hashtable_tD626399B3ADFD501225241D7366103F35472542A_il2cpp_TypeInfo_var));
-		goto IL_0356;
+		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_106 = ___photonEvent0;
+		NullCheck(L_106);
+		RuntimeObject* L_107;
+		L_107 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_106, (uint8_t)((int32_t)251), NULL);
+		V_6 = ((Hashtable_tD626399B3ADFD501225241D7366103F35472542A*)CastclassClass((RuntimeObject*)L_107, Hashtable_tD626399B3ADFD501225241D7366103F35472542A_il2cpp_TypeInfo_var));
+		goto IL_0362;
 	}
 
-IL_0342:
+IL_034e:
 	{
 		// actorProps = (Hashtable)photonEvent[ParameterCode.Properties];
-		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_107 = ___photonEvent0;
-		NullCheck(L_107);
-		RuntimeObject* L_108;
-		L_108 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_107, (uint8_t)((int32_t)251), NULL);
-		V_7 = ((Hashtable_tD626399B3ADFD501225241D7366103F35472542A*)CastclassClass((RuntimeObject*)L_108, Hashtable_tD626399B3ADFD501225241D7366103F35472542A_il2cpp_TypeInfo_var));
+		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_108 = ___photonEvent0;
+		NullCheck(L_108);
+		RuntimeObject* L_109;
+		L_109 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_108, (uint8_t)((int32_t)251), NULL);
+		V_7 = ((Hashtable_tD626399B3ADFD501225241D7366103F35472542A*)CastclassClass((RuntimeObject*)L_109, Hashtable_tD626399B3ADFD501225241D7366103F35472542A_il2cpp_TypeInfo_var));
 	}
 
-IL_0356:
+IL_0362:
 	{
 		// this.ReadoutProperties(gameProperties, actorProps, targetActorNr);
-		Hashtable_tD626399B3ADFD501225241D7366103F35472542A* L_109 = V_6;
-		Hashtable_tD626399B3ADFD501225241D7366103F35472542A* L_110 = V_7;
-		int32_t L_111 = V_5;
-		LoadBalancingClient_ReadoutProperties_mDCC343F8020D333BECF96CFAF07D7287FA50AAEF(__this, L_109, L_110, L_111, NULL);
+		Hashtable_tD626399B3ADFD501225241D7366103F35472542A* L_110 = V_6;
+		Hashtable_tD626399B3ADFD501225241D7366103F35472542A* L_111 = V_7;
+		int32_t L_112 = V_5;
+		LoadBalancingClient_ReadoutProperties_mDCC343F8020D333BECF96CFAF07D7287FA50AAEF(__this, L_110, L_111, L_112, NULL);
 		// break;
-		goto IL_0517;
+		goto IL_0523;
 	}
 
-IL_0368:
+IL_0374:
 	{
 		// this.PlayersInRoomsCount = (int)photonEvent[ParameterCode.PeerCount];
-		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_112 = ___photonEvent0;
-		NullCheck(L_112);
-		RuntimeObject* L_113;
-		L_113 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_112, (uint8_t)((int32_t)229), NULL);
-		LoadBalancingClient_set_PlayersInRoomsCount_m3A57A1DD142C047C9AD1657E1B70FFBFC97C2F25_inline(__this, ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_113, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)))), NULL);
+		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_113 = ___photonEvent0;
+		NullCheck(L_113);
+		RuntimeObject* L_114;
+		L_114 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_113, (uint8_t)((int32_t)229), NULL);
+		LoadBalancingClient_set_PlayersInRoomsCount_m3A57A1DD142C047C9AD1657E1B70FFBFC97C2F25_inline(__this, ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_114, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)))), NULL);
 		// this.RoomsCount = (int)photonEvent[ParameterCode.GameCount];
-		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_114 = ___photonEvent0;
-		NullCheck(L_114);
-		RuntimeObject* L_115;
-		L_115 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_114, (uint8_t)((int32_t)228), NULL);
-		LoadBalancingClient_set_RoomsCount_mF45C69179FB45BAB3D8F8D737063FE1939E6F15A_inline(__this, ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_115, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)))), NULL);
+		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_115 = ___photonEvent0;
+		NullCheck(L_115);
+		RuntimeObject* L_116;
+		L_116 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_115, (uint8_t)((int32_t)228), NULL);
+		LoadBalancingClient_set_RoomsCount_mF45C69179FB45BAB3D8F8D737063FE1939E6F15A_inline(__this, ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_116, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)))), NULL);
 		// this.PlayersOnMasterCount = (int)photonEvent[ParameterCode.MasterPeerCount];
-		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_116 = ___photonEvent0;
-		NullCheck(L_116);
-		RuntimeObject* L_117;
-		L_117 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_116, (uint8_t)((int32_t)227), NULL);
-		LoadBalancingClient_set_PlayersOnMasterCount_mE9423C2CA89B5E86C93FAECDC55D19C77095593D_inline(__this, ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_117, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)))), NULL);
+		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_117 = ___photonEvent0;
+		NullCheck(L_117);
+		RuntimeObject* L_118;
+		L_118 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_117, (uint8_t)((int32_t)227), NULL);
+		LoadBalancingClient_set_PlayersOnMasterCount_mE9423C2CA89B5E86C93FAECDC55D19C77095593D_inline(__this, ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_118, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)))), NULL);
 		// break;
-		goto IL_0517;
+		goto IL_0523;
 	}
 
-IL_03b2:
+IL_03be:
 	{
 		// string[] names = photonEvent[ParameterCode.LobbyName] as string[];
-		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_118 = ___photonEvent0;
-		NullCheck(L_118);
-		RuntimeObject* L_119;
-		L_119 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_118, (uint8_t)((int32_t)213), NULL);
-		V_8 = ((StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)IsInst((RuntimeObject*)L_119, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var));
+		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_119 = ___photonEvent0;
+		NullCheck(L_119);
+		RuntimeObject* L_120;
+		L_120 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_119, (uint8_t)((int32_t)213), NULL);
+		V_8 = ((StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)IsInst((RuntimeObject*)L_120, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var));
 		// int[] peers = photonEvent[ParameterCode.PeerCount] as int[];
-		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_120 = ___photonEvent0;
-		NullCheck(L_120);
-		RuntimeObject* L_121;
-		L_121 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_120, (uint8_t)((int32_t)229), NULL);
-		V_9 = ((Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)IsInst((RuntimeObject*)L_121, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var));
+		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_121 = ___photonEvent0;
+		NullCheck(L_121);
+		RuntimeObject* L_122;
+		L_122 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_121, (uint8_t)((int32_t)229), NULL);
+		V_9 = ((Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)IsInst((RuntimeObject*)L_122, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var));
 		// int[] rooms = photonEvent[ParameterCode.GameCount] as int[];
-		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_122 = ___photonEvent0;
-		NullCheck(L_122);
-		RuntimeObject* L_123;
-		L_123 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_122, (uint8_t)((int32_t)228), NULL);
-		V_10 = ((Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)IsInst((RuntimeObject*)L_123, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var));
+		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_123 = ___photonEvent0;
+		NullCheck(L_123);
+		RuntimeObject* L_124;
+		L_124 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_123, (uint8_t)((int32_t)228), NULL);
+		V_10 = ((Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)IsInst((RuntimeObject*)L_124, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var));
 		// ByteArraySlice slice = photonEvent[ParameterCode.LobbyType] as ByteArraySlice;
-		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_124 = ___photonEvent0;
-		NullCheck(L_124);
-		RuntimeObject* L_125;
-		L_125 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_124, (uint8_t)((int32_t)212), NULL);
-		V_12 = ((ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9*)IsInstClass((RuntimeObject*)L_125, ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9_il2cpp_TypeInfo_var));
+		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_125 = ___photonEvent0;
+		NullCheck(L_125);
+		RuntimeObject* L_126;
+		L_126 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_125, (uint8_t)((int32_t)212), NULL);
+		V_12 = ((ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9*)IsInstClass((RuntimeObject*)L_126, ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9_il2cpp_TypeInfo_var));
 		// bool useByteArraySlice = slice != null;
-		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_126 = V_12;
-		V_13 = (bool)((!(((RuntimeObject*)(ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9*)L_126) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_127 = V_12;
+		V_13 = (bool)((!(((RuntimeObject*)(ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9*)L_127) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		// if (useByteArraySlice)
-		bool L_127 = V_13;
-		V_32 = L_127;
-		bool L_128 = V_32;
-		if (!L_128)
+		bool L_128 = V_13;
+		V_32 = L_128;
+		bool L_129 = V_32;
+		if (!L_129)
 		{
-			goto IL_0416;
+			goto IL_0422;
 		}
 	}
 	{
 		// types = slice.Buffer;
-		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_129 = V_12;
-		NullCheck(L_129);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_130 = L_129->___Buffer_0;
-		V_11 = L_130;
-		goto IL_042a;
+		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_130 = V_12;
+		NullCheck(L_130);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_131 = L_130->___Buffer_0;
+		V_11 = L_131;
+		goto IL_0436;
 	}
 
-IL_0416:
+IL_0422:
 	{
 		// types = photonEvent[ParameterCode.LobbyType] as byte[];
-		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_131 = ___photonEvent0;
-		NullCheck(L_131);
-		RuntimeObject* L_132;
-		L_132 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_131, (uint8_t)((int32_t)212), NULL);
-		V_11 = ((ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)IsInst((RuntimeObject*)L_132, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var));
+		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_132 = ___photonEvent0;
+		NullCheck(L_132);
+		RuntimeObject* L_133;
+		L_133 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_132, (uint8_t)((int32_t)212), NULL);
+		V_11 = ((ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)IsInst((RuntimeObject*)L_133, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var));
 	}
 
-IL_042a:
+IL_0436:
 	{
 		// this.lobbyStatistics.Clear();
-		List_1_t9502060F404ACB6B9ACF04BFA5D0DFC653142A15* L_133 = __this->___lobbyStatistics_32;
-		NullCheck(L_133);
-		List_1_Clear_m30EA7F92E4BC80FFAB66ED6B3E4DEE04FE476402_inline(L_133, List_1_Clear_m30EA7F92E4BC80FFAB66ED6B3E4DEE04FE476402_RuntimeMethod_var);
+		List_1_t9502060F404ACB6B9ACF04BFA5D0DFC653142A15* L_134 = __this->___lobbyStatistics_33;
+		NullCheck(L_134);
+		List_1_Clear_m30EA7F92E4BC80FFAB66ED6B3E4DEE04FE476402_inline(L_134, List_1_Clear_m30EA7F92E4BC80FFAB66ED6B3E4DEE04FE476402_RuntimeMethod_var);
 		// for (int i = 0; i < names.Length; i++)
 		V_33 = 0;
-		goto IL_0488;
+		goto IL_0494;
 	}
 
-IL_043b:
+IL_0447:
 	{
 		// TypedLobbyInfo info = new TypedLobbyInfo();
-		TypedLobbyInfo_t96769DF10F16EB926E1D59D6F0385F6B57262E91* L_134 = (TypedLobbyInfo_t96769DF10F16EB926E1D59D6F0385F6B57262E91*)il2cpp_codegen_object_new(TypedLobbyInfo_t96769DF10F16EB926E1D59D6F0385F6B57262E91_il2cpp_TypeInfo_var);
-		NullCheck(L_134);
-		TypedLobbyInfo__ctor_m4EE11782B42CBF8760B2A0A8E21055D28B626CBD(L_134, NULL);
-		V_34 = L_134;
-		// info.Name = names[i];
-		TypedLobbyInfo_t96769DF10F16EB926E1D59D6F0385F6B57262E91* L_135 = V_34;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_136 = V_8;
-		int32_t L_137 = V_33;
-		NullCheck(L_136);
-		int32_t L_138 = L_137;
-		String_t* L_139 = (L_136)->GetAt(static_cast<il2cpp_array_size_t>(L_138));
+		TypedLobbyInfo_t96769DF10F16EB926E1D59D6F0385F6B57262E91* L_135 = (TypedLobbyInfo_t96769DF10F16EB926E1D59D6F0385F6B57262E91*)il2cpp_codegen_object_new(TypedLobbyInfo_t96769DF10F16EB926E1D59D6F0385F6B57262E91_il2cpp_TypeInfo_var);
 		NullCheck(L_135);
-		((TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9*)L_135)->___Name_0 = L_139;
-		Il2CppCodeGenWriteBarrier((void**)(&((TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9*)L_135)->___Name_0), (void*)L_139);
+		TypedLobbyInfo__ctor_m4EE11782B42CBF8760B2A0A8E21055D28B626CBD(L_135, NULL);
+		V_34 = L_135;
+		// info.Name = names[i];
+		TypedLobbyInfo_t96769DF10F16EB926E1D59D6F0385F6B57262E91* L_136 = V_34;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_137 = V_8;
+		int32_t L_138 = V_33;
+		NullCheck(L_137);
+		int32_t L_139 = L_138;
+		String_t* L_140 = (L_137)->GetAt(static_cast<il2cpp_array_size_t>(L_139));
+		NullCheck(L_136);
+		((TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9*)L_136)->___Name_0 = L_140;
+		Il2CppCodeGenWriteBarrier((void**)(&((TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9*)L_136)->___Name_0), (void*)L_140);
 		// info.Type = (LobbyType)types[i];
-		TypedLobbyInfo_t96769DF10F16EB926E1D59D6F0385F6B57262E91* L_140 = V_34;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_141 = V_11;
-		int32_t L_142 = V_33;
+		TypedLobbyInfo_t96769DF10F16EB926E1D59D6F0385F6B57262E91* L_141 = V_34;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_142 = V_11;
+		int32_t L_143 = V_33;
+		NullCheck(L_142);
+		int32_t L_144 = L_143;
+		uint8_t L_145 = (L_142)->GetAt(static_cast<il2cpp_array_size_t>(L_144));
 		NullCheck(L_141);
-		int32_t L_143 = L_142;
-		uint8_t L_144 = (L_141)->GetAt(static_cast<il2cpp_array_size_t>(L_143));
-		NullCheck(L_140);
-		((TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9*)L_140)->___Type_1 = L_144;
+		((TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9*)L_141)->___Type_1 = L_145;
 		// info.PlayerCount = peers[i];
-		TypedLobbyInfo_t96769DF10F16EB926E1D59D6F0385F6B57262E91* L_145 = V_34;
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_146 = V_9;
-		int32_t L_147 = V_33;
+		TypedLobbyInfo_t96769DF10F16EB926E1D59D6F0385F6B57262E91* L_146 = V_34;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_147 = V_9;
+		int32_t L_148 = V_33;
+		NullCheck(L_147);
+		int32_t L_149 = L_148;
+		int32_t L_150 = (L_147)->GetAt(static_cast<il2cpp_array_size_t>(L_149));
 		NullCheck(L_146);
-		int32_t L_148 = L_147;
-		int32_t L_149 = (L_146)->GetAt(static_cast<il2cpp_array_size_t>(L_148));
-		NullCheck(L_145);
-		L_145->___PlayerCount_3 = L_149;
+		L_146->___PlayerCount_3 = L_150;
 		// info.RoomCount = rooms[i];
-		TypedLobbyInfo_t96769DF10F16EB926E1D59D6F0385F6B57262E91* L_150 = V_34;
-		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_151 = V_10;
-		int32_t L_152 = V_33;
+		TypedLobbyInfo_t96769DF10F16EB926E1D59D6F0385F6B57262E91* L_151 = V_34;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_152 = V_10;
+		int32_t L_153 = V_33;
+		NullCheck(L_152);
+		int32_t L_154 = L_153;
+		int32_t L_155 = (L_152)->GetAt(static_cast<il2cpp_array_size_t>(L_154));
 		NullCheck(L_151);
-		int32_t L_153 = L_152;
-		int32_t L_154 = (L_151)->GetAt(static_cast<il2cpp_array_size_t>(L_153));
-		NullCheck(L_150);
-		L_150->___RoomCount_4 = L_154;
+		L_151->___RoomCount_4 = L_155;
 		// this.lobbyStatistics.Add(info);
-		List_1_t9502060F404ACB6B9ACF04BFA5D0DFC653142A15* L_155 = __this->___lobbyStatistics_32;
-		TypedLobbyInfo_t96769DF10F16EB926E1D59D6F0385F6B57262E91* L_156 = V_34;
-		NullCheck(L_155);
-		List_1_Add_m971D5CE805E43283CE2C378AFBC594BA99356419_inline(L_155, L_156, List_1_Add_m971D5CE805E43283CE2C378AFBC594BA99356419_RuntimeMethod_var);
-		// for (int i = 0; i < names.Length; i++)
-		int32_t L_157 = V_33;
-		V_33 = ((int32_t)il2cpp_codegen_add(L_157, 1));
-	}
-
-IL_0488:
-	{
+		List_1_t9502060F404ACB6B9ACF04BFA5D0DFC653142A15* L_156 = __this->___lobbyStatistics_33;
+		TypedLobbyInfo_t96769DF10F16EB926E1D59D6F0385F6B57262E91* L_157 = V_34;
+		NullCheck(L_156);
+		List_1_Add_m971D5CE805E43283CE2C378AFBC594BA99356419_inline(L_156, L_157, List_1_Add_m971D5CE805E43283CE2C378AFBC594BA99356419_RuntimeMethod_var);
 		// for (int i = 0; i < names.Length; i++)
 		int32_t L_158 = V_33;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_159 = V_8;
-		NullCheck(L_159);
-		V_35 = (bool)((((int32_t)L_158) < ((int32_t)((int32_t)(((RuntimeArray*)L_159)->max_length))))? 1 : 0);
-		bool L_160 = V_35;
-		if (L_160)
+		V_33 = ((int32_t)il2cpp_codegen_add(L_158, 1));
+	}
+
+IL_0494:
+	{
+		// for (int i = 0; i < names.Length; i++)
+		int32_t L_159 = V_33;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_160 = V_8;
+		NullCheck(L_160);
+		V_35 = (bool)((((int32_t)L_159) < ((int32_t)((int32_t)(((RuntimeArray*)L_160)->max_length))))? 1 : 0);
+		bool L_161 = V_35;
+		if (L_161)
 		{
-			goto IL_043b;
+			goto IL_0447;
 		}
 	}
 	{
 		// if (useByteArraySlice)
-		bool L_161 = V_13;
-		V_36 = L_161;
-		bool L_162 = V_36;
-		if (!L_162)
+		bool L_162 = V_13;
+		V_36 = L_162;
+		bool L_163 = V_36;
+		if (!L_163)
 		{
-			goto IL_04a8;
+			goto IL_04b4;
 		}
 	}
 	{
 		// slice.Release();
-		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_163 = V_12;
-		NullCheck(L_163);
-		bool L_164;
-		L_164 = ByteArraySlice_Release_mB93952B9CE1CDE0519DEBFB26AFE01D450319CDF(L_163, NULL);
+		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_164 = V_12;
+		NullCheck(L_164);
+		bool L_165;
+		L_165 = ByteArraySlice_Release_mB93952B9CE1CDE0519DEBFB26AFE01D450319CDF(L_164, NULL);
 	}
 
-IL_04a8:
+IL_04b4:
 	{
 		// this.LobbyCallbackTargets.OnLobbyStatisticsUpdate(this.lobbyStatistics);
-		LobbyCallbacksContainer_tEF75E5B06B44AD5DE298FA7C597901BAE1E352FC* L_165 = __this->___LobbyCallbackTargets_26;
-		List_1_t9502060F404ACB6B9ACF04BFA5D0DFC653142A15* L_166 = __this->___lobbyStatistics_32;
-		NullCheck(L_165);
-		LobbyCallbacksContainer_OnLobbyStatisticsUpdate_m7422F74116B93CAF5F4E494001C91075AD17A208(L_165, L_166, NULL);
+		LobbyCallbacksContainer_tEF75E5B06B44AD5DE298FA7C597901BAE1E352FC* L_166 = __this->___LobbyCallbackTargets_26;
+		List_1_t9502060F404ACB6B9ACF04BFA5D0DFC653142A15* L_167 = __this->___lobbyStatistics_33;
+		NullCheck(L_166);
+		LobbyCallbacksContainer_OnLobbyStatisticsUpdate_m7422F74116B93CAF5F4E494001C91075AD17A208(L_166, L_167, NULL);
 		// break;
-		goto IL_0517;
+		goto IL_0523;
 	}
 
-IL_04bc:
+IL_04c8:
 	{
 		// this.ErrorInfoCallbackTargets.OnErrorInfo(new ErrorInfo(photonEvent));
-		ErrorInfoCallbacksContainer_tF60CA97691A86635843C02EEA1D689A384BC7ED7* L_167 = __this->___ErrorInfoCallbackTargets_28;
-		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_168 = ___photonEvent0;
-		ErrorInfo_tBEC0163224E8E559901B5BA6D2DDDC2B15D013ED* L_169 = (ErrorInfo_tBEC0163224E8E559901B5BA6D2DDDC2B15D013ED*)il2cpp_codegen_object_new(ErrorInfo_tBEC0163224E8E559901B5BA6D2DDDC2B15D013ED_il2cpp_TypeInfo_var);
-		NullCheck(L_169);
-		ErrorInfo__ctor_mBD10B330F8FE2CF138458A2203FCDC59E38A3241(L_169, L_168, NULL);
-		NullCheck(L_167);
-		ErrorInfoCallbacksContainer_OnErrorInfo_m18DE8E3B8426397909810082FA592BEAFE5C85BE(L_167, L_169, NULL);
+		ErrorInfoCallbacksContainer_tF60CA97691A86635843C02EEA1D689A384BC7ED7* L_168 = __this->___ErrorInfoCallbackTargets_28;
+		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_169 = ___photonEvent0;
+		ErrorInfo_tBEC0163224E8E559901B5BA6D2DDDC2B15D013ED* L_170 = (ErrorInfo_tBEC0163224E8E559901B5BA6D2DDDC2B15D013ED*)il2cpp_codegen_object_new(ErrorInfo_tBEC0163224E8E559901B5BA6D2DDDC2B15D013ED_il2cpp_TypeInfo_var);
+		NullCheck(L_170);
+		ErrorInfo__ctor_mBD10B330F8FE2CF138458A2203FCDC59E38A3241(L_170, L_169, NULL);
+		NullCheck(L_168);
+		ErrorInfoCallbacksContainer_OnErrorInfo_m18DE8E3B8426397909810082FA592BEAFE5C85BE(L_168, L_170, NULL);
 		// break;
-		goto IL_0517;
+		goto IL_0523;
 	}
 
-IL_04d0:
+IL_04dc:
 	{
 		// if (this.AuthValues == null)
-		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_170;
-		L_170 = LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline(__this, NULL);
-		V_37 = (bool)((((RuntimeObject*)(AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7*)L_170) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		bool L_171 = V_37;
-		if (!L_171)
+		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_171;
+		L_171 = LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline(__this, NULL);
+		V_37 = (bool)((((RuntimeObject*)(AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7*)L_171) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_172 = V_37;
+		if (!L_172)
 		{
-			goto IL_04ed;
+			goto IL_04f9;
 		}
 	}
 	{
 		// this.AuthValues = new AuthenticationValues();
-		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_172 = (AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7*)il2cpp_codegen_object_new(AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7_il2cpp_TypeInfo_var);
-		NullCheck(L_172);
-		AuthenticationValues__ctor_mFA23E096E1262DF1C8167BD077DD17C7B1BE9D9D(L_172, NULL);
-		LoadBalancingClient_set_AuthValues_mAFB66C3CFA04587CBA1A60711581B2BA6C6FD84C_inline(__this, L_172, NULL);
+		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_173 = (AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7*)il2cpp_codegen_object_new(AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7_il2cpp_TypeInfo_var);
+		NullCheck(L_173);
+		AuthenticationValues__ctor_mFA23E096E1262DF1C8167BD077DD17C7B1BE9D9D(L_173, NULL);
+		LoadBalancingClient_set_AuthValues_mAFB66C3CFA04587CBA1A60711581B2BA6C6FD84C_inline(__this, L_173, NULL);
 	}
 
-IL_04ed:
+IL_04f9:
 	{
 		// this.AuthValues.Token = photonEvent[ParameterCode.Token];
-		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_173;
-		L_173 = LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline(__this, NULL);
-		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_174 = ___photonEvent0;
+		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_174;
+		L_174 = LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline(__this, NULL);
+		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_175 = ___photonEvent0;
+		NullCheck(L_175);
+		RuntimeObject* L_176;
+		L_176 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_175, (uint8_t)((int32_t)221), NULL);
 		NullCheck(L_174);
-		RuntimeObject* L_175;
-		L_175 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_174, (uint8_t)((int32_t)221), NULL);
-		NullCheck(L_173);
-		AuthenticationValues_set_Token_m57EE6E43FED43BEFD7DCEF6AC703CF606F0AB369_inline(L_173, L_175, NULL);
+		AuthenticationValues_set_Token_m57EE6E43FED43BEFD7DCEF6AC703CF606F0AB369_inline(L_174, L_176, NULL);
 		// this.tokenCache = this.AuthValues.Token;
-		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_176;
-		L_176 = LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline(__this, NULL);
-		NullCheck(L_176);
-		RuntimeObject* L_177;
-		L_177 = AuthenticationValues_get_Token_mB9FFF55FB76ECC57C8FFA9658358BC54BDE3AF2A_inline(L_176, NULL);
-		__this->___tokenCache_8 = L_177;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___tokenCache_8), (void*)L_177);
+		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_177;
+		L_177 = LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline(__this, NULL);
+		NullCheck(L_177);
+		RuntimeObject* L_178;
+		L_178 = AuthenticationValues_get_Token_mB9FFF55FB76ECC57C8FFA9658358BC54BDE3AF2A_inline(L_177, NULL);
+		__this->___tokenCache_8 = L_178;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___tokenCache_8), (void*)L_178);
 		// break;
-		goto IL_0517;
+		goto IL_0523;
 	}
 
-IL_0517:
+IL_0523:
 	{
 		// this.UpdateCallbackTargets();
 		LoadBalancingClient_UpdateCallbackTargets_m4F2FF89CC02BB564AD056FDD305A9E079492DE73(__this, NULL);
 		// if (this.EventReceived != null)
-		Action_1_t1B5115AA4265AE1C83F3EC48593F86230AF07295* L_178 = __this->___EventReceived_21;
-		V_38 = (bool)((!(((RuntimeObject*)(Action_1_t1B5115AA4265AE1C83F3EC48593F86230AF07295*)L_178) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_179 = V_38;
-		if (!L_179)
+		Action_1_t1B5115AA4265AE1C83F3EC48593F86230AF07295* L_179 = __this->___EventReceived_21;
+		V_38 = (bool)((!(((RuntimeObject*)(Action_1_t1B5115AA4265AE1C83F3EC48593F86230AF07295*)L_179) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_180 = V_38;
+		if (!L_180)
 		{
-			goto IL_053c;
+			goto IL_0548;
 		}
 	}
 	{
 		// this.EventReceived(photonEvent);
-		Action_1_t1B5115AA4265AE1C83F3EC48593F86230AF07295* L_180 = __this->___EventReceived_21;
-		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_181 = ___photonEvent0;
-		NullCheck(L_180);
-		Action_1_Invoke_m351BD00A29C48BC40607D65C256C8CAE5F3A7F34_inline(L_180, L_181, NULL);
+		Action_1_t1B5115AA4265AE1C83F3EC48593F86230AF07295* L_181 = __this->___EventReceived_21;
+		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_182 = ___photonEvent0;
+		NullCheck(L_181);
+		Action_1_Invoke_m351BD00A29C48BC40607D65C256C8CAE5F3A7F34_inline(L_181, L_182, NULL);
 	}
 
-IL_053c:
+IL_0548:
 	{
 		// }
 		return;
@@ -19763,7 +20240,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_OnDisconnectMessageR
 		L_9 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralE04C69C7A45EFC4EA5B3E17972B1669E2AA36C61, L_3, L_5, L_8, NULL);
 		VirtualActionInvoker2< uint8_t, String_t* >::Invoke(14 /* System.Void Photon.Realtime.LoadBalancingClient::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, __this, 1, L_9);
 		// this.Disconnect(DisconnectCause.DisconnectByDisconnectMessage);
-		LoadBalancingClient_Disconnect_m9E92F0FD6E20FA7FCB107FD132A62F6DEEC9AEF8(__this, ((int32_t)17), NULL);
+		LoadBalancingClient_Disconnect_m9E92F0FD6E20FA7FCB107FD132A62F6DEEC9AEF8(__this, ((int32_t)19), NULL);
 		// }
 		return;
 	}
@@ -19777,8 +20254,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_OnRegionPingComplete
 		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = RegionHandler_get_SummaryToCache_m313FB26DCB72FB6D25EC366E51AF4118F8CD3722(L_0, NULL);
-		__this->___SummaryToCache_47 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___SummaryToCache_47), (void*)L_1);
+		__this->___SummaryToCache_48 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SummaryToCache_48), (void*)L_1);
 		// this.ConnectToRegionMaster(regionHandler.BestRegion.Code);
 		RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB* L_2 = ___regionHandler0;
 		NullCheck(L_2);
@@ -20166,7 +20643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_AddCallbackTarget_mF
 	}
 	{
 		// this.callbackTargetChanges.Enqueue(new CallbackTargetChange(target, true));
-		Queue_1_t9BA80EF655597EC91F8BA37831960B5B70540B02* L_0 = __this->___callbackTargetChanges_49;
+		Queue_1_t9BA80EF655597EC91F8BA37831960B5B70540B02* L_0 = __this->___callbackTargetChanges_50;
 		RuntimeObject* L_1 = ___target0;
 		CallbackTargetChange_t142A08C41D8D9CDB4C18B99BC5B50BB8EAE261FA* L_2 = (CallbackTargetChange_t142A08C41D8D9CDB4C18B99BC5B50BB8EAE261FA*)il2cpp_codegen_object_new(CallbackTargetChange_t142A08C41D8D9CDB4C18B99BC5B50BB8EAE261FA_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
@@ -20189,7 +20666,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_RemoveCallbackTarget
 	}
 	{
 		// this.callbackTargetChanges.Enqueue(new CallbackTargetChange(target, false));
-		Queue_1_t9BA80EF655597EC91F8BA37831960B5B70540B02* L_0 = __this->___callbackTargetChanges_49;
+		Queue_1_t9BA80EF655597EC91F8BA37831960B5B70540B02* L_0 = __this->___callbackTargetChanges_50;
 		RuntimeObject* L_1 = ___target0;
 		CallbackTargetChange_t142A08C41D8D9CDB4C18B99BC5B50BB8EAE261FA* L_2 = (CallbackTargetChange_t142A08C41D8D9CDB4C18B99BC5B50BB8EAE261FA*)il2cpp_codegen_object_new(CallbackTargetChange_t142A08C41D8D9CDB4C18B99BC5B50BB8EAE261FA_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
@@ -20236,7 +20713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_UpdateCallbackTarget
 IL_0006:
 	{
 		// CallbackTargetChange change = this.callbackTargetChanges.Dequeue();
-		Queue_1_t9BA80EF655597EC91F8BA37831960B5B70540B02* L_0 = __this->___callbackTargetChanges_49;
+		Queue_1_t9BA80EF655597EC91F8BA37831960B5B70540B02* L_0 = __this->___callbackTargetChanges_50;
 		NullCheck(L_0);
 		CallbackTargetChange_t142A08C41D8D9CDB4C18B99BC5B50BB8EAE261FA* L_1;
 		L_1 = Queue_1_Dequeue_mBC32385172EA4860B2905717C69021AFC1380D20(L_0, Queue_1_Dequeue_mBC32385172EA4860B2905717C69021AFC1380D20_RuntimeMethod_var);
@@ -20254,7 +20731,7 @@ IL_0006:
 	}
 	{
 		// if (this.callbackTargets.Contains(change.Target))
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_5 = __this->___callbackTargets_50;
+		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_5 = __this->___callbackTargets_51;
 		CallbackTargetChange_t142A08C41D8D9CDB4C18B99BC5B50BB8EAE261FA* L_6 = V_0;
 		NullCheck(L_6);
 		RuntimeObject* L_7 = L_6->___Target_0;
@@ -20276,7 +20753,7 @@ IL_0006:
 IL_0039:
 	{
 		// this.callbackTargets.Add(change.Target);
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_10 = __this->___callbackTargets_50;
+		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_10 = __this->___callbackTargets_51;
 		CallbackTargetChange_t142A08C41D8D9CDB4C18B99BC5B50BB8EAE261FA* L_11 = V_0;
 		NullCheck(L_11);
 		RuntimeObject* L_12 = L_11->___Target_0;
@@ -20289,7 +20766,7 @@ IL_0039:
 IL_004e:
 	{
 		// if (!this.callbackTargets.Contains(change.Target))
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_14 = __this->___callbackTargets_50;
+		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_14 = __this->___callbackTargets_51;
 		CallbackTargetChange_t142A08C41D8D9CDB4C18B99BC5B50BB8EAE261FA* L_15 = V_0;
 		NullCheck(L_15);
 		RuntimeObject* L_16 = L_15->___Target_0;
@@ -20311,7 +20788,7 @@ IL_004e:
 IL_006f:
 	{
 		// this.callbackTargets.Remove(change.Target);
-		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_19 = __this->___callbackTargets_50;
+		HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_19 = __this->___callbackTargets_51;
 		CallbackTargetChange_t142A08C41D8D9CDB4C18B99BC5B50BB8EAE261FA* L_20 = V_0;
 		NullCheck(L_20);
 		RuntimeObject* L_21 = L_20->___Target_0;
@@ -20405,7 +20882,7 @@ IL_0128:
 IL_0129:
 	{
 		// while (this.callbackTargetChanges.Count > 0)
-		Queue_1_t9BA80EF655597EC91F8BA37831960B5B70540B02* L_48 = __this->___callbackTargetChanges_49;
+		Queue_1_t9BA80EF655597EC91F8BA37831960B5B70540B02* L_48 = __this->___callbackTargetChanges_50;
 		NullCheck(L_48);
 		int32_t L_49;
 		L_49 = Queue_1_get_Count_m5BE91F9F5487587A4162D808E8B9FE9BF54695A9_inline(L_48, Queue_1_get_Count_m5BE91F9F5487587A4162D808E8B9FE9BF54695A9_RuntimeMethod_var);
@@ -20434,7 +20911,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient__cctor_mC60130A52774
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// private static readonly Dictionary<ConnectionProtocol, int> ProtocolToNameServerPort = new Dictionary<ConnectionProtocol, int>() { { ConnectionProtocol.Udp, 5058 }, { ConnectionProtocol.Tcp, 4533 }, { ConnectionProtocol.WebSocket, 9093 }, { ConnectionProtocol.WebSocketSecure, 19093 } }; //, { ConnectionProtocol.RHttp, 6063 } };
+		// private static readonly Dictionary<ConnectionProtocol, int> ProtocolToNameServerPort = new Dictionary<ConnectionProtocol, int>() { { ConnectionProtocol.Udp, 5058 }, { ConnectionProtocol.Tcp, 4533 }, { ConnectionProtocol.WebSocket, 80 }, { ConnectionProtocol.WebSocketSecure, 443 } };
 		Dictionary_2_tCA6FC027A4EAE9285D2860309E61DB2B271D9A80* L_0 = (Dictionary_2_tCA6FC027A4EAE9285D2860309E61DB2B271D9A80*)il2cpp_codegen_object_new(Dictionary_2_tCA6FC027A4EAE9285D2860309E61DB2B271D9A80_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Dictionary_2__ctor_m3624D5290223E183D570E4CC5E15C7CC257D5F79(L_0, Dictionary_2__ctor_m3624D5290223E183D570E4CC5E15C7CC257D5F79_RuntimeMethod_var);
@@ -20446,10 +20923,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient__cctor_mC60130A52774
 		Dictionary_2_Add_m291E5851FAB0231C97915E3EC3E9DC09CD6123CF(L_2, 1, ((int32_t)4533), Dictionary_2_Add_m291E5851FAB0231C97915E3EC3E9DC09CD6123CF_RuntimeMethod_var);
 		Dictionary_2_tCA6FC027A4EAE9285D2860309E61DB2B271D9A80* L_3 = L_2;
 		NullCheck(L_3);
-		Dictionary_2_Add_m291E5851FAB0231C97915E3EC3E9DC09CD6123CF(L_3, 4, ((int32_t)9093), Dictionary_2_Add_m291E5851FAB0231C97915E3EC3E9DC09CD6123CF_RuntimeMethod_var);
+		Dictionary_2_Add_m291E5851FAB0231C97915E3EC3E9DC09CD6123CF(L_3, 4, ((int32_t)80), Dictionary_2_Add_m291E5851FAB0231C97915E3EC3E9DC09CD6123CF_RuntimeMethod_var);
 		Dictionary_2_tCA6FC027A4EAE9285D2860309E61DB2B271D9A80* L_4 = L_3;
 		NullCheck(L_4);
-		Dictionary_2_Add_m291E5851FAB0231C97915E3EC3E9DC09CD6123CF(L_4, 5, ((int32_t)19093), Dictionary_2_Add_m291E5851FAB0231C97915E3EC3E9DC09CD6123CF_RuntimeMethod_var);
+		Dictionary_2_Add_m291E5851FAB0231C97915E3EC3E9DC09CD6123CF(L_4, 5, ((int32_t)443), Dictionary_2_Add_m291E5851FAB0231C97915E3EC3E9DC09CD6123CF_RuntimeMethod_var);
 		((LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4_StaticFields*)il2cpp_codegen_static_fields_for(LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4_il2cpp_TypeInfo_var))->___ProtocolToNameServerPort_11 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&((LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4_StaticFields*)il2cpp_codegen_static_fields_for(LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4_il2cpp_TypeInfo_var))->___ProtocolToNameServerPort_11), (void*)L_4);
 		return;
@@ -22816,8 +23293,8 @@ IL_003f:
 		NullCheck(L_10);
 		Pool_1__ctor_m9986FF38B68D6C1B61854F91B1E87BF15B9AFE8D(L_10, G_B4_1, G_B4_0, 1, Pool_1__ctor_m9986FF38B68D6C1B61854F91B1E87BF15B9AFE8D_RuntimeMethod_var);
 		NullCheck(G_B4_2);
-		G_B4_2->___paramDictionaryPool_62 = L_10;
-		Il2CppCodeGenWriteBarrier((void**)(&G_B4_2->___paramDictionaryPool_62), (void*)L_10);
+		G_B4_2->___paramDictionaryPool_63 = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B4_2->___paramDictionaryPool_63), (void*)L_10);
 		// public LoadBalancingPeer(ConnectionProtocol protocolType) : base(protocolType)
 		uint8_t L_11 = ___protocolType0;
 		il2cpp_codegen_runtime_class_init_inline(PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_il2cpp_TypeInfo_var);
@@ -23166,7 +23643,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingPeer_RoomOptionsToOpParamet
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Extensions_t7A83CB812F88E252E8AEFBDB2325836C473E0BA7_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Hashtable_tD626399B3ADFD501225241D7366103F35472542A_il2cpp_TypeInfo_var);
@@ -23288,7 +23764,7 @@ IL_0062:
 		// if (roomOptions.MaxPlayers > 0)
 		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_23 = ___roomOptions1;
 		NullCheck(L_23);
-		uint8_t L_24 = L_23->___MaxPlayers_2;
+		int32_t L_24 = L_23->___MaxPlayers_2;
 		V_3 = (bool)((((int32_t)L_24) > ((int32_t)0))? 1 : 0);
 		bool L_25 = V_3;
 		if (!L_25)
@@ -23301,9 +23777,9 @@ IL_0062:
 		Hashtable_tD626399B3ADFD501225241D7366103F35472542A* L_26 = V_0;
 		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_27 = ___roomOptions1;
 		NullCheck(L_27);
-		uint8_t L_28 = L_27->___MaxPlayers_2;
-		uint8_t L_29 = L_28;
-		RuntimeObject* L_30 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_29);
+		int32_t L_28 = L_27->___MaxPlayers_2;
+		int32_t L_29 = L_28;
+		RuntimeObject* L_30 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_29);
 		NullCheck(L_26);
 		Hashtable_set_Item_m27BF74ACA5188603E1D3CBDCAE140C590BA9217A(L_26, (uint8_t)((int32_t)255), L_30, NULL);
 	}
@@ -23908,11 +24384,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LoadBalancingPeer_OpJoinRoom_m155F9A72AC
 	bool V_7 = false;
 	bool V_8 = false;
 	bool V_9 = false;
-	bool V_10 = false;
 	int32_t G_B8_0 = 0;
 	int32_t G_B16_0 = 0;
 	int32_t G_B22_0 = 0;
-	int32_t G_B28_0 = 0;
 	{
 		// if (this.DebugOut >= DebugLevel.INFO)
 		uint8_t L_0 = ((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C*)__this)->___DebugOut_20;
@@ -24119,7 +24593,7 @@ IL_011a:
 		bool L_49 = V_7;
 		if (!L_49)
 		{
-			goto IL_016d;
+			goto IL_017c;
 		}
 	}
 	{
@@ -24175,67 +24649,31 @@ IL_015a:
 		RuntimeObject* L_61 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_60);
 		NullCheck(L_59);
 		Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4(L_59, (uint8_t)((int32_t)250), L_61, Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4_RuntimeMethod_var);
-	}
-
-IL_016d:
-	{
-		// if (opParams.OnGameServer || opParams.JoinMode == JoinMode.CreateIfNotExists)
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_62 = ___opParams0;
-		NullCheck(L_62);
-		bool L_63 = L_62->___OnGameServer_4;
-		if (L_63)
-		{
-			goto IL_0180;
-		}
-	}
-	{
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_64 = ___opParams0;
-		NullCheck(L_64);
-		uint8_t L_65 = L_64->___JoinMode_5;
-		G_B28_0 = ((((int32_t)L_65) == ((int32_t)1))? 1 : 0);
-		goto IL_0181;
-	}
-
-IL_0180:
-	{
-		G_B28_0 = 1;
-	}
-
-IL_0181:
-	{
-		V_9 = (bool)G_B28_0;
-		bool L_66 = V_9;
-		if (!L_66)
-		{
-			goto IL_0198;
-		}
-	}
-	{
 		// this.RoomOptionsToOpParameters(op, opParams.RoomOptions);
-		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_67 = V_0;
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_68 = ___opParams0;
-		NullCheck(L_68);
-		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_69 = L_68->___RoomOptions_1;
-		LoadBalancingPeer_RoomOptionsToOpParameters_mE565BE00F5A6D5D8F278907B61AA77D4A119029D(__this, L_67, L_69, (bool)0, NULL);
+		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_62 = V_0;
+		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_63 = ___opParams0;
+		NullCheck(L_63);
+		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_64 = L_63->___RoomOptions_1;
+		LoadBalancingPeer_RoomOptionsToOpParameters_mE565BE00F5A6D5D8F278907B61AA77D4A119029D(__this, L_62, L_64, (bool)0, NULL);
 	}
 
-IL_0198:
+IL_017c:
 	{
 		// return this.SendOperation(OperationCode.JoinGame, op, SendOptions.SendReliable);
-		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_70 = V_0;
+		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_65 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var);
-		SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 L_71 = ((SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_StaticFields*)il2cpp_codegen_static_fields_for(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var))->___SendReliable_0;
-		bool L_72;
-		L_72 = VirtualFuncInvoker3< bool, uint8_t, Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*, SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 >::Invoke(15 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::SendOperation(System.Byte,System.Collections.Generic.Dictionary`2<System.Byte,System.Object>,ExitGames.Client.Photon.SendOptions) */, __this, (uint8_t)((int32_t)226), L_70, L_71);
-		V_10 = L_72;
-		goto IL_01ad;
+		SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 L_66 = ((SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_StaticFields*)il2cpp_codegen_static_fields_for(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var))->___SendReliable_0;
+		bool L_67;
+		L_67 = VirtualFuncInvoker3< bool, uint8_t, Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*, SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 >::Invoke(15 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::SendOperation(System.Byte,System.Collections.Generic.Dictionary`2<System.Byte,System.Object>,ExitGames.Client.Photon.SendOptions) */, __this, (uint8_t)((int32_t)226), L_65, L_66);
+		V_9 = L_67;
+		goto IL_0191;
 	}
 
-IL_01ad:
+IL_0191:
 	{
 		// }
-		bool L_73 = V_10;
-		return L_73;
+		bool L_68 = V_9;
+		return L_68;
 	}
 }
 // System.Boolean Photon.Realtime.LoadBalancingPeer::OpJoinRandomRoom(Photon.Realtime.OpJoinRandomRoomParams)
@@ -24803,7 +25241,7 @@ IL_0155:
 		bool L_64 = V_9;
 		if (!L_64)
 		{
-			goto IL_01aa;
+			goto IL_019b;
 		}
 	}
 	{
@@ -24832,31 +25270,25 @@ IL_0155:
 
 IL_019a:
 	{
-		// this.RoomOptionsToOpParameters(opParameters, createRoomParams.RoomOptions, true);
-		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_72 = V_1;
-		EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* L_73 = ___createRoomParams1;
-		NullCheck(L_73);
-		RoomOptions_t373282A7E849A09DA153714F5A1B479C325CDE23* L_74 = L_73->___RoomOptions_1;
-		LoadBalancingPeer_RoomOptionsToOpParameters_mE565BE00F5A6D5D8F278907B61AA77D4A119029D(__this, L_72, L_74, (bool)1, NULL);
 	}
 
-IL_01aa:
+IL_019b:
 	{
 		// return this.SendOperation(OperationCode.JoinRandomGame, opParameters, SendOptions.SendReliable);
-		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_75 = V_1;
+		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_72 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var);
-		SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 L_76 = ((SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_StaticFields*)il2cpp_codegen_static_fields_for(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var))->___SendReliable_0;
-		bool L_77;
-		L_77 = VirtualFuncInvoker3< bool, uint8_t, Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*, SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 >::Invoke(15 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::SendOperation(System.Byte,System.Collections.Generic.Dictionary`2<System.Byte,System.Object>,ExitGames.Client.Photon.SendOptions) */, __this, (uint8_t)((int32_t)225), L_75, L_76);
-		V_11 = L_77;
-		goto IL_01bf;
+		SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 L_73 = ((SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_StaticFields*)il2cpp_codegen_static_fields_for(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var))->___SendReliable_0;
+		bool L_74;
+		L_74 = VirtualFuncInvoker3< bool, uint8_t, Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*, SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 >::Invoke(15 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::SendOperation(System.Byte,System.Collections.Generic.Dictionary`2<System.Byte,System.Object>,ExitGames.Client.Photon.SendOptions) */, __this, (uint8_t)((int32_t)225), L_72, L_73);
+		V_11 = L_74;
+		goto IL_01b0;
 	}
 
-IL_01bf:
+IL_01b0:
 	{
 		// }
-		bool L_78 = V_11;
-		return L_78;
+		bool L_75 = V_11;
+		return L_75;
 	}
 }
 // System.Boolean Photon.Realtime.LoadBalancingPeer::OpLeaveRoom(System.Boolean,System.Boolean)
@@ -26719,7 +27151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LoadBalancingPeer_OpRaiseEvent_m4801EE20
 	bool V_11 = false;
 	{
 		// var paramDict = this.paramDictionaryPool.Acquire();
-		Pool_1_t47635E10016E83A1E327B583977D1F043544FB48* L_0 = __this->___paramDictionaryPool_62;
+		Pool_1_t47635E10016E83A1E327B583977D1F043544FB48* L_0 = __this->___paramDictionaryPool_63;
 		NullCheck(L_0);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_1;
 		L_1 = Pool_1_Acquire_m5C3516A5E0E3F81CD1B2C4F2E132925304F84C45(L_0, Pool_1_Acquire_m5C3516A5E0E3F81CD1B2C4F2E132925304F84C45_RuntimeMethod_var);
@@ -26732,7 +27164,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LoadBalancingPeer_OpRaiseEvent_m4801EE20
 FINALLY_0194:
 			{// begin finally (depth: 1)
 				// this.paramDictionaryPool.Release(paramDict);
-				Pool_1_t47635E10016E83A1E327B583977D1F043544FB48* L_2 = __this->___paramDictionaryPool_62;
+				Pool_1_t47635E10016E83A1E327B583977D1F043544FB48* L_2 = __this->___paramDictionaryPool_63;
 				ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_3 = V_0;
 				NullCheck(L_2);
 				Pool_1_Release_m7AEE471BA783D67E3BB9D42C80412E4418FFE16B(L_2, L_3, Pool_1_Release_m7AEE471BA783D67E3BB9D42C80412E4418FFE16B_RuntimeMethod_var);
@@ -27273,7 +27705,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Player_tC864A64FC55FA6E30EFD6B6FF
 {
 	{
 		// public Player LocalPlayer { get; internal set; }
-		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_0 = __this->___U3CLocalPlayerU3Ek__BackingField_33;
+		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_0 = __this->___U3CLocalPlayerU3Ek__BackingField_34;
 		return L_0;
 	}
 }
@@ -27309,7 +27741,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Room_t9CCA5C06B8CE2E5E1EE24AD1736
 {
 	{
 		// public Room CurrentRoom { get; set; }
-		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_0 = __this->___U3CCurrentRoomU3Ek__BackingField_34;
+		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_0 = __this->___U3CCurrentRoomU3Ek__BackingField_35;
 		return L_0;
 	}
 }
@@ -27328,8 +27760,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LoadBalancingClient_set_Loca
 	{
 		// public Player LocalPlayer { get; internal set; }
 		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_0 = ___value0;
-		__this->___U3CLocalPlayerU3Ek__BackingField_33 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CLocalPlayerU3Ek__BackingField_33), (void*)L_0);
+		__this->___U3CLocalPlayerU3Ek__BackingField_34 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CLocalPlayerU3Ek__BackingField_34), (void*)L_0);
 		return;
 	}
 }
@@ -27366,7 +27798,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LoadBalancingClient_set_AppV
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t PhotonPeer_get_TransportProtocol_mC3688A65F01A1BDB8B5CAFFAFAF5BA6980885AF8_inline (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) 
 {
 	{
-		uint8_t L_0 = __this->___U3CTransportProtocolU3Ek__BackingField_39;
+		uint8_t L_0 = __this->___U3CTransportProtocolU3Ek__BackingField_40;
 		return L_0;
 	}
 }
@@ -27392,8 +27824,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LoadBalancingClient_set_Clou
 	{
 		// public string CloudRegion { get; private set; }
 		String_t* L_0 = ___value0;
-		__this->___U3CCloudRegionU3Ek__BackingField_43 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCloudRegionU3Ek__BackingField_43), (void*)L_0);
+		__this->___U3CCloudRegionU3Ek__BackingField_44 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCloudRegionU3Ek__BackingField_44), (void*)L_0);
 		return;
 	}
 }
@@ -27401,7 +27833,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* LoadBalancingClient_get
 {
 	{
 		// public string CloudRegion { get; private set; }
-		String_t* L_0 = __this->___U3CCloudRegionU3Ek__BackingField_43;
+		String_t* L_0 = __this->___U3CCloudRegionU3Ek__BackingField_44;
 		return L_0;
 	}
 }
@@ -27409,7 +27841,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PhotonPeer_set_TransportProt
 {
 	{
 		uint8_t L_0 = ___value0;
-		__this->___U3CTransportProtocolU3Ek__BackingField_39 = L_0;
+		__this->___U3CTransportProtocolU3Ek__BackingField_40 = L_0;
 		return;
 	}
 }
@@ -27528,8 +27960,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LoadBalancingClient_set_Curr
 	{
 		// public TypedLobby CurrentLobby { get; internal set; }
 		TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9* L_0 = ___value0;
-		__this->___U3CCurrentLobbyU3Ek__BackingField_30 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCurrentLobbyU3Ek__BackingField_30), (void*)L_0);
+		__this->___U3CCurrentLobbyU3Ek__BackingField_31 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCurrentLobbyU3Ek__BackingField_31), (void*)L_0);
 		return;
 	}
 }
@@ -27566,8 +27998,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LoadBalancingClient_set_Curr
 	{
 		// public Room CurrentRoom { get; set; }
 		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_0 = ___value0;
-		__this->___U3CCurrentRoomU3Ek__BackingField_34 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCurrentRoomU3Ek__BackingField_34), (void*)L_0);
+		__this->___U3CCurrentRoomU3Ek__BackingField_35 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCurrentRoomU3Ek__BackingField_35), (void*)L_0);
 		return;
 	}
 }
@@ -27604,8 +28036,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LoadBalancingClient_set_Curr
 	{
 		// public string CurrentCluster { get; private set; }
 		String_t* L_0 = ___value0;
-		__this->___U3CCurrentClusterU3Ek__BackingField_44 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCurrentClusterU3Ek__BackingField_44), (void*)L_0);
+		__this->___U3CCurrentClusterU3Ek__BackingField_45 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCurrentClusterU3Ek__BackingField_45), (void*)L_0);
 		return;
 	}
 }
@@ -27621,7 +28053,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool RegionHandler_get_IsPinging_
 {
 	{
 		// public bool IsPinging { get; private set; }
-		bool L_0 = __this->___U3CIsPingingU3Ek__BackingField_7;
+		bool L_0 = __this->___U3CIsPingingU3Ek__BackingField_9;
 		return L_0;
 	}
 }
@@ -27685,7 +28117,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LoadBalancingClient_set_Play
 	{
 		// public int PlayersInRoomsCount { get; internal set; }
 		int32_t L_0 = ___value0;
-		__this->___U3CPlayersInRoomsCountU3Ek__BackingField_36 = L_0;
+		__this->___U3CPlayersInRoomsCountU3Ek__BackingField_37 = L_0;
 		return;
 	}
 }
@@ -27694,7 +28126,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LoadBalancingClient_set_Room
 	{
 		// public int RoomsCount { get; internal set; }
 		int32_t L_0 = ___value0;
-		__this->___U3CRoomsCountU3Ek__BackingField_37 = L_0;
+		__this->___U3CRoomsCountU3Ek__BackingField_38 = L_0;
 		return;
 	}
 }
@@ -27703,7 +28135,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LoadBalancingClient_set_Play
 	{
 		// public int PlayersOnMasterCount { get; internal set; }
 		int32_t L_0 = ___value0;
-		__this->___U3CPlayersOnMasterCountU3Ek__BackingField_35 = L_0;
+		__this->___U3CPlayersOnMasterCountU3Ek__BackingField_36 = L_0;
 		return;
 	}
 }
